@@ -1,0 +1,23 @@
+{
+  "collection": [
+    {
+      "text": [
+        {
+          "text": "Technology",
+          "color": "white",
+          "variant": "h3"
+        },
+        {
+          "text": "How it Works",
+          "color": "betaLight",
+          "variant": "h1"
+        },
+        {
+          "text": "The Re-2Ox process takes metal-rich mining concentrates, or recycled battery materials and converts them into premium battery materials.",
+          "color": "omega",
+          "variant": "medium"
+        }
+      ]
+    }
+  ]
+}

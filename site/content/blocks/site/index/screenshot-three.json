@@ -1,0 +1,29 @@
+{
+  "text": [
+    {
+      "text": "Closing the Loop",
+      "color": "beta",
+      "variant": "h4"
+    },
+    {
+      "text": "Battery grade specification",
+      "color": "omegaDarker",
+      "variant": "h2"
+    },
+    {
+      "text": "High purity metal at competitive costs.",
+      "color": "omegaDark",
+      "variant": "medium"
+    }
+  ],
+  "images": [
+    {
+      "src": "../../../assets/flexiblocks/homepage/saas-v2/hero3.png",
+      "alt": "alt text",
+      "radius": "lg",
+      "shadow": "default",
+      "border": "lg",
+      "effects": ["fadeInDown"]
+    }
+  ]
+}

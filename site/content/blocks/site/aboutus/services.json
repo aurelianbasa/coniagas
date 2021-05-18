@@ -1,0 +1,62 @@
+{
+  "collection": [
+    {
+      "text": [
+        {
+          "text": "Technical Research",
+          "color": "omegaDarker",
+          "variant": "h4"
+        },
+        {
+          "text": "The original process successfully recovered battery metals.",
+          "color": "omegaDark",
+          "space": 5
+        },
+        {
+          "text": "Economic Analysis",
+          "color": "omegaDarker",
+          "variant": "h4"
+        },
+        {
+          "text": "Recent trends in commodity prices, consumer demand, and political pressure has renewed interest.",
+          "color": "omegaDark",
+          "space": 5
+        },
+        {
+          "text": "Strategic Planning",
+          "color": "omegaDarker",
+          "variant": "h4"
+        },
+        {
+          "text": "Feed sourcing began in 2017 to better understand chemical compositions.",
+          "color": "omegaDark",
+          "space": 5
+        },
+        {
+          "text": "Design & Development",
+          "color": "omegaDarker",
+          "variant": "h4"
+        },
+        {
+          "text": "With the assistance of SGS Canada flow sheets and test circuits were made.",
+          "color": "omegaDark"
+        }
+      ]
+    },
+    {
+      "text": [
+        {
+          "text": "The origins of the Re-2Ox Process trace back to the original lithium-ion battery. In 1985 Agnico Eagle's head metallurgist, Frank Basa worked closely with a team of renowned researchers including Ron Molnar to develop the Re-2Ox Process. After several iterations and partnerships the team was successful in recovering high grades of cobalt, and in separating out arsenic.",
+          "space": 5
+        },
+        {
+          "text": "The move toward electrification has prompted a return to commodities and the processes needed to recover them.",
+          "space": 5
+        },
+        {
+          "text": "In 2017, Canada Silver Cobalt Works had incorporated on the remains of several former producing mines in Cobalt, Ontario with industry veterans from Agnico Eagle including Doug Robinson. Frank reached out to Ron to initiate a test work program at SGS and assembled a team within the company to acquire feed for test work. From the properties held, and the feed aggregated, sufficient test work was able to show that it worked."
+        }
+      ]
+    }
+  ]
+}

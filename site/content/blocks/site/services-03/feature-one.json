@@ -1,0 +1,61 @@
+{
+  "text": [
+    {
+      "text": "PRIMARY FEED",
+      "color": "alpha",
+      "variant": "h4"
+    },
+    {
+      "text": "A majority of the metals in batteries are produced from existing mines",
+      "variant": "h2"
+    },
+    {
+      "text": "Projected demand requires improved methods of extraction and recovery",
+      "variant": "medium"
+    }
+  ],
+  "images": [
+    {
+      "src": "../../../assets/flexiblocks/homepage/marketing/feature-one.png",
+      "alt": "alt text"
+    }
+  ],
+  "collection": [
+    {
+      "icon": {
+        "src": "../../../assets/flexiblocks/icons/bx-check-circle.svg",
+        "color": "beta"
+      },
+      "text": [
+        {
+          "text": "Higher grades",
+          "variant": "h5"
+        }
+      ]
+    },
+    {
+      "icon": {
+        "src": "../../../assets/flexiblocks/icons/bx-check-circle.svg",
+        "color": "beta"
+      },
+      "text": [
+        {
+          "text": "Less waste",
+          "variant": "h5"
+        }
+      ]
+    },
+    {
+      "icon": {
+        "src": "../../../assets/flexiblocks/icons/bx-check-circle.svg",
+        "color": "beta"
+      },
+      "text": [
+        {
+          "text": "Lower cost",
+          "variant": "h5"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "text": [
+    {
+      "text": "Recovering Value",
+      "color": "alpha",
+      "variant": "h4"
+    },
+    {
+      "text": "Premium Battery Materials",
+      "color": "omegaDarker",
+      "variant": "h2"
+    },
+    {
+      "text": "Demonstrated ability to separately recover minerals.",
+      "color": "omegaDark",
+      "variant": "medium"
+    }
+  ],
+  "images": [
+    {
+      "src": "../../../assets/flexiblocks/homepage/saas-v2/hero2.png",
+      "alt": "alt text",
+      "radius": "lg",
+      "shadow": "default",
+      "border": "lg",
+      "effects": ["fadeInDown"]
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "collection": [
+    {
+      "container": {
+        "variant": "cards.interactive"
+      },
+      "text": [
+        null,
+        {
+          "text": "Recycled battery materials",
+          "color": "omegaDarker",
+          "variant": "h4"
+        },
+        {
+          "text": "Lithium ion batteries before being processed through the circuit."
+        }
+      ],
+      "images": [
+        {
+          "src": "../../../assets/flexiblocks/innerpage/services-03/gallery-1.jpg",
+          "alt": "alt text"
+        }
+      ]
+    },
+    {
+      "container": {
+        "variant": "cards.interactive"
+      },
+      "text": [
+        null,
+        {
+          "text": "Premium battery materials",
+          "color": "omegaDarker",
+          "variant": "h4"
+        },
+        {
+          "text": "Cobalt Sulphate Hexahydrate (22.6% Co) produced by Re-2Ox"
+        }
+      ],
+      "images": [
+        {
+          "src": "../../../assets/flexiblocks/innerpage/services-03/gallery-2.jpg",
+          "alt": "alt text"
+        }
+      ]
+    },
+    {
+      "container": {
+        "variant": "cards.interactive"
+      },
+      "text": [
+        null,
+        {
+          "text": "Suitable for cathode production",
+          "color": "omegaDarker",
+          "variant": "h4"
+        },
+        {
+          "text": "An assembled battery using premium materials."
+        }
+      ],
+      "images": [
+        {
+          "src": "../../../assets/flexiblocks/innerpage/services-03/gallery-3.jpg",
+          "alt": "alt text"
+        }
+      ]
+    }
+  ]
+}

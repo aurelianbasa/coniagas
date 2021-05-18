@@ -1,0 +1,20 @@
+{
+  "text": [
+    {
+      "text": "A Crucial Link in the Circular Economy",
+      "color": "alpha",
+      "variant": "h5"
+    },
+    {
+      "text": "Find out more in our Investor Presentation"
+    }
+  ],
+  "buttons": [
+    {
+      "text": "Download",
+      "type": "PAGE",
+      "link": "",
+      "variant": "primary-light"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "text": [
+    {
+      "text": "Sourcing the feed",
+      "color": "beta",
+      "variant": "h4"
+    },
+    {
+      "text": "Recycled Battery Materials",
+      "color": "omegaDarker",
+      "variant": "h2"
+    },
+    {
+      "text": "The process can be applied to all lithium-ion and nickel chemistries.",
+      "color": "omegaDark",
+      "variant": "medium"
+    }
+  ],
+  "images": [
+    {
+      "src": "../../../assets/flexiblocks/homepage/saas-v2/hero1.png",
+      "alt": "alt text",
+      "radius": "lg",
+      "shadow": "default",
+      "border": "lg",
+      "effects": ["fadeInDown"]
+    }
+  ]
+}
