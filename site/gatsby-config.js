@@ -6,13 +6,15 @@ module.exports = {
       resolve: '@elegantstack/gatsby-theme-flexiblocks',
       options: {
         createDemoPages: false,
-        colorMode: false, 
+        colorMode: false,
       }
     },
     {
         resolve: '@elegantstack/gatsby-theme-flexiblog-science',
         options: {
           fonts: fontFile.fonts,
+          darkMode: false, 
+          colorMode: false,
             basePath: '/blog/'
         }
 
@@ -31,7 +33,7 @@ module.exports = {
     //Site Social Media Links
     social: [
       {
-        name: 'Github',
+        name: 'Facebook',
         url: 'https://github.com/gatsbyjs'
       },
       {
@@ -39,7 +41,7 @@ module.exports = {
         url: 'https://twitter.com/gatsbyjs'
       },
       {
-        name: 'Instagram',
+        name: 'LinkedIn',
         url: 'https://github.com/gatsbyjs'
       }
     ],
