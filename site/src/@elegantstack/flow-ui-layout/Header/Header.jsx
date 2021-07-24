@@ -2,8 +2,8 @@ import React, { useContext } from 'react'
 import { Container, Box, Flex } from 'theme-ui'
 import pageContextProvider from '@helpers/pageContextProvider'
 // import Search from '@widgets/Search'
-import { HeaderLogo } from '@layout/Header/Header.Logo'
-import { HeaderMenu } from '@layout/Header/Header.Menu'
+import { HeaderLogo } from './Header.Logo'
+import { HeaderMenu } from './Header.Menu'
 import { HeaderColorMode } from '@layout/Header/Header.ColorMode'
 
 const styles = {
