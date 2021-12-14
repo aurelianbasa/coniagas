@@ -3,6 +3,64 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [3.5.0](https://gitlab.com/alimoosavi15/gatsby-theme-flexiblog/compare/@elegantstack/gatsby-starter-flexiblocks@3.4.1...@elegantstack/gatsby-starter-flexiblocks@3.5.0) (2021-08-19)
+
+
+### Features
+
+* **gatsby-starter-flexiblocks:** add dummy form to help Netlify Forms bot in form detection ([7419ebe](https://gitlab.com/alimoosavi15/gatsby-theme-flexiblog/commit/7419ebe50edc417ef513b7917aaf287f6f700350))
+
+
+### Refactor
+
+* **gatsby-starter-flexiblocks:** add hidden form-name field in shared/contact.json ([15f47b3](https://gitlab.com/alimoosavi15/gatsby-theme-flexiblog/commit/15f47b34d577a318622d869eaee07cb610b6229f))
+
+
+
+
+### [3.4.1](https://gitlab.com/alimoosavi15/gatsby-theme-flexiblog/compare/@elegantstack/gatsby-starter-flexiblocks@3.4.0...@elegantstack/gatsby-starter-flexiblocks@3.4.1) (2021-08-03)
+
+**Note:** Version bump only for package @elegantstack/gatsby-starter-flexiblocks
+
+
+
+
+
+## [3.4.0](https://gitlab.com/alimoosavi15/gatsby-theme-flexiblog/compare/@elegantstack/gatsby-starter-flexiblocks@3.3.0...@elegantstack/gatsby-starter-flexiblocks@3.4.0) (2021-08-01)
+
+
+### Features
+
+* update Gatsby and dependencies ([95b3b72](https://gitlab.com/alimoosavi15/gatsby-theme-flexiblog/commit/95b3b7234b39eb66e5957f9acc0d10519b400941))
+
+
+
+
+## [3.3.0](https://gitlab.com/alimoosavi15/gatsby-theme-flexiblog/compare/@elegantstack/gatsby-starter-flexiblocks@3.2.0...@elegantstack/gatsby-starter-flexiblocks@3.3.0) (2021-06-17)
+
+
+### Features
+
+* upgrade gatsby and other dependencies ([941b5ea](https://gitlab.com/alimoosavi15/gatsby-theme-flexiblog/commit/941b5ea131271f222c557d9ab3b38da5a8140d2d))
+
+
+### Bug Fixes
+
+* **gatsby-starter-flexiblocks:** minor fixes to content JSON files ([a6f4ee8](https://gitlab.com/alimoosavi15/gatsby-theme-flexiblog/commit/a6f4ee881362a4a451f6ada92eb99a66d72d28a5))
+
+
+
+
+## [3.2.0](https://gitlab.com/alimoosavi15/gatsby-theme-flexiblog/compare/@elegantstack/gatsby-starter-flexiblocks@3.1.0...@elegantstack/gatsby-starter-flexiblocks@3.2.0) (2021-05-19)
+
+
+### Features
+
+* upgrade dependencies ([dae5750](https://gitlab.com/alimoosavi15/gatsby-theme-flexiblog/commit/dae57508db7811d0a33ceeb53d57f9b680196f37))
+
+
+
+
 ## [3.1.0](https://gitlab.com/alimoosavi15/gatsby-theme-flexiblog/compare/@elegantstack/gatsby-starter-flexiblocks@3.0.0...@elegantstack/gatsby-starter-flexiblocks@3.1.0) (2021-04-27)
 
 **Note:** Version bump only for package @elegantstack/gatsby-starter-flexiblocks

@@ -1,0 +1,28 @@
+{
+  "text": [
+    {
+      "text": "Nourricier Project",
+      "color": "alpha",
+      "variant": "h4"
+    },
+    {
+      "text": "Magmatic massive sulphides",
+      "variant": "h2"
+    },
+    {
+      "text": "The Graal - Nourricier Lac Suzanne, Lowney (Lac Edouard), Fushia Massif du Nord and Forgues East Manic Crater properties are the most promising magmatic reservoirs identified as it stands today.",
+      "variant": "medium"
+    },
+    {
+      "text": "The Company's intention is to drill right on the maximum Bouguer Anomaly identified.",
+      "variant": "medium"
+    }
+  ],
+  "images": [
+    {
+      "src": "../../../../assets/site/projects/nourricier/overview.jpg",
+      "radius": "xl",
+      "alt": "alt text"
+    }
+  ]
+}

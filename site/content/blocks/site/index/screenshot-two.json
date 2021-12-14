@@ -8,7 +8,8 @@
     {
       "text": "Premium Battery Materials",
       "color": "omegaDarker",
-      "variant": "h2"
+      "variant": "h2",
+      "align": ["center"]
     },
     {
       "text": "Demonstrated ability to separately recover minerals.",
@@ -18,7 +19,7 @@
   ],
   "images": [
     {
-      "src": "../../../assets/flexiblocks/homepage/saas-v2/hero2.png",
+      "src": "../../../assets/site/index/hero2.jpg",
       "alt": "alt text",
       "radius": "lg",
       "shadow": "default",

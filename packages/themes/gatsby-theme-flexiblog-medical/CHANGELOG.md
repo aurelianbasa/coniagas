@@ -3,6 +3,59 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [3.6.0](https://gitlab.com/alimoosavi15/gatsby-theme-flexiblog/compare/@elegantstack/gatsby-theme-flexiblog-medical@3.5.0...@elegantstack/gatsby-theme-flexiblog-medical@3.6.0) (2021-08-19)
+
+**Note:** Version bump only for package @elegantstack/gatsby-theme-flexiblog-medical
+
+
+
+
+
+## [3.5.0](https://gitlab.com/alimoosavi15/gatsby-theme-flexiblog/compare/@elegantstack/gatsby-theme-flexiblog-medical@3.4.0...@elegantstack/gatsby-theme-flexiblog-medical@3.5.0) (2021-08-01)
+
+**Note:** Version bump only for package @elegantstack/gatsby-theme-flexiblog-medical
+
+
+
+
+
+
+## [3.4.0](https://gitlab.com/alimoosavi15/gatsby-theme-flexiblog/compare/@elegantstack/gatsby-theme-flexiblog-medical@3.3.2...@elegantstack/gatsby-theme-flexiblog-medical@3.4.0) (2021-06-17)
+
+**Note:** Version bump only for package @elegantstack/gatsby-theme-flexiblog-medical
+
+
+
+
+
+
+### [3.3.2](https://gitlab.com/alimoosavi15/gatsby-theme-flexiblog/compare/@elegantstack/gatsby-theme-flexiblog-medical@3.3.1...@elegantstack/gatsby-theme-flexiblog-medical@3.3.2) (2021-06-10)
+
+**Note:** Version bump only for package @elegantstack/gatsby-theme-flexiblog-medical
+
+
+
+
+
+### [3.3.1](https://gitlab.com/alimoosavi15/gatsby-theme-flexiblog/compare/@elegantstack/gatsby-theme-flexiblog-medical@3.3.0...@elegantstack/gatsby-theme-flexiblog-medical@3.3.1) (2021-05-30)
+
+**Note:** Version bump only for package @elegantstack/gatsby-theme-flexiblog-medical
+
+
+
+
+
+
+## [3.3.0](https://gitlab.com/alimoosavi15/gatsby-theme-flexiblog/compare/@elegantstack/gatsby-theme-flexiblog-medical@3.2.1...@elegantstack/gatsby-theme-flexiblog-medical@3.3.0) (2021-05-19)
+
+
+### Features
+
+* upgrade dependencies ([dae5750](https://gitlab.com/alimoosavi15/gatsby-theme-flexiblog/commit/dae57508db7811d0a33ceeb53d57f9b680196f37))
+
+
+
+
 ### [3.2.2](https://gitlab.com/alimoosavi15/gatsby-theme-flexiblog/compare/@elegantstack/gatsby-theme-flexiblog-medical@3.2.1...@elegantstack/gatsby-theme-flexiblog-medical@3.2.2) (2021-04-22)
 
 **Note:** Version bump only for package @elegantstack/gatsby-theme-flexiblog-medical

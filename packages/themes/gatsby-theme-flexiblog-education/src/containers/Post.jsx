@@ -7,6 +7,7 @@ import Divider from '@components/Divider'
 import Seo from '@widgets/Seo'
 import AuthorExpanded from '@widgets/AuthorExpanded'
 import NewsletterCompact from '@widgets/NewsletterCompact'
+import TableOfContentsExpanded from '@widgets/TableOfContentsExpanded'
 import { PostImage, PostBody, PostComments, PostTagsShare } from '@widgets/Post'
 
 const Post = ({
@@ -28,13 +29,21 @@ const Post = ({
         <Main>
           <Card {...post} variant='horizontal-hero' omitExcerpt omitMedia />
         </Main>
-        <Sidebar pl={[null, 2, 4, 5]}>
-          <NewsletterCompact omitTitle />
-        </Sidebar>
+        {services.mailchimp && (
+          <Sidebar pl={[null, 2, 4, 5]}>
+            <NewsletterCompact omitTitle />
+          </Sidebar>
+        )}
       </Stack>
       <Divider space={3} />
       <Stack effectProps={{ fraction: 0 }}>
         <Main>
+          {post.tableOfContents?.items && (
+            <>
+              <TableOfContentsExpanded {...post} />
+              <Divider />
+            </>
+          )}
           <CardComponent variant='paper-lg'>
             <PostImage {...post} inCard />
             <PostBody {...post} />

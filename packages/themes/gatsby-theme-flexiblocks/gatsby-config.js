@@ -14,17 +14,7 @@ module.exports = options => {
     },
     '@elegantstack/solid-ui-layout',
     '@elegantstack/solid-ui-components',
-    '@elegantstack/solid-ui-blocks',
-    {
-      resolve: '@elegantstack/gatsby-plugin-alias-imports',
-      options: {
-        alias: {
-          '@helpers': '@elegantstack/gatsby-common-helpers/src',
-          '@flexiblocks': '@elegantstack/gatsby-theme-flexiblocks/src'
-        },
-        extensions: ['js', 'jsx']
-      }
-    }
+    '@elegantstack/solid-ui-blocks'
   ]
 
   if (createDemoPages === true) {

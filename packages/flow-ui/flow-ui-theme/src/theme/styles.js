@@ -135,7 +135,7 @@ export default {
     margin: 0
   },
   figcaption: {
-    textAlign: `center`,
+    textAlign: `left`,
     fontStyle: `italic`,
     fontSize: 1,
     margin: 3

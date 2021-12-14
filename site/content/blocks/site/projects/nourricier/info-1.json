@@ -1,0 +1,24 @@
+{
+  "text": [
+    {
+      "text": "History",
+      "color": "alpha",
+      "variant": "h4"
+    },
+    {
+      "text": "The best results from the rock and drill core sampling returned grades of up to 10.31% Nickel, 4.9% Copper and 1% Cobalt from diamond drilling.",
+      "variant": "medium"
+    },
+    {
+      "text": "The Company has now secured 689 claims covering 38,129.4 hectares of prosperous ground., and has budgeted 2.2 million dollars of exploration for these properties this year.",
+      "variant": "medium"
+    }
+  ],
+  "images": [
+    {
+      "src": "../../../../assets/site/projects/nourricier/info-1.jpg",
+      "radius": "xl",
+      "alt": "alt text"
+    }
+  ]
+}

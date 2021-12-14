@@ -14,6 +14,7 @@ import Download from '@solid-ui-blocks/CallToAction/Block02'
 import Blog from '@solid-ui-blocks/Blog/Block01'
 import Footer from '@solid-ui-blocks/Footer/Block01'
 import { normalizeBlockContentNodes } from '@blocks-helpers'
+import WithRecentPosts from '@solid-ui-blocks/WithRecentPosts'
 import theme from './_theme'
 import styles from './_styles'
 
@@ -25,9 +26,8 @@ const IndexPage = props => {
     <Layout theme={theme} {...props}>
       <Seo title='Home' />
       {/* Modals */}
-      <ModalWithTabs content={content['authentication']} reverse />
-      <ModalWithTabs content={content['contact']} />
-      <ModalSimple content={content['advertisement']} />
+      <ModalSimple content={content['privacy-policy']} />
+      <ModalSimple content={content['disclaimer']} />
       {/* Blocks */}
       <Header content={content['header']} />
       <Divider space='5' />
@@ -35,19 +35,19 @@ const IndexPage = props => {
       <Hero content={content['hero']} reverse />
       <Divider space='4' />
       <Divider space='5' />
-
       <Container variant='wide' sx={styles.tabsContainer}>
         <Tabs space={3} variant='dots' position='bottom' arrows>
           <Screenshot content={content['screenshot-one']} />
           <Screenshot content={content['screenshot-two']} />
           <Screenshot content={content['screenshot-three']} />
         </Tabs>
-</Container>
-<Divider space='5' />
-<Download content={content['download']} />
+      </Container>
+      <Divider space='5' />
+      <Download content={content['download']} />
       <Divider space='4' />
-
-      <Blog content={content['latest-blogs']} />
+      <WithRecentPosts>
+        <Blog content={content['latest-blogs']} />
+      </WithRecentPosts>
       <Divider space='5' />
       <Footer content={content['footer']} />
     </Layout>
@@ -55,8 +55,8 @@ const IndexPage = props => {
 }
 
 export const query = graphql`
-  query homepageSiteBlockContent {
-    allBlockContent(filter: { page: { in: ["site/index", "shared"] } }) {
+  query homepageSiteIndexContent {
+    allBlockContent(filter: { page: { in: ["site/index", "site/shared"] } }) {
       nodes {
         ...BlockContent
       }

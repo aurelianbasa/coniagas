@@ -3,6 +3,21 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [3.1.0](https://gitlab.com/alimoosavi15/gatsby-theme-flexiblog/compare/@elegantstack/flow-ui-components@3.0.4...@elegantstack/flow-ui-components@3.1.0) (2021-05-19)
+
+
+### Features
+
+* upgrade dependencies ([dae5750](https://gitlab.com/alimoosavi15/gatsby-theme-flexiblog/commit/dae57508db7811d0a33ceeb53d57f9b680196f37))
+
+
+### Refactor
+
+* **flow-ui-components, flow-ui-widgets, flow-ui-layout:** move alias import declerations to aliased packages ([1ec5752](https://gitlab.com/alimoosavi15/gatsby-theme-flexiblog/commit/1ec5752478924fec647a0a8c0a8c975a32a9d4b0))
+
+
+
+
 ### [3.0.4](https://gitlab.com/alimoosavi15/gatsby-theme-flexiblog/compare/@elegantstack/flow-ui-components@3.0.3...@elegantstack/flow-ui-components@3.0.4) (2021-04-22)
 
 

@@ -8,19 +8,6 @@ import QuickSignupForm from '@solid-ui-components/QuickSignupForm'
 import ContentButtons from '@solid-ui-components/ContentButtons'
 import WithDefaultContent from '@solid-ui-blocks/WithDefaultContent'
 
-const styles = {
-  title: {
-    background: t => `
-      linear-gradient(
-        125deg,
-        ${t.colors.alpha} 32.5%,
-        ${t.colors.alphaDarker} 50.5%)
-    `,
-    WebkitBackgroundClip: `text`,
-    WebkitTextFillColor: `transparent`
-  }
-}
-
 const HeroBlock01 = ({
   content: { text = [], images, buttons, form },
   reverse
@@ -59,20 +46,7 @@ const HeroBlock01 = ({
         }}
       >
         <Reveal effect='fadeInDown'>
-          <ContentText
-            content={text?.[0]}
-            sx={{
-              ...(!text?.[0]?.color && styles.title)
-            }}
-          />
-          <ContentText
-            content={text?.[1]}
-            mb='4'
-            sx={{
-              ...(!text?.[1]?.color && styles.title)
-            }}
-          />
-          <ContentText content={text?.[2]} mb='0' />
+          <ContentText content={text} />
         </Reveal>
         {buttons && (
           <Reveal

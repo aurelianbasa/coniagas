@@ -10,12 +10,14 @@ export const query = graphql`
           height: 290
           transformOptions: { cropFocus: CENTER }
           outputPixelDensities: [0.5, 1]
+          quality: $imageQuality
         )
         ImageSharp_hero: gatsbyImageData(
           width: 1600
           height: 650
-          transformOptions: { cropFocus: ATTENTION }
+          transformOptions: { cropFocus: CENTER }
           outputPixelDensities: [0.5, 1]
+          quality: $imageQuality
         )
       }
       ... on ContentfulAsset {
@@ -24,14 +26,14 @@ export const query = graphql`
           height: 290
           cropFocus: CENTER
           formats: [JPG, WEBP]
-          quality: 75
+          quality: $imageQuality
           resizingBehavior: THUMB
         )
         ContentfulAsset_hero: gatsbyImageData(
           width: 1600
           height: 650
           formats: [JPG, WEBP]
-          quality: 75
+          quality: $imageQuality
           resizingBehavior: THUMB
         )
       }
@@ -58,18 +60,21 @@ export const query = graphql`
           height: 470
           transformOptions: { cropFocus: CENTER }
           outputPixelDensities: [0.5, 1]
+          quality: $imageQuality
         )
         ImageSharp_horizontal: gatsbyImageData(
           width: 807
           height: 400
           transformOptions: { cropFocus: CENTER }
           outputPixelDensities: [0.5, 1]
+          quality: $imageQuality
         )
         ImageSharp_hero: gatsbyImageData(
           width: 1600
           height: 650
-          transformOptions: { cropFocus: ATTENTION }
+          transformOptions: { cropFocus: CENTER }
           outputPixelDensities: [0.5, 1]
+          quality: $imageQuality
         )
       }
       ... on ContentfulAsset {
@@ -78,7 +83,7 @@ export const query = graphql`
           height: 470
           cropFocus: CENTER
           formats: [JPG, WEBP]
-          quality: 75
+          quality: $imageQuality
           resizingBehavior: THUMB
         )
         ContentfulAsset_horizontal: gatsbyImageData(
@@ -86,14 +91,14 @@ export const query = graphql`
           height: 400
           cropFocus: CENTER
           formats: [JPG, WEBP]
-          quality: 75
+          quality: $imageQuality
           resizingBehavior: THUMB
         )
         ContentfulAsset_hero: gatsbyImageData(
           width: 1600
           height: 650
           formats: [JPG, WEBP]
-          quality: 75
+          quality: $imageQuality
           resizingBehavior: THUMB
         )
       }

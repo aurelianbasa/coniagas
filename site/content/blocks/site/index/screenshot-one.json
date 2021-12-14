@@ -8,7 +8,8 @@
     {
       "text": "Recycled Battery Materials",
       "color": "omegaDarker",
-      "variant": "h2"
+      "variant": "h2",
+      "align": ["center"]
     },
     {
       "text": "The process can be applied to all lithium-ion and nickel chemistries.",
@@ -18,7 +19,7 @@
   ],
   "images": [
     {
-      "src": "../../../assets/flexiblocks/homepage/saas-v2/hero1.png",
+      "src": "../../../assets/site/index/hero1.jpg",
       "alt": "alt text",
       "radius": "lg",
       "shadow": "default",

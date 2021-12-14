@@ -109,13 +109,28 @@ module.exports = pluginOptions => {
 
   const darkMode = getValue(pluginOptions, 'darkMode', true)
 
+  const slugSanitizeRegex = getValue(pluginOptions, 'slugSanitizeRegex', null)
+
+  const includeExcerpt = getValue(pluginOptions, 'includeExcerpt', true)
+  const includeTimeToRead = getValue(pluginOptions, 'includeTimeToRead', true)
+  const includeTableOfContents = getValue(
+    pluginOptions,
+    'includeTableOfContents',
+    true
+  )
+  const imageQuality = getValue(pluginOptions, 'imageQuality', 75)
+
   const pageContextOptions = {
     paginatePostsPage,
     basePath,
     services,
     siteUrl,
     mobileMenu,
-    darkMode
+    darkMode,
+    includeExcerpt,
+    includeTimeToRead,
+    includeTableOfContents,
+    imageQuality
   }
 
   return {
@@ -130,6 +145,7 @@ module.exports = pluginOptions => {
     homePostsPerPage,
     paginatePostsPage,
     collectionPostsPerPage,
+    slugSanitizeRegex,
     pageContextOptions
   }
 }

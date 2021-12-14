@@ -67,6 +67,11 @@
             "placeholder": {
               "text": "Enter your message"
             }
+          },
+          {
+            "identifier": "form-name",
+            "type": "HIDDEN",
+            "value": "Contact"
           }
         ],
         "buttons": [

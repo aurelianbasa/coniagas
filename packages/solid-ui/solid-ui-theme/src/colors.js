@@ -2,20 +2,20 @@ import colors from './color-preset'
 
 //Primary
 const alpha = {
-  alphaLighter: colors.blueGray[200],
-  alphaLight: colors.blueGray[200],
-  alpha: colors.lime[500],
-  alphaDark: colors.blueGray[900],
-  alphaDarker: colors.blueGray[900]
+  alphaLighter: colors.indigo[100],
+  alphaLight: colors.indigo[300],
+  alpha: colors.indigo[500],
+  alphaDark: colors.indigo[600],
+  alphaDarker: colors.indigo[800]
 }
 
 // Secondary
 const beta = {
-  betaLighter: colors.lime[300],
-  betaLight: colors.lime[300],
-  beta: colors.blue[500],
-  betaDark: colors.blue[500],
-  betaDarker: colors.blue[500]
+  betaLighter: colors.purple[100],
+  betaLight: colors.purple[300],
+  beta: colors.purple[500],
+  betaDark: colors.purple[600],
+  betaDarker: colors.purple[800]
 }
 
 // Reserved
@@ -106,16 +106,16 @@ export default {
     blueBlack: {
       // Alpha (primary)
       alphaLighter: colors.blueGray[200],
-      alphaLight: colors.blueGray[200],
-      alpha: colors.lime[500],
-      alphaDark: colors.blueGray[900],
+      alphaLight: colors.blueGray[300],
+      alpha: colors.blueGray[700],
+      alphaDark: colors.blueGray[800],
       alphaDarker: colors.blueGray[900],
       // beta (secondary)
-      betaLighter: colors.lime[300],
-      betaLight: colors.lime[300],
-      beta: colors.blue[500],
-      betaDark: colors.blue[500],
-      betaDarker: colors.blue[500]
+      betaLighter: colors.lightBlue[100],
+      betaLight: colors.lightBlue[300],
+      beta: colors.lightBlue[400],
+      betaDark: colors.lightBlue[600],
+      betaDarker: colors.lightBlue[800]
     },
     greenViolet: {
       // Alpha (primary)

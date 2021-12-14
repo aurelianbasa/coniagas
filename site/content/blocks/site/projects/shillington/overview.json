@@ -1,0 +1,28 @@
+{
+  "text": [
+    {
+      "text": "Shillington Project",
+      "color": "alpha",
+      "variant": "h4"
+    },
+    {
+      "text": "Grassroots discovery",
+      "variant": "h2"
+    },
+    {
+      "text": "Massive native silver grades up to 89,853 g/t (2,621 oz/ton) intersected during surface drilling at the Shillington Robinson Zone less than 2 km east of the Fuchsia-Massif shafts.",
+      "variant": "medium"
+    },
+    {
+      "text": "According to Doug Robinson, P.Eng., “History shows that these richly mineralized shoots are never found in isolation. In this case, modern technology has opened a whole new domain of exploration.”",
+      "variant": "medium"
+    }
+  ],
+  "images": [
+    {
+      "src": "../../../../assets/site/projects/shillington/overview.jpg",
+      "radius": "xl",
+      "alt": "alt text"
+    }
+  ]
+}

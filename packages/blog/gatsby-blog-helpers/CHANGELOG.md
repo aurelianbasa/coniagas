@@ -3,6 +3,36 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [3.2.0](https://gitlab.com/alimoosavi15/gatsby-theme-flexiblog/compare/@elegantstack/gatsby-blog-helpers@3.1.0...@elegantstack/gatsby-blog-helpers@3.2.0) (2021-08-01)
+
+
+### Features
+
+* **gatsby-blog-core:** add theme option for changing article image quality ([ca8446a](https://gitlab.com/alimoosavi15/gatsby-theme-flexiblog/commit/ca8446adc9ac02325a79a34a4ee84cd7aa39f2e5))
+
+
+### Performance Improvements
+
+* **gatsby-blog-core:** add theme option for disabling article timeToRead and excerpt for faster builds ([1553bce](https://gitlab.com/alimoosavi15/gatsby-theme-flexiblog/commit/1553bce72779c401ccae78e811c015298349c802))
+
+
+
+
+## [3.1.0](https://gitlab.com/alimoosavi15/gatsby-theme-flexiblog/compare/@elegantstack/gatsby-blog-helpers@3.0.0...@elegantstack/gatsby-blog-helpers@3.1.0) (2021-05-19)
+
+
+### Features
+
+* **gatsby-blog-helpers:** add useRecentPosts hook ([875285c](https://gitlab.com/alimoosavi15/gatsby-theme-flexiblog/commit/875285c604d9c6e3a5ce87593369882d128e3cd7))
+
+
+### Refactor
+
+* **gatsby-blog-core, gatsby-blog-helpers:** move alias import declerations to aliased packages ([0a4c409](https://gitlab.com/alimoosavi15/gatsby-theme-flexiblog/commit/0a4c4090e79affdc34440fdf9e0db4c2e9a16846))
+
+
+
+
 ## 3.0.0 (2021-03-17)
 
 

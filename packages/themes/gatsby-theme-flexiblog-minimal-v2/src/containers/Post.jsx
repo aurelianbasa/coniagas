@@ -5,6 +5,7 @@ import CardList from '@components/CardList'
 import Card from '@components/Card'
 import Divider from '@components/Divider'
 import Seo from '@widgets/Seo'
+import TableOfContentsExpanded from '@widgets/TableOfContentsExpanded'
 import { PostImage, PostBody, PostComments, PostTagsShare } from '@widgets/Post'
 
 const Post = ({
@@ -30,6 +31,12 @@ const Post = ({
       <Divider space={3} />
       <Stack effectProps={{ fraction: 0 }}>
         <Main>
+          {post.tableOfContents?.items && (
+            <>
+              <TableOfContentsExpanded {...post} />
+              <Divider />
+            </>
+          )}
           <CardComponent variant='paper-lg'>
             <PostImage {...post} inCard />
             <PostBody {...post} />

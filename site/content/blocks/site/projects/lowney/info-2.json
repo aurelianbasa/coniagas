@@ -1,0 +1,24 @@
+{
+  "text": [
+    {
+      "text": "GEOLOGY",
+      "color": "alpha",
+      "variant": "h4"
+    },
+    {
+      "text": "The property features two shafts with the deepest at 487.7 metres, (1600 feet) with 8.5 miles of drifts and crosscuts. The workings penetrate the entire thickness of the diabase intrusion and led to discovery of silver veins on lower contact.",
+      "variant": "medium"
+    },
+    {
+      "text": "Management believes that diamond drilling the lower contact area is warranted to test a near flat fault known to exist. A similar flat fault in the Duchess and Cobalt load appears to have been a controlling feature in the mined ore.",
+      "variant": "medium"
+    }
+  ],
+  "images": [
+    {
+      "src": "../../../../assets/site/projects/lowney/info-2.jpg",
+      "radius": "xl",
+      "alt": "alt text"
+    }
+  ]
+}

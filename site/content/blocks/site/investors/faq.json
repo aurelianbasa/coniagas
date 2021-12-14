@@ -1,0 +1,85 @@
+{
+  "text": [
+    {
+      "text": "Find out more",
+      "color": "alpha",
+      "variant": "h4"
+    },
+    {
+      "text": "Frequently Asked Questions",
+      "variant": "h2"
+    },
+    {
+      "text": "We aim for clarity in all our work.",
+      "variant": "medium"
+    }
+  ],
+  "collection": [
+    {
+      "text": [
+        {
+          "text": "Question?",
+          "variant": "h5"
+        },
+        {
+          "text": "Answer."
+        }
+      ],
+      "icon": {
+        "src": "../../../assets/flexiblocks/icons/bx-phone.svg",
+        "bg": "white",
+        "color": "alpha"
+      }
+    },
+    {
+      "text": [
+        {
+          "text": "Question?",
+          "variant": "h5"
+        },
+        {
+          "text": "Answer."
+        }
+      ],
+
+      "icon": {
+        "src": "../../../assets/flexiblocks/icons/bx-mobile-alt.svg",
+        "bg": "white",
+        "color": "alpha"
+      }
+    },
+    {
+      "text": [
+        {
+          "text": "Question?",
+          "variant": "h5"
+        },
+        {
+          "text": "Answer."
+        }
+      ],
+      "icon": {
+        "src": "../../../assets/flexiblocks/icons/bx-mail-send.svg",
+        "bg": "white",
+        "color": "alpha"
+      }
+    },
+    {
+      "text": [
+        {
+          "text": "Question?",
+          "variant": "h5"
+        },
+        {
+          "text": "Answer."
+        }
+      ],
+
+      "icon": {
+        "src": "../../../assets/flexiblocks/icons/bx-directions.svg",
+        "bg": "white",
+        "color": "alpha"
+      }
+    }
+  ]
+}
