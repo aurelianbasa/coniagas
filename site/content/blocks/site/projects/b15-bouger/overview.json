@@ -1,0 +1,28 @@
+{
+  "text": [
+    {
+      "text": "The Violet",
+      "color": "alpha",
+      "variant": "h4"
+    },
+    {
+      "text": "Historic Producer",
+      "variant": "h2"
+    },
+    {
+      "text": "An early producer in the Cobalt camp, the B15 Bouger was the site of several discoveries.",
+      "variant": "medium"
+    },
+    {
+      "text": "The mine is close to the town of Cobalt and surrounded by many other high grade historic producers.",
+      "variant": "medium"
+    }
+  ],
+  "images": [
+    {
+      "src": "../../../../assets/site/projects/b15-bouger/overview.jpg",
+      "radius": "xl",
+      "alt": "alt text"
+    }
+  ]
+}

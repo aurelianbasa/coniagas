@@ -1,0 +1,104 @@
+{
+  "text": [
+    {
+      "text": "As of July 13, 2021",
+      "color": "alpha",
+      "variant": "h4"
+    },
+    {
+      "text": "Capital Structure",
+      "color": "omegaDarker",
+      "variant": "h2"
+    }
+  ],
+  "collection": [
+    {
+      "collection": [
+        {
+          "text": [
+            {
+              "text": "Issued and Outstanding",
+              "variant": "h5",
+              "space": 0
+            }
+          ]
+        },
+        {
+          "text": [
+            {
+              "text": "127,926,346",
+              "variant": "medium",
+              "space": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "collection": [
+        {
+          "text": [
+            {
+              "text": "Options ($0.05 - $0.70)",
+              "variant": "h5",
+              "space": 0
+            }
+          ]
+        },
+        {
+          "text": [
+            {
+              "text": "7,323,000",
+              "variant": "medium",
+              "space": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "collection": [
+        {
+          "text": [
+            {
+              "text": "Warrants ($0.50 - $0.80)",
+              "variant": "h5",
+              "space": 0
+            }
+          ]
+        },
+        {
+          "text": [
+            {
+              "text": "30,036,901",
+              "variant": "medium",
+              "space": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "collection": [
+        {
+          "text": [
+            {
+              "text": "Fully Diluted",
+              "variant": "h5",
+              "space": 0
+            }
+          ]
+        },
+        {
+          "text": [
+            {
+              "text": "165,286,247",
+              "variant": "medium",
+              "space": 0
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

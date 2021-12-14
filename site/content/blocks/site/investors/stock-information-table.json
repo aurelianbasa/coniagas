@@ -1,0 +1,131 @@
+{
+  "collection": [
+    {
+      "collection": [
+        {
+          "text": [
+            {
+              "text": "Listing and Symbol",
+              "variant": "h5"
+            }
+          ]
+        },
+        {
+          "text": [
+            {
+              "text": "CCW on TSX Venture Exchange",
+              "space": 0
+            },
+            {
+              "text": "CCWOF on OTC Markets Exchange",
+              "space": 0
+            },
+            {
+              "text": "4T9B on the Frankfurt Exchange"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "collection": [
+        {
+          "text": [
+            {
+              "text": "Head Office",
+              "variant": "h5"
+            }
+          ]
+        },
+        {
+          "text": [
+            {
+              "text": "3028 Quadra Court Coquitlam,",
+              "space": 0
+            },
+            {
+              "text": "BC V3B 5X6",
+              "space": 0
+            },
+            {
+              "text": "Phone: 604-828-1475",
+              "space": 0
+            },
+            {
+              "text": "Fax: 604-608-3512"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "collection": [
+        {
+          "text": [
+            {
+              "text": "Auditors",
+              "variant": "h5"
+            }
+          ]
+        },
+        {
+          "text": [
+            {
+              "text": "UHY McGovern Hurley LLP",
+              "variant": "h6",
+              "space": 2
+            },
+            {
+              "text": "251 Consumers Road, Suite 800"
+            },
+            {
+              "text": "Toronto, Ontario, Canada M2J 4R3"
+            },
+            {
+              "text": "Phone: 416.496.1234"
+            },
+            {
+              "text": "Fax: 416.496.0125"
+            },
+            {
+              "text": "Email: info@uhymh.com"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "collection": [
+        {
+          "text": [
+            {
+              "text": "Transfer Agent",
+              "variant": "h5"
+            }
+          ]
+        },
+        {
+          "text": [
+            {
+              "text": "Computershare Investor Services Inc.",
+              "variant": "h6",
+              "space": 2
+            },
+            {
+              "text": "510 Burrard Street, 2nd Floor Vancouver"
+            },
+            {
+              "text": "British Columbia V6C 3B9"
+            },
+            {
+              "text": "Phone: 604-661-9400"
+            },
+            {
+              "text": "Fax: 604-661-9401"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

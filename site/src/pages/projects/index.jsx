@@ -1,47 +1,37 @@
 import React from 'react'
 import { graphql } from 'gatsby'
-import { Container } from 'theme-ui'
 import Layout from '@solid-ui-layout/Layout'
 import Seo from '@solid-ui-components/Seo'
 import Divider from '@solid-ui-components/Divider'
-import ModalWithTabs from '@solid-ui-blocks/Modal/Block01'
 import ModalSimple from '@solid-ui-blocks/Modal/Block02'
 import Header from '@solid-ui-blocks/Header/Block01'
-import Features from '@solid-ui-blocks/Features/Block06'
-import Clients from '@solid-ui-blocks/FeaturesWithPhoto/Block05'
-import Companies from '@solid-ui-blocks/Companies/Block01'
-import Team from '@solid-ui-blocks/Hero/Block03'
-import Faq from '@solid-ui-blocks/Faq/Block02'
+import Projects from '@solid-ui-blocks/Blog/Block01'
+import Info from '@solid-ui-blocks/FeaturesWithPhoto/Block01'
 import Footer from '@solid-ui-blocks/Footer/Block01'
 import { normalizeBlockContentNodes } from '@blocks-helpers'
-import styles from './_styles'
 
-const Services01 = props => {
+const ProjectsPage = props => {
   const { allBlockContent } = props.data
   const content = normalizeBlockContentNodes(allBlockContent?.nodes)
 
   return (
     <Layout {...props}>
-      <Seo title='Home' />
+      <Seo title='Projects' />
       {/* Modals */}
-      <ModalWithTabs content={content['contact']} />
+      <ModalSimple content={content['privacy-policy']} />
+      <ModalSimple content={content['disclaimer']} />
       {/* Blocks */}
       <Header content={content['header']} />
-      <Container variant='full' sx={styles.heroContainer}>
-        <Features content={content['features']} />
-      </Container>
       <Divider space='5' />
       <Divider space='5' />
-      <Clients content={content['clients']} />
-      <Divider space='4' />
-      <Companies content={content['companies']} />
+      <Projects content={content['projects-row-1']} />
+      <Projects content={content['projects-row-2']} />
       <Divider space='5' />
       <Divider space='5' />
-      <Team content={content['team']} />
+      <Info content={content['ttl-facility']} />
       <Divider space='5' />
       <Divider space='5' />
-      <Faq content={content['faq']} />
-      <Divider space='5' />
+      <Info content={content['re-2ox-process']} reverse />
       <Divider space='5' />
       <Footer content={content['footer']} />
     </Layout>
@@ -49,9 +39,9 @@ const Services01 = props => {
 }
 
 export const query = graphql`
-  query innerpageSiteServices01BlockContent {
+  query siteProjectsBlockContent {
     allBlockContent(
-      filter: { page: { in: ["site/services-01", "site/shared"] } }
+      filter: { page: { in: ["site/projects", "site/shared"] } }
     ) {
       nodes {
         ...BlockContent
@@ -59,5 +49,4 @@ export const query = graphql`
     }
   }
 `
-
-export default Services01
+export default ProjectsPage

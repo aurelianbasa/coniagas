@@ -1,0 +1,28 @@
+{
+  "text": [
+    {
+      "text": "Fuchsia-Massif Project",
+      "color": "alpha",
+      "variant": "h4"
+    },
+    {
+      "text": "The only permitted underground asset in the Cobalt camp",
+      "variant": "h2"
+    },
+    {
+      "text": "The former cobalt and silver producing Castle Silver Cobalt Mine property is located 85 kilometres northwest of the historic Cobalt silver mining camp.",
+      "variant": "medium"
+    },
+    {
+      "text": "As of December 2017, the Fuchsia-Massif site property comprised 19 claims, 34 leases and two licenses of occupation totalling 2,815 ha.",
+      "variant": "medium"
+    }
+  ],
+  "images": [
+    {
+      "src": "../../../../assets/site/projects/fuchsia-massif/overview.jpg",
+      "radius": "xl",
+      "alt": "alt text"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "text": [
+    {
+      "text": "Geology",
+      "color": "alpha",
+      "variant": "h4"
+    },
+    {
+      "text": "The mineralization found on the Lac Suzanne property is of the magmatic massive sulphide type where sulphides are concentrated within a magmatic chamber.",
+      "variant": "medium"
+    },
+    {
+      "text": "Geophysical airborne surveys are completed, and the drill program has been scheduled on the B2 property for the second quarter this year.",
+      "variant": "medium"
+    }
+  ],
+  "images": [
+    {
+      "src": "../../../../assets/site/projects/nourricier/info-2.jpg",
+      "radius": "xl",
+      "alt": "alt text"
+    }
+  ]
+}

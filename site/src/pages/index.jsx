@@ -25,9 +25,7 @@ const IndexPage = props => {
     <Layout theme={theme} {...props}>
       <Seo title='Home' />
       {/* Modals */}
-      <ModalWithTabs content={content['authentication']} reverse />
       <ModalWithTabs content={content['contact']} />
-      <ModalSimple content={content['advertisement']} />
       {/* Blocks */}
       <Header content={content['header']} />
       <Divider space='5' />
@@ -42,9 +40,9 @@ const IndexPage = props => {
           <Screenshot content={content['screenshot-two']} />
           <Screenshot content={content['screenshot-three']} />
         </Tabs>
-</Container>
-<Divider space='5' />
-<Download content={content['download']} />
+      </Container>
+      <Divider space='5' />
+      <Download content={content['download']} />
       <Divider space='4' />
 
       <Blog content={content['latest-blogs']} />
@@ -56,7 +54,7 @@ const IndexPage = props => {
 
 export const query = graphql`
   query homepageSiteBlockContent {
-    allBlockContent(filter: { page: { in: ["site/index", "shared"] } }) {
+    allBlockContent(filter: { page: { in: ["site/index", "site/shared"] } }) {
       nodes {
         ...BlockContent
       }

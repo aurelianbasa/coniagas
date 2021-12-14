@@ -6,23 +6,20 @@ module.exports = {
       resolve: '@elegantstack/gatsby-theme-flexiblocks',
       options: {
         createDemoPages: false,
-        colorMode: false,
+        colorMode: false
       }
     },
     {
-        resolve: '@elegantstack/gatsby-theme-flexiblog-science',
-        options: {
-          fonts: fontFile.fonts,
-          darkMode: false, 
-          colorMode: false,
-            basePath: '/blog/'
-        }
-
+      resolve: '@elegantstack/gatsby-theme-flexiblog-science',
+      options: {
+        fonts: fontFile.fonts,
+        darkMode: false,
+        colorMode: false,
+        basePath: '/news'
+      }
     }
-
-
   ],
- siteMetadata: {
+  siteMetadata: {
     title: 'The Re-2Ox Process',
     name: 'Re-2Ox Process',
     description: 'My site description...',
@@ -101,4 +98,3 @@ module.exports = {
     ]
   }
 }
-

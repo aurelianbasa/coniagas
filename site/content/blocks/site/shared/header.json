@@ -1,0 +1,200 @@
+{
+  "images": [
+    {
+      "src": "../../../assets/site/shared/logo.svg",
+      "width": "160px",
+      "alt": "alt text"
+    }
+  ],
+  "collection": [
+    {
+      "buttons": [
+        {
+          "text": "Home",
+          "type": "PAGE",
+          "link": "/",
+          "variant": "links.nav-dark"
+        },
+        {
+          "text": "About",
+          "type": "PAGE",
+          "link": "/aboutus/",
+          "variant": "links.nav-dark"
+        },
+        {
+          "text": "Technology",
+          "type": "PAGE",
+          "link": "/services-03/",
+          "variant": "links.nav-dark"
+        },
+        {
+          "text": "Projects",
+          "variant": "links.nav-dark",
+          "type": "SUB",
+          "collection": [
+            {
+              "buttons": [
+                {
+                  "text": "Fuchsia-Massif",
+                  "type": "SUB",
+                  "variant": "links.disabled",
+                  "buttons": [
+                    {
+                      "text": "Nourricier",
+                      "type": "PAGE",
+                      "link": "/projects/nourricier/",
+                      "variant": "links.nav-dark"
+                    },
+                    {
+                      "text": "Lowney",
+                      "type": "PAGE",
+                      "link": "/projects/lowney/",
+                      "variant": "links.nav-dark"
+                    }
+                  ]
+                },
+                {
+                  "text": "_",
+                  "type": "SUB",
+                  "variant": "links.hidden",
+                  "buttons": [
+                    {
+                      "text": "Forgues",
+                      "type": "PAGE",
+                      "link": "/projects/forgues/",
+                      "variant": "links.nav-dark"
+                    },
+                    {
+                      "text": "Fuchsia-Massif",
+                      "type": "PAGE",
+                      "link": "/projects/fuchsia-massif/",
+                      "variant": "links.nav-dark"
+                    }
+                  ]
+                },
+                {
+                  "text": "_",
+                  "type": "SUB",
+                  "variant": "links.hidden",
+                  "buttons": [
+                    {
+                      "text": "B15 Bouger",
+                      "type": "PAGE",
+                      "link": "/projects/b15-bouger/",
+                      "variant": "links.nav-dark"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "container": {
+                "bg": "omegaLighter"
+              },
+              "buttons": [
+                {
+                  "text": "Ontario",
+                  "type": "SUB",
+                  "variant": "links.disabled",
+                  "buttons": [
+                    {
+                      "text": "Shillington",
+                      "type": "PAGE",
+                      "link": "/projects/shillington/",
+                      "variant": "links.nav-dark"
+                    }
+                  ]
+                },
+                {
+                  "text": "_",
+                  "type": "SUB",
+                  "variant": "links.hidden",
+                  "buttons": [
+                    {
+                      "text": "Re-2Ox Process",
+                      "type": "PAGE",
+                      "link": "/projects#re-2ox-process",
+                      "variant": "links.nav-dark"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "News",
+          "type": "SUB",
+          "variant": "links.nav-dark",
+          "buttons": [
+            {
+              "text": "Press Releases",
+              "type": "PAGE",
+              "link": "/news/category/press-releases/",
+              "variant": "links.nav-dark"
+            },
+            {
+              "text": "resources",
+              "type": "PAGE",
+              "link": "/news/category/resources/",
+              "variant": "links.nav-dark"
+            },
+            {
+              "text": "features",
+              "type": "PAGE",
+              "link": "/news/category/features/",
+              "variant": "links.nav-dark"
+            }
+          ]
+        },
+        {
+          "text": "Investors",
+          "type": "SUB",
+          "variant": "links.nav-dark",
+          "buttons": [
+            {
+              "text": "Stock Information",
+              "type": "PAGE",
+              "link": "/investors#stock-information-chart",
+              "variant": "links.nav-dark"
+            },
+            {
+              "text": "Capital Structure",
+              "type": "PAGE",
+              "link": "/investors#capital-structure",
+              "variant": "links.nav-dark"
+            },
+            {
+              "text": "Presentations",
+              "type": "PAGE",
+              "link": "/investors#presentations",
+              "variant": "links.nav-dark"
+            },
+            {
+              "text": "Technical Data",
+              "type": "PAGE",
+              "link": "/investors#technical-data",
+              "variant": "links.nav-dark"
+            },
+            {
+              "text": "Frequently Asked Questions",
+              "type": "PAGE",
+              "link": "/investors#faq",
+              "variant": "links.nav-dark"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "buttons": [
+        {
+          "text": "Contact Us",
+          "type": "PAGE",
+          "link": "/contact",
+          "variant": "secondary"
+        }
+      ]
+    }
+  ]
+}

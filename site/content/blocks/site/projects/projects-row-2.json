@@ -1,0 +1,115 @@
+{
+  "collection": [
+    {
+      "container": {
+        "variant": "cards.interactive",
+        "link": {
+          "type": "PAGE",
+          "link": "/projects/shillington"
+        }
+      },
+      "text": [
+        {
+          "text": "Discovery",
+          "color": "alphaDark"
+        },
+        {
+          "text": "Shillington",
+          "color": "omegaDarker",
+          "variant": "h5"
+        },
+        {
+          "text": "Recent drilling drilling has uncovered seven high-grade veins, the highest at 30,416.91 g/t silver."
+        }
+      ],
+      "images": [
+        {
+          "src": "../../../assets/site/projects/shillington.jpg",
+          "alt": "alt text"
+        }
+      ],
+      "buttons": [
+        {
+          "text": "View Project",
+          "type": "PAGE",
+          "link": "/projects/shillington",
+          "variant": "primary"
+        }
+      ]
+    },
+    {
+      "container": {
+        "variant": "cards.interactive",
+        "link": {
+          "type": "PAGE",
+          "link": "/projects/forgues"
+        }
+      },
+      "text": [
+        {
+          "text": "Prospect",
+          "color": "alphaDark"
+        },
+        {
+          "text": "Forgues",
+          "color": "omegaDarker",
+          "variant": "h5"
+        },
+        {
+          "text": "The property is in an area that has long held the interest of geologists because of its close proximity to the high-grade underground Macassa gold mine."
+        }
+      ],
+      "images": [
+        {
+          "src": "../../../assets/site/projects/forgues.jpg",
+          "alt": "alt text"
+        }
+      ],
+      "buttons": [
+        {
+          "text": "View Project",
+          "type": "PAGE",
+          "link": "/projects/forgues",
+          "variant": "primary"
+        }
+      ]
+    },
+    {
+      "container": {
+        "variant": "cards.interactive",
+        "link": {
+          "type": "PAGE",
+          "link": "/projects/nourricier"
+        }
+      },
+      "text": [
+        {
+          "text": "Prospect",
+          "color": "alphaDark"
+        },
+        {
+          "text": "Nourricier",
+          "color": "omegaDarker",
+          "variant": "h5"
+        },
+        {
+          "text": "The best results from the rock and drill core sampling returned grades of up to 10.31% Nickel, 4.9% Copper and 1% Cobalt."
+        }
+      ],
+      "images": [
+        {
+          "src": "../../../assets/site/projects/nourricier.jpg",
+          "alt": "alt text"
+        }
+      ],
+      "buttons": [
+        {
+          "text": "View Project",
+          "type": "PAGE",
+          "link": "/projects/nourricier",
+          "variant": "primary"
+        }
+      ]
+    }
+  ]
+}

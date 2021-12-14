@@ -28,9 +28,7 @@ const Services03 = props => {
     <Layout {...props}>
       <Seo title='Home' />
       {/* Modals */}
-      <ModalWithTabs content={content['authentication']} reverse />
       <ModalWithTabs content={content['contact']} />
-      <ModalSimple content={content['advertisement']} />
       {/* Blocks */}
       <Header content={content['header']} />
       <Divider space='5' />
@@ -39,16 +37,14 @@ const Services03 = props => {
         <Divider space='3' />
         <Gallery content={content['gallery']} />
       </Container>
-<Divider space='5' />
+      <Divider space='5' />
 
-<Container variant='wide' sx={styles.tabsConfeaturesContainer}>
-        
-          <FeatureTabOne content={content['feature-tab-one']} reverse />
+      <Container variant='wide' sx={styles.tabsConfeaturesContainer}>
+        <FeatureTabOne content={content['feature-tab-one']} reverse />
         <Divider space='4' />
-          <FeatureTabTwo content={content['feature-tab-two']} />
-       
-      </Container>      
-      
+        <FeatureTabTwo content={content['feature-tab-two']} />
+      </Container>
+
       <Divider space='5' />
       <Divider space='5' />
 
@@ -58,7 +54,7 @@ const Services03 = props => {
       <FeatureTwo content={content['feature-two']} />
       <Divider space='6' />
       <Divider space='6' />
-     
+
       <Divider space='4' />
       <Footer content={content['footer']} />
     </Layout>
@@ -68,7 +64,7 @@ const Services03 = props => {
 export const query = graphql`
   query innerpageSiteServices03BlockContent {
     allBlockContent(
-      filter: { page: { in: ["site/services-03", "shared"] } }
+      filter: { page: { in: ["site/services-03", "site/shared"] } }
     ) {
       nodes {
         ...BlockContent

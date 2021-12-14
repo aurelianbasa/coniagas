@@ -4,44 +4,46 @@ import { Container } from 'theme-ui'
 import Layout from '@solid-ui-layout/Layout'
 import Seo from '@solid-ui-components/Seo'
 import Divider from '@solid-ui-components/Divider'
-import ModalWithTabs from '@solid-ui-blocks/Modal/Block01'
 import ModalSimple from '@solid-ui-blocks/Modal/Block02'
+import Content from '@solid-ui-blocks/Content/Block02'
 import Header from '@solid-ui-blocks/Header/Block01'
-import Features from '@solid-ui-blocks/Features/Block06'
-import Clients from '@solid-ui-blocks/FeaturesWithPhoto/Block05'
-import Companies from '@solid-ui-blocks/Companies/Block01'
-import Team from '@solid-ui-blocks/Hero/Block03'
+import DropDown from '@solid-ui-blocks/Faq/Block01'
 import Faq from '@solid-ui-blocks/Faq/Block02'
+import Table from '../../blocks/Table/Block01'
+import StockChart from '../../blocks/StockChart/Block01'
 import Footer from '@solid-ui-blocks/Footer/Block01'
 import { normalizeBlockContentNodes } from '@blocks-helpers'
-import styles from './_styles'
 
-const Services01 = props => {
+const MediaPage = props => {
   const { allBlockContent } = props.data
   const content = normalizeBlockContentNodes(allBlockContent?.nodes)
 
   return (
     <Layout {...props}>
-      <Seo title='Home' />
+      <Seo title='Investors' />
       {/* Modals */}
-      <ModalWithTabs content={content['contact']} />
+      <ModalSimple content={content['privacy-policy']} />
+      <ModalSimple content={content['disclaimer']} />
       {/* Blocks */}
       <Header content={content['header']} />
-      <Container variant='full' sx={styles.heroContainer}>
-        <Features content={content['features']} />
+      <Divider space='5' />
+      <Divider space='5' />
+      <StockChart content={content['stock-information-chart']} />
+      <Table content={content['stock-information-table']} />
+      <Divider space='5' />
+      <Divider space='5' />
+      <Table content={content['capital-structure']} />
+      <Divider space='5' />
+      <Divider space='5' />
+      <Content content={content['presentations']} />
+      <Divider space='5' />
+      <Divider space='5' />
+      <Container variant='narrow'>
+        <DropDown content={content['technical-data']} />
       </Container>
       <Divider space='5' />
       <Divider space='5' />
-      <Clients content={content['clients']} />
-      <Divider space='4' />
-      <Companies content={content['companies']} />
-      <Divider space='5' />
-      <Divider space='5' />
-      <Team content={content['team']} />
-      <Divider space='5' />
-      <Divider space='5' />
       <Faq content={content['faq']} />
-      <Divider space='5' />
       <Divider space='5' />
       <Footer content={content['footer']} />
     </Layout>
@@ -49,9 +51,9 @@ const Services01 = props => {
 }
 
 export const query = graphql`
-  query innerpageSiteServices01BlockContent {
+  query siteInvestorsBlockContent {
     allBlockContent(
-      filter: { page: { in: ["site/services-01", "site/shared"] } }
+      filter: { page: { in: ["site/investors", "site/shared"] } }
     ) {
       nodes {
         ...BlockContent
@@ -59,5 +61,4 @@ export const query = graphql`
     }
   }
 `
-
-export default Services01
+export default MediaPage
