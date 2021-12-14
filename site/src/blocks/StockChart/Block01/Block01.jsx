@@ -33,7 +33,8 @@ const StockChartBlock01 = ({ content: { text, buttons } }) => {
     script.innerHTML = JSON.stringify(chartProps)
     document.getElementById(containerId).appendChild(script)
     return () => {
-      document.getElementById(containerId).innerHTML = ''
+      const container = document.getElementById(containerId)
+      if (container) container.innerHTML = ''
     }
   }, [])
 
