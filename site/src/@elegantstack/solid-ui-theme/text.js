@@ -4,6 +4,7 @@ export default {
   ...baseText,
   h2: {
     ...baseText.h2,
+    maxWidth: `none`,
     mx: 0
   }
 }
