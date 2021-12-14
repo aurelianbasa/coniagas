@@ -29,7 +29,7 @@
             {
               "buttons": [
                 {
-                  "text": "Fuchsia-Massif",
+                  "text": "Quebec",
                   "type": "SUB",
                   "variant": "links.disabled",
                   "buttons": [
@@ -95,19 +95,6 @@
                       "text": "Shillington",
                       "type": "PAGE",
                       "link": "/projects/shillington/",
-                      "variant": "links.nav-dark"
-                    }
-                  ]
-                },
-                {
-                  "text": "_",
-                  "type": "SUB",
-                  "variant": "links.hidden",
-                  "buttons": [
-                    {
-                      "text": "Re-2Ox Process",
-                      "type": "PAGE",
-                      "link": "/projects#re-2ox-process",
                       "variant": "links.nav-dark"
                     }
                   ]
