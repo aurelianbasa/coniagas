@@ -14,6 +14,7 @@ import Download from '@solid-ui-blocks/CallToAction/Block02'
 import Blog from '@solid-ui-blocks/Blog/Block01'
 import Footer from '@solid-ui-blocks/Footer/Block01'
 import { normalizeBlockContentNodes } from '@blocks-helpers'
+import WithRecentPosts from '@solid-ui-blocks/WithRecentPosts'
 import theme from './_theme'
 import styles from './_styles'
 
@@ -33,7 +34,6 @@ const IndexPage = props => {
       <Hero content={content['hero']} reverse />
       <Divider space='4' />
       <Divider space='5' />
-
       <Container variant='wide' sx={styles.tabsContainer}>
         <Tabs space={3} variant='dots' position='bottom' arrows>
           <Screenshot content={content['screenshot-one']} />
@@ -44,8 +44,9 @@ const IndexPage = props => {
       <Divider space='5' />
       <Download content={content['download']} />
       <Divider space='4' />
-
-      <Blog content={content['latest-blogs']} />
+      <WithRecentPosts>
+        <Blog content={content['latest-blogs']} />
+      </WithRecentPosts>
       <Divider space='5' />
       <Footer content={content['footer']} />
     </Layout>
