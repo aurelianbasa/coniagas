@@ -27,6 +27,12 @@ module.exports = {
     //     queries: require('@elegantstack/gatsby-blog-algolia/src/queries')
     //   }
     // },
+    // {
+    //   resolve: 'gatsby-plugin-mailchimp',
+    //   options: {
+    //     endpoint: process.env.MAILCHIMP_END_POINT
+    //   }
+    // },
     {
       resolve: 'gatsby-plugin-manifest',
       options: {
