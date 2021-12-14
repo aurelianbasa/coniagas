@@ -3,6 +3,16 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [3.1.0](https://gitlab.com/alimoosavi15/gatsby-theme-flexiblog/compare/@elegantstack/flow-ui-theme@3.0.4...@elegantstack/flow-ui-theme@3.1.0) (2021-08-19)
+
+
+### Refactor
+
+* **flow-ui-theme:** decrease fontWeight of h4 and h5 tags ([630858e](https://gitlab.com/alimoosavi15/gatsby-theme-flexiblog/commit/630858e2319042b009af152fb99752ebabe3ac48))
+
+
+
+
 ### [3.0.4](https://gitlab.com/alimoosavi15/gatsby-theme-flexiblog/compare/@elegantstack/flow-ui-theme@3.0.3...@elegantstack/flow-ui-theme@3.0.4) (2021-03-30)
 
 

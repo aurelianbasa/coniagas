@@ -1,26 +1,15 @@
 import React from 'react'
-import { GatsbyImage as Img } from 'gatsby-plugin-image'
-import { Container, Flex, Box, css } from 'theme-ui'
+import { getImage } from 'gatsby-plugin-image'
+import { Container, Flex, Box } from 'theme-ui'
 import ContentText from '@solid-ui-components/ContentText'
 import Reveal from '@solid-ui-components/Reveal'
 import ContentContainer from '@solid-ui-components/ContentContainer'
+import ContentImages from '@solid-ui-components/ContentImages'
 import ContentButtons from '@solid-ui-components/ContentButtons'
 import QuickSignupForm from '@solid-ui-components/QuickSignupForm'
 import WithDefaultContent from '@solid-ui-blocks/WithDefaultContent'
-import getImage from '@solid-ui-components/utils/getImage'
 
 const styles = {
-  title: {
-    color: 'alphaDark',
-    background: t => `
-      linear-gradient(
-        125deg,
-        ${t.colors.alpha} 32.5%,
-        ${t.colors.alphaDark} 50.5%)
-    `,
-    WebkitBackgroundClip: `text`,
-    WebkitTextFillColor: `transparent`
-  },
   subTitle: {
     maxWidth: 500
   },
@@ -69,14 +58,7 @@ const HeroBlock03 = ({
           px='2'
           mb='3'
         />
-        <ContentText
-          content={text?.[1]}
-          mb='4'
-          mx='auto'
-          sx={{
-            ...(!text?.[1]?.color && styles.text?.[1])
-          }}
-        />
+        <ContentText content={text?.[1]} mb='4' mx='auto' />
         <ContentText content={text?.slice(2)} mx='auto' />
       </Reveal>
       <Box>
@@ -97,16 +79,14 @@ const HeroBlock03 = ({
       sx={styles.overlay}
       className='block-overlay'
     />
-    {images?.[0] && (
-      <Box sx={styles.image}>
-        <Img
-          loading='eager'
-          image={getImage(images[0].src)}
-          alt={images[0].alt}
-          css={css({ size: `full`, verticalAlign: `middle` })}
-        />
-      </Box>
-    )}
+    <Box sx={styles.image}>
+      <ContentImages
+        loading='eager'
+        content={{ images }}
+        sx={{ size: `full` }}
+        imageEffect='fadeIn'
+      />
+    </Box>
   </Container>
 )
 

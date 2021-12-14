@@ -6,9 +6,6 @@ const heading = {
 }
 
 export default {
-  heading: {
-    ...heading
-  },
   h1: {
     ...heading,
     fontSize: [6, 7],

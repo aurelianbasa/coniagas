@@ -2,6 +2,17 @@ import React from 'react'
 import mergeWith from 'lodash.mergewith'
 import { Text, Heading } from 'theme-ui'
 
+const gradient = {
+  background: t => `
+    linear-gradient(
+      125deg,
+      ${t.colors.alpha} 32.5%,
+      ${t.colors.alphaDarker} 50.5%)
+  `,
+  WebkitBackgroundClip: `text`,
+  WebkitTextFillColor: `transparent`
+}
+
 const headings = ['h1', 'h2', 'h3', 'h4', 'h5', 'h6']
 
 const ContentText = ({ as: CustomComponent, content, children, ...props }) => {
@@ -14,7 +25,7 @@ const ContentText = ({ as: CustomComponent, content, children, ...props }) => {
 
     contentRest.mb = contentRest.space
 
-    const { variant, ...mergedProps } = mergeWith(
+    const { variant, color, align, ...mergedProps } = mergeWith(
       {},
       props,
       contentRest,
@@ -42,12 +53,23 @@ const ContentText = ({ as: CustomComponent, content, children, ...props }) => {
         key={`item-${index}`}
         variant={variant}
         as={variant}
+        color={color}
+        sx={{
+          ...(color === 'gradient' ? gradient : {}),
+          textAlign: align || undefined
+        }}
         {...mergedProps}
       >
         {children || textWithSpecial || text}
       </Heading>
     ) : (
-      <Text key={`item-${index}`} variant={variant} {...mergedProps}>
+      <Text
+        key={`item-${index}`}
+        variant={variant}
+        color={color}
+        sx={{ textAlign: align || undefined }}
+        {...mergedProps}
+      >
         {children || text}
       </Text>
     )

@@ -3,6 +3,37 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [3.2.0](https://gitlab.com/alimoosavi15/gatsby-theme-flexiblog/compare/@elegantstack/solid-ui-blocks@3.1.0...@elegantstack/solid-ui-blocks@3.2.0) (2021-06-17)
+
+
+### Features
+
+* **solid-ui-blocks:** add WithRecentPosts HOC for connecting Blog block to FlexiBlog data layer ([d19ec69](https://gitlab.com/alimoosavi15/gatsby-theme-flexiblog/commit/d19ec69409a67aeafba838169d58c4d7cc5aa858))
+
+
+### Refactor
+
+* **solid-ui-blocks:** replace GatsbyImage with ContentImages component in blocks ([baf1957](https://gitlab.com/alimoosavi15/gatsby-theme-flexiblog/commit/baf19572165e88503291ff29a1a68b01c6f99b5c))
+
+
+
+
+## [3.1.0](https://gitlab.com/alimoosavi15/gatsby-theme-flexiblog/compare/@elegantstack/solid-ui-blocks@3.0.0...@elegantstack/solid-ui-blocks@3.1.0) (2021-05-19)
+
+
+### Features
+
+* upgrade dependencies ([dae5750](https://gitlab.com/alimoosavi15/gatsby-theme-flexiblog/commit/dae57508db7811d0a33ceeb53d57f9b680196f37))
+
+
+### Refactor
+
+* **solid-ui-blocks:** remove gradient title styles from hero blocks ([9cd7643](https://gitlab.com/alimoosavi15/gatsby-theme-flexiblog/commit/9cd7643ec112dd3ed6e4ffb234db44ea57bcf8f1))
+* **solid-ui-components:** allow more items in a row in StatsBlock01 ([ccd36c8](https://gitlab.com/alimoosavi15/gatsby-theme-flexiblog/commit/ccd36c8f224f6f626f8c971db1359e21df6abdfe))
+
+
+
+
 ## [3.0.0](https://gitlab.com/alimoosavi15/gatsby-theme-flexiblog/compare/@elegantstack/solid-ui-blocks@2.1.0...@elegantstack/solid-ui-blocks@3.0.0) (2021-04-22)
 
 

@@ -7,5 +7,6 @@ export const query = graphql`
     color
     space
     variant
+    align
   }
 `

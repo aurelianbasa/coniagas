@@ -7,6 +7,7 @@ import Divider from '@components/Divider'
 import Sticky from '@components/Sticky'
 import Seo from '@widgets/Seo'
 import AuthorCompact from '@widgets/AuthorCompact'
+import TableOfContentsCompact from '@widgets/TableOfContentsCompact'
 import {
   PostBody,
   PostComments,
@@ -44,8 +45,14 @@ const Post = ({
         <Sidebar>
           <AuthorCompact author={post.author} omitTitle />
           <Divider />
-          {post.category && (
-            <Sticky>
+          <Sticky>
+            {post.tableOfContents?.items && (
+              <>
+                <TableOfContentsCompact {...post} />
+                <Divider />
+              </>
+            )}
+            {post.category && (
               <CardList
                 title='Related Posts'
                 nodes={relatedPosts}
@@ -56,8 +63,8 @@ const Post = ({
                 distinct
                 aside
               />
-            </Sticky>
-          )}
+            )}
+          </Sticky>
         </Sidebar>
       </Stack>
     </Layout>

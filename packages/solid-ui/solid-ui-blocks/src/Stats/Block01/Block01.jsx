@@ -30,7 +30,8 @@ const StatsBlock01 = ({
               <Box
                 key={`item-${index}`}
                 sx={{
-                  flexBasis: [`1/2`, null, null, `1/4`],
+                  flex: `1`,
+                  minWidth: 100,
                   textAlign: `center`,
                   p: 1
                 }}

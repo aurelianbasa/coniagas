@@ -7,6 +7,7 @@ import Divider from '@components/Divider'
 import Seo from '@widgets/Seo'
 import AuthorExpanded from '@widgets/AuthorExpanded'
 import NewsletterExpanded from '@widgets/NewsletterExpanded'
+import TableOfContentsExpanded from '@widgets/TableOfContentsExpanded'
 import { PostBody, PostComments, PostTagsShare } from '@widgets/Post'
 
 const Post = ({
@@ -29,9 +30,15 @@ const Post = ({
           <Card {...post} variant='horizontal-hero' omitExcerpt />
         </Main>
       </Stack>
-      <Divider />
+      <Divider space={3} />
       <Stack effectProps={{ fraction: 0 }}>
         <Main>
+          {post.tableOfContents?.items && (
+            <>
+              <TableOfContentsExpanded {...post} />
+              <Divider />
+            </>
+          )}
           <CardComponent variant='paper-lg'>
             <PostBody {...post} />
             <PostTagsShare {...post} location={props.location} />

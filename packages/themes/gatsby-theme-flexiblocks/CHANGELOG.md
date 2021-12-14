@@ -3,6 +3,58 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [3.5.0](https://gitlab.com/alimoosavi15/gatsby-theme-flexiblog/compare/@elegantstack/gatsby-theme-flexiblocks@3.4.1...@elegantstack/gatsby-theme-flexiblocks@3.5.0) (2021-08-19)
+
+**Note:** Version bump only for package @elegantstack/gatsby-theme-flexiblocks
+
+
+
+
+
+
+### [3.4.1](https://gitlab.com/alimoosavi15/gatsby-theme-flexiblog/compare/@elegantstack/gatsby-theme-flexiblocks@3.4.0...@elegantstack/gatsby-theme-flexiblocks@3.4.1) (2021-08-03)
+
+**Note:** Version bump only for package @elegantstack/gatsby-theme-flexiblocks
+
+
+
+
+
+## [3.4.0](https://gitlab.com/alimoosavi15/gatsby-theme-flexiblog/compare/@elegantstack/gatsby-theme-flexiblocks@3.3.0...@elegantstack/gatsby-theme-flexiblocks@3.4.0) (2021-08-01)
+
+
+### Features
+
+* update Gatsby and dependencies ([95b3b72](https://gitlab.com/alimoosavi15/gatsby-theme-flexiblog/commit/95b3b7234b39eb66e5957f9acc0d10519b400941))
+
+
+
+
+## [3.3.0](https://gitlab.com/alimoosavi15/gatsby-theme-flexiblog/compare/@elegantstack/gatsby-theme-flexiblocks@3.2.0...@elegantstack/gatsby-theme-flexiblocks@3.3.0) (2021-06-17)
+
+
+### Features
+
+* upgrade gatsby and other dependencies ([941b5ea](https://gitlab.com/alimoosavi15/gatsby-theme-flexiblog/commit/941b5ea131271f222c557d9ab3b38da5a8140d2d))
+
+
+
+
+## [3.2.0](https://gitlab.com/alimoosavi15/gatsby-theme-flexiblog/compare/@elegantstack/gatsby-theme-flexiblocks@3.1.0...@elegantstack/gatsby-theme-flexiblocks@3.2.0) (2021-05-19)
+
+
+### Features
+
+* upgrade dependencies ([dae5750](https://gitlab.com/alimoosavi15/gatsby-theme-flexiblog/commit/dae57508db7811d0a33ceeb53d57f9b680196f37))
+
+
+### Refactor
+
+* **gatsby-theme-flexiblocks:** move alias import declerations to aliased packages ([bd688b5](https://gitlab.com/alimoosavi15/gatsby-theme-flexiblog/commit/bd688b5dca75c0161d4f41beb5647eed7f579388))
+
+
+
+
 ## [3.1.0](https://gitlab.com/alimoosavi15/gatsby-theme-flexiblog/compare/@elegantstack/gatsby-theme-flexiblocks@3.0.0...@elegantstack/gatsby-theme-flexiblocks@3.1.0) (2021-04-27)
 
 **Note:** Version bump only for package @elegantstack/gatsby-theme-flexiblocks

@@ -16,9 +16,6 @@ const indigo = {
   600: '#5a67d8',
   800: '#434190'
 }
-const blue = {
-  500: '#00afee',
-}
 const purple = {
   100: '#faf5ff',
   300: '#d6bcfa',
@@ -38,8 +35,8 @@ const red = {
 //Primary
 const alpha = {
   alphaLighter: indigo[100],
-  alphaLight: blue[500],
-  alpha: blue[500],
+  alphaLight: indigo[300],
+  alpha: indigo[500],
   alphaDark: indigo[600],
   alphaDarker: indigo[800]
 }

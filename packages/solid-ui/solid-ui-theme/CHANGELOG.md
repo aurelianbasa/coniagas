@@ -3,6 +3,16 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [3.1.0](https://gitlab.com/alimoosavi15/gatsby-theme-flexiblog/compare/@elegantstack/solid-ui-theme@3.0.0...@elegantstack/solid-ui-theme@3.1.0) (2021-05-19)
+
+
+### Features
+
+* **solid-ui-components:** add gradient text style to ContentText component ([455394f](https://gitlab.com/alimoosavi15/gatsby-theme-flexiblog/commit/455394f08ad580843cfc25ebcba2d83da2ec814e))
+
+
+
+
 ## [3.0.0](https://gitlab.com/alimoosavi15/gatsby-theme-flexiblog/compare/@elegantstack/solid-ui-theme@2.0.1...@elegantstack/solid-ui-theme@3.0.0) (2021-04-22)
 
 
