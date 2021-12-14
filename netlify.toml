@@ -1,0 +1,24 @@
+[build]
+  command = "cd site && yarn build"
+  publish = "./site/public"
+
+[build.environment]
+  NETLIFY_USE_YARN = "true"
+
+[context.production]
+  [context.production.environment]
+    CONTENTFUL_SPACE_ID=""
+    CONTENTFUL_ACCESS_TOKEN=""
+    GATSBY_ALGOLIA_APP_ID=""
+    GATSBY_ALGOLIA_SEARCH_KEY=""
+    ALGOLIA_ADMIN_KEY=""
+    GATSBY_ALGOLIA_INDEX_NAME="Posts"
+
+[[plugins]]
+  package = "netlify-plugin-gatsby-cache"
+
+[[redirects]]
+  from = "/authors"
+  to = "/404"
+  status = 301
+  force = true
