@@ -17,12 +17,34 @@ module.exports = {
         colorMode: false,
         basePath: '/news'
       }
+    },
+    // {
+    //   resolve: 'gatsby-plugin-algolia',
+    //   options: {
+    //     appId: process.env.GATSBY_ALGOLIA_APP_ID,
+    //     apiKey: process.env.ALGOLIA_ADMIN_KEY,
+    //     chunkSize: 10000,
+    //     queries: require('@elegantstack/gatsby-blog-algolia/src/queries')
+    //   }
+    // },
+    {
+      resolve: 'gatsby-plugin-manifest',
+      options: {
+        name: 'Coniagas Battery Metals',
+        short_name: 'Coniagas Battery Metals',
+        start_url: '/',
+        background_color: '#ffffff',
+        theme_color: '#5a67d8',
+        display: 'minimal-ui',
+        icon: 'content/assets/favicon.png'
+      }
     }
   ],
   siteMetadata: {
-    title: 'The Re-2Ox Process',
-    name: 'Re-2Ox Process',
-    description: 'My site description...',
+    siteUrl: 'https://coniagas.netlify.app',
+    title: 'Coniagas Battery Metals',
+    name: 'Coniagas Battery Metals',
+    description: 'Coniagas Battery Metals',
     address: 'Vancouver, Canada',
     email: 'email@example.com',
     phone: '+1 (888) 888-8888',
