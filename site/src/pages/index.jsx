@@ -26,7 +26,8 @@ const IndexPage = props => {
     <Layout theme={theme} {...props}>
       <Seo title='Home' />
       {/* Modals */}
-      <ModalWithTabs content={content['contact']} />
+      <ModalSimple content={content['privacy-policy']} />
+      <ModalSimple content={content['disclaimer']} />
       {/* Blocks */}
       <Header content={content['header']} />
       <Divider space='5' />
@@ -54,7 +55,7 @@ const IndexPage = props => {
 }
 
 export const query = graphql`
-  query homepageSiteBlockContent {
+  query homepageSiteIndexContent {
     allBlockContent(filter: { page: { in: ["site/index", "site/shared"] } }) {
       nodes {
         ...BlockContent

@@ -32,7 +32,7 @@
         }
       ],
       "avatar": {
-        "src": "../../../assets/flexiblocks/testimonials/john-doe-large.png"
+        "src": "../../../assets/site/about/john-doe-large.png"
       }
     },
     {
@@ -51,7 +51,7 @@
         }
       ],
       "avatar": {
-        "src": "../../../assets/flexiblocks/testimonials/jane-smith-large.png"
+        "src": "../../../assets/site/about/jane-smith-large.png"
       }
     },
     {
@@ -70,7 +70,7 @@
         }
       ],
       "avatar": {
-        "src": "../../../assets/flexiblocks/testimonials/sarah-doe-large.png"
+        "src": "../../../assets/site/about/sarah-doe-large.png"
       }
     },
     {
@@ -89,7 +89,7 @@
         }
       ],
       "avatar": {
-        "src": "../../../assets/flexiblocks/testimonials/steve-grant-large.png"
+        "src": "../../../assets/site/about/steve-grant-large.png"
       }
     },
     {
@@ -108,7 +108,7 @@
         }
       ],
       "avatar": {
-        "src": "../../../assets/flexiblocks/testimonials/florrie-jacobs-large.png"
+        "src": "../../../assets/site/about/florrie-jacobs-large.png"
       }
     }
   ]

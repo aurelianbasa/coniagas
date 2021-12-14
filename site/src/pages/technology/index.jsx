@@ -28,7 +28,8 @@ const Services03 = props => {
     <Layout {...props}>
       <Seo title='Home' />
       {/* Modals */}
-      <ModalWithTabs content={content['contact']} />
+      <ModalSimple content={content['privacy-policy']} />
+      <ModalSimple content={content['disclaimer']} />
       {/* Blocks */}
       <Header content={content['header']} />
       <Divider space='5' />
@@ -62,9 +63,9 @@ const Services03 = props => {
 }
 
 export const query = graphql`
-  query innerpageSiteServices03BlockContent {
+  query innerpageSiteTechnologyBlockContent {
     allBlockContent(
-      filter: { page: { in: ["site/services-03", "site/shared"] } }
+      filter: { page: { in: ["site/technology", "site/shared"] } }
     ) {
       nodes {
         ...BlockContent

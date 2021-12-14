@@ -18,7 +18,7 @@
   ],
   "images": [
     {
-      "src": "../../../assets/flexiblocks/innerpage/about-us-02/hero.jpg",
+      "src": "../../../assets/site/about/hero.jpg",
       "alt": "alt text",
       "radius": "lg",
       "shadow": "lg",

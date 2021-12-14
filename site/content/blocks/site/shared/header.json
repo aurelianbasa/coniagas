@@ -2,7 +2,7 @@
   "images": [
     {
       "src": "../../../assets/site/shared/logo.svg",
-      "width": "160px",
+      "width": "210px",
       "alt": "alt text"
     }
   ],
@@ -10,21 +10,15 @@
     {
       "buttons": [
         {
-          "text": "Home",
-          "type": "PAGE",
-          "link": "/",
-          "variant": "links.nav-dark"
-        },
-        {
           "text": "About",
           "type": "PAGE",
-          "link": "/aboutus/",
+          "link": "/about/",
           "variant": "links.nav-dark"
         },
         {
           "text": "Technology",
           "type": "PAGE",
-          "link": "/services-03/",
+          "link": "/technology/",
           "variant": "links.nav-dark"
         },
         {
