@@ -1,5 +1,5 @@
 import baseColors from '@elegantstack/flow-ui-theme/src/theme/colors'
-import preset from '@elegantstack/flow-ui-theme/src/theme/color-preset'
+import preset from '@elegantstack/solid-ui-theme/src/color-preset'
 
 const red = {
   100: '#FADDCF',
