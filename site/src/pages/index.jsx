@@ -33,11 +33,11 @@ const IndexPage = props => {
       <Hero content={content['hero']} reverse />
       <Divider space='4' />
       <Divider space='5' />
-      <Container variant='wide'>
-        <Technology content={content['technology']} reverse />
-      </Container>
+        <Technology content={content['technology']} />
       <Divider space='5' />
+      <Container variant='wide'>
       <Download content={content['download']} />
+      </Container>
       <Divider space='4' />
       <WithRecentPosts>
         <Blog content={content['latest-blogs']} />

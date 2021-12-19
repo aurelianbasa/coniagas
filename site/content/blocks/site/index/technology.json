@@ -26,7 +26,7 @@
   "buttons": [
     {
       "text": "Watch The Interview",
-      "type": "VIDEO",
+      "type": "LINK",
       "link": "https://www.youtube.com/embed/XIYzk38VcNI",
       "variant": "primary"
     }
