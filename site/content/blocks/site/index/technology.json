@@ -1,0 +1,34 @@
+{
+  "text": [
+    {
+      "text": "Sustainable by design",
+      "color": "beta",
+      "variant": "h4"
+    },
+    {
+      "text": "The Re-2Ox Process",
+      "color": "omegaDarker",
+      "variant": "h1"
+    },
+    {
+      "text": "An end-to-end, zero discharge process that produces metals that are pure enough to be used in batteries.",
+      "color": "omegaDark",
+      "variant": "medium"
+    }
+  ],
+  "images": [
+    {
+      "src": "../../../assets/site/index/hero.png",
+      "alt": "alt text",
+      "effects": ["fadeInDown"]
+    }
+  ],
+  "buttons": [
+    {
+      "text": "Watch The Interview",
+      "type": "VIDEO",
+      "link": "https://www.youtube.com/embed/XIYzk38VcNI",
+      "variant": "primary"
+    }
+  ]
+}
