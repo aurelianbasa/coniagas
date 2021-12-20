@@ -18,16 +18,16 @@
   ],
   "images": [
     {
-      "src": "../../../assets/site/index/hero.png",
+      "src": "../../../assets/site/index/technology.png",
       "alt": "alt text",
       "effects": ["fadeInDown"]
     }
   ],
   "buttons": [
     {
-      "text": "Watch The Interview",
-      "type": "VIDEO",
-      "link": "https://www.youtube.com/embed/XIYzk38VcNI",
+      "text": "How it Works",
+      "type": "PAGE",
+      "link": "technology",
       "variant": "primary"
     }
   ]
