@@ -16,7 +16,7 @@
   ],
   "images": [
     {
-      "src": "../../../assets/site/index/technology.png",
+      "src": "../../../assets/site/index/secondary.png",
       "alt": "alt text",
       "radius": "lg",
       "shadow": "default"

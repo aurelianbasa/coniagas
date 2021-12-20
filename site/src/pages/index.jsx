@@ -43,7 +43,7 @@ const IndexPage = props => {
       <Divider space='5' />
       <Primary content={content['primary']} />
       <Divider space='4' />
-      <Secondary content={content['secondary']} />
+      <Secondary content={content['secondary']} reverse />
       <Divider space='4' />
       <Tertiary content={content['tertiary']} />
       <Divider space='5' />
