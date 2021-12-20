@@ -1,0 +1,61 @@
+{
+  "text": [
+    {
+      "text": "TERTIARY",
+      "color": "omegaDark",
+      "variant": "h4"
+    },
+    {
+      "text": "**Restoration** from past mining projects",
+      "variant": "h2"
+    },
+    {
+      "text": "Abandoned tailing sites provide unique ore types and an opportunity to correct environmental damages. Historic mining operations often neglected the waste generated and the government response has largely been to pin it on future operators. As a result many rich deposits are passed over due to the immense costs of clean up being dumped on young companies.",
+      "variant": "medium"
+    }
+  ],
+  "images": [
+    {
+      "src": "../../../assets/site/index/tertiary.png",
+      "alt": "alt text"
+    }
+  ],
+  "collection": [
+    {
+      "icon": {
+        "src": "../../../assets/flexiblocks/icons/bx-check-circle.svg",
+        "color": "beta"
+      },
+      "text": [
+        {
+          "text": "Quickest to get up and running",
+          "variant": "h5"
+        }
+      ]
+    },
+    {
+      "icon": {
+        "src": "../../../assets/flexiblocks/icons/bx-check-circle.svg",
+        "color": "beta"
+      },
+      "text": [
+        {
+          "text": "Cleans up mess",
+          "variant": "h5"
+        }
+      ]
+    },
+    {
+      "icon": {
+        "src": "../../../assets/flexiblocks/icons/bx-check-circle.svg",
+        "color": "beta"
+      },
+      "text": [
+        {
+          "text": "Cost effective",
+          "variant": "h5"
+        }
+      ]
+    }
+  ]
+}

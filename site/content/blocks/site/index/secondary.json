@@ -1,0 +1,71 @@
+{
+  "text": [
+    {
+      "text": "SECONDARY",
+      "color": "omega",
+      "variant": "h4"
+    },
+    {
+      "text": "Battery Materials **Recycled**",
+      "variant": "h2"
+    },
+    {
+      "text": "Modern batteries are expected to surpass gasoline this decade, and current recycling operations lack the capacity to treat the anticipated volume. Many other battery chemistries still remain untreated in stockpiles as waste products. We have developed a closed-loop system to separate out all elements from an increasingly diverse stream of material.",
+      "variant": "medium"
+    }
+  ],
+  "images": [
+    {
+      "src": "../../../assets/site/index/technology.png",
+      "alt": "alt text",
+      "radius": "lg",
+      "shadow": "default"
+    }
+  ],
+  "collection": [
+    {
+      "text": [
+        {
+          "text": "Lithium Ion"
+        }
+      ],
+      "icon": {
+        "src": "../../../assets/flexiblocks/icons/bx-data.svg",
+        "color": "beta"
+      }
+    },
+    {
+      "text": [
+        {
+          "text": "Nickel Cadmium"
+        }
+      ],
+      "icon": {
+        "src": "../../../assets/flexiblocks/icons/bx-data.svg",
+        "color": "beta"
+      }
+    },
+    {
+      "text": [
+        {
+          "text": "Nickel Hydride"
+        }
+      ],
+      "icon": {
+        "src": "../../../assets/flexiblocks/icons/bx-data.svg",
+        "color": "beta"
+      }
+    },
+    {
+      "text": [
+        {
+          "text": "Electronic Waste"
+        }
+      ],
+      "icon": {
+        "src": "../../../assets/flexiblocks/icons/bx-analyse.svg",
+        "color": "beta"
+      }
+    }
+  ]
+}

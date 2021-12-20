@@ -1,0 +1,61 @@
+{
+  "text": [
+    {
+      "text": "PRIMARY",
+      "color": "omegaDark",
+      "variant": "h4"
+    },
+    {
+      "text": "Production is a question of **Scale**",
+      "variant": "h2"
+    },
+    {
+      "text": "The battery supply chain depends on large scale mining projects to meet increasing demand. Polymetallic deposits allow the proceeds of one to offset another.",
+      "variant": "medium"
+    }
+  ],
+  "images": [
+    {
+      "src": "../../../assets/site/index/primary.png",
+      "alt": "Sulphide mineralization from Grand Portage property",
+      "radius": "lg",
+      "shadow": "default"
+    }
+  ],
+  "collection": [
+    {
+      "icon": {
+        "src": "../../../assets/flexiblocks/icons/bx-radio-circle-marked.svg",
+        "color": "white",
+        "bg": "beta"
+      },
+      "text": [
+        {
+          "text": "Exploration",
+          "color": "omegaDarker",
+          "variant": "h5"
+        },
+        {
+          "text": "Exploration targets acquired from data compiled across Ontario and Quebec."
+        }
+      ]
+    },
+    {
+      "icon": {
+        "src": "../../../assets/flexiblocks/icons/bx-target-lock.svg",
+        "color": "white",
+        "bg": "alpha"
+      },
+      "text": [
+        {
+          "text": "Development",
+          "color": "omegaDarker",
+          "variant": "h5"
+        },
+        {
+          "text": "Past production offers new opportunities with improved technologies and competitive commodity pricing."
+        }
+      ]
+    }
+  ]
+}
