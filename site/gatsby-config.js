@@ -40,7 +40,7 @@ module.exports = {
         short_name: 'Coniagas Battery Metals',
         start_url: '/',
         background_color: '#ffffff',
-        theme_color: '#5a67d8',
+        theme_color: '#ffffff',
         display: 'minimal-ui',
         icon: 'content/assets/favicon.png'
       }
