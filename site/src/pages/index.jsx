@@ -40,7 +40,9 @@ const IndexPage = props => {
       <Divider space='5' />
         <Technology content={content['technology']} />
       <Divider space='5' />
+      <Container sx={styles.featuresContainer}>
       <Download content={content['download']} />
+      </Container>
       <Divider space='5' />
       <Container variant='wide' sx={styles.tabsContainer}>
         <Tabs space={3} variant='dots' position='bottom' arrows>

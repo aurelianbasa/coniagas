@@ -7,6 +7,7 @@
 
 export default {
   featuresContainer: {
-    bg: `beta`
+    bg: `beta`,
+    borderRadius: `xl`
   }
 }
