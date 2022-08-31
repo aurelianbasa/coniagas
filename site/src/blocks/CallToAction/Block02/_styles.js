@@ -8,6 +8,8 @@
 export default {
   featuresContainer: {
     bg: `beta`,
-    borderRadius: `xl`
+    borderRadius: `xl`,
+    py: 6,
+    px: [4, 2]
   }
 }

@@ -23,6 +23,7 @@ const CallToActionBlock02 = ({ content: { container, text, buttons } }) => (
           <Divider space='2' />
         </Box>
         <ContentButtons content={buttons} />
+        <Divider space='2' />
       </Flex>
     </ContentContainer>
   </Container>
