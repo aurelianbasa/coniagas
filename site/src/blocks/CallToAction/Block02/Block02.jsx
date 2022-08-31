@@ -9,7 +9,7 @@ import styles from './_styles'
 
 const CallToActionBlock02 = ({ content: { container, text, buttons } }) => (
   <Container sx={styles.featuresContainer}>
-    <ContentContainer content={container} variant='cards.paper'>
+    <ContentContainer content={container}>
       <Flex
         sx={{
           flexDirection: [`column`, `row`],
