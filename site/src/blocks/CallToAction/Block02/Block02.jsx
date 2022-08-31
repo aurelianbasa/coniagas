@@ -21,8 +21,8 @@ const CallToActionBlock02 = ({ content: { container, text, buttons } }) => (
         <Box sx={styles.featuresContainer}>
           <ContentText content={text} />
           <Divider space='2' />
+          <ContentButtons content={buttons} />
         </Box>
-        <ContentButtons content={buttons} />
       </Flex>
     </ContentContainer>
   </Container>
