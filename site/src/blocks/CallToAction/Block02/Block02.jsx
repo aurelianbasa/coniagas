@@ -5,9 +5,10 @@ import ContentContainer from '@solid-ui-components/ContentContainer'
 import Divider from '@solid-ui-components/Divider'
 import ContentButtons from '@solid-ui-components/ContentButtons'
 import WithDefaultContent from '@solid-ui-blocks/WithDefaultContent'
+import styles from './_styles'
 
 const CallToActionBlock02 = ({ content: { container, text, buttons } }) => (
-  <Container>
+  <Container sx={styles.featuresContainer}>
     <ContentContainer content={container} variant='cards.paper'>
       <Flex
         sx={{
