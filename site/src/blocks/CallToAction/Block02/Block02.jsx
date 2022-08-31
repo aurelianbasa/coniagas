@@ -8,7 +8,7 @@ import WithDefaultContent from '@solid-ui-blocks/WithDefaultContent'
 import styles from './_styles'
 
 const CallToActionBlock02 = ({ content: { container, text, buttons } }) => (
-  <Container>
+  <Container sx={styles.featuresContainer}>
     <ContentContainer content={container} variant='cards.paper'>
       <Flex
         sx={{

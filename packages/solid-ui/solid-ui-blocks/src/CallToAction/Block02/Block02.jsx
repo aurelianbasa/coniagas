@@ -19,7 +19,11 @@ const CallToActionBlock02 = ({ content: { container, text, buttons } }) => (
         <Box>
           <ContentText content={text} />
         </Box>
-        <ContentButtons content={buttons} />
+        <ContentButtons content={buttons} 
+        sx={{
+          alignItems: `right`
+        }}
+        />
       </Flex>
     </ContentContainer>
   </Container>
