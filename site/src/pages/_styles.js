@@ -7,22 +7,10 @@
 
 export default {
   featuresContainer: {
-    position: `relative`,
-    py: [5, 6],
-    '::before': {
-      position: `absolute`,
-      content: `" "`,
-      size: `full`,
-      top: -3,
-      right: 0,
-      zIndex: -1,
-      borderRadius: `xl`,
-      background: `linear-gradient(
-        180deg,
-        #f7f9fe 0%,
-        #f4f4f8 100%
-      )`
-    }
+    bg: `beta`,
+    borderRadius: `xl`,
+    py: 6,
+    px: [4, 2]
   },
   tabsContainer: {
     position: `relative`,

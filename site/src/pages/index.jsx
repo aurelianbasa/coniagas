@@ -11,7 +11,7 @@ import Header from '@solid-ui-blocks/Header/Block01'
 import Hero from '@solid-ui-blocks/Hero/Block01'
 import Screenshot from '@solid-ui-blocks/FeaturesWithPhoto/Block03'
 import Technology from '@solid-ui-blocks/Hero/Block01'
-import Download from '@solid-ui-blocks/CallToAction/Block02'
+import Download from '../blocks/CallToAction/Block02'
 import Primary from '@solid-ui-blocks/FeaturesWithPhoto/Block01'
 import Secondary from '@solid-ui-blocks/FeaturesWithPhoto/Block02'
 import Tertiary from '@solid-ui-blocks/FeaturesWithPhoto/Block01'
@@ -40,9 +40,10 @@ const IndexPage = props => {
       <Divider space='5' />
         <Technology content={content['technology']} />
       <Divider space='5' />
-      <Container variant='wide'>
+      <Container variant='wide' sx={styles.featuresContainer}>
       <Download content={content['download']} />
       </Container>
+      <Divider space='5' />
       <Container variant='wide' sx={styles.tabsContainer}>
         <Tabs space={3} variant='dots' position='bottom' arrows>
           <Screenshot content={content['screenshot-one']} />
