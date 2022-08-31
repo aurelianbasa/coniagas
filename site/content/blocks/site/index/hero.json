@@ -3,17 +3,20 @@
     {
       "text": "Outcome Independent",
       "color": "beta",
-      "variant": "h4"
+      "variant": "h4",
+      "align": ["left"]
     },
     {
       "text": "Active on All Fronts",
       "color": "omegaDarker",
-      "variant": "h1"
+      "variant": "h1",
+      "align": ["left"]
     },
     {
-      "text": "Clean energy will need more than just metal. Our solution adapts the feed to the user.",
+      "text": "Clean energy will need more than just metal. Our solution adapts feed to the user.",
       "color": "omegaDark",
-      "variant": "medium"
+      "variant": "medium",
+      "align": ["left"]
     }
   ],
   "images": [
@@ -27,7 +30,7 @@
     {
       "text": "Watch The Interview",
       "type": "VIDEO",
-      "link": "https://www.youtube.com/embed/XIYzk38VcNI",
+      "link": "https://www.youtube.com/embed/5nO4SoN7ZX0",
       "variant": "primary"
     }
   ]

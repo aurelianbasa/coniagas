@@ -11,7 +11,8 @@
     },
     {
       "text": "Modern batteries are expected to surpass gasoline this decade, and current recycling operations lack the capacity to treat the anticipated volume. Many other battery chemistries still remain untreated in stockpiles as waste products. We have developed a closed-loop system to separate out all elements from an increasingly diverse stream of material.",
-      "variant": "medium"
+      "variant": "medium",
+      "align": ["left"]
     }
   ],
   "images": [

@@ -13,7 +13,8 @@
     {
       "text": "An end-to-end, zero discharge process that produces metals that are pure enough to be used in batteries.",
       "color": "omegaDark",
-      "variant": "medium"
+      "variant": "medium",
+      "align": ["left"]
     }
   ],
   "images": [

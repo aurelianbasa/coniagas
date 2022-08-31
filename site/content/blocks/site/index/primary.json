@@ -11,7 +11,8 @@
     },
     {
       "text": "The battery supply chain depends on large scale mining projects to meet increasing demand. Polymetallic deposits allow the proceeds of one to offset another.",
-      "variant": "medium"
+      "variant": "medium",
+      "align": ["left"]
     }
   ],
   "images": [
