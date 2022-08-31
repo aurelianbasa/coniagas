@@ -8,7 +8,7 @@ import WithDefaultContent from '@solid-ui-blocks/WithDefaultContent'
 import styles from './_styles'
 
 const CallToActionBlock02 = ({ content: { container, text, buttons } }) => (
-  <Container sx={styles.featuresContainer}>
+  <Container>
     <ContentContainer content={container} variant='cards.paper'>
       <Flex
         sx={{
@@ -18,7 +18,7 @@ const CallToActionBlock02 = ({ content: { container, text, buttons } }) => (
           textAlign: [`left`, `left`]
         }}
       >
-        <Box>
+        <Box sx={styles.featuresContainer}>
           <ContentText content={text} />
           <Divider space='2' />
         </Box>
