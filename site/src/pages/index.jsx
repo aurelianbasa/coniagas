@@ -41,8 +41,14 @@ const IndexPage = props => {
         <Technology content={content['technology']} />
       <Divider space='5' />
       <Container sx={styles.featuresContainer}>
-      <Download content={content['download']} />
+      <Download variant='wide' content={content['download']} />
       </Container>
+      <Divider space='5' />
+      <Primary content={content['primary']} />
+      <Divider space='4' />
+      <Secondary content={content['secondary']} reverse />
+      <Divider space='4' />
+      <Tertiary content={content['tertiary']} />
       <Divider space='5' />
       <Container variant='wide' sx={styles.tabsContainer}>
         <Tabs space={3} variant='dots' position='bottom' arrows>
@@ -51,12 +57,6 @@ const IndexPage = props => {
           <Screenshot content={content['screenshot-three']} />
         </Tabs>
         </Container>
-      <Divider space='5' />
-      <Primary content={content['primary']} />
-      <Divider space='4' />
-      <Secondary content={content['secondary']} reverse />
-      <Divider space='4' />
-      <Tertiary content={content['tertiary']} />
       <Divider space='5' />
       <WithRecentPosts>
         <Blog content={content['latest-blogs']} />

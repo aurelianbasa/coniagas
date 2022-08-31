@@ -3,11 +3,13 @@
     {
       "text": "Essence of the Circular Economy",
       "color": "omegaLighter",
-      "variant": "h5"
+      "variant": "h5",
+      "space": 1
     },
     {
       "text": "Our answer to the energy transition uses a wide net and a tight filter. We balance the solutions of climate change, with practical investment, and ethical operating standards.",
-      "color": "white"
+      "color": "white",
+      "space": 3
     }
   ],
   "buttons": [
