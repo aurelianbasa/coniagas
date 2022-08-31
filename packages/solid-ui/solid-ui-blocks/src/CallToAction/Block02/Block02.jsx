@@ -7,7 +7,7 @@ import WithDefaultContent from '@solid-ui-blocks/WithDefaultContent'
 
 const CallToActionBlock02 = ({ content: { container, text, buttons } }) => (
   <Container>
-    <ContentContainer content={container} variant='cards.paper'>
+    <ContentContainer content={container}>
       <Flex
         sx={{
           flexDirection: [`column`, `row`],
