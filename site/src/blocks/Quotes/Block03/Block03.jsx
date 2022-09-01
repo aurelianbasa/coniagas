@@ -11,13 +11,21 @@ import WithDefaultContent from '@solid-ui-blocks/WithDefaultContent'
 
 const styles = {
   avatar: {
-    bg: `omegaLighter`,
-    borderTopColor: `omegaLighter`,
-    borderTopWidth: `xl`,
+    height: 230,
+    bg: `omegaLight`,
+    borderTopColor: `omegaLight`,
+    borderTopWidth: `xxl`,
     borderTopStyle: `solid`,
-    borderRadius: `lg`,
+    borderBottomColor: `beta`,
+    borderBottomWidth: `md`,
+    borderBottomStyle: `solid`,
     boxSizing: `content-box`,
-    verticalAlign: `baseline`
+    borderRadius: `top`,
+    mx: `auto`,
+    img: {
+      borderRadius: `top`,
+      objectPosition: `top center !important`
+    }
   }
 }
 
@@ -57,7 +65,6 @@ const TestimonialsBlock03 = ({
                   alignItems: `center`,
                   position: `relative`,
                   flexWrap: `wrap`,
-                  borderRadius: `xl`,
                   zIndex: 1
                 }}
               >
