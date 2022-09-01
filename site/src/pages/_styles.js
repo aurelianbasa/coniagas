@@ -9,8 +9,8 @@ export default {
   featuresContainer: {
     bg: `beta`,
     borderRadius: `xl`,
-    py: 2,
-    px: [2, 2]
+    py: 1,
+    px: [1, 1]
   },
   tabsContainer: {
     position: `relative`,
