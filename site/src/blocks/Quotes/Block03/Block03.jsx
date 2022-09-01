@@ -11,11 +11,11 @@ import WithDefaultContent from '@solid-ui-blocks/WithDefaultContent'
 const styles = {
   avatar: {
     height: 230,
-    bg: `omegaLight`,
-    borderTopColor: `omegaLight`,
+    bg: `white`,
+    borderTopColor: `white`,
     borderTopWidth: `xxl`,
     borderTopStyle: `solid`,
-    borderBottomColor: `beta`,
+    borderBottomColor: `white`,
     borderBottomWidth: `md`,
     borderBottomStyle: `solid`,
     boxSizing: `content-box`,
