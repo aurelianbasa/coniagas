@@ -31,23 +31,11 @@ export default {
     }
   },
   testimonialsContainer: {
-    position: `relative`,
-    pt: 6,
-    pb: 5,
-    '::before': {
-      position: `absolute`,
-      content: `" "`,
-      width: `full`,
-      height: `full`,
-      top: 0,
-      right: 0,
-      zIndex: -1,
-      borderRadius: `xl`,
-      background: `linear-gradient(
-        180deg,
-        #f7f9fe 0%,
-        #f4f4f8 100%
-      )`
-    }
+    py: [5, 6],
+    background: t => `linear-gradient(
+      150deg,
+      ${t.colors.omegaDark} 50%,
+      ${t.colors.omegaDarker} 100%
+    )`
   }
 }
