@@ -1,0 +1,50 @@
+{
+  "text": [
+    {
+      "text": "Essence of the **Circular Economy**",
+      "variant": "h2",
+      "align": ["left"]
+    },
+    {
+      "text": "Our answer to the energy transition uses a wide net and a tight filter. We balance the solutions of climate change, with practical investment, and ethical operating standards.",
+      "variant": "medium",
+      "align": ["left"]
+    }
+  ],
+  "collection": [
+    {
+      "text": [
+        {
+          "text": "Frank Basa",
+          "variant": "h5"
+        },
+        {
+          "text": "Founder & CEO",
+          "color": "omegaDark",
+          "variant": "h6"
+        },
+        {
+          "text": "When our team first looked at all of these processes, they were all smelter-based. The majority of the battery metals produced by those smelters were secondary. We now have our own primary metals, which we will purify using a mineral separation process."
+        }
+      ],
+      "avatar": {
+        "src": "../../../assets/site/index/headshot.png",
+        "alt": "alt text"
+      }
+    }
+  ],
+  "buttons": [
+    {
+      "text": "Our Presentation",
+      "type": "PAGE",
+      "link": "/Presentation.pdf",
+      "variant": "primary"
+    },
+    {
+      "text": "Investors  ➜",
+      "type": "PAGE",
+      "link": "/investors",
+      "variant": "secondary"
+    }
+  ]
+}
