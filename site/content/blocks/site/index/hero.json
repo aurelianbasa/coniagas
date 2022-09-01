@@ -1,7 +1,7 @@
 {
   "text": [
     {
-      "text": "Outcome Independent",
+      "text": "OUTCOME INDEPENDENT",
       "color": "beta",
       "variant": "h4",
       "align": ["left"]
@@ -15,7 +15,7 @@
     {
       "text": "Clean energy needs more than just metal. Our solution adapts feed to the user.",
       "color": "omegaDark",
-      "variant": "medium",
+      "variant": "h5",
       "align": ["left"]
     }
   ],
