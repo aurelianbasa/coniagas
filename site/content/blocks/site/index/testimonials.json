@@ -18,12 +18,14 @@
       "text": [
         {
           "text": "The Re-2Ox Process",
-          "variant": "h5"
+          "color": "beta",
+          "variant": "h4"
         },
         {
           "text": "Sustainable by design",
           "color": "omegaDark",
-          "variant": "h6"
+          "variant": "h6",
+          "space": 2
         },
         {
           "text": "An end-to-end, zero discharge process that produces metals pure enough to be used in batteries."
