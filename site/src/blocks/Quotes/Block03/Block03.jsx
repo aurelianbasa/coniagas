@@ -57,6 +57,7 @@ const TestimonialsBlock03 = ({
                   alignItems: `center`,
                   position: `relative`,
                   flexWrap: `wrap`,
+                  borderRadius: `xl`,
                   zIndex: 1
                 }}
               >

@@ -6,11 +6,12 @@
       "variant": "h4"
     },
     {
-      "text": "Battery Materials **Recycled**",
+      "text": "**Battery Materials** Recycled",
+      "color": "beta",
       "variant": "h2"
     },
     {
-      "text": "Modern batteries are expected to surpass gasoline this decade, and current recycling operations lack the capacity to treat the anticipated volume. Many other battery chemistries still remain untreated in stockpiles as waste products. We have developed a closed-loop system to separate out all elements from an increasingly diverse stream of material.",
+      "text": "Recycling contributes only a fraction of total metal supply. That will need to increase dramatically if the energy transition continues on pace to replace fossil fuels. While lithium ion battery stockpiles are limited in size, other battery chemistries offer significant opportunity. Our closed-loop system separates all elements from an increasingly diverse stream of material.",
       "variant": "medium",
       "align": ["left"]
     }

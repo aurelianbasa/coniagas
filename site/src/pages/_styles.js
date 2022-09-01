@@ -31,7 +31,10 @@ export default {
     }
   },
   testimonialsContainer: {
-    py: [5, 6],
+    position: `relative`,
+    borderRadius: `xl`,
+    pt: 6,
+    pb: 5,
     background: t => `linear-gradient(
       150deg,
       ${t.colors.omegaDark} 50%,
