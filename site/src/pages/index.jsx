@@ -47,12 +47,12 @@ const IndexPage = props => {
       <Divider space='5' />
       <Primary content={content['primary']} />
       <Divider space='4' />
-      <Secondary content={content['secondary']} reverse />
+      <Secondary content={content['secondary']} />
       <Divider space='4' />
       <Tertiary content={content['tertiary']} />
       <Divider space='5' />
       <Container variant='wide' sx={styles.tabsContainer}>
-        <Tabs space={3} variant='dots' position='bottom' arrows>
+        <Tabs space={3} variant='dots' position='bottom'>
           <Screenshot content={content['screenshot-one']} />
           <Screenshot content={content['screenshot-two']} />
           <Screenshot content={content['screenshot-three']} />

@@ -19,7 +19,10 @@
   "images": [
     {
       "src": "../../../assets/site/index/tertiary.jpg",
-      "alt": "Abandoned mine site"
+      "alt": "Abandoned mine site",
+      "radius": "lg",
+      "shadow": "default",
+      "effects": ["fadeInLeft"]
     }
   ],
   "collection": [

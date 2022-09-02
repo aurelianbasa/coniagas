@@ -22,8 +22,7 @@ const styles = {
     borderRadius: `top`,
     mx: `auto`,
     img: {
-      borderRadius: `top`,
-      objectPosition: `top center !important`
+      borderRadius: `full`
     }
   }
 }

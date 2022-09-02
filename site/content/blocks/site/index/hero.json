@@ -23,7 +23,7 @@
     {
       "src": "../../../assets/site/index/hero.png",
       "alt": "alt text",
-      "effects": ["fadeInDown"]
+      "effects": ["fadeInUp"]
     }
   ],
   "buttons": [
