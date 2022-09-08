@@ -1,16 +1,16 @@
 {
     "text": [
       {
-        "text": "GROW YOUR BUSINESS",
+        "text": "Planning for the Future",
         "color": "omegaDark",
         "variant": "h4"
       },
       {
-        "text": "Best Marketing Service for **Technological Era**",
+        "text": "A New Era of **Energy Transition**",
         "variant": "h2"
       },
       {
-        "text": "Target your audience based on their interests. Lorem ipsum dolor sit amet, consectetur magna aliqua.",
+        "text": "The figures cited below are drawn from Benchmark Minerals, S & P Global, and IEA comparing projections from 2025 and 2035.",
         "variant": "medium"
       }
     ],
@@ -33,20 +33,20 @@
       {
         "text": [
           {
-            "text": "Advanced Panel",
+            "text": "Copper",
             "color": "omegaDarker",
             "variant": "h5"
           },
           {
-            "text": "Tempor incididunt ut labore."
+            "text": ""
           },
           {
-            "text": "60",
+            "text": "19",
             "color": "omega",
             "variant": "h2"
           },
           {
-            "text": "80",
+            "text": "88",
             "color": "beta",
             "variant": "h2"
           }
@@ -56,15 +56,38 @@
       {
         "text": [
           {
-            "text": "Advanced Panel",
+            "text": "Nickel",
             "color": "omegaDarker",
             "variant": "h5"
           },
           {
-            "text": "Tempor incididunt ut labore."
+            "text": ""
           },
           {
-            "text": "40",
+            "text": "28",
+            "color": "omega",
+            "variant": "h2"
+          },
+          {
+            "text": "96",
+            "color": "beta",
+            "variant": "h2"
+          }
+
+        ]
+      },
+      {
+        "text": [
+          {
+            "text": "Cobalt",
+            "color": "omegaDarker",
+            "variant": "h5"
+          },
+          {
+            "text": ""
+          },
+          {
+            "text": "30",
             "color": "omega",
             "variant": "h4"
           },
