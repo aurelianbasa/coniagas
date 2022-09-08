@@ -41,10 +41,16 @@
             "text": "Tempor incididunt ut labore."
           },
           {
-            "text": "80",
+            "text": "60",
             "color": "beta",
             "variant": "h2"
+          },
+          {
+            "text": "80",
+            "color": "alpha",
+            "variant": "h2"
           }
+
         ]
       },
       {
@@ -58,9 +64,14 @@
             "text": "Tempor incididunt ut labore."
           },
           {
-            "text": "60",
+            "text": "40",
             "color": "beta",
-            "variant": "h2"
+            "variant": "h4"
+          },
+          {
+            "text": "90",
+            "color": "omega",
+            "variant": "h3"
           }
         ]
       },
