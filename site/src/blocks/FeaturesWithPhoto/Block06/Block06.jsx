@@ -66,7 +66,9 @@ const FeaturesWithPhotoBlock06 = ({
                   to={text?.[2]?.text}
                   duration={2}
                 />
+                 <Box sx={styles.right}>
                 <Counter from='0' to={text?.[2]?.text} duration={2} /> %
+                </Box>
                    <Divider space={1} />
                 <ProgressBar
                   color={text?.[4]?.color || undefined}
@@ -74,7 +76,9 @@ const FeaturesWithPhotoBlock06 = ({
                   to={text?.[3]?.text}
                   duration={4}
                 />
-                <Counter from='0' to={text?.[3]?.text} duration={2} /> %
+                 <Box sx={styles.right}>
+                <Counter from='0' to={text?.[3]?.text} duration={4} /> %
+                </Box>
               </Box>
             ))}
           </>
