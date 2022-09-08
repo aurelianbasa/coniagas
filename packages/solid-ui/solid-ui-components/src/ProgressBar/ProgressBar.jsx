@@ -6,7 +6,7 @@ const ProgressBar = ({ from, to, delay, duration, color, bg }) => (
   <Box
     sx={{
       width: `full`,
-      height: `8px`,
+      height: `12px`,
       borderRadius: `full`,
       bg
     }}
