@@ -11,6 +11,13 @@ import ContentImages from '@solid-ui-components/ContentImages'
 import ContentButtons from '@solid-ui-components/ContentButtons'
 import WithDefaultContent from '@solid-ui-blocks/WithDefaultContent'
 
+const styles = {
+  right: {
+    flexBasis: `1/3`,
+   textAlign: `right`
+  }
+}
+
 const FeaturesWithPhotoBlock06 = ({
   content: { text, images, collection, buttons },
   reverse
