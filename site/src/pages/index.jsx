@@ -11,6 +11,7 @@ import Header from '@solid-ui-blocks/Header/Block01'
 import Hero from '@solid-ui-blocks/Hero/Block01'
 import Screenshot from '@solid-ui-blocks/FeaturesWithPhoto/Block03'
 import Testimonials from '../blocks/Quotes/Block03'
+import Comparison from '../blocks/FeaturesWithPhoto/Block06'
 import Primary from '@solid-ui-blocks/FeaturesWithPhoto/Block01'
 import Secondary from '@solid-ui-blocks/FeaturesWithPhoto/Block02'
 import Tertiary from '@solid-ui-blocks/FeaturesWithPhoto/Block01'
@@ -58,6 +59,8 @@ const IndexPage = props => {
           <Screenshot content={content['screenshot-three']} />
         </Tabs>
         </Container>
+      <Divider space='5' />
+      <Comparison content={content['comparison']} />
       <Divider space='5' />
       <WithRecentPosts>
         <Blog content={content['latest-blogs']} />
