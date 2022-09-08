@@ -42,9 +42,7 @@ const IndexPage = props => {
       <Divider space='5' />
       <Divider space='5' />
       <Divider space='5' />
-      <Container variant='wide' sx={styles.testimonialsContainer}>
-      <Testimonials content={content['testimonials']} />
-      </Container>
+      <Comparison content={content['comparison']} />
       <Divider space='5' />
       <Primary content={content['primary']} />
       <Divider space='4' />
@@ -60,7 +58,9 @@ const IndexPage = props => {
         </Tabs>
         </Container>
       <Divider space='5' />
-      <Comparison content={content['comparison']} />
+      <Container variant='wide' sx={styles.testimonialsContainer}>
+      <Testimonials content={content['testimonials']} />
+      </Container>
       <Divider space='5' />
       <WithRecentPosts>
         <Blog content={content['latest-blogs']} />
