@@ -42,12 +42,12 @@
           },
           {
             "text": "60",
-            "color": "beta",
+            "color": "omega",
             "variant": "h2"
           },
           {
             "text": "80",
-            "color": "alpha",
+            "color": "beta",
             "variant": "h2"
           }
 
@@ -65,12 +65,12 @@
           },
           {
             "text": "40",
-            "color": "beta",
+            "color": "omega",
             "variant": "h4"
           },
           {
             "text": "90",
-            "color": "omega",
+            "color": "beta",
             "variant": "h3"
           }
         ]
