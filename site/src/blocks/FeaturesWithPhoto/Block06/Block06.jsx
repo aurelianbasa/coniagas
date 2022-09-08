@@ -65,11 +65,12 @@ const FeaturesWithPhotoBlock06 = ({
                   to={text?.[4]?.text}
                   duration={2}
                 />
+                   <Divider space={1} />
                 <ProgressBar
                   color={text?.[4]?.color || undefined}
                   from='0%'
                   to={text?.[4]?.text}
-                  duration={2}
+                  duration={4}
                 />
               </Box>
             ))}
