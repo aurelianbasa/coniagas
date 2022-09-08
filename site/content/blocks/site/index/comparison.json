@@ -16,17 +16,8 @@
     ],
     "images": [
       {
-        "src": "../../../assets/flexiblocks/homepage/fintech/feature-two.png",
+        "src": "../../../assets/site/index/car.png",
         "alt": "alt text"
-      },
-      {
-        "src": "../../../assets/flexiblocks/homepage/fintech/feature-two-overlay-one.png",
-        "alt": "alt text",
-        "effects": ["fadeInDown", "float"],
-        "position": {
-          "bottom": "10%",
-          "left": "5%"
-        }
       }
     ],
     "collection": [
