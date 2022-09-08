@@ -68,7 +68,7 @@ const FeaturesWithPhotoBlock06 = ({
                 </Flex>
 
                 <ProgressBar
-                  color={text?.[4]?.color || undefined}
+                  color={text?.[1]?.color || undefined}
                   from='0%'
                   to={text?.[2]?.text}
                   duration={2}
