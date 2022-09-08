@@ -62,7 +62,7 @@ const FeaturesWithPhotoBlock06 = ({
                 <ProgressBar
                   color={text?.[4]?.color || undefined}
                   from='0%'
-                  to={text?.[4]?.text}
+                  to={text?.[3]?.text}
                   duration={2}
                 />
                 <Counter from='0' to={text?.[2]?.text} duration={2} /> %
@@ -70,7 +70,7 @@ const FeaturesWithPhotoBlock06 = ({
                 <ProgressBar
                   color={text?.[4]?.color || undefined}
                   from='0%'
-                  to={text?.[4]?.text}
+                  to={text?.[5]?.text}
                   duration={4}
                 />
               </Box>
