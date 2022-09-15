@@ -27,7 +27,7 @@ const FeaturesBlock06 = ({ content: { text = [], collection, buttons } }) => (
                 <ContentContainer content={container}>
                 <Reveal effect='fadeInGrow' delay={0.2 * (index + 2)}>
                   <ContentText content={text?.[4]} mb='0'>
-                    <Counter to={parseInt(text?.[0]?.text)} />
+                    <Counter to={parseInt(text?.[4]?.text)} />
                   </ContentText>
                   <ContentText
                     content={text?.[2]}
