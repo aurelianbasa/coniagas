@@ -1,0 +1,39 @@
+
+ { 
+  "text": [
+    {
+      "text": "Reasons why we are **Outcome Independent**",
+      "variant": "h1"
+    },
+    {
+      "text": "44",
+      "variant": "medium"
+    },
+    {
+      "text": "46",
+      "variant": "medium"
+    }
+  ],
+  "collection": [
+    {
+      "container": {
+        "variant": "cards.paper"
+      },
+      "text": [
+        {
+          "text": "82",
+          "color": "omegaDarker",
+          "variant": "h5"
+        },
+        {
+          "text": "86"
+        }
+      ],
+      "icon": {
+        "src": "../../../assets/flexiblocks/icons/move-through.svg",
+        "bg": "#C4D647",
+        "color": "#FFFFFF"
+      }
+    }
+  ]
+}
