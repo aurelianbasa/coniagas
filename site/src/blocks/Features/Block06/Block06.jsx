@@ -30,7 +30,7 @@ const FeaturesBlock06 = ({ content: { text = [], collection, buttons } }) => (
                     <Counter to={parseInt(text?.[4]?.text)} />
                   </ContentText>
                   <ContentText
-                    content={text?.[2]}
+                    content={text?.[4]}
                     sx={{ fontWeight: `body` }}
                     mb='0'
                   />
