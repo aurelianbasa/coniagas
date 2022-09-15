@@ -23,7 +23,7 @@ const FeaturesBlock06 = ({
             {collection.map(({ container, ...props }, index) => (
               <Box
                 key={`item-${index}`}
-                sx={{ flexBasis: [`1`, `1/2`, null, `1/4`], p: 3 }}
+                sx={{ flexBasis: [`1/2`], p: 3 }}
               >
                 <ContentContainer content={container}>
                 <Reveal effect='fadeInGrow' delay={0.2 * (index + 2)}>
@@ -33,13 +33,10 @@ const FeaturesBlock06 = ({
                     mb='0'
                   />
                   
-                  <ContentText content={text?.[2]} mb='0'>
                   <Counter from='0' to={text?.[2]?.text} duration={4} />
-                  </ContentText>
-                 
-                  <ContentText content={text?.[3]} mb='0'>
+                
                   <Counter from='0' to={text?.[3]?.text} duration={4} />
-                  </ContentText>
+          
                 
                 </Reveal>
                   <ListItem
