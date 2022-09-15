@@ -5,12 +5,11 @@ import Divider from '@solid-ui-components/Divider'
 import Counter from '@solid-ui-components/Counter'
 import ContentContainer from '@solid-ui-components/ContentContainer'
 import ContentText from '@solid-ui-components/ContentText'
-import ListItem from '@solid-ui-components/ListItem'
 import ContentButtons from '@solid-ui-components/ContentButtons'
 import WithDefaultContent from '@solid-ui-blocks/WithDefaultContent'
 
 const FeaturesBlock06 = ({ 
-  content: { text = [], collection, buttons } }) => (
+  content: { text, collection, buttons } }) => (
   <Container sx={{ textAlign: `center` }}>
     <Box>
       <ContentText content={text} />
@@ -20,7 +19,7 @@ const FeaturesBlock06 = ({
         <Divider />
         <Reveal effect='fadeInDown'>
           <Flex sx={{ justifyContent: `center`, flexWrap: `wrap`, m: -3 }}>
-            {collection.map(({ container, ...props }, index) => (
+            {collection.map(({ container, text }, index) => (
               <Box
                 key={`item-${index}`}
                 sx={{ flexBasis: [`1/2`], p: 3 }}
@@ -35,12 +34,6 @@ const FeaturesBlock06 = ({
           
                 </ContentText>
                 </Reveal>
-                  <ListItem
-                    {...props}
-                    iconProps={{ round: true }}
-                    vertical
-                    center
-                  />
                 </ContentContainer>
               </Box>
               
