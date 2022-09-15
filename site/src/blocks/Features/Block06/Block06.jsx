@@ -25,14 +25,6 @@ const FeaturesBlock06 = ({ content: { text = [], collection, buttons } }) => (
                 sx={{ flexBasis: [`1`, `1/2`, null, `1/4`], p: 3 }}
               >
                 <ContentContainer content={container}>
-                  <ListItem
-                    {...props}
-                    iconProps={{ round: true }}
-                    vertical
-                    center
-                  />
-                </ContentContainer>
-                
                 <Reveal effect='fadeInGrow' delay={0.2 * (index + 2)}>
                   <ContentText content={text?.[0]} mb='0'>
                     <Counter to={parseInt(text?.[0]?.text)} />
@@ -43,6 +35,15 @@ const FeaturesBlock06 = ({ content: { text = [], collection, buttons } }) => (
                     mb='0'
                   />
                 </Reveal>
+                  <ListItem
+                    {...props}
+                    iconProps={{ round: true }}
+                    vertical
+                    center
+                  />
+                </ContentContainer>
+                
+                
               
               </Box>
               

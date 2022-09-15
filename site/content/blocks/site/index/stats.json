@@ -30,7 +30,7 @@
         }
       ],
       "icon": {
-        "src": "../../../assets/flexiblocks/icons/move-through.svg",
+        "src": "../../../assets/flexiblocks/icons/bx-analyse.svg",
         "bg": "#C4D647",
         "color": "#FFFFFF"
       }
