@@ -26,11 +26,11 @@ const FeaturesBlock06 = ({ content: { text = [], collection, buttons } }) => (
               >
                 <ContentContainer content={container}>
                 <Reveal effect='fadeInGrow' delay={0.2 * (index + 2)}>
-                  <ContentText content={text?.[0]} mb='0'>
+                  <ContentText content={text?.[4]} mb='0'>
                     <Counter to={parseInt(text?.[0]?.text)} />
                   </ContentText>
                   <ContentText
-                    content={text?.[1]}
+                    content={text?.[2]}
                     sx={{ fontWeight: `body` }}
                     mb='0'
                   />
@@ -42,9 +42,6 @@ const FeaturesBlock06 = ({ content: { text = [], collection, buttons } }) => (
                     center
                   />
                 </ContentContainer>
-                
-                
-              
               </Box>
               
             ))}
