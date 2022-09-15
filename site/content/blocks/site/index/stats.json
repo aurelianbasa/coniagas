@@ -2,15 +2,15 @@
  { 
   "text": [
     {
-      "text": "Reasons why we are **Outcome Independent**",
+      "text": "Planning for the Future",
       "variant": "h1"
     },
     {
-      "text": "44",
+      "text": "",
       "variant": "medium"
     },
     {
-      "text": "2000",
+      "text": "",
       "variant": "medium"
     }
   ],
@@ -21,16 +21,42 @@
       },
       "text": [
         {
-          "text": "82",
+          "text": "Cobalt",
           "color": "omegaDarker",
           "variant": "h5"
         },
         {
-          "text": "86"
+          "text": "177"
+        },
+        {
+          "text": "489"
         }
       ],
       "icon": {
-        "src": "../../../assets/flexiblocks/icons/bx-analyse.svg",
+        "src": "../../../assets/flexiblocks/icons/move-through.svg",
+        "bg": "#C4D647",
+        "color": "#FFFFFF"
+      }
+    },
+    {
+      "container": {
+        "variant": "cards.paper"
+      },
+      "text": [
+        {
+          "text": "Nickel",
+          "color": "omegaDarker",
+          "variant": "h5"
+        },
+        {
+          "text": "3160"
+        },
+        {
+            "text": "6200"
+          }
+      ],
+      "icon": {
+        "src": "../../../assets/flexiblocks/icons/escape-mainstream.svg",
         "bg": "#C4D647",
         "color": "#FFFFFF"
       }

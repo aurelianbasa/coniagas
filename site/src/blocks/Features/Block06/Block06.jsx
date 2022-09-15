@@ -27,14 +27,14 @@ const FeaturesBlock06 = ({
               >
                 <ContentContainer content={container}>
                 <Reveal effect='fadeInGrow' delay={0.2 * (index + 2)}>
-                  <ContentText content={text?.[4]} mb='0'>
-                    <Counter to={parseInt(text?.[4]?.text)} />
-                  </ContentText>
-                  <ContentText
+                <ContentText
                     content={text?.[4]}
                     sx={{ fontWeight: `body` }}
                     mb='0'
                   />
+                  <ContentText content={text?.[4]} mb='0'>
+                    <Counter to={parseInt(text?.[4]?.text)} />
+                  </ContentText>
                 </Reveal>
                   <ListItem
                     {...props}
