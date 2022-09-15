@@ -5,56 +5,60 @@ import Divider from '@solid-ui-components/Divider'
 import Counter from '@solid-ui-components/Counter'
 import ContentContainer from '@solid-ui-components/ContentContainer'
 import ContentText from '@solid-ui-components/ContentText'
-import ListItem from '@solid-ui-components/ListItem'
 import ContentButtons from '@solid-ui-components/ContentButtons'
 import WithDefaultContent from '@solid-ui-blocks/WithDefaultContent'
 
-const FeaturesBlock06 = ({ content: { text = [], collection, buttons } }) => (
+const FeaturesBlock06 = ({ 
+  content: { text, container, collection, buttons }
+}) => (
   <Container sx={{ textAlign: `center` }}>
-    <Box>
+    <ContentContainer content={container} variant='cards.paper-lg'>
       <ContentText content={text} />
-    </Box>
-    {collection && (
-      <>
-        <Divider />
-        <Reveal effect='fadeInDown'>
-          <Flex sx={{ justifyContent: `center`, flexWrap: `wrap`, m: -3 }}>
-            {collection.map(({ container, ...props }, index) => (
+      {text && collection && <Divider space={3} />}
+      {collection && (
+        <>
+          <Flex
+            sx={{
+              flexWrap: `wrap`,
+              alignItems: `flex-start`,
+              alignContent: `center`,
+              justifyContent: `center`,
+              m: -1
+            }}
+          >
+            {collection?.map(({ text }, index) => (
               <Box
                 key={`item-${index}`}
-                sx={{ flexBasis: [`1`, `1/2`, null, `1/4`], p: 3 }}
+                sx={{
+                  flex: `1`,
+                  minWidth: 100,
+                  textAlign: `center`,
+                  p: 1
+                }}
               >
-                <ContentContainer content={container}>
                 <Reveal effect='fadeInGrow' delay={0.2 * (index + 2)}>
-                  <ContentText content={text?.[4]} mb='0'>
-                    <Counter to={parseInt(text?.[4]?.text)} />
+                <ContentText content={text} />
+                  <ContentText content={text?.[0]} mb='0'>
+                    <Counter to={parseInt(text?.[0]?.text)} />
                   </ContentText>
                   <ContentText
-                    content={text?.[4]}
+                    content={text?.[1]}
                     sx={{ fontWeight: `body` }}
                     mb='0'
                   />
                 </Reveal>
-                  <ListItem
-                    {...props}
-                    iconProps={{ round: true }}
-                    vertical
-                    center
-                  />
-                </ContentContainer>
               </Box>
-              
             ))}
           </Flex>
-        </Reveal>
-      </>
-    )}
-    {buttons && (
-      <>
-        <Divider space={3} />
-        <ContentButtons content={buttons} />
-      </>
-    )}
+        </>
+      )}
+      {buttons && (
+        <>
+          <Divider />
+          <ContentButtons content={buttons} />
+        </>
+      )}
+    </ContentContainer>
   </Container>
 )
 
