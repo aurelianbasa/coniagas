@@ -20,12 +20,17 @@
             "variant": "h1"
             },          
             {
-            "text": "450",
+            "text": "",
             "color": "alpha",
             "variant": "h1"
           },
           {
-            "text": "Leads Generated",
+            "text": "Cobalt",
+            "color": "omegaDark",
+            "variant": "h5"
+          },
+          {
+            "text": "",
             "color": "omegaDark",
             "variant": "h5"
           }
