@@ -26,13 +26,13 @@ const FeaturesBlock06 = ({
               >
                 <ContentContainer content={container}>
                 <Reveal effect='fadeInGrow' delay={0.2 * (index + 2)}>
-                <ContentText content={text}>
-                  
-                  <Counter from='0' to={text?.[1]?.text} duration={4} />
-                
+                <ContentText content={text} />
+                <ContentText content={text?.[3]} mb='0'>
+                  <Counter from='0' to={text?.[3]?.text} duration={4} />
+                  </ContentText>
+                  <ContentText content={text?.[4]} mb='0'>
                   <Counter from='0' to={text?.[4]?.text} duration={4} />
-          
-                </ContentText>
+                  </ContentText>
                 </Reveal>
                 </ContentContainer>
               </Box>
