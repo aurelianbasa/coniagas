@@ -41,11 +41,11 @@ const IndexPage = props => {
       <Hero content={content['hero']} reverse />
       </Container>
       <Divider space='5' />
-      <Stats content={content['stats']} />
-      <Divider space='5' />
-      <Divider space='5' />
-      <Divider space='5' />
       <Comparison content={content['comparison']} />
+      <Divider space='5' />
+      <Divider space='5' />
+      <Divider space='5' />
+      <Stats content={content['stats']} />
       <Divider space='5' />
       <Primary content={content['primary']} />
       <Divider space='4' />
