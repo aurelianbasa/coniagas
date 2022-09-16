@@ -1,65 +1,63 @@
-
- { 
-  "text": [
-    {
-      "text": "Planning for the Future",
-      "variant": "h1"
-    },
-    {
-      "text": "",
-      "variant": "medium"
-    },
-    {
-      "text": "",
-      "variant": "medium"
-    }
-  ],
+{
   "collection": [
     {
       "container": {
-        "variant": "cards.paper"
+        "variant": "cards.interactive"
       },
       "text": [
+        null,
         {
           "text": "Cobalt",
           "color": "omegaDarker",
-          "variant": "h5"
+          "variant": "h1"
         },
         {
-          "text": "177"
+          "text": "Current Supply: 177,000 t",
+          "color": "omega",
+          "variant": "h4"
         },
         {
-          "text": "489"
+          "text": "Expected Demand: 489,000 t",
+          "color": "beta",
+          "variant": "h3"
         }
+
       ],
-      "icon": {
-        "src": "../../../assets/flexiblocks/icons/move-through.svg",
-        "bg": "#C4D647",
-        "color": "#FFFFFF"
-      }
+      "images": [
+        {
+          "src": "../../../assets/site/index/gallery-1.jpg",
+          "alt": "alt text"
+        }
+      ]
     },
     {
       "container": {
-        "variant": "cards.paper"
+        "variant": "cards.interactive"
       },
       "text": [
+        null,
         {
           "text": "Nickel",
           "color": "omegaDarker",
-          "variant": "h5"
+          "variant": "h1"
         },
         {
-          "text": "3160"
+          "text": "Current Supply: 3,160,000",
+          "color": "omega",
+          "variant": "h4"
         },
         {
-            "text": "6200"
-          }
+          "text": "Expected Demand: 6,200,000",
+          "color": "beta",
+          "variant": "h3"
+        }
       ],
-      "icon": {
-        "src": "../../../assets/flexiblocks/icons/escape-mainstream.svg",
-        "bg": "#C4D647",
-        "color": "#FFFFFF"
-      }
+      "images": [
+        {
+          "src": "../../../assets/site/index/gallery-2.jpg",
+          "alt": "alt text"
+        }
+      ]
     }
   ]
 }
