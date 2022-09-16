@@ -14,7 +14,7 @@
         {
           "text": "Current Supply: 177,000 t",
           "color": "omega",
-          "variant": "h4"
+          "variant": "h3"
         },
         {
           "text": "Expected Demand: 489,000 t",
@@ -44,7 +44,7 @@
         {
           "text": "Current Supply: 3,160,000",
           "color": "omega",
-          "variant": "h4"
+          "variant": "h3"
         },
         {
           "text": "Expected Demand: 6,200,000",
