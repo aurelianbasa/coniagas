@@ -13,9 +13,6 @@ import { FaRegClock } from 'react-icons/fa'
 const styles = {
   wrapper: {
     flex: [`50%`],
-    minWidth: 200,
-    maxWidth: 500,
-    cursor: `pointer`,
     p: 3
   },
   card: {
@@ -76,7 +73,7 @@ const styles = {
 
 const BlogBlock01 = ({ content: { text, collection, buttons } }) => (
   <Container>
-    <Box sx={{ textAlign: `center` }}>
+    <Box sx={{ textAlign: `left` }}>
       <ContentText content={text} />
     </Box>
     <Divider />
