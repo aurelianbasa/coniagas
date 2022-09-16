@@ -12,9 +12,9 @@ import { FaRegClock } from 'react-icons/fa'
 
 const styles = {
   wrapper: {
-    flex: [`100%`, null, null, 1],
+    flex: [`50%`],
     minWidth: 200,
-    maxWidth: [`none`, null, null, 300],
+    maxWidth: 500,
     cursor: `pointer`,
     p: 3
   },
