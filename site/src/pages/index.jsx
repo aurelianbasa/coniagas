@@ -3,19 +3,14 @@ import { graphql } from 'gatsby'
 import { Container } from 'theme-ui'
 import Layout from '@solid-ui-layout/Layout'
 import Seo from '@solid-ui-components/Seo'
-import Tabs from '@solid-ui-components/Tabs'
 import Divider from '@solid-ui-components/Divider'
 import ModalWithTabs from '@solid-ui-blocks/Modal/Block01'
 import ModalSimple from '@solid-ui-blocks/Modal/Block02'
 import Header from '@solid-ui-blocks/Header/Block01'
 import Hero from '@solid-ui-blocks/Hero/Block01'
-import Screenshot from '@solid-ui-blocks/FeaturesWithPhoto/Block03'
 import Testimonials from '../blocks/Quotes/Block03'
 import Comparison from '../blocks/FeaturesWithPhoto/Block06'
 import Stats from '../blocks/Features/Block06'
-import Primary from '@solid-ui-blocks/FeaturesWithPhoto/Block01'
-import Secondary from '@solid-ui-blocks/FeaturesWithPhoto/Block02'
-import Tertiary from '@solid-ui-blocks/FeaturesWithPhoto/Block01'
 import Blog from '@solid-ui-blocks/Blog/Block01'
 import Footer from '@solid-ui-blocks/Footer/Block01'
 import { normalizeBlockContentNodes } from '@blocks-helpers'
@@ -41,25 +36,11 @@ const IndexPage = props => {
       <Hero content={content['hero']} reverse />
       </Container>
       <Divider space='5' />
+      <Divider space='5' />
       <Comparison content={content['comparison']} />
       <Divider space='5' />
       <Divider space='5' />
-      <Divider space='5' />
       <Stats content={content['stats']} />
-      <Divider space='5' />
-      <Primary content={content['primary']} />
-      <Divider space='4' />
-      <Secondary content={content['secondary']} />
-      <Divider space='4' />
-      <Tertiary content={content['tertiary']} />
-      <Divider space='5' />
-      <Container variant='wide' sx={styles.tabsContainer}>
-        <Tabs space={3} variant='dots' position='bottom'>
-          <Screenshot content={content['screenshot-one']} />
-          <Screenshot content={content['screenshot-two']} />
-          <Screenshot content={content['screenshot-three']} />
-        </Tabs>
-        </Container>
       <Divider space='5' />
       <Container variant='wide' sx={styles.testimonialsContainer}>
       <Testimonials content={content['testimonials']} />
