@@ -1,7 +1,7 @@
 {
   "text": [
     {
-      "text": "Established in 2017",
+      "text": "Many are selected, Few are chosen",
       "color": "alpha",
       "variant": "h4"
     },
@@ -11,7 +11,12 @@
       "variant": "h1"
     },
     {
-      "text": "test What you get is a high purity metal in significant volumes, at costs competitive with the lowest-cost producers in the world.",
+      "text": "The original incarnation of Coniagas was in the Town of Cobalt in the mining boom at the turn of the century. The name spelled out the key products: Cobalt, Nickel, Silver, and Arsenic. A handful of prospects in the back country grew into a vertically integrated producer of specialized metal products shipped around the globe. Once again demand for critical metals has gripped the world and the name Coniagas marks a return to form.",
+      "color": "omegaDark",
+      "variant": "medium"
+    },
+    {
+      "text": "The resurrected team of Coniagas are regional veterans who understand both the local geology and the imperative of the energy transition. The company combines world class battery metal deposits and a capable metallurgical process with the expertise required to reach production.",
       "color": "omegaDark",
       "variant": "medium"
     }
