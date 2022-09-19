@@ -12,11 +12,8 @@ import { FaRegClock } from 'react-icons/fa'
 
 const styles = {
   wrapper: {
-    display: `flex`,
-    bg: `omegaLighter`,
-    position: `relative`,
-    zIndex: 2,
-    p: 3,
+    flex: [`50%`, null, null, 1],
+    p: 3
   },
   card: {
     overflow: `hidden`,
