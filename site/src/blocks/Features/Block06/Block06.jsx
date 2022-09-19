@@ -82,7 +82,7 @@ const BlogBlock01 = ({ content: { text, collection, buttons } }) => (
         <Flex sx={{ flexBasis: [`full`], p: 3 }}>
           {collection.map(
             ({ container, text, images, avatar, buttons }, index) => (
-              <Box key={`item-${index}`} sx={styles.wrapper}>
+              <Box key={`item-${index}`} sx={styles.content}>
                 <ContentContainer
                   content={container}
                   variant='cards.interactive'
