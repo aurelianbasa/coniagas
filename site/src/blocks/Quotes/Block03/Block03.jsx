@@ -11,7 +11,6 @@ import WithDefaultContent from '@solid-ui-blocks/WithDefaultContent'
 const styles = {
   avatar: {
     height: 200,
-    width: 200,
     bg: `white`,
     borderTopColor: `white`,
     borderTopWidth: `xxl`,
@@ -71,7 +70,6 @@ const TestimonialsBlock03 = ({
                   <ContentImages
                     content={{ images: [avatar] }}
                     sx={styles.avatar}
-                    imagePosition='center'
                     imageEffect='fadeInRotate'
                   />
                 </Box>
