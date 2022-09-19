@@ -79,7 +79,7 @@ const BlogBlock01 = ({ content: { text, collection, buttons } }) => (
     <Divider />
     {collection && (
       <Reveal effect='fadeIn'>
-        <Flex sx={{ flexBasis: [`1/2`], p: 3 }}>
+        <Flex sx={{ flexBasis: [`full`], p: 3 }}>
           {collection.map(
             ({ container, text, images, avatar, buttons }, index) => (
               <Box key={`item-${index}`} sx={styles.wrapper}>
