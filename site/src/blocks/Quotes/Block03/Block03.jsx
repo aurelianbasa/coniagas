@@ -10,7 +10,8 @@ import WithDefaultContent from '@solid-ui-blocks/WithDefaultContent'
 
 const styles = {
   avatar: {
-    height: 300,
+    height: 200,
+    width: 200,
     bg: `white`,
     borderTopColor: `white`,
     borderTopWidth: `xxl`,
@@ -22,7 +23,7 @@ const styles = {
     borderRadius: `top`,
     mx: `auto`,
     img: {
-      borderRadius: `full`
+      objectPosition: 'top center !important'
     }
   }
 }
