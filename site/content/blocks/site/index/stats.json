@@ -1,9 +1,17 @@
 {
+  "text": [
+    {
+      "text": "",
+      "color": "alpha",
+      "variant": "h4"
+    },
+    {
+      "text": "",
+      "variant": "h2"
+    }
+  ],
   "collection": [
     {
-      "container": {
-        "variant": "cards.interactive"
-      },
       "text": [
         null,
         {
@@ -23,17 +31,12 @@
         }
 
       ],
-      "images": [
+      "avatar":
         {
-          "src": "../../../assets/site/index/gallery-1.jpg",
-          "alt": "alt text"
+          "src": "../../../assets/site/index/gallery-1.jpg"
         }
-      ]
     },
     {
-      "container": {
-        "variant": "cards.interactive"
-      },
       "text": [
         null,
         {
@@ -52,12 +55,10 @@
           "variant": "h3"
         }
       ],
-      "images": [
+      "avatar": 
         {
-          "src": "../../../assets/site/index/gallery-2.jpg",
-          "alt": "alt text"
+          "src": "../../../assets/site/index/gallery-2.jpg"
         }
-      ]
     }
   ]
 }
