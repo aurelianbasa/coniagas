@@ -1,102 +1,73 @@
 import React from 'react'
-import { Container, Box, Flex, css } from 'theme-ui'
-import Divider from '@solid-ui-components/Divider'
+import { Container, Flex, Box, css } from 'theme-ui'
 import Reveal from '@solid-ui-components/Reveal'
+import Divider from '@solid-ui-components/Divider'
 import ContentText from '@solid-ui-components/ContentText'
 import ContentImages from '@solid-ui-components/ContentImages'
-import ContentButtons from '@solid-ui-components/ContentButtons'
+import ContentContainer from '@solid-ui-components/ContentContainer'
 import WithDefaultContent from '@solid-ui-blocks/WithDefaultContent'
 
-const TeamsBlock01 = ({
-  content: { container, text, images, buttons, collection }
-}) => (
+const styles = {
+  avatar: {
+    height: 230,
+    bg: `omegaLight`,
+    borderTopColor: `omegaLight`,
+    borderTopWidth: `xxl`,
+    borderTopStyle: `solid`,
+    borderBottomColor: `beta`,
+    borderBottomWidth: `md`,
+    borderBottomStyle: `solid`,
+    boxSizing: `content-box`,
+    borderRadius: `top`,
+    mx: `auto`,
+    img: {
+      borderRadius: `top`,
+      objectPosition: `top center !important`
+    }
+  }
+}
+
+const TeamsBlock02 = ({ content: { text, collection } }) => (
   <Container>
-    <Flex
-      sx={{
-        alignItems: `center`,
-        flexDirection: [`column`, null, null, `row`]
-      }}
-    >
-      <Box
-        sx={{
-          flexBasis: `1/2`,
-          textAlign: `center`,
-          mr: [null, null, null, 5]
-        }}
-      >
-        <Reveal effect='fadeInDown'>
-          {images?.[0]?.src && (
-            <>
-              <ContentImages content={{ images }} />
-              <Divider space={3} />
-            </>
-          )}
-          <ContentText content={text} />
-        </Reveal>
-      </Box>
-      <Box
-        sx={{
-          flexBasis: `1/2`,
-          mt: [4, null, null, 0],
-          ml: [null, null, null, 5]
-        }}
-      >
-        <Reveal effect='fadeInLeft'>
-          <Box
-            content={container}
-            variant='cards.paper'
-            sx={{
-              textAlign: `center`,
-              mx: `auto`,
-              background: container?.bg
-            }}
+    <Box sx={{ textAlign: `center` }}>
+      <ContentText content={text} />
+    </Box>
+    {text && collection && <Divider />}
+    <Flex sx={{ m: -3, flexWrap: `wrap`, justifyContent: `center` }}>
+      {collection?.map(({ container, avatar, text }, index) => (
+        <Box
+          key={`item-${index}`}
+          sx={{
+            flexBasis: [`1/2`, null, `1/3`, `1/5`],
+            flexGrow: 1,
+            maxWidth: 240,
+            p: 3
+          }}
+        >
+          <Reveal
+            effect='fadeInLeft'
+            delay={0.25 * (index + 2)}
+            css={css({ height: `100%` })}
           >
-            <Divider space={2} />
-            <ContentText content={text} variant='h5' />
-            <Divider space={1} />
-            <Flex sx={{ flexWrap: `wrap`, justifyContent: `center` }}>
-              {collection?.map(({ text, avatar }, index) => (
-                <Reveal
-                  effect='fadeInRotate'
-                  delay={1 + 0.2 * (index + 1)}
-                  css={css({ p: 2, boxSizing: 'content-box' })}
-                >
-                  <ContentImages
-                    content={{ images: [avatar] }}
-                    imageEffect='fadeIn'
-                    sx={{
-                      size: 100,
-                      mx: `auto`,
-                      img: {
-                        bg: `omegaLight`,
-                        borderRadius: `full`
-                      }
-                    }}
-                  />
-                  {text?.[0] && (
-                    <Reveal delay={1.6 + 0.2 * (index + 1)}>
-                      <ContentText
-                        content={text?.[0]}
-                        variant='badges.tag'
-                        sx={{ position: `relative`, zIndex: 2, mt: -4 }}
-                      />
-                    </Reveal>
-                  )}
-                </Reveal>
-              ))}
-            </Flex>
-            {buttons && (
-              <>
-                <Divider space={3} />
-                <ContentButtons content={buttons} />
-              </>
-            )}
-            <Divider space={2} />
-          </Box>
-        </Reveal>
-      </Box>
+            <ContentContainer
+              content={container}
+              variant='cards.primary'
+              sx={{ textAlign: `center`, height: `100%`, p: 2 }}
+            >
+              <ContentImages
+                content={{ images: [avatar] }}
+                sx={styles.avatar}
+                imageEffect='fadeIn'
+              />
+              <Flex sx={{ flexDirection: `column` }} p='3' px='3'>
+                <ContentText content={text} />
+              </Flex>
+            </ContentContainer>
+          </Reveal>
+        </Box>
+      ))}
     </Flex>
   </Container>
 )
 
-export default WithDefaultContent(TeamsBlock01)
+export default WithDefaultContent(TeamsBlock02)
