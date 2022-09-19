@@ -13,11 +13,10 @@ import { FaRegClock } from 'react-icons/fa'
 const styles = {
   wrapper: {
     alignItems: `stretch`,
-    flexDirection: [`row`, `row`, `column`, `column`],
+    flexDirection: [`row`],
     height: `full`
   },
   card: {
-    overflow: `hidden`,
     height: `full`
   },
   content: {
@@ -52,11 +51,7 @@ const styles = {
     display: [`block`],
     height: `full`,
     bg: `omegaLighter`,
-    borderRadius: `default`,
-    minHeight: `15rem`,
-    div: {
-      p: `0 !important`
-    }
+    borderRadius: `default`
   },
   avatar: {
     size: 42,
