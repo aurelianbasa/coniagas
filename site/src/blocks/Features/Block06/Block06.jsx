@@ -12,8 +12,11 @@ import { FaRegClock } from 'react-icons/fa'
 
 const styles = {
   wrapper: {
-    flex: [`50%`],
-    p: 3
+    display: `flex`,
+    bg: `omegaLighter`,
+    position: `relative`,
+    zIndex: 2,
+    p: 3,
   },
   card: {
     overflow: `hidden`,
@@ -79,7 +82,7 @@ const BlogBlock01 = ({ content: { text, collection, buttons } }) => (
     <Divider />
     {collection && (
       <Reveal effect='fadeIn'>
-        <Flex sx={{ flexBasis: [`1`, `1/2`, null, `1/2`], p: 3 }}>
+        <Flex sx={{ flexBasis: [`1/2`], p: 3 }}>
           {collection.map(
             ({ container, text, images, avatar, buttons }, index) => (
               <Box key={`item-${index}`} sx={styles.wrapper}>
