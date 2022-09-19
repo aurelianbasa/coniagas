@@ -13,7 +13,7 @@ import { FaRegClock } from 'react-icons/fa'
 const styles = {
   wrapper: {
     alignItems: `stretch`,
-    flexDirection: [`row`, null, null, `column`],
+    flexDirection: [`row`, `row`, `column`, `column`],
     height: `full`
   },
   card: {
@@ -80,7 +80,7 @@ const BlogBlock01 = ({ content: { text, collection, buttons } }) => (
     <Divider />
     {collection && (
       <Reveal effect='fadeIn'>
-        <Flex sx={{ justifyContent: `center`, flexWrap: `wrap`, m: -3 }}>
+        <Flex sx={{ justifyContent: `center`, flexWrap: `wrap`, m: 3 }}>
           {collection.map(
             ({ container, text, images, avatar, buttons }, index) => (
               <Box key={`item-${index}`} sx={styles.wrapper}>
