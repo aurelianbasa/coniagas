@@ -21,12 +21,14 @@
         {
           "text": "Current Supply: 177,000 t",
           "color": "omega",
-          "variant": "h3"
+          "variant": "h3",
+          "align": ["left"]
         },
         {
           "text": "Expected Demand: 489,000 t",
           "color": "beta",
-          "variant": "h3"
+          "variant": "h3",
+          "align": ["left"]
         }
 
       ],
@@ -43,14 +45,16 @@
           "variant": "h1"
         },
         {
-          "text": "Current Supply: 3,160,000",
+          "text": "Current Supply: 3,160,000 t",
           "color": "omega",
-          "variant": "h3"
+          "variant": "h3",
+          "align": ["left"]
         },
         {
-          "text": "Expected Demand: 6,200,000",
+          "text": "Expected Demand: 6,200,000 t",
           "color": "beta",
-          "variant": "h3"
+          "variant": "h3",
+          "align": ["left"]
         }
       ],
       "avatar": 

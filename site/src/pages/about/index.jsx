@@ -28,7 +28,7 @@ const AboutUs02 = props => {
       {/* Blocks */}
       <Header content={content['header']} />
       <Divider space='6' />
-      <Hero content={content['hero']} reverse />
+      <Hero content={content['hero']} />
       <Divider space='4' />
       <Divider space='5' />
       <Primary content={content['primary']} />
