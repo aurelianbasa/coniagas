@@ -1,13 +1,15 @@
 {
   "text": [
     {
-      "text": "",
+      "text": "Critical Shortage",
       "color": "alpha",
-      "variant": "h4"
+      "variant": "h2",
+      "align": ["left"]
     },
     {
-      "text": "",
-      "variant": "h2"
+      "text": "Benchmark Mineral Intelligence estimates a widening shortfall in supply of critical materials by 2035",
+      "variant": "medium",
+      "align": ["left"]
     }
   ],
   "collection": [

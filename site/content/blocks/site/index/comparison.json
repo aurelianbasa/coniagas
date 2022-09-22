@@ -10,7 +10,7 @@
         "variant": "h1"
       },
       {
-        "text": "Benchmark, and S & P Global forecast a surge in demand between 2025 and 2035",
+        "text": "The charts below show demand from present levels increasing to 2025, and accelerating to 2035",
         "variant": "medium",
         "align": ["left"]
       }
@@ -89,6 +89,15 @@
             "variant": "h3"
           }
         ]
-      }
+      },
+      {
+        "text": [
+          {
+            "text": "Source: S & P Global",
+            "color": "omegaDarker",
+            "variant": "small"
+          }
+            ]        
+          }
     ]
 }
