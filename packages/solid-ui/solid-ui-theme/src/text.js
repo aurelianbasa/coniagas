@@ -15,7 +15,7 @@ export default {
   },
   h2: {
     ...heading,
-    fontSize: 6,
+    fontSize: 7,
     maxWidth: 650,
     mx: `auto`,
     mb: 4
