@@ -2,8 +2,8 @@
   "text": [
     {
       "text": "Critical Shortage",
-      "color": "alpha",
-      "variant": "h1",
+      "color": "beta",
+      "variant": "h2",
       "align": ["left"]
     },
     {
