@@ -36,8 +36,8 @@ typographyTheme.fontSizes = [
   '1.5rem',
   '1.875rem',
   '2.25rem',
+  '3rem',
   '4rem',
-  '5rem',
   '5.5rem'
 ]
 
