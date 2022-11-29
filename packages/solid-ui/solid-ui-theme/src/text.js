@@ -8,7 +8,7 @@ const heading = {
 export default {
   h1: {
     ...heading,
-    fontSize: [8, 9],
+    fontSize: [11, 12],
     maxWidth: 650,
     mx: `auto`,
     mb: 4
