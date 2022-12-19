@@ -35,9 +35,8 @@ const Services03 = props => {
       <Divider space='5' />
       <Container variant='wide' sx={styles.heroContainer}>
         <Content content={content['hero']} />
-        <Divider space='3' />
-        <Gallery content={content['gallery']} />
       </Container>
+      <Gallery content={content['gallery']} />
       <Divider space='5' />
 
       <Container variant='wide' sx={styles.tabsConfeaturesContainer}>
