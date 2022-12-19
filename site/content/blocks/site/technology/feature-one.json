@@ -17,6 +17,7 @@
   "images": [
     {
       "src": "../../../assets/site/technology/feature-one.png",
+      "radius": "lg",
       "alt": "alt text"
     }
   ],

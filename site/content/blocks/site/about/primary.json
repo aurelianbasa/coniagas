@@ -21,7 +21,6 @@
       "src": "../../../assets/site/index/primary.jpg",
       "alt": "Sulphide mineralization from Grand Portage property",
       "radius": "lg",
-      "shadow": "default",
       "effects": ["fadeInLeft"]
     }
   ],

@@ -21,7 +21,6 @@
       "src": "../../../assets/site/index/secondary.jpg",
       "alt": "alt text",
       "radius": "lg",
-      "shadow": "default",
       "effects": ["fadeInLeft"]
     }
   ],
