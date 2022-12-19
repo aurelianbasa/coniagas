@@ -18,7 +18,7 @@
       "images": [
         {
           "src": "../../../assets/site/technology/gallery-1.jpg",
-          "radius": "xl",
+          "radius": "lg",
           "alt": "alt text"
         }
       ]
@@ -41,7 +41,7 @@
       "images": [
         {
           "src": "../../../assets/site/technology/gallery-2.jpg",
-          "radius": "xl",
+          "radius": "md",
           "alt": "alt text"
         }
       ]
@@ -64,7 +64,7 @@
       "images": [
         {
           "src": "../../../assets/site/technology/gallery-3.jpg",
-          "radius": "xl",
+          "radius": "sm",
           "alt": "alt text"
         }
       ]
