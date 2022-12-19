@@ -8,7 +8,7 @@ import ModalWithTabs from '@solid-ui-blocks/Modal/Block01'
 import ModalSimple from '@solid-ui-blocks/Modal/Block02'
 import Header from '@solid-ui-blocks/Header/Block01'
 import Content from '@solid-ui-blocks/Content/Block02'
-import Gallery from '@solid-ui-blocks/Blog/Block01'
+import Gallery from '../blocks/Blog/Block01'
 
 import FeatureTabOne from '@solid-ui-blocks/FeaturesWithPhoto/Block05'
 import FeatureTabTwo from '@solid-ui-blocks/FeaturesWithPhoto/Block06'
@@ -35,8 +35,9 @@ const Services03 = props => {
       <Divider space='5' />
       <Container variant='wide' sx={styles.heroContainer}>
         <Content content={content['hero']} />
+        <Divider space='3' />
+        <Gallery content={content['gallery']} />
       </Container>
-      <Gallery content={content['gallery']} />
       <Divider space='5' />
 
       <Container variant='wide' sx={styles.tabsConfeaturesContainer}>
