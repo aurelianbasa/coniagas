@@ -55,7 +55,7 @@
         {
           "text": "Suitable for cathode production",
           "color": "omegaDarker",
-          "variant": "lg"
+          "variant": "h4"
         },
         {
           "text": "An assembled battery using premium materials."
@@ -64,7 +64,7 @@
       "images": [
         {
           "src": "../../../assets/site/technology/gallery-3.jpg",
-          "radius": "sm",
+          "radius": "lg",
           "alt": "alt text"
         }
       ]
