@@ -2,6 +2,8 @@ import React from 'react'
 import { Container } from 'theme-ui'
 import Helmet from 'react-helmet'
 import Layout from '@solid-ui-layout/Layout'
+import NivoLine from "./NivoLine";
+import { aprilItems, marchItems } from "./items";
 
 const TablePage = props => {
   return (
@@ -75,5 +77,46 @@ const TablePage = props => {
     </Layout>
   )
 }
+
+const [item, setItem] = useState(aprilItems);
+
+  const series = [
+    {
+      id: `charges`,
+      data: item.data,
+    },
+  ];
+
+  const axisBottom = {
+    format: "%d/%m",
+    tickSize: 0,
+    tickPadding: 10,
+    tickValues: 7,
+  };
+
+  const yFormat = (value: string) => `${value}`;
+  const xFormat = "time:%d de %B";
+
+  return (
+    <div className={"flex"}>
+      <Flex p="10px">
+        <button onClick={() => setItem(marchItems)}>show march data</button>
+        <button onClick={() => setItem(aprilItems)}>show april data</button>
+      </Flex>
+
+      <Flex p="10px" flexDirection={"column"}>
+        <Text>is showing {item.label}</Text>
+        <Flex height={"300px"}>
+          <NivoLine
+            data={series}
+            axisBottom={axisBottom}
+            yFormat={yFormat}
+            xFormat={xFormat}
+          />
+        </Flex>
+      </Flex>
+    </div>
+  );
+
 
 export default TablePage
