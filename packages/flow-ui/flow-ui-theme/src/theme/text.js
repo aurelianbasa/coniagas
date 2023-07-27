@@ -17,8 +17,7 @@ export default {
   },
   h2: {
     ...heading,
-    fontSize: 6,
-    fontWeight: `bolder`
+    fontSize: 4
   },
   h3: {
     ...heading,
