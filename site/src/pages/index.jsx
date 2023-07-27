@@ -33,7 +33,7 @@ const IndexPage = props => {
       <Divider space='3' />
       <Divider space='3' />
       <Container variant='wide' sx={styles.heroContainer}>
-      <Hero content={content['hero']} reverse />
+      <Hero content={content['hero']} />
       </Container>
       <Divider space='5' />
       <Divider space='5' />
