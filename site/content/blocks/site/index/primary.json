@@ -1,17 +1,17 @@
 {
   "text": [
     {
-      "text": "PRIMARY",
+      "text": "",
       "color": "omegaDark",
       "variant": "h4"
     },
     {
-      "text": "**Production is a question of** Scale",
+      "text": "Product is **Merit**",
       "color": "beta",
-      "variant": "h2"
+      "variant": "h1"
     },
     {
-      "text": "Critical materials must first be supplied from proven mineral deposits. That will require both extension of existing operations, and new discoveries. Polymetallic deposits allow proceeds from one metal to finance production of another.",
+      "text": "The energy transition can't happen without the discovery of new deposits. Coniagas has secured the Graal in Saguenay, Quebec. Drilling indicates a polymetallic deposit that if proven, would allow proceeds from one metal to finance production of another.",
       "variant": "medium",
       "align": ["left"]
     }
@@ -38,7 +38,7 @@
           "variant": "h5"
         },
         {
-          "text": "Exploration targets acquired from data compiled across Ontario and Quebec."
+          "text": "content"
         }
       ]
     },
@@ -55,7 +55,7 @@
           "variant": "h5"
         },
         {
-          "text": "Past production offers new opportunities with improved technologies and competitive commodity pricing."
+          "text": "content"
         }
       ]
     }
