@@ -70,7 +70,7 @@ const VideoButton = ({ variant, children, link }) => {
         >
           <FaPlay />
         </Button>
-        <Text>{children}</Text>
+        <Text variant="h5">{children}</Text>
       </Box>
     </>
   )
