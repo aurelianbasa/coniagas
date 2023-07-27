@@ -36,6 +36,7 @@ const IndexPage = props => {
       </Container>
       <Divider space='5' />
       <Divider space='5' />
+      <Divider space='3' />
       <Primary content={content['primary']} reverse />
       <Divider space='4' />
       <Divider space='5' />

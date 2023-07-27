@@ -24,16 +24,12 @@
       "effects": ["fadeInLeft"]
     }
   ],
-  "collection": [
+  "buttons": [
     {
-      "buttons": [
-        {
-          "text": "Learn More >",
-          "type": "VIDEO",
-          "link": "https://www.youtube.com/embed/5nO4SoN7ZX0",
-          "variant": "secondary"
-        }
-      ]
+      "text": "Learn More",
+      "type": "PAGE",
+      "link": "/projects/graal",
+      "variant": "primary"
     }
   ]
 }
