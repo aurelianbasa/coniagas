@@ -10,6 +10,9 @@ import Header from '@solid-ui-blocks/Header/Block01'
 import Content from '@solid-ui-blocks/Content/Block02'
 import Gallery from '../../blocks/Blog/Block01'
 
+import Comparison from '../../blocks/FeaturesWithPhoto/Block06'
+import Stats from '../../blocks/Features/Block06'
+
 import FeatureTabOne from '@solid-ui-blocks/FeaturesWithPhoto/Block05'
 import FeatureTabTwo from '@solid-ui-blocks/FeaturesWithPhoto/Block06'
 
@@ -26,7 +29,7 @@ const Services03 = props => {
 
   return (
     <Layout {...props}>
-      <Seo title='Home' />
+      <Seo title='Critical Materials' />
       {/* Modals */}
       <ModalSimple content={content['privacy-policy']} />
       <ModalSimple content={content['disclaimer']} />
@@ -47,6 +50,13 @@ const Services03 = props => {
       </Container>
 
       <Divider space='5' />
+
+      <Divider space='5' />
+      <Comparison content={content['comparison']} />
+      <Divider space='5' />
+      <Stats content={content['stats']} />
+      <Divider space='5' />
+
       <Divider space='5' />
 
       <FeatureOne content={content['feature-one']} reverse />
@@ -63,9 +73,9 @@ const Services03 = props => {
 }
 
 export const query = graphql`
-  query innerpageSiteTechnologyBlockContent {
+  query innerpageSiteCriticalMaterialsBlockContent {
     allBlockContent(
-      filter: { page: { in: ["site/technology", "site/shared"] } }
+      filter: { page: { in: ["site/critical-materials", "site/shared"] } }
     ) {
       nodes {
         ...BlockContent

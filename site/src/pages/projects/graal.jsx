@@ -18,7 +18,7 @@ const ProjectItemPage = props => {
 
   return (
     <Layout {...props}>
-      <Seo title='Nourricier Project' />
+      <Seo title='The Graal Project' />
       {/* Modals */}
       <ModalSimple content={content['privacy-policy']} />
       <ModalSimple content={content['disclaimer']} />
@@ -46,9 +46,9 @@ const ProjectItemPage = props => {
 }
 
 export const query = graphql`
-  query siteProjectsNourricierBlockContent {
+  query siteProjectsGraalBlockContent {
     allBlockContent(
-      filter: { page: { in: ["site/projects/nourricier", "site/shared"] } }
+      filter: { page: { in: ["site/projects/graal", "site/shared"] } }
     ) {
       nodes {
         ...BlockContent
