@@ -16,114 +16,39 @@
           "variant": "links.nav-dark"
         },
         {
-          "text": "Technology",
+          "text": "Critical Materials",
           "type": "PAGE",
           "link": "/technology/",
           "variant": "links.nav-dark"
         },
         {
-          "text": "Projects",
+          "text": "Project",
           "variant": "links.nav-dark",
-          "type": "SUB",
-          "collection": [
-            {
-              "buttons": [
-                {
-                  "text": "Quebec",
-                  "type": "SUB",
-                  "variant": "links.disabled",
-                  "buttons": [
-                    {
-                      "text": "Nourricier",
-                      "type": "PAGE",
-                      "link": "/projects/nourricier/",
-                      "variant": "links.nav-dark"
-                    },
-                    {
-                      "text": "Lowney",
-                      "type": "PAGE",
-                      "link": "/projects/lowney/",
-                      "variant": "links.nav-dark"
-                    }
-                  ]
-                },
-                {
-                  "text": "_",
-                  "type": "SUB",
-                  "variant": "links.hidden",
-                  "buttons": [
-                    {
-                      "text": "Forgues",
-                      "type": "PAGE",
-                      "link": "/projects/forgues/",
-                      "variant": "links.nav-dark"
-                    },
-                    {
-                      "text": "Fuchsia-Massif",
-                      "type": "PAGE",
-                      "link": "/projects/fuchsia-massif/",
-                      "variant": "links.nav-dark"
-                    }
-                  ]
-                },
-                {
-                  "text": "_",
-                  "type": "SUB",
-                  "variant": "links.hidden",
-                  "buttons": [
-                    {
-                      "text": "B15 Bouger",
-                      "type": "PAGE",
-                      "link": "/projects/b15-bouger/",
-                      "variant": "links.nav-dark"
-                    }
-                  ]
-                }
-              ]
+          "link": "/projects/graal/",
+          "type": "PAGE" 
             },
-            {
-              "container": {
-                "bg": "omegaLighter"
-              },
-              "buttons": [
-                {
-                  "text": "Ontario",
-                  "type": "SUB",
-                  "variant": "links.disabled",
-                  "buttons": [
-                    {
-                      "text": "Shillington",
-                      "type": "PAGE",
-                      "link": "/projects/shillington/",
-                      "variant": "links.nav-dark"
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
+            
         {
           "text": "News",
           "type": "SUB",
           "variant": "links.nav-dark",
           "buttons": [
             {
-              "text": "Press Releases",
+              "text": "2023",
               "type": "PAGE",
               "link": "/news/category/press-releases/",
               "variant": "links.nav-dark"
             },
             {
-              "text": "resources",
+              "text": "2022",
               "type": "PAGE",
-              "link": "/news/category/resources/",
+              "link": "/news/category/press-releases/",
               "variant": "links.nav-dark"
             },
             {
-              "text": "features",
+              "text": "2021",
               "type": "PAGE",
-              "link": "/news/category/features/",
+              "link": "/news/category/press-releases/",
               "variant": "links.nav-dark"
             }
           ]
@@ -133,12 +58,6 @@
           "type": "SUB",
           "variant": "links.nav-dark",
           "buttons": [
-            {
-              "text": "Stock Information",
-              "type": "PAGE",
-              "link": "/investors#stock-information-chart",
-              "variant": "links.nav-dark"
-            },
             {
               "text": "Capital Structure",
               "type": "PAGE",
@@ -152,13 +71,13 @@
               "variant": "links.nav-dark"
             },
             {
-              "text": "Technical Data",
+              "text": "Technical Reports",
               "type": "PAGE",
               "link": "/investors#technical-data",
               "variant": "links.nav-dark"
             },
             {
-              "text": "Frequently Asked Questions",
+              "text": "Financials",
               "type": "PAGE",
               "link": "/investors#faq",
               "variant": "links.nav-dark"
