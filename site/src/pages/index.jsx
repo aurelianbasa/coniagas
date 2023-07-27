@@ -36,6 +36,11 @@ const IndexPage = props => {
       <Hero content={content['hero']} />
       </Container>
       <Divider space='5' />
+      <Divider space='5' />
+      <Divider space='5' />
+      <Divider space='5' />
+      <Divider space='5' />
+      <Divider space='5' />
       <WithRecentPosts>
         <Blog content={content['latest-blogs']} />
       </WithRecentPosts>
