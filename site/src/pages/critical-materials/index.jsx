@@ -38,24 +38,12 @@ const Services03 = props => {
         <Gallery content={content['gallery']} />
       </Container>
       <Divider space='5' />
-      <Container variant='wide' sx={styles.tabsConfeaturesContainer}>
-        <FeatureTabOne content={content['feature-tab-one']} reverse />
-        <Divider space='4' />
-        <FeatureTabTwo content={content['feature-tab-two']} />
-      </Container>
-      <Divider space='5' />
       <Divider space='5' />
       <Comparison content={content['comparison']} />
       <Divider space='5' />
       <Stats content={content['stats']} />
       <Divider space='5' />
       <Divider space='5' />
-      <FeatureOne content={content['feature-one']} reverse />
-      <Divider space='5' />
-      <Divider space='5' />
-      <FeatureTwo content={content['feature-two']} />
-      <Divider space='6' />
-      <Divider space='6' />
       <Divider space='4' />
       <Footer content={content['footer']} />
     </Layout>
