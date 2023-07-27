@@ -9,16 +9,12 @@ import ModalSimple from '@solid-ui-blocks/Modal/Block02'
 import Header from '@solid-ui-blocks/Header/Block01'
 import Content from '@solid-ui-blocks/Content/Block02'
 import Gallery from '../../blocks/Blog/Block01'
-
 import Comparison from '../../blocks/FeaturesWithPhoto/Block06'
 import Stats from '../../blocks/Features/Block06'
-
 import FeatureTabOne from '@solid-ui-blocks/FeaturesWithPhoto/Block05'
 import FeatureTabTwo from '@solid-ui-blocks/FeaturesWithPhoto/Block06'
-
 import FeatureOne from '@solid-ui-blocks/FeaturesWithPhoto/Block01'
 import FeatureTwo from '@solid-ui-blocks/FeaturesWithPhoto/Block02'
-
 import Footer from '@solid-ui-blocks/Footer/Block01'
 import { normalizeBlockContentNodes } from '@blocks-helpers'
 import styles from './_styles'
@@ -42,30 +38,24 @@ const Services03 = props => {
         <Gallery content={content['gallery']} />
       </Container>
       <Divider space='5' />
-
       <Container variant='wide' sx={styles.tabsConfeaturesContainer}>
         <FeatureTabOne content={content['feature-tab-one']} reverse />
         <Divider space='4' />
         <FeatureTabTwo content={content['feature-tab-two']} />
       </Container>
-
       <Divider space='5' />
-
       <Divider space='5' />
       <Comparison content={content['comparison']} />
       <Divider space='5' />
       <Stats content={content['stats']} />
       <Divider space='5' />
-
       <Divider space='5' />
-
       <FeatureOne content={content['feature-one']} reverse />
       <Divider space='5' />
       <Divider space='5' />
       <FeatureTwo content={content['feature-two']} />
       <Divider space='6' />
       <Divider space='6' />
-
       <Divider space='4' />
       <Footer content={content['footer']} />
     </Layout>

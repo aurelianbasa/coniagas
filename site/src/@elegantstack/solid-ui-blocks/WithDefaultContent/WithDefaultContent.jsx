@@ -13,7 +13,7 @@ const WithDefaultContent =
           id={content.identifier}
           sx={{
             display: `block`,
-            visibility: `hidden`,
+            visibility: `visible`,
             position: `relative`,
             top: `-150px`
           }}

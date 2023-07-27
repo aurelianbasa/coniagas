@@ -18,9 +18,9 @@ const CardBodyExcerpt = ({ variant, excerpt, omitExcerpt }) => {
     (mobileVisibility, variant) =>
       mobileVisibility === false &&
       get(context.theme, variant, {}).display === 'none'
-        ? false
+        ? true
         : true,
-    false
+    true
   )
 
   return !omitExcerpt && visibility ? (
