@@ -1,0 +1,35 @@
+{
+    "text": [
+      {
+        "text": "",
+        "color": "alpha",
+        "variant": "h4"
+      },
+      {
+        "text": "Being Where the Action Is",
+        "color": "omegaDarker",
+        "variant": "h2"
+      },
+      {
+        "text": "The province of Québec offers top of the line infrastructure, and is located along the future battery production corridors.",
+        "color": "omegaDark",
+        "variant": "medium",
+        "align": ["left"]
+      },
+      {
+        "text": "content",
+        "color": "omegaDark",
+        "variant": "medium",
+        "align": ["left"]
+      }
+    ],
+    "images": [
+      {
+        "src": "../../../assets/site/index/intro.jpg",
+        "alt": "alt text",
+        "radius": "lg",
+        "effects": ["fadeInUp"]
+      }
+    ]
+  }
+  

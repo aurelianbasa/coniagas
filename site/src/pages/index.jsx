@@ -7,10 +7,9 @@ import Divider from '@solid-ui-components/Divider'
 import ModalWithTabs from '@solid-ui-blocks/Modal/Block01'
 import ModalSimple from '@solid-ui-blocks/Modal/Block02'
 import Header from '@solid-ui-blocks/Header/Block01'
+import Primary from '@solid-ui-blocks/FeaturesWithPhoto/Block01'
 import Hero from '@solid-ui-blocks/Hero/Block01'
-import Testimonials from '../blocks/Quotes/Block03'
-import Comparison from '../blocks/FeaturesWithPhoto/Block06'
-import Stats from '../blocks/Features/Block06'
+import Intro from '@solid-ui-blocks/Hero/Block02'
 import Blog from '@solid-ui-blocks/Blog/Block01'
 import Footer from '@solid-ui-blocks/Footer/Block01'
 import { normalizeBlockContentNodes } from '@blocks-helpers'
@@ -37,7 +36,10 @@ const IndexPage = props => {
       </Container>
       <Divider space='5' />
       <Divider space='5' />
+      <Intro content={content['intro']} />
       <Divider space='5' />
+      <Primary content={content['primary']} />
+      <Divider space='4' />
       <Divider space='5' />
       <Divider space='5' />
       <Divider space='5' />
