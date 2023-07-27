@@ -6,8 +6,8 @@
         "variant": "h4"
       },
       {
-        "text": "Distribution is **Connections**",
-        "color": "omegaDarker",
+        "text": "**Distribution is** Connections",
+        "color": "beta",
         "variant": "h2"
       },
       {
@@ -17,7 +17,7 @@
         "align": ["left"]
       },
       {
-        "text": "content",
+        "text": "",
         "color": "omegaDark",
         "variant": "medium",
         "align": ["left"]

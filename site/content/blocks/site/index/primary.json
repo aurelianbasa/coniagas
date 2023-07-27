@@ -6,7 +6,7 @@
       "variant": "h4"
     },
     {
-      "text": "Product is **Merit**",
+      "text": "**Product is** Merit",
       "color": "beta",
       "variant": "h1"
     },
@@ -26,36 +26,12 @@
   ],
   "collection": [
     {
-      "icon": {
-        "src": "../../../assets/flexiblocks/icons/bx-radio-circle-marked.svg",
-        "color": "white",
-        "bg": "beta"
-      },
-      "text": [
+      "buttons": [
         {
-          "text": "Exploration",
-          "color": "omegaDarker",
-          "variant": "h5"
-        },
-        {
-          "text": "content"
-        }
-      ]
-    },
-    {
-      "icon": {
-        "src": "../../../assets/flexiblocks/icons/bx-target-lock.svg",
-        "color": "white",
-        "bg": "alpha"
-      },
-      "text": [
-        {
-          "text": "Development",
-          "color": "omegaDarker",
-          "variant": "h5"
-        },
-        {
-          "text": "content"
+          "text": "Learn More >",
+          "type": "VIDEO",
+          "link": "https://www.youtube.com/embed/5nO4SoN7ZX0",
+          "variant": "secondary"
         }
       ]
     }
