@@ -14,10 +14,29 @@ module.exports = {
       options: {
         fonts: fontFile.fonts,
         darkMode: false,
-        colorMode: false,
-        basePath: '/news'
+        colorMode: false
       }
     },
+
+    {
+      resolve: '@elegantstack/gatsby-theme-flexiblog-science',
+      options: {
+        basePath: '/news',
+        siteUrl: 'https://coniagas.com',
+        fonts: fontFile.fonts,
+        services: {
+          algolia: true
+          // mailchimp: true
+        },
+        sources: {
+          contentful: true,
+          local: false
+        }
+      }
+    },
+
+
+
     // {
     //   resolve: 'gatsby-plugin-algolia',
     //   options: {
