@@ -19,10 +19,6 @@ module.exports = {
     {
       resolve: '@elegantstack/gatsby-theme-flexiblog-science',
       options: {
-        fonts: fontFile.fonts,
-        darkMode: false,
-        colorMode: false,
-        basePath: '/news',
         sources: {
           contentful: true,
           local: false
