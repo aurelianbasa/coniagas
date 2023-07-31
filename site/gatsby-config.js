@@ -17,7 +17,7 @@ module.exports = {
       }
     },
     {
-      resolve: '@belegantstack/gatsby-theme-flexiblog-science',
+      resolve: '@elegantstack/gatsby-theme-flexiblog-science',
       options: {
         sources: {
           contentful: true,
