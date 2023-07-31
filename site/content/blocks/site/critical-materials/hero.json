@@ -13,7 +13,12 @@
           "variant": "h2"
         },
         {
-          "text": "content",
+          "text": "Critical materials are unique natural substances that deliver indispensable properties to various technologies and products, with no viable substitutions easily available.",
+          "color": "white",
+          "variant": "h5"
+        },
+        {
+          "text": "In essence, a range of metals finds its major uses irreplaceable, as potential alternatives prove to be either insufficient or non-existent. These are the critical materials that drive our world.",
           "color": "white",
           "variant": "h5"
         }

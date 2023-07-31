@@ -1,17 +1,17 @@
 {
   "text": [
     {
-      "text": "SECONDARY",
+      "text": "MISSION",
       "color": "omega",
       "variant": "h4"
     },
     {
-      "text": "**Battery Materials** Recycled",
+      "text": "From Zero to **One**",
       "color": "beta",
       "variant": "h2"
     },
     {
-      "text": "Recycling contributes only a fraction of total metal supply. That will need to increase dramatically if the energy transition continues on pace to replace fossil fuels. While lithium ion battery stockpiles are limited in size, other battery chemistries offer significant opportunity. Our closed-loop system separates all elements from a diverse stream of material.",
+      "text": "",
       "variant": "medium",
       "align": ["left"]
     }

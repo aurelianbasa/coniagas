@@ -8,7 +8,6 @@ import ModalWithTabs from '@solid-ui-blocks/Modal/Block01'
 import ModalSimple from '@solid-ui-blocks/Modal/Block02'
 import Header from '@solid-ui-blocks/Header/Block01'
 import Hero from '@solid-ui-blocks/Hero/Block02'
-import Primary from '@solid-ui-blocks/FeaturesWithPhoto/Block01'
 import Secondary from '@solid-ui-blocks/FeaturesWithPhoto/Block02'
 import Tertiary from '@solid-ui-blocks/FeaturesWithPhoto/Block01'
 import Footer from '@solid-ui-blocks/Footer/Block01'
@@ -31,15 +30,13 @@ const AboutUs02 = props => {
       <Hero content={content['hero']} />
       <Divider space='4' />
       <Divider space='5' />
-      <Primary content={content['primary']} />
+      <Secondary content={content['mission']} />
       <Divider space='4' />
-      <Secondary content={content['secondary']} />
-      <Divider space='4' />
-      <Tertiary content={content['tertiary']} />
-      <Divider space='5' />
-      <Divider space='4' />
-      <Divider space='5' />
       <Team content={content['team']} />
+      <Divider space='5' />
+      <Tertiary content={content['sustainability']} />
+      <Divider space='5' />
+      <Divider space='4' />
       <Divider space='5' />
       <Footer content={content['footer']} />
     </Layout>
