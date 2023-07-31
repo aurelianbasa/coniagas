@@ -22,7 +22,7 @@ module.exports = {
       resolve: '@elegantstack/gatsby-theme-flexiblog-science',
       options: {
         basePath: '/news',
-        siteUrl: 'https://coniagas.com',
+        siteUrl: 'https://coniagas.netlify.app',
         fonts: fontFile.fonts,
         services: {
           algolia: true
