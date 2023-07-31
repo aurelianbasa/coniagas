@@ -14,9 +14,11 @@ module.exports = {
       options: {
         fonts: fontFile.fonts,
         darkMode: false,
-        colorMode: false
+        colorMode: false,
+        basePath: '/news'
       }
     },
+<<<<<<< HEAD
 
     {
       resolve: '@elegantstack/gatsby-theme-flexiblog-science',
@@ -37,6 +39,8 @@ module.exports = {
 
 
 
+=======
+>>>>>>> parent of 53bc80b (who knows)
     // {
     //   resolve: 'gatsby-plugin-algolia',
     //   options: {
