@@ -15,7 +15,11 @@ module.exports = {
         fonts: fontFile.fonts,
         darkMode: false,
         colorMode: false,
-        basePath: '/news'
+        basePath: '/news',
+        sources: {
+          contentful: true,
+          local: false
+        }
       }
     },
 
