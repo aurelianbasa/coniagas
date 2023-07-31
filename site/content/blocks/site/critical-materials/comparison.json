@@ -6,7 +6,7 @@
       },
       {
         "text": "The charts below show demand from present levels increasing to 2025, **and accelerating to 2035.**",
-        "variant": "medium",
+        "variant": "h5",
         "color": "omegaDark",
         "align": ["left"]
       },
