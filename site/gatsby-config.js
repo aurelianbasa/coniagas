@@ -19,23 +19,6 @@ module.exports = {
       }
     },
 
-    {
-      resolve: '@elegantstack/gatsby-theme-flexiblog-science',
-      options: {
-        basePath: '/news',
-        siteUrl: 'https://coniagas.netlify.app',
-        fonts: fontFile.fonts,
-        services: {
-          algolia: true
-          // mailchimp: true
-        },
-        sources: {
-          contentful: true,
-          local: false
-        }
-      }
-    },
-
     // {
     //   resolve: 'gatsby-plugin-algolia',
     //   options: {
