@@ -7,8 +7,8 @@
 
 [context.production]
   [context.production.environment]
-    CONTENTFUL_SPACE_ID=""
-    CONTENTFUL_ACCESS_TOKEN=""
+    CONTENTFUL_SPACE_ID="y7mzv4t1cbj8"
+    CONTENTFUL_ACCESS_TOKEN="dO7HmtJuS4djRxC6UVWjABD88dLCHFGowm2_n-ly2Mk"
     GATSBY_ALGOLIA_APP_ID=""
     GATSBY_ALGOLIA_SEARCH_KEY=""
     ALGOLIA_ADMIN_KEY=""
