@@ -1563,6 +1563,7 @@
     to-fast-properties "^2.0.0"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 "@contentful/rich-text-react-renderer@^15.17.0":
   version "15.17.0"
   resolved "https://registry.yarnpkg.com/@contentful/rich-text-react-renderer/-/rich-text-react-renderer-15.17.0.tgz#88b6c707eec5d0d45491be830f0cfb1a0fae9472"
@@ -1580,6 +1581,8 @@
   resolved "https://registry.yarnpkg.com/@contentful/rich-text-types/-/rich-text-types-16.2.0.tgz#5a98cb119340f4da46555216913e96d7ce58df70"
   integrity sha512-4BHC+mfa50JB70epzpnas4EkiuB3mGdBZ5Rp8w7R5wXvswEf8TLg5yGau2FxmZeEjrAkDrt4vzBLVQ8v3Y//Jw==
 
+=======
+>>>>>>> parent of 53bc80b (who knows)
 =======
 >>>>>>> parent of 53bc80b (who knows)
 "@emotion/babel-plugin-jsx-pragmatic@^0.1.5":
@@ -7841,6 +7844,7 @@ gatsby-core-utils@^2.14.0:
     xdg-basedir "^4.0.0"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 gatsby-core-utils@^4.13.0-next.0:
   version "4.13.0-next.0"
   resolved "https://registry.yarnpkg.com/gatsby-core-utils/-/gatsby-core-utils-4.13.0-next.0.tgz#5c5be79eeca538089caacf6272a0ecd60ea1fb46"
@@ -7863,6 +7867,8 @@ gatsby-core-utils@^4.13.0-next.0:
     tmp "^0.2.1"
     xdg-basedir "^4.0.0"
 
+=======
+>>>>>>> parent of 53bc80b (who knows)
 =======
 >>>>>>> parent of 53bc80b (who knows)
 gatsby-graphiql-explorer@^1.14.0:
@@ -8091,6 +8097,7 @@ gatsby-plugin-utils@^1.14.0:
     joi "^17.4.2"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 gatsby-plugin-utils@^4.13.0-next.0:
   version "4.13.0-next.0"
   resolved "https://registry.yarnpkg.com/gatsby-plugin-utils/-/gatsby-plugin-utils-4.13.0-next.0.tgz#d4b0542df28fe1b07856a01288e96f155c3fb75d"
@@ -8106,6 +8113,8 @@ gatsby-plugin-utils@^4.13.0-next.0:
     joi "^17.9.2"
     mime "^3.0.0"
 
+=======
+>>>>>>> parent of 53bc80b (who knows)
 =======
 >>>>>>> parent of 53bc80b (who knows)
 gatsby-plugin-web-font-loader@^1.0.4:
@@ -8250,6 +8259,7 @@ gatsby-remark-smartypants@^4.7.0:
     unist-util-visit "^2.0.3"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 gatsby-sharp@^1.13.0-next.0:
   version "1.13.0-next.0"
   resolved "https://registry.yarnpkg.com/gatsby-sharp/-/gatsby-sharp-1.13.0-next.0.tgz#b5d545a51567947a565d8b2bd6fd064f79de006f"
@@ -8283,6 +8293,8 @@ gatsby-source-contentful@^8.13.0-next.0:
 
 =======
 >>>>>>> parent of 53bc80b (who knows)
+=======
+>>>>>>> parent of 53bc80b (who knows)
 gatsby-source-filesystem@^3.10.0:
   version "3.14.0"
   resolved "https://registry.yarnpkg.com/gatsby-source-filesystem/-/gatsby-source-filesystem-3.14.0.tgz#ae2b930091a932b33270cb9cc2d9caaf0abc1742"
@@ -8303,6 +8315,7 @@ gatsby-source-filesystem@^3.10.0:
     xstate "^4.14.0"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 gatsby-source-filesystem@^5.13.0-next.0:
   version "5.13.0-next.0"
   resolved "https://registry.yarnpkg.com/gatsby-source-filesystem/-/gatsby-source-filesystem-5.13.0-next.0.tgz#16e6c7d8a07f1f63f108b43a70ecc72c93660016"
@@ -8318,6 +8331,8 @@ gatsby-source-filesystem@^5.13.0-next.0:
     valid-url "^1.0.9"
     xstate "^4.38.0"
 
+=======
+>>>>>>> parent of 53bc80b (who knows)
 =======
 >>>>>>> parent of 53bc80b (who knows)
 gatsby-telemetry@^2.14.0:
@@ -11680,6 +11695,7 @@ node-fetch@2.6.1, node-fetch@^2.5.0, node-fetch@^2.6.1:
   integrity sha512-V4aYg89jEoVRxRb2fJdAg8FHvI7cEyYdVAh94HH0UIK8oJxUfkjlDQN9RbMx+bEjP7+ggMiFRprSti032Oipxw==
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 node-fetch@^2.6.12:
   version "2.6.12"
   resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.6.12.tgz#02eb8e22074018e3d5a83016649d04df0e348fba"
@@ -11697,6 +11713,8 @@ node-gyp-build-optional-packages@5.0.7:
   resolved "https://registry.yarnpkg.com/node-gyp-build-optional-packages/-/node-gyp-build-optional-packages-5.0.7.tgz#5d2632bbde0ab2f6e22f1bbac2199b07244ae0b3"
   integrity sha512-YlCCc6Wffkx0kHkmam79GKvDQ6x+QZkMjFGrIMxgFNILFvGSbCp2fCBC55pGTT9gVaz8Na5CLmxt/urtzRv36w==
 
+=======
+>>>>>>> parent of 53bc80b (who knows)
 =======
 >>>>>>> parent of 53bc80b (who knows)
 node-gyp@^5.0.2:
@@ -14299,6 +14317,7 @@ semver@^7.3.4:
     lru-cache "^6.0.0"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 semver@^7.5.3, semver@^7.5.4:
   version "7.5.4"
   resolved "https://registry.yarnpkg.com/semver/-/semver-7.5.4.tgz#483986ec4ed38e1c6c48c34894a9182dbff68a6e"
@@ -14306,6 +14325,8 @@ semver@^7.5.3, semver@^7.5.4:
   dependencies:
     lru-cache "^6.0.0"
 
+=======
+>>>>>>> parent of 53bc80b (who knows)
 =======
 >>>>>>> parent of 53bc80b (who knows)
 send@0.17.1:
@@ -16628,11 +16649,14 @@ xstate@^4.14.0:
   integrity sha512-EY39NNZnwM4tRYNmQAi1c2qHuZ1lJmuDpEo1jxiRcfS+1jPtKRAjGRLNx3fYKcK0ohW6mL41Wze3mdCF0SqavA==
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 xstate@^4.38.0:
   version "4.38.2"
   resolved "https://registry.yarnpkg.com/xstate/-/xstate-4.38.2.tgz#1b74544fc9c8c6c713ba77f81c6017e65aa89804"
   integrity sha512-Fba/DwEPDLneHT3tbJ9F3zafbQXszOlyCJyQqqdzmtlY/cwE2th462KK48yaANf98jHlP6lJvxfNtN0LFKXPQg==
 
+=======
+>>>>>>> parent of 53bc80b (who knows)
 =======
 >>>>>>> parent of 53bc80b (who knows)
 xtend@^4.0.0, xtend@^4.0.1, xtend@~4.0.1:

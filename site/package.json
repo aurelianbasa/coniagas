@@ -18,7 +18,10 @@
     "gatsby-plugin-mailchimp": "^5.2.2",
     "gatsby-plugin-manifest": "^3.13.0",
 <<<<<<< HEAD
+<<<<<<< HEAD
     "gatsby-source-contentful": "^8.13.0-next.0",
+=======
+>>>>>>> parent of 53bc80b (who knows)
 =======
 >>>>>>> parent of 53bc80b (who knows)
     "react": "^17.0.2",

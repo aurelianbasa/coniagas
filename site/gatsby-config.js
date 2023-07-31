@@ -19,6 +19,7 @@ module.exports = {
       }
     },
 <<<<<<< HEAD
+<<<<<<< HEAD
 
     {
       resolve: '@elegantstack/gatsby-theme-flexiblog-science',
@@ -39,6 +40,8 @@ module.exports = {
 
 
 
+=======
+>>>>>>> parent of 53bc80b (who knows)
 =======
 >>>>>>> parent of 53bc80b (who knows)
     // {
