@@ -1562,9 +1562,7 @@
     "@babel/helper-validator-identifier" "^7.15.7"
     to-fast-properties "^2.0.0"
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-"@contentful/rich-text-react-renderer@^15.17.0":
+"@contentful/rich-text-react-renderer@^15.16.5":
   version "15.17.0"
   resolved "https://registry.yarnpkg.com/@contentful/rich-text-react-renderer/-/rich-text-react-renderer-15.17.0.tgz#88b6c707eec5d0d45491be830f0cfb1a0fae9472"
   integrity sha512-6dmfzq67eR2Pd4od1WMTWgatO0A873msb/hSFSgAEUwXyS3TjIQAFLfvPA3r6jPy6M5A26wUkfQ3I9caSHyqrw==
@@ -1581,10 +1579,6 @@
   resolved "https://registry.yarnpkg.com/@contentful/rich-text-types/-/rich-text-types-16.2.0.tgz#5a98cb119340f4da46555216913e96d7ce58df70"
   integrity sha512-4BHC+mfa50JB70epzpnas4EkiuB3mGdBZ5Rp8w7R5wXvswEf8TLg5yGau2FxmZeEjrAkDrt4vzBLVQ8v3Y//Jw==
 
-=======
->>>>>>> parent of 53bc80b (who knows)
-=======
->>>>>>> parent of 53bc80b (who knows)
 "@emotion/babel-plugin-jsx-pragmatic@^0.1.5":
   version "0.1.5"
   resolved "https://registry.yarnpkg.com/@emotion/babel-plugin-jsx-pragmatic/-/babel-plugin-jsx-pragmatic-0.1.5.tgz#27debfe9c27c4d83574d509787ae553bf8a34d7e"
@@ -7843,12 +7837,10 @@ gatsby-core-utils@^2.14.0:
     tmp "^0.2.1"
     xdg-basedir "^4.0.0"
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-gatsby-core-utils@^4.13.0-next.0:
-  version "4.13.0-next.0"
-  resolved "https://registry.yarnpkg.com/gatsby-core-utils/-/gatsby-core-utils-4.13.0-next.0.tgz#5c5be79eeca538089caacf6272a0ecd60ea1fb46"
-  integrity sha512-FYvha7BMZTOtvb0hQHlOiCCYkVsEQyPIB5W5yxlooTQ15tCFz7yfxcxw0ELH3RRFG/2iwcOCQzYiE/fV7fviLw==
+gatsby-core-utils@^4.11.0:
+  version "4.11.0"
+  resolved "https://registry.yarnpkg.com/gatsby-core-utils/-/gatsby-core-utils-4.11.0.tgz#16d300129d0d143a79ad32816b8837630d7e7fae"
+  integrity sha512-W7pfrKgBchdk19g802IuPkCA2iJ69lRR1GzkfYjB8d1TuIQqf0l1z0lv7e+2kQqO+uQ5Yt3sGMMN2qMYMWfLXg==
   dependencies:
     "@babel/runtime" "^7.20.13"
     ci-info "2.0.0"
@@ -7867,10 +7859,6 @@ gatsby-core-utils@^4.13.0-next.0:
     tmp "^0.2.1"
     xdg-basedir "^4.0.0"
 
-=======
->>>>>>> parent of 53bc80b (who knows)
-=======
->>>>>>> parent of 53bc80b (who knows)
 gatsby-graphiql-explorer@^1.14.0:
   version "1.14.0"
   resolved "https://registry.yarnpkg.com/gatsby-graphiql-explorer/-/gatsby-graphiql-explorer-1.14.0.tgz#2049d6b2cf1612c80faf3983c72a41cb9d6bb116"
@@ -8096,27 +8084,21 @@ gatsby-plugin-utils@^1.14.0:
     "@babel/runtime" "^7.15.4"
     joi "^17.4.2"
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-gatsby-plugin-utils@^4.13.0-next.0:
-  version "4.13.0-next.0"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-utils/-/gatsby-plugin-utils-4.13.0-next.0.tgz#d4b0542df28fe1b07856a01288e96f155c3fb75d"
-  integrity sha512-5xP/cWPsf4sstBo7o+gTMr0Jj7537PWn3CI2orF2fpj0aEyyTSRDXNpTlOA6AvIG80ACoHcrkLwKjZvakLpVqQ==
+gatsby-plugin-utils@^4.11.0:
+  version "4.11.0"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-utils/-/gatsby-plugin-utils-4.11.0.tgz#f92852a9d938a428c8b2f99fea153c1bd995dfde"
+  integrity sha512-Eegg3BScq7vKYeJoWo6sduBwgM4DsKhYKXGIAVR9rRsGOiR1nNIWfFzT9I6OOcob9KHICeFyNgqyqpENL7odEA==
   dependencies:
     "@babel/runtime" "^7.20.13"
     fastq "^1.15.0"
     fs-extra "^11.1.1"
-    gatsby-core-utils "^4.13.0-next.0"
-    gatsby-sharp "^1.13.0-next.0"
+    gatsby-core-utils "^4.11.0"
+    gatsby-sharp "^1.11.0"
     graphql-compose "^9.0.10"
     import-from "^4.0.0"
     joi "^17.9.2"
     mime "^3.0.0"
 
-=======
->>>>>>> parent of 53bc80b (who knows)
-=======
->>>>>>> parent of 53bc80b (who knows)
 gatsby-plugin-web-font-loader@^1.0.4:
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/gatsby-plugin-web-font-loader/-/gatsby-plugin-web-font-loader-1.0.4.tgz#c50bdb0c1980110b3fd213a5be70feb2459514c3"
@@ -8258,22 +8240,20 @@ gatsby-remark-smartypants@^4.7.0:
     retext-smartypants "^4.0.0"
     unist-util-visit "^2.0.3"
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-gatsby-sharp@^1.13.0-next.0:
-  version "1.13.0-next.0"
-  resolved "https://registry.yarnpkg.com/gatsby-sharp/-/gatsby-sharp-1.13.0-next.0.tgz#b5d545a51567947a565d8b2bd6fd064f79de006f"
-  integrity sha512-Wul+Kckkgfct7tq0bg44ZucefnkXrTo2FrRrYUcO/ZsC+nmG8HzmyQp0CsI48QCdQ+0Xhb6VvG6RJ7kxhP7+Eg==
+gatsby-sharp@^1.11.0:
+  version "1.11.0"
+  resolved "https://registry.yarnpkg.com/gatsby-sharp/-/gatsby-sharp-1.11.0.tgz#dcf43d0bbd3a45c079256ddc474798753aeedfe2"
+  integrity sha512-zJbN3JVCFur8Ilwn1scf7o8AN69//shpJhYqt3uhuwhhkU6ZMCMmVVNKHSiUiWkVqhwSRJ4y7c/I3Ys9xMxsIw==
   dependencies:
     sharp "^0.32.1"
 
-gatsby-source-contentful@^8.13.0-next.0:
-  version "8.13.0-next.0"
-  resolved "https://registry.yarnpkg.com/gatsby-source-contentful/-/gatsby-source-contentful-8.13.0-next.0.tgz#d15fa431b8194cbdcfd14c1c2f2005910654c8c9"
-  integrity sha512-0OlGNFn8Cty6jnhzlV0sg7w8KVBByRQfM5QuquBVgc7i1rZzORe9nBKUrfQFc5+Fp7t15fyN/bIWNA9Wcpx0og==
+gatsby-source-contentful@^8.11.0:
+  version "8.11.0"
+  resolved "https://registry.yarnpkg.com/gatsby-source-contentful/-/gatsby-source-contentful-8.11.0.tgz#014cde3ff7990fd0a42b6ea9e3c5f83ecdfeebc8"
+  integrity sha512-3brW63rDl5EWgEfuKQPuA6J9Ha/pv58GL9CTrY5htbtH3iA974SIMv0D3Wyv9gkFkG6jPPqGflE8H0kDlJmKlg==
   dependencies:
     "@babel/runtime" "^7.20.13"
-    "@contentful/rich-text-react-renderer" "^15.17.0"
+    "@contentful/rich-text-react-renderer" "^15.16.5"
     "@contentful/rich-text-types" "^15.15.1"
     "@hapi/joi" "^15.1.1"
     "@vercel/fetch-retry" "^5.1.3"
@@ -8281,20 +8261,16 @@ gatsby-source-contentful@^8.13.0-next.0:
     common-tags "^1.8.2"
     contentful "^9.3.5"
     fs-extra "^11.1.1"
-    gatsby-core-utils "^4.13.0-next.0"
-    gatsby-plugin-utils "^4.13.0-next.0"
-    gatsby-source-filesystem "^5.13.0-next.0"
+    gatsby-core-utils "^4.11.0"
+    gatsby-plugin-utils "^4.11.0"
+    gatsby-source-filesystem "^5.11.0"
     is-online "^9.0.1"
     json-stringify-safe "^5.0.1"
     lodash "^4.17.21"
-    node-fetch "^2.6.12"
-    semver "^7.5.3"
-    url "^0.11.1"
+    node-fetch "^2.6.11"
+    semver "^7.5.1"
+    url "^0.11.0"
 
-=======
->>>>>>> parent of 53bc80b (who knows)
-=======
->>>>>>> parent of 53bc80b (who knows)
 gatsby-source-filesystem@^3.10.0:
   version "3.14.0"
   resolved "https://registry.yarnpkg.com/gatsby-source-filesystem/-/gatsby-source-filesystem-3.14.0.tgz#ae2b930091a932b33270cb9cc2d9caaf0abc1742"
@@ -8314,27 +8290,21 @@ gatsby-source-filesystem@^3.10.0:
     valid-url "^1.0.9"
     xstate "^4.14.0"
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-gatsby-source-filesystem@^5.13.0-next.0:
-  version "5.13.0-next.0"
-  resolved "https://registry.yarnpkg.com/gatsby-source-filesystem/-/gatsby-source-filesystem-5.13.0-next.0.tgz#16e6c7d8a07f1f63f108b43a70ecc72c93660016"
-  integrity sha512-e3peG6YywBmdZFlDJoH1TGnOxqhq9fODoPbiKlsQAuubzOQfrfik/AJHulDVdCRdlDohfRmNFxDG3ZOgBRZVTQ==
+gatsby-source-filesystem@^5.11.0:
+  version "5.11.0"
+  resolved "https://registry.yarnpkg.com/gatsby-source-filesystem/-/gatsby-source-filesystem-5.11.0.tgz#59c48cf86a8578627997747f7ec377dfa99fb1a4"
+  integrity sha512-42CXNzKgGvkZtqmFIIMbEJW5ZpQ5b4TQT7Rk21XsEMkoZT9QchqMG1S2VPK/LPe7LicvGv6zBziGrtn6ttch7w==
   dependencies:
     "@babel/runtime" "^7.20.13"
     chokidar "^3.5.3"
     file-type "^16.5.4"
     fs-extra "^11.1.1"
-    gatsby-core-utils "^4.13.0-next.0"
+    gatsby-core-utils "^4.11.0"
     mime "^3.0.0"
     pretty-bytes "^5.6.0"
     valid-url "^1.0.9"
-    xstate "^4.38.0"
+    xstate "^4.37.2"
 
-=======
->>>>>>> parent of 53bc80b (who knows)
-=======
->>>>>>> parent of 53bc80b (who knows)
 gatsby-telemetry@^2.14.0:
   version "2.14.0"
   resolved "https://registry.yarnpkg.com/gatsby-telemetry/-/gatsby-telemetry-2.14.0.tgz#d4f9ec0623bac509999586e2e9f4a211661d43e7"
@@ -11694,9 +11664,7 @@ node-fetch@2.6.1, node-fetch@^2.5.0, node-fetch@^2.6.1:
   resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.6.1.tgz#045bd323631f76ed2e2b55573394416b639a0052"
   integrity sha512-V4aYg89jEoVRxRb2fJdAg8FHvI7cEyYdVAh94HH0UIK8oJxUfkjlDQN9RbMx+bEjP7+ggMiFRprSti032Oipxw==
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-node-fetch@^2.6.12:
+node-fetch@^2.6.11:
   version "2.6.12"
   resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.6.12.tgz#02eb8e22074018e3d5a83016649d04df0e348fba"
   integrity sha512-C/fGU2E8ToujUivIO0H+tpQ6HWo4eEmchoPIoXtxCrVghxdKq+QOHqEZW7tuP3KlV3bC8FRMO5nMCC7Zm1VP6g==
@@ -11713,10 +11681,6 @@ node-gyp-build-optional-packages@5.0.7:
   resolved "https://registry.yarnpkg.com/node-gyp-build-optional-packages/-/node-gyp-build-optional-packages-5.0.7.tgz#5d2632bbde0ab2f6e22f1bbac2199b07244ae0b3"
   integrity sha512-YlCCc6Wffkx0kHkmam79GKvDQ6x+QZkMjFGrIMxgFNILFvGSbCp2fCBC55pGTT9gVaz8Na5CLmxt/urtzRv36w==
 
-=======
->>>>>>> parent of 53bc80b (who knows)
-=======
->>>>>>> parent of 53bc80b (who knows)
 node-gyp@^5.0.2:
   version "5.1.1"
   resolved "https://registry.yarnpkg.com/node-gyp/-/node-gyp-5.1.1.tgz#eb915f7b631c937d282e33aed44cb7a025f62a3e"
@@ -14316,19 +14280,13 @@ semver@^7.3.4:
   dependencies:
     lru-cache "^6.0.0"
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-semver@^7.5.3, semver@^7.5.4:
+semver@^7.5.1, semver@^7.5.4:
   version "7.5.4"
   resolved "https://registry.yarnpkg.com/semver/-/semver-7.5.4.tgz#483986ec4ed38e1c6c48c34894a9182dbff68a6e"
   integrity sha512-1bCSESV6Pv+i21Hvpxp3Dx+pSD8lIPt8uVjRrxAUt/nbswYc+tK6Y2btiULjd4+fnq15PX+nqQDC7Oft7WkwcA==
   dependencies:
     lru-cache "^6.0.0"
 
-=======
->>>>>>> parent of 53bc80b (who knows)
-=======
->>>>>>> parent of 53bc80b (who knows)
 send@0.17.1:
   version "0.17.1"
   resolved "https://registry.yarnpkg.com/send/-/send-0.17.1.tgz#c1d8b059f7900f7466dd4938bdc44e11ddb376c8"
@@ -16648,17 +16606,11 @@ xstate@^4.14.0:
   resolved "https://registry.yarnpkg.com/xstate/-/xstate-4.16.2.tgz#d6b973b1253b8c85f50f68601837287d59d4bf34"
   integrity sha512-EY39NNZnwM4tRYNmQAi1c2qHuZ1lJmuDpEo1jxiRcfS+1jPtKRAjGRLNx3fYKcK0ohW6mL41Wze3mdCF0SqavA==
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-xstate@^4.38.0:
+xstate@^4.37.2:
   version "4.38.2"
   resolved "https://registry.yarnpkg.com/xstate/-/xstate-4.38.2.tgz#1b74544fc9c8c6c713ba77f81c6017e65aa89804"
   integrity sha512-Fba/DwEPDLneHT3tbJ9F3zafbQXszOlyCJyQqqdzmtlY/cwE2th462KK48yaANf98jHlP6lJvxfNtN0LFKXPQg==
 
-=======
->>>>>>> parent of 53bc80b (who knows)
-=======
->>>>>>> parent of 53bc80b (who knows)
 xtend@^4.0.0, xtend@^4.0.1, xtend@~4.0.1:
   version "4.0.2"
   resolved "https://registry.yarnpkg.com/xtend/-/xtend-4.0.2.tgz#bb72779f5fa465186b1f438f674fa347fdb5db54"
