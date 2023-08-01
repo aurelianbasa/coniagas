@@ -17,7 +17,7 @@
           "variant": "h5"
         },
         {
-          "text": "We'll get back you within 24 hours.",
+          "text": "We'll get back to you within 24 hours.",
           "color": "omegaDark"
         }
       ],
@@ -28,7 +28,7 @@
         }
       ],
       "form": {
-        "action": "/",
+        "action": "https://formspree.io/f/xbjvdkyj",
         "fields": [
           {
             "identifier": "name",
@@ -42,7 +42,7 @@
             }
           },
           {
-            "identifier": "email",
+            "identifier": "_replyto",
             "type": "EMAIL",
             "placeholder": {
               "text": "Email Address"
@@ -129,6 +129,11 @@
           "text": [
             {
               "text": "Wayne Cheveldayoff",
+              "color": "omegaDarker",
+              "variant": "h6"
+            },
+            {
+              "text": "Corporate Communications",
               "color": "omegaDarker",
               "variant": "h6"
             }
