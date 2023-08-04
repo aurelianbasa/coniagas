@@ -16,18 +16,17 @@
           "variant": "links.nav-dark"
         },
         {
-          "text": "Critical Materials",
-          "type": "PAGE",
-          "link": "/critical-materials/",
-          "variant": "links.nav-dark"
-        },
-        {
           "text": "Project",
           "variant": "links.nav-dark",
           "link": "/projects/graal/",
           "type": "PAGE" 
             },
-            
+           {
+          "text": "Critical Materials",
+          "type": "PAGE",
+          "link": "/critical-materials/",
+          "variant": "links.nav-dark"
+        },   
         {
           "text": "News",
           "type": "SUB",
@@ -53,6 +52,7 @@
             }
           ]
         },
+
         {
           "text": "Investors",
           "type": "SUB",
@@ -86,6 +86,26 @@
         }
       ]
     },
+            {
+          "text": "Media",
+          "type": "SUB",
+          "variant": "links.nav-dark",
+          "buttons": [
+            {
+              "text": "Photo Gallery",
+              "type": "PAGE",
+              "link": "/media/photo-gallery",
+              "variant": "links.nav-dark"
+            },
+            {
+              "text": "Videos",
+              "type": "PAGE",
+              "link": "/media/video-interviews",
+              "variant": "links.nav-dark"
+            }
+          ]
+        },
+    
     {
       "buttons": [
         {
