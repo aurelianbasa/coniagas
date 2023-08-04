@@ -96,12 +96,6 @@
               "type": "PAGE",
               "link": "/media/photo-gallery",
               "variant": "links.nav-dark"
-            },
-            {
-              "text": "Videos",
-              "type": "PAGE",
-              "link": "/media/video-interviews",
-              "variant": "links.nav-dark"
             }
           ]
         },
