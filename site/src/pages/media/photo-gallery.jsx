@@ -5,7 +5,7 @@ import Seo from '@solid-ui-components/Seo'
 import Divider from '@solid-ui-components/Divider'
 import ModalSimple from '@solid-ui-blocks/Modal/Block02'
 import Header from '@solid-ui-blocks/Header/Block01'
-import Gallery from '@elegantstack/site/src/blocks/PhotoGallery/Block01'
+import Gallery from '../../blocks/PhotoGallery/Block01'
 import Footer from '@solid-ui-blocks/Footer/Block01'
 import { normalizeBlockContentNodes } from '@blocks-helpers'
 
