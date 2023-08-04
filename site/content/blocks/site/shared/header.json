@@ -86,19 +86,7 @@
         }
       ]
     },
-            {
-          "text": "Media",
-          "type": "SUB",
-          "variant": "links.nav-dark",
-          "buttons": [
-            {
-              "text": "Photo Gallery",
-              "type": "PAGE",
-              "link": "/media/photo-gallery",
-              "variant": "links.nav-dark"
-            }
-          ]
-        },
+    
     
     {
       "buttons": [
