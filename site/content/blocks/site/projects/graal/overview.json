@@ -8,7 +8,7 @@
     {
       "text": "A **Strategic** Move to add Discoveries",
       "variant": "h3",
-      "color": "beta",
+      "color": "alpha",
       "align": ["left"]
     },
     {
@@ -42,13 +42,13 @@
     {
       "text": [
         {
-          "text": "14",
+          "text": "1",
           "color": "#2DC88A",
           "variant": "h2",
           "space": 1
         },
         {
-          "text": "Properties",
+          "text": "Test",
           "variant": "h6"
         }
       ]
@@ -56,13 +56,13 @@
     {
       "text": [
         {
-          "text": "573",
+          "text": "1",
           "color": "alpha",
           "variant": "h2",
           "space": 1
         },
         {
-          "text": "Claims",
+          "text": "Test",
           "variant": "h6"
         }
       ]
