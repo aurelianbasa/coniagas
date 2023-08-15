@@ -1,28 +1,69 @@
 {
   "text": [
     {
-      "text": "Nourricier Project",
-      "color": "alpha",
+      "text": "Graal",
+      "color": "omegaDark",
       "variant": "h4"
     },
     {
-      "text": "Magmatic massive sulphides",
-      "variant": "h2"
+      "text": "**Strategic** Move to add Discoveries",
+      "variant": "h2",
+      "align": ["left"]
     },
     {
-      "text": "The Graal - Nourricier Lac Suzanne, Lowney (Lac Edouard), Fushia Massif du Nord and Forgues East Manic Crater properties are the most promising magmatic reservoirs identified as it stands today.",
-      "variant": "medium"
-    },
-    {
-      "text": "The Company's intention is to drill right on the maximum Bouguer Anomaly identified.",
-      "variant": "medium"
+      "text": "The Graal-Nourricier-Lac Suzanne property (Graal) is one of the company's 14 properties in Northern Quebec that have a strong potential to host a variety of electric vehicle (EV) metals including nickel, copper and cobalt.  The properties were staked or acquired outright or via option agreements in 2020 and 2021 as part of a strategic move to add to the company’s current cobalt mineralization discoveries in the Cobalt Camp and as an expedient approach to the increasing demand for EV battery metals.",
+      "variant": "medium",
+      "align": ["left"]
     }
   ],
   "images": [
     {
       "src": "../../../../assets/site/projects/nourricier/overview.jpg",
-      "radius": "xl",
       "alt": "alt text"
+    }
+  ],
+  "collection": [
+    {
+      "text": [
+        {
+          "text": "14",
+          "color": "#2DC88A",
+          "variant": "h2",
+          "space": 1
+        },
+        {
+          "text": "Properties",
+          "variant": "h6"
+        }
+      ]
+    },
+    {
+      "text": [
+        {
+          "text": "573",
+          "color": "alpha",
+          "variant": "h2",
+          "space": 1
+        },
+        {
+          "text": "Claims",
+          "variant": "h6"
+        }
+      ]
+    },
+    {
+      "text": [
+        {
+          "text": "31,201",
+          "color": "beta",
+          "variant": "h2",
+          "space": 1
+        },
+        {
+          "text": "Hectares",
+          "variant": "h6"
+        }
+      ]
     }
   ]
 }

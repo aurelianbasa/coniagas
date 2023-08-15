@@ -1,0 +1,118 @@
+{
+  "text": [
+    {
+      "text": "MILESTONES",
+      "color": "omega",
+      "variant": "h3"
+    },
+    {
+      "text": "",
+      "color": "beta",
+      "variant": "h1"
+    }
+  ],
+  "collection": [
+    {
+      "text": [
+        {
+          "text": "Expanded claim package",
+          "color": "alpha",
+          "variant": "h5"
+        },
+        {
+          "text": "Acquired 888.56 hectares of land in 2021 for a grand total of 6,113 hectares",
+          "color": "omega"
+        }
+      ],
+      "icon": {
+        "src": "../../../assets/flexiblocks/icons/bx-line-chart.svg",
+        "color": "omegaDark"
+      }
+    },
+    {
+      "text": [
+        {
+          "text": "Mineralized strike length",
+          "color": "alpha",
+          "variant": "h5"
+        },
+        {
+          "text": "6km of near-surface copper, nickel, and cobalt",
+          "color": "omega"
+        }
+      ],
+      "icon": {
+        "src": "../../../assets/flexiblocks/icons/bx-target-lock.svg",
+        "color": "omegaDark"
+      }
+    },
+    {
+      "text": [
+        {
+          "text": "Completed Strategic Study",
+          "color": "alpha",
+          "variant": "h5"
+        },
+        {
+          "text": "Airborne gravimetric and magnetic survey on select areas",
+          "color": "omega"
+        }
+      ],
+      "icon": {
+        "src": "../../../assets/flexiblocks/icons/bx-target-lock.svg",
+        "color": "omegaDark"
+      }
+    },
+    {
+      "text": [
+        {
+          "text": "Diamond Drilling",
+          "color": "alpha",
+          "variant": "h5"
+        },
+        {
+          "text": "Completed 15,000 meters targeting geophysical anomalies",
+          "color": "omega"
+        }
+      ],
+      "icon": {
+        "src": "../../../assets/flexiblocks/icons/bx-target-lock.svg",
+        "color": "omegaDark"
+      }
+    },
+    {
+      "text": [
+        {
+          "text": "Intercepted Massive Sulphides",
+          "color": "alpha",
+          "variant": "h5"
+        },
+        {
+          "text": "With XRF results up to 2.79% Ni and 25.68% Cu",
+          "color": "omega"
+        }
+      ],
+      "icon": {
+        "src": "../../../assets/flexiblocks/icons/bx-target-lock.svg",
+        "color": "omegaDark"
+      }
+    },
+    {
+      "text": [
+        {
+          "text": "Borehole Geophysics",
+          "color": "alpha",
+          "variant": "h5"
+        },
+        {
+          "text": "To quantify potential thickness around the sulphide intersections",
+          "color": "omega"
+        }
+      ],
+      "icon": {
+        "src": "../../../assets/flexiblocks/icons/bx-target-lock.svg",
+        "color": "omegaDark"
+      }
+    }
+  ]
+}

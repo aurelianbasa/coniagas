@@ -1,0 +1,46 @@
+{
+  "collection": [
+    {
+      "text": [
+        {
+          "text": "6113",
+          "color": "omegaDarker",
+          "variant": "h1"
+        },
+        {
+          "text": "hectares",
+          "color": "beta",
+          "variant": "h5"
+        }
+      ]
+    },
+    {
+      "text": [
+        {
+          "text": "6",
+          "color": "omegaDarker",
+          "variant": "h1"
+        },
+        {
+          "text": "Km of strike length",
+          "color": "beta",
+          "variant": "h5"
+        }
+      ]
+    },
+    {
+      "text": [
+        {
+          "text": "15000",
+          "color": "omegaDarker",
+          "variant": "h1"
+        },
+        {
+          "text": "meters of drilling",
+          "color": "beta",
+          "variant": "h5"
+        }
+      ]
+    }
+  ]
+}

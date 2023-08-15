@@ -1,18 +1,18 @@
 {
   "text": [
     {
-      "text": "Download Resources",
+      "text": "Technical Report",
       "variant": "h5"
     },
     {
-      "text": "Consequat excepteur venia Lorem labore eiusmod."
+      "text": "Most recently updated 43-101 from May, 2023."
     }
   ],
   "buttons": [
     {
-      "text": "Downloads",
+      "text": "Download",
       "type": "PAGE",
-      "link": "files/link-to-file.pdf",
+      "link": "/reports/2023may.pdf",
       "variant": "primary",
       "width": "250px"
     }
