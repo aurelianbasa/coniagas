@@ -40,7 +40,7 @@ const ProjectItemPage = props => {
       <DrillMap content={content['drill-map']} />
       </Container>
       <Container>
-      <Location content={content['location']} />
+      
         <Divider space='5' />
         <Info content={content['info-3']} reverse />
         <Divider space='5' />

@@ -1,17 +1,33 @@
 {
   "text": [
     {
-      "text": "Graal",
+      "text": "The Graal",
       "color": "omegaDark",
-      "variant": "h4"
+      "variant": "h2"
     },
     {
-      "text": "**Strategic** Move to add Discoveries",
-      "variant": "h2",
+      "text": "A **Strategic** Move to add Discoveries",
+      "variant": "h3",
+      "color": "beta",
       "align": ["left"]
     },
     {
-      "text": "The Graal-Nourricier-Lac Suzanne property (Graal) is one of the company's 14 properties in Northern Quebec that have a strong potential to host a variety of electric vehicle (EV) metals including nickel, copper and cobalt.  The properties were staked or acquired outright or via option agreements in 2020 and 2021 as part of a strategic move to add to the company’s current cobalt mineralization discoveries in the Cobalt Camp and as an expedient approach to the increasing demand for EV battery metals.",
+      "text": "We are advancing the Graal project towards production to meet the rising demand for Critical Minerals from Safe Jurisdictions",
+      "variant": "medium",
+      "align": ["left"]
+    },
+    {
+      "text": "Evidence points to a large deposit of high-grade nickel, copper and cobalt near surface with showings of platinum and palladium and potential for a significant deposit at depth",
+      "variant": "medium",
+      "align": ["left"]
+    },
+    {
+      "text": "The property is ideally located close to major battery manufacturing infrastructure with access to deep sea ports",
+      "variant": "medium",
+      "align": ["left"]
+    },
+    {
+      "text": "Work in the coming year will focus on exploration drilling aimed at expanding the size of the mineralized deposit area and delivering a maiden resource report",
       "variant": "medium",
       "align": ["left"]
     }
