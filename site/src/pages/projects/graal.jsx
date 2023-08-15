@@ -4,6 +4,7 @@ import { Container } from 'theme-ui'
 import Layout from '@solid-ui-layout/Layout'
 import Seo from '@solid-ui-components/Seo'
 import Divider from '@solid-ui-components/Divider'
+import DrillMap from '../../blocks/DrillHolesMap/Block01'
 import ModalSimple from '@solid-ui-blocks/Modal/Block02'
 import Header from '@solid-ui-blocks/Header/Block01'
 import Info from '@solid-ui-blocks/FeaturesWithPhoto/Block05'
@@ -21,7 +22,7 @@ const ProjectItemPage = props => {
 
   return (
     <Layout {...props}>
-      <Seo title='Nourricier Project' />
+      <Seo title='The Graal Project' />
       {/* Modals */}
       <ModalSimple content={content['privacy-policy']} />
       <ModalSimple content={content['disclaimer']} />
@@ -36,6 +37,9 @@ const ProjectItemPage = props => {
       <Milestones content={content['milestones-1']} />
       <Divider space='5' />
       <Container variant='narrow'>
+      <DrillMap content={content['drill-map']} />
+      </Container>
+      <Container>
       <Location content={content['location']} />
         <Divider space='5' />
         <Info content={content['info-3']} reverse />
@@ -56,9 +60,9 @@ const ProjectItemPage = props => {
 }
 
 export const query = graphql`
-  query siteProjectsNourricierBlockContent {
+  query siteProjectsGraalBlockContent {
     allBlockContent(
-      filter: { page: { in: ["site/projects/nourricier", "site/shared"] } }
+      filter: { page: { in: ["site/projects/graal", "site/shared"] } }
     ) {
       nodes {
         ...BlockContent
