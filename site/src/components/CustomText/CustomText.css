@@ -1,0 +1,16 @@
+.marquee {
+  position: relative;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  width: max-content;
+  overflow: hidden;
+}
+
+.track {
+  display: inline;
+  flex: content;
+  white-space: nowrap;
+  will-change: transform;
+}

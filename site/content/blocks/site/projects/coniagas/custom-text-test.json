@@ -1,0 +1,48 @@
+{
+  "paragraph": {
+    "paragraphtext": [
+      {
+        "text": "Forgues Project "
+      },
+      {
+        "text": "Prospective",
+        "underlineColor": "#FAEBD7"
+      },
+      {
+        "text": " "
+      },
+      {
+        "text": "mining claim",
+        "highlightColor": "Aqua"
+      },
+      {
+        "text": ".",
+        "highlightColor": "#8080e6",
+        "underlineColor": "purple"
+      },
+      {
+        "text": "The "
+      },
+      {
+        "wordScroll": [
+          {
+            "text": "Eby-Otto"
+          },
+          {
+            "text": "Tinney"
+          }
+        ]
+      },
+      {
+        "text": " area was originally discovered by silver prospectors originating from the town of Cobalt prospecting for silver."
+      },
+      {
+        "text": "But instead of silver, they found occurrences of gold near the shore of Otto Lake in 1906."
+      }
+    ],
+    "variant": "h1",
+    "align": [
+      "left"
+    ]
+  }
+}
