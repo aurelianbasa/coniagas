@@ -1,4 +1,5 @@
 const fontFile = require('./src/@elegantstack/solid-ui-theme/typography-fonts.json')
+require('dotenv').config()
 
 module.exports = {
   plugins: [
@@ -25,24 +26,6 @@ module.exports = {
         }
       }
     },
-
-    //
-    //
-    // {
-    //   resolve: 'gatsby-plugin-algolia',
-    //   options: {
-    //     appId: process.env.GATSBY_ALGOLIA_APP_ID,
-    //     apiKey: process.env.ALGOLIA_ADMIN_KEY,
-    //     chunkSize: 10000,
-    //     queries: require('@elegantstack/gatsby-blog-algolia/src/queries')
-    //   }
-    // },
-    // {
-    //   resolve: 'gatsby-plugin-mailchimp',
-    //   options: {
-    //     endpoint: process.env.MAILCHIMP_END_POINT
-    //   }
-    // },
     {
       resolve: 'gatsby-plugin-manifest',
       options: {

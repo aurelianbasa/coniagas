@@ -4,7 +4,10 @@
   "license": "",
   "workspaces": ["packages/**", "site"],
   "scripts": {
+    "build": "lerna run build",
     "clean": "lerna clean",
+    "dev": "yarn workspace site run develop",
+    "preinstall": "lerna bootstrap",
     "release": "lerna version",
     "prettier:windows": "./node_modules/.bin/prettier --write \"{packages,starters}/**/*.{jsx,js}\""
   },
