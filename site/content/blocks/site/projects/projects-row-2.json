@@ -79,7 +79,7 @@
         "variant": "cards.interactive",
         "link": {
           "type": "PAGE",
-          "link": "/projects/nourricier"
+          "link": "/projects/coniagas"
         }
       },
       "text": [
@@ -88,12 +88,12 @@
           "color": "alphaDark"
         },
         {
-          "text": "Nourricier",
+          "text": "Coniagas",
           "color": "omegaDarker",
           "variant": "h5"
         },
         {
-          "text": "The best results from the rock and drill core sampling returned grades of up to 10.31% Nickel, 4.9% Copper and 1% Cobalt."
+          "text": "Test of features"
         }
       ],
       "images": [
@@ -106,7 +106,7 @@
         {
           "text": "View Project",
           "type": "PAGE",
-          "link": "/projects/nourricier",
+          "link": "/projects/coniagas",
           "variant": "primary"
         }
       ]

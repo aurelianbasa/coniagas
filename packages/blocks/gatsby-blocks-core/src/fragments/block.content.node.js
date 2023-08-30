@@ -10,6 +10,15 @@ export const query = graphql`
     text {
       ...BlockContentText
     }
+    paragraph { 
+      ...BlockContentParagraph
+    }
+    paragraphtext { 
+      ...BlockContentParagraphText
+    }
+    juxtapose {
+      ...BlockContentJuxtapose
+    }
     images {
       ...BlockContentImage
     }
