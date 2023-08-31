@@ -7,11 +7,11 @@ import Divider from '@solid-ui-components/Divider'
 import ModalSimple from '@solid-ui-blocks/Modal/Block02'
 import Content from '@solid-ui-blocks/Content/Block02'
 import Header from '@solid-ui-blocks/Header/Block01'
-import DropDown from '@solid-ui-blocks/Faq/Block01'
 import Faq from '@solid-ui-blocks/Faq/Block02'
 import Table from '../../blocks/Table/Block01'
 import StockChart from '../../blocks/StockChart/Block01'
 import Footer from '@solid-ui-blocks/Footer/Block01'
+import Download from '@solid-ui-blocks/CallToAction/Block02'
 import { normalizeBlockContentNodes } from '@blocks-helpers'
 
 const MediaPage = props => {
@@ -39,7 +39,7 @@ const MediaPage = props => {
       <Divider space='5' />
       <Divider space='5' />
       <Container variant='narrow'>
-        <DropDown content={content['technical-data']} />
+      <Download content={content['download']} />
       </Container>
       <Divider space='5' />
       <Divider space='5' />
