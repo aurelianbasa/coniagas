@@ -35,13 +35,13 @@ const Services03 = props => {
         <Gallery content={content['gallery']} />
       </Container>
       <Divider space='5' />
-      <Container variant='wide' sx={styles.teamContainer}>
+     
       <CustomTextBlock content={content['paragraph-1']} />
-      <Divider space='2' />
+      <Divider space='3' />
       <CustomTextBlock content={content['paragraph-2']} />
-      <Divider space='2' />
+      <Divider space='3' />
       <CustomTextBlock content={content['paragraph-3']} />
-      </Container>
+ 
       <Divider space='5' />
       <Divider space='5' />
       <Comparison content={content['comparison']} />
