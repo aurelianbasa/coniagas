@@ -3,6 +3,20 @@
     {
       "text": [
         {
+          "text": "110",
+          "color": "omegaDarker",
+          "variant": "h1"
+        },
+        {
+          "text": "claims",
+          "color": "beta",
+          "variant": "h5"
+        }
+      ]
+    },
+    {
+      "text": [
+        {
           "text": "6113",
           "color": "omegaDarker",
           "variant": "h1"
@@ -17,21 +31,7 @@
     {
       "text": [
         {
-          "text": "6",
-          "color": "omegaDarker",
-          "variant": "h1"
-        },
-        {
-          "text": "Km of strike length",
-          "color": "beta",
-          "variant": "h5"
-        }
-      ]
-    },
-    {
-      "text": [
-        {
-          "text": "15000",
+          "text": "16788",
           "color": "omegaDarker",
           "variant": "h1"
         },
