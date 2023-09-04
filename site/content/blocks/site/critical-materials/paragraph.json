@@ -9,7 +9,7 @@
       },
       { 
         "text": "nickel, copper, cobalt and the platinum group metals ",
-        "highlightColor": "#617079"
+        "highlightColor": "#FADDCF"
       },
       {
         "text": "— are all regarded as critical and on the Canadian and US lists, with the three more-abundant minerals at Graal — nickel, copper and cobalt — also on the Quebec Government's list. See below for graphic representations of these lists and also links to key Canadian and US government reports."
@@ -18,7 +18,7 @@
         "text": "Coniagas Battery Metals, in its development of Graal, has taken up the critical minerals challenge of producing more of these critical minerals within North America. The Company strongly believes that Graal could be a substantial supplier of critical minerals to the North American market, especially the North American EV battery market located just to the south along the St. Lawrence and Great Lakes."
       }
     ],
-    "variant": "h4",
+    "variant": "medium",
     "align": [
       "left"
     ]
