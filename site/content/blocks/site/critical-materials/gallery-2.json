@@ -3,12 +3,14 @@
       {
         "text": "CANADA",
         "color": "omegaDarker",
-        "variant": "h4"
+        "variant": "h4",
+        "align": ["left"]
       },
       {
         "text": "From Exploration to Recycling",
         "color": "omegaDark",
-        "variant": "h2"
+        "variant": "h2",
+        "align": ["left"]
       },
       {
         "text": "December 2022",

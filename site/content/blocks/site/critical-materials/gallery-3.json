@@ -3,12 +3,14 @@
       {
         "text": "QUÉBEC",
         "color": "omegaDarker",
-        "variant": "h4"
+        "variant": "h4",
+        "align": ["left"]
       },
       {
         "text": "Minerals for the Future",
         "color": "omegaDark",
-        "variant": "h2"
+        "variant": "h2",
+        "align": ["left"]
       },
 {
       "text": "February 2020",
