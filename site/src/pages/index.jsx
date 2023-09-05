@@ -40,7 +40,7 @@ const IndexPage = props => {
       <Primary content={content['primary']} reverse />
       <Divider space='4' />
       <Divider space='5' />
-      <Intro content={content['intro']} reverse />
+      <Intro content={content['intro']} />
       <Divider space='5' />
       <Divider space='5' />
       <WithRecentPosts>

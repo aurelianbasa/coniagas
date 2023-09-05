@@ -8,7 +8,7 @@ import ModalWithTabs from '@solid-ui-blocks/Modal/Block01'
 import ModalSimple from '@solid-ui-blocks/Modal/Block02'
 import Header from '@solid-ui-blocks/Header/Block01'
 import Content from '@solid-ui-blocks/Content/Block02'
-import Gallery from '@solid-ui-blocks/Blog/Block01'
+import Gallery from '@solid-ui-blocks/Hero/Block02'
 import Comparison from '../../blocks/FeaturesWithPhoto/Block06'
 import Stats from '../../blocks/Features/Block06'
 import CustomTextBlock from '../../blocks/CustomText/CustomTextBlock'
@@ -32,13 +32,17 @@ const Services03 = props => {
       <Container variant='wide' sx={styles.heroContainer}>
         <Content content={content['hero']} />
         <Divider space='3' />
-        <Gallery content={content['gallery']} />
       </Container>
-      <Divider space='5' />
+      <Divider space='2' />
       <CustomTextBlock content={content['heading']} />
       <Divider space='5' />
       <CustomTextBlock content={content['paragraph']} />
       <Divider space='5' />
+      <Gallery content={content['gallery-1']} />
+      <Divider space='5' />
+      <Gallery content={content['gallery-2']} />
+      <Divider space='5' />
+      <Gallery content={content['gallery-3']} />
       <Divider space='5' />
       <Comparison content={content['comparison']} />
       <Divider space='5' />
