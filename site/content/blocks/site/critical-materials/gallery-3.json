@@ -6,7 +6,7 @@
         "variant": "h4"
       },
       {
-        "text": "Location **Couldn't Be Better**",
+        "text": "Minerals for the Future",
         "color": "omegaDark",
         "variant": "h2"
       },
@@ -39,9 +39,10 @@
     ],
   "buttons": [
     {
-      "text": "↓ Download Report",
+      "text": "Link to Report ➥ ",
       "type": "PAGE",
-      "link": "https://www.canada.ca/content/dam/nrcan-rncan/site/critical-minerals/Critical-minerals-strategyDec09.pdf",
+      "width": "100%",
+      "link": "https://cdn-contenu.quebec.ca/cdn-contenu/ressources-naturelles/Documents/PL_resume_critical_strategic_minerals.pdf",
       "variant": "secondary-gradient"
     }
   ]

@@ -6,7 +6,7 @@
         "variant": "h4"
       },
       {
-        "text": "Location **Couldn't Be Better**",
+        "text": "From Exploration to Recycling",
         "color": "omegaDark",
         "variant": "h2"
       },
@@ -39,10 +39,11 @@
     ],
   "buttons": [
     {
-      "text": "↓ Download Report",
-      "type": "PAGE",
+      "text": "Link to Report ➥ ",
+    "type": "PAGE",
+    "width": "100%",
       "link": "https://www.canada.ca/content/dam/nrcan-rncan/site/critical-minerals/Critical-minerals-strategyDec09.pdf",
-      "variant": "gradient"
+      "variant": "secondary-gradient"
 
     }
   ]

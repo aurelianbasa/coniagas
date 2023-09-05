@@ -33,7 +33,7 @@
     ],
     "images": [
       {
-        "src": "../../../assets/site/critical-materials/gallery-1.svg",
+        "src": "../../../assets/site/critical-materials/gallery-1.png",
         "alt": "alt text",
         "radius": "lg",
         "effects": ["fadeInLeft"]
@@ -43,9 +43,9 @@
   {
     "text": "Link to Report ➥ ",
     "type": "PAGE",
-    "align": ["left"],
+    "width": "100%",
     "link": "https://www.energy.gov/sites/default/files/2023-07/doe-critical-material-assessment_07312023.pdf",
-    "variant": "links.nav-dark"
+    "variant": "secondary-gradient"
   }
 ]
 }
