@@ -7,17 +7,23 @@
       },
       {
         "text": "Location **Couldn't Be Better**",
-        "color": "beta",
+        "color": "omegaDark",
         "variant": "h2"
       },
       {
-        "text": "The most decisive factor in sourcing the next generation of mineral deposits is the distance to the emergent Battery Corridor forming in North America depicted below. This is reflected in Canadians and American industry policy objectives. The province of Québec is a safe and reliable jurisdiction that offers cheap renewable sources of hydro power, a highly skilled workforce, and top of the line infrastructure. The location couldn't be better.",
+        "text": "December 2022",
+        "color": "beta",
+        "variant": "h5",
+        "align": ["left"]
+      },
+      {
+        "text": "The Canadian government strategy aims to increase responsible production and develop domestic and global supply chains for critical minerals. This includes supporting exploration, accelerating projects, building infrastructure, workforce development, and global partnerships.",
         "color": "omegaDark",
         "variant": "medium",
         "align": ["left"]
       },
       {
-        "text": "",
+        "text": "Canada has significant reserves of many critical minerals that are essential for clean energy technologies, electronics, and other applications. Developing this sector could boost Canada's economy and position it as a global supplier. Meaningfully engaging and collaborating with Indigenous peoples is a priority, and critical mineral development presents opportunities to grow Indigenous economies and partnerships.",
         "color": "omegaDark",
         "variant": "medium",
         "align": ["left"]
@@ -37,7 +43,7 @@
       "type": "PAGE",
       "link": "https://www.canada.ca/content/dam/nrcan-rncan/site/critical-minerals/Critical-minerals-strategyDec09.pdf",
       "variant": "gradient"
-      
+
     }
   ]
   }
