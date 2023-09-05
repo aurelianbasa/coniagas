@@ -30,6 +30,14 @@
         "radius": "lg",
         "effects": ["fadeInLeft"]
       }
-    ]
+    ],
+  "buttons": [
+    {
+      "text": "↓ Download Report",
+      "type": "PAGE",
+      "link": "https://www.canada.ca/content/dam/nrcan-rncan/site/critical-minerals/Critical-minerals-strategyDec09.pdf",
+      "variant": "secondary-gradient"
+    }
+  ]
   }
-  
+    
