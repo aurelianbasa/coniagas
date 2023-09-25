@@ -28,10 +28,10 @@ const Services03 = props => {
       <ModalSimple content={content['disclaimer']} />
       {/* Blocks */}
       <Header content={content['header']} />
-      <Divider space='5' />
+      <Divider space='6' />
       <Container variant='wide' sx={styles.heroContainer}>
         <Content content={content['hero']} />
-        <Divider space='8' />
+        <Divider space='5' />
       </Container>
       <Gallery content={content['gallery-1']} />
       <Divider space='5' />
