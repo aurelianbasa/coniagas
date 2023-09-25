@@ -1,17 +1,12 @@
 import React from 'react'
 import { graphql } from 'gatsby'
-import { Container } from 'theme-ui'
 import Layout from '@solid-ui-layout/Layout'
 import Seo from '@solid-ui-components/Seo'
 import Divider from '@solid-ui-components/Divider'
 import ModalSimple from '@solid-ui-blocks/Modal/Block02'
-import Content from '@solid-ui-blocks/Content/Block02'
 import Header from '@solid-ui-blocks/Header/Block01'
-import Faq from '@solid-ui-blocks/Faq/Block02'
-import Table from '../../blocks/Table/Block01'
-import StockChart from '../../blocks/StockChart/Block01'
+import Cards from '@solid-ui-blocks/Blog/Block01'
 import Footer from '@solid-ui-blocks/Footer/Block01'
-import Download from '@solid-ui-blocks/CallToAction/Block02'
 import { normalizeBlockContentNodes } from '@blocks-helpers'
 
 const MediaPage = props => {
@@ -20,7 +15,7 @@ const MediaPage = props => {
 
   return (
     <Layout {...props}>
-      <Seo title='Investors' />
+      <Seo title='Video Interviews' />
       {/* Modals */}
       <ModalSimple content={content['privacy-policy']} />
       <ModalSimple content={content['disclaimer']} />
@@ -28,30 +23,20 @@ const MediaPage = props => {
       <Header content={content['header']} />
       <Divider space='5' />
       <Divider space='5' />
-      <StockChart content={content['stock-information-chart']} />
-      <Table content={content['stock-information-table']} />
+      <Cards content={content['video-interviews-1']} />
+      <Divider space='1' />
       <Divider space='5' />
-      <Container variant='narrow'>
-      <Download content={content['download-2']} />
-      </Container>
-      <Divider space='5' />
-      <Table content={content['capital-structure']} />
-      <Divider space='5' />
-      <Divider space='5' />
-      <Container variant='narrow'>
-      <Download content={content['download']} />
-      </Container>
-      <Divider space='5' />
-      <Divider space='5' />
+
+
       <Footer content={content['footer']} />
     </Layout>
   )
 }
 
 export const query = graphql`
-  query siteInvestorsBlockContent {
+  query siteMediaVideoInterviewsBlockContent {
     allBlockContent(
-      filter: { page: { in: ["site/investors", "site/shared"] } }
+      filter: { page: { in: ["site/media/video-interviews", "site/shared"] } }
     ) {
       nodes {
         ...BlockContent
