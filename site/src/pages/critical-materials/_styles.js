@@ -15,7 +15,7 @@ export default {
       position: `absolute`,
       content: `" "`,
       width: `full`,
-      height: `10/12`,
+      height: `11/12`,
       top: 0,
       right: 0,
       borderRadius: t => `0 0 ${t.radii.xl} ${t.radii.xl}`,
