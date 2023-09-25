@@ -54,11 +54,8 @@ const styles = {
     display: [`none`, `block`],
     height: `full`,
     bg: `omegaLighter`,
-    borderRadius: `xl`,
-    minHeight: `15rem`,
-    img: {
-      borderRadius: `xl`
-    }
+    borderRadius: `lg`,
+    minHeight: `15rem`
   },
   avatar: {
     size: 42,
