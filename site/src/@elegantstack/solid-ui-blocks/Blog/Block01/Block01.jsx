@@ -20,12 +20,12 @@ const styles = {
   },
   card: {
     overflow: `hidden`,
-    height: `block`
+    height: `5/6`
   },
   content: {
     alignItems: `stretch`,
     flexDirection: [`row`, null, null, `column`],
-    height: `full`
+    height: `3/4`
   },
   body: {
     display: `flex`,
