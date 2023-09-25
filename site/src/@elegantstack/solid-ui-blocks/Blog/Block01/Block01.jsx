@@ -20,12 +20,12 @@ const styles = {
   },
   card: {
     overflow: `hidden`,
-    height: `5/6`
+    height: `full`
   },
   content: {
     alignItems: `stretch`,
     flexDirection: [`row`, null, null, `column`],
-    height: `3/4`
+    height: 250
   },
   body: {
     display: `flex`,
@@ -63,8 +63,7 @@ const styles = {
     borderRadius: `xl`,
     mx: `auto`,
     img: {
-      borderRadius: `xl`,
-      objectPosition: `top center !important`
+      borderRadius: `xl`
     }
   },
   avatar: {
@@ -83,7 +82,7 @@ const styles = {
 
 const BlogBlock01 = ({ content: { text, collection, buttons } }) => (
   <Container>
-    <Box sx={{ textAlign: `center` }}>
+    <Box sx={{ textAlign: `left` }}>
       <ContentText content={text} />
     </Box>
     <Divider />
