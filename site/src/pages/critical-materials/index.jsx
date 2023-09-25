@@ -31,9 +31,8 @@ const Services03 = props => {
       <Divider space='6' />
       <Container variant='wide' sx={styles.heroContainer}>
         <Content content={content['hero']} />
-        <Divider space='8' />
+        <Divider space='4' />
       </Container>
-      <Divider space='-3' />
       <Gallery content={content['gallery-1']} />
       <Divider space='5' />
       <Gallery content={content['gallery-2']} />
