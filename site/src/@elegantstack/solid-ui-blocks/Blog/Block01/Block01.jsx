@@ -24,6 +24,7 @@ const styles = {
   },
   content: {
     alignItems: `stretch`,
+    flexDirection: [`row`, null, null, `column`],
     height: `full`
   },
   body: {
@@ -50,17 +51,11 @@ const styles = {
     height: `full`
   },
   image: {
-    height: 230,
-    bg: `omegaLight`,
-    borderTopColor: `omegaLight`,
-    borderTopWidth: `xxl`,
-    borderTopStyle: `solid`,
-    borderBottomColor: `beta`,
-    borderBottomWidth: `md`,
-    borderBottomStyle: `solid`,
-    boxSizing: `content-box`,
+    display: [`none`, `block`],
+    height: `full`,
+    bg: `omegaLighter`,
     borderRadius: `xl`,
-    mx: `auto`,
+    minHeight: `15rem`,
     img: {
       borderRadius: `xl`
     }
@@ -81,7 +76,7 @@ const styles = {
 
 const BlogBlock01 = ({ content: { text, collection, buttons } }) => (
   <Container>
-    <Box sx={{ textAlign: `left` }}>
+    <Box sx={{ textAlign: `center` }}>
       <ContentText content={text} />
     </Box>
     <Divider />
@@ -90,26 +85,22 @@ const BlogBlock01 = ({ content: { text, collection, buttons } }) => (
         <Flex sx={{ flexWrap: `wrap`, justifyContent: `center`, m: -3 }}>
           {collection.map(
             ({ container, text, images, avatar, buttons }, index) => (
-              <Box key={`item-${index}`} sx={{
-                flexBasis: [`1`, null, `1/3`, `1/3`],
-                flexGrow: 0,
-                p: 1
-              }}>
+              <Box key={`item-${index}`} sx={styles.wrapper}>
                 <ContentContainer
                   content={container}
-                  variant='cards.primary'
-                  sx={{ textAlign: `center`, height: `100%`, p: 2 }}
+                  variant='cards.interactive'
+                  sx={styles.card}
                 >
                   <Flex as='article' sx={styles.content}>
                     {/* Image */}
-                    <Box sx={{ flex: [2, 1], m: 2, mb: [null, null, null, 0] }}>
-                      
+                    <Box sx={{ flex: [0, 1], m: 2, mb: [null, null, null, 0] }}>
+                      <Box sx={styles.imageWrapper}>
                         <ContentImages
                           content={{ images }}
-                          sx={{ textAlign: `center`, height: `100%`, p: 2 }}
+                          sx={styles.image}
                           imageEffect='fadeIn'
                         />
-                     
+                      </Box>
                     </Box>
                     <Box sx={styles.body}>
                       {/* Category */}
@@ -193,10 +184,10 @@ const BlogBlock01 = ({ content: { text, collection, buttons } }) => (
       </Reveal>
     )}
     {buttons && (
-      <Box sx={{ textAlign: `center` }}>
+      <>
         <Divider space={3} />
         <ContentButtons content={buttons} />
-      </Box>
+      </>
     )}
   </Container>
 )
