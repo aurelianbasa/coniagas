@@ -24,7 +24,6 @@ const styles = {
   },
   content: {
     alignItems: `stretch`,
-    flexDirection: [`row`, null, null, `column`],
     height: `full`
   },
   body: {
@@ -93,13 +92,13 @@ const BlogBlock01 = ({ content: { text, collection, buttons } }) => (
             ({ container, text, images, avatar, buttons }, index) => (
               <Box key={`item-${index}`} sx={{
                 flexBasis: [`1`, null, `1/3`, `1/3`],
-                flexGrow: 1,
+                flexGrow: 0,
                 p: 1
               }}>
                 <ContentContainer
                   content={container}
-                  variant='cards.interactive'
-                  sx={styles.card}
+                  variant='cards.primary'
+                  sx={{ textAlign: `center`, height: `100%`, p: 2 }}
                 >
                   <Flex as='article' sx={styles.content}>
                     {/* Image */}
