@@ -9,7 +9,7 @@ const WithRecentPosts = ({ children, limit = 3 }) => {
 
   const collection = recentPosts.map(post => ({
     container: {
-      variant: 'cards.interactive',
+      variant: 'cards.primary',
       link: {
         type: 'PAGE',
         link: post.slug
