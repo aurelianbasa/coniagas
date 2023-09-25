@@ -31,6 +31,9 @@ const MediaPage = props => {
       <StockChart content={content['stock-information-chart']} />
       <Table content={content['stock-information-table']} />
       <Divider space='5' />
+      <Container variant='narrow'>
+      <Download content={content['download-2']} />
+      </Container>
       <Divider space='5' />
       <Table content={content['capital-structure']} />
       <Divider space='5' />

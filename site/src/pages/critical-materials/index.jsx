@@ -33,7 +33,7 @@ const Services03 = props => {
         <Content content={content['hero']} />
         <Divider space='8' />
       </Container>
-      <Divider space='3' />
+      <Divider space='-3' />
       <Gallery content={content['gallery-1']} />
       <Divider space='5' />
       <Gallery content={content['gallery-2']} />

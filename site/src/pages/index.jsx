@@ -10,6 +10,7 @@ import Header from '@solid-ui-blocks/Header/Block01'
 import Primary from '@solid-ui-blocks/FeaturesWithPhoto/Block01'
 import Hero from '@solid-ui-blocks/Hero/Block01'
 import Intro from '@solid-ui-blocks/Hero/Block02'
+import Download from '@solid-ui-blocks/CallToAction/Block02'
 import Blog from '@solid-ui-blocks/Blog/Block01'
 import Footer from '@solid-ui-blocks/Footer/Block01'
 import { normalizeBlockContentNodes } from '@blocks-helpers'
@@ -43,6 +44,8 @@ const IndexPage = props => {
       <Intro content={content['intro']} />
       <Divider space='5' />
       <Divider space='5' />
+      <Download content={content['download']} />
+      <Divider space='4' />
       <WithRecentPosts>
         <Blog content={content['latest-blogs']} />
       </WithRecentPosts>
