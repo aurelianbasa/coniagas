@@ -31,14 +31,14 @@ const styles = {
     display: `flex`,
     flexDirection: `column`,
     justifyContent: `center`,
-    flex: `auto`,
+    flex: 1,
     p: 4
   },
   footerWrapper: {
     alignItems: `center`
   },
   postInfo: {
-    flex: `auto`,
+    flex: 1,
     flexWrap: `wrap`,
     justifyContent: `space-between`,
     color: `omega`,
@@ -98,8 +98,8 @@ const BlogBlock01 = ({ content: { text, collection, buttons } }) => (
               }}>
                 <ContentContainer
                   content={container}
-                  variant='cards.primary'
-                  sx={{ textAlign: `center`, height: `100%`, p: 2 }}
+                  variant='cards.interactive'
+                  sx={styles.card}
                 >
                   <Flex as='article' sx={styles.content}>
                     {/* Image */}
