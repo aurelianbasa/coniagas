@@ -35,19 +35,7 @@
             {
               "text": "2023",
               "type": "PAGE",
-              "link": "/news/category/press-releases/",
-              "variant": "links.nav-dark"
-            },
-            {
-              "text": "2022",
-              "type": "PAGE",
-              "link": "/news/category/press-releases/",
-              "variant": "links.nav-dark"
-            },
-            {
-              "text": "2021",
-              "type": "PAGE",
-              "link": "/news/category/press-releases/",
+              "link": "/news/category/2023/",
               "variant": "links.nav-dark"
             }
           ]
