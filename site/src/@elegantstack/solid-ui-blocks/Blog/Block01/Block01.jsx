@@ -25,20 +25,20 @@ const styles = {
   content: {
     alignItems: `stretch`,
     flexDirection: [`row`, null, null, `column`],
-    height: 250
+    height: `full`
   },
   body: {
     display: `flex`,
     flexDirection: `column`,
     justifyContent: `center`,
-    flex: 1,
+    flex: `auto`,
     p: 4
   },
   footerWrapper: {
     alignItems: `center`
   },
   postInfo: {
-    flex: 1,
+    flex: `auto`,
     flexWrap: `wrap`,
     justifyContent: `space-between`,
     color: `omega`,
