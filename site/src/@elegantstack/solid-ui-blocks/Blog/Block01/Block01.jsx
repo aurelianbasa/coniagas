@@ -20,7 +20,7 @@ const styles = {
   },
   card: {
     overflow: `hidden`,
-    height: `full`
+    height: `block`
   },
   content: {
     alignItems: `stretch`,
