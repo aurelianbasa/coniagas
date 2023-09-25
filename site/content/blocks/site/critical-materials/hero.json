@@ -5,22 +5,17 @@
         {
           "text": "OVERVIEW",
           "color": "white",
-          "variant": "h4"
-        },
-        {
-          "text": "Critical Everywhere, All at Once",
-          "color": "betaLight",
           "variant": "h3"
         },
         {
-          "text": "",
-          "color": "white",
-          "variant": "h5"
+          "text": "Critical Everywhere,",
+          "color": "betaLight",
+          "variant": "h2"
         },
         {
-          "text": "",
-          "color": "white",
-          "variant": "h5"
+          "text": "All at Once",
+          "color": "betaLight",
+          "variant": "h2"
         }
       ]
     }
