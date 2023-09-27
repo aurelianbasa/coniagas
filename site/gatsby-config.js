@@ -16,6 +16,15 @@ module.exports = {
            endpoint: 'https://gmail.us21.list-manage.com/subscribe/post?u=e9b6857e0010b1af9e9be9433&amp;id=a13478dbf4&amp;f_id=00f0e0e6f0'
          }
      },
+     {
+      resolve: 'gatsby-plugin-algolia',
+      options: {
+        appId: process.env.GATSBY_ALGOLIA_APP_ID,
+        apiKey: process.env.ALGOLIA_ADMIN_KEY,
+        chunkSize: 10000,
+        queries: require('@elegantstack/gatsby-blog-algolia/src/queries')
+      }
+    },
     {
       resolve: '@elegantstack/gatsby-theme-flexiblocks',
       options: {
@@ -27,7 +36,7 @@ module.exports = {
       resolve: '@elegantstack/gatsby-theme-flexiblog-science',
       options: {
         services: {
-          // algolia: true
+          algolia: true,
           mailchimp: true
         },
         sources: {

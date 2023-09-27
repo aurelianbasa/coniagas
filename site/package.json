@@ -16,7 +16,7 @@
     "dotenv": "^16.3.1",
     "framer-motion": "6.5.1",
     "gatsby": "3.14.3",
-    "gatsby-plugin-algolia": "^0.22.1",
+    "gatsby-plugin-algolia": "^1.0.3",
     "gatsby-plugin-emotion": "7.24.0",
     "gatsby-plugin-image": "1.14.0",
     "gatsby-plugin-mailchimp": "^5.2.2",
