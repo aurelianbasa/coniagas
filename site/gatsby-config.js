@@ -13,7 +13,7 @@ module.exports = {
     {
          resolve: 'gatsby-plugin-mailchimp',
          options: {
-           endpoint: "e9b6857e0010b1af9e9be9433"
+           endpoint: process.env.MAILCHIMP_END_POINT
          }
      },
     {
