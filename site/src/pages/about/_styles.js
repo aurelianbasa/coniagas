@@ -5,7 +5,7 @@
  *
  */
 
-import tornado from './assets/tornado-pattern.svg'
+
 
 export default {
   heroContainer: {
