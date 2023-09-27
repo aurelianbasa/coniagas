@@ -13,7 +13,7 @@
     GATSBY_ALGOLIA_SEARCH_KEY=""
     ALGOLIA_ADMIN_KEY=""
     GATSBY_ALGOLIA_INDEX_NAME="Posts"
-    MAILCHIMP_END_POINT="e9b6857e0010b1af9e9be9433"
+   
 
 [context.deploy-preview]
   [context.deploy-preview.environment]
@@ -23,7 +23,7 @@
     GATSBY_ALGOLIA_SEARCH_KEY=""
     ALGOLIA_ADMIN_KEY=""
     GATSBY_ALGOLIA_INDEX_NAME="Posts"
-    MAILCHIMP_END_POINT="e9b6857e0010b1af9e9be9433"
+   
 
 [[plugins]]
   package = "netlify-plugin-gatsby-cache"
