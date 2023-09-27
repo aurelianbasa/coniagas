@@ -22,13 +22,5 @@
       "variant": "medium",
       "align": ["left"]
     }
-  ],
-  "images": [
-    {
-      "src": "../../../assets/site/about/hero.jpg",
-      "alt": "alt text",
-      "radius": "lg",
-      "effects": ["fadeInLeft"]
-    }
   ]
 }

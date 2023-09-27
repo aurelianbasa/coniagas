@@ -13,6 +13,7 @@ import Tertiary from '@solid-ui-blocks/FeaturesWithPhoto/Block01'
 import Footer from '@solid-ui-blocks/Footer/Block01'
 import Team from '@solid-ui-blocks/Teams/Block02'
 import { normalizeBlockContentNodes } from '@blocks-helpers'
+import styles from './_styles'
 
 const AboutUs02 = props => {
   const { allBlockContent } = props.data
@@ -26,9 +27,10 @@ const AboutUs02 = props => {
       <ModalSimple content={content['disclaimer']} />
       {/* Blocks */}
       <Header content={content['header']} />
-      <Divider space='6' />
-      <Hero content={content['hero']} />
-      <Divider space='4' />
+      <Container variant='wide' sx={styles.heroContainer}>
+        <Hero content={content['hero']} />
+        <Divider space='6' />
+      </Container>
       <Divider space='5' />
       <Secondary content={content['mission']} />
       <Divider space='4' />

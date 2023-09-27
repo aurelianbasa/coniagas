@@ -4,6 +4,7 @@ import { Container } from 'theme-ui'
 import Layout from '@solid-ui-layout/Layout'
 import Seo from '@solid-ui-components/Seo'
 import Divider from '@solid-ui-components/Divider'
+import Table from '../../blocks/Table/Block01'
 import ModalSimple from '@solid-ui-blocks/Modal/Block02'
 import Header from '@solid-ui-blocks/Header/Block01'
 import Contact from '../../blocks/Form/Block01'
@@ -25,6 +26,8 @@ const AboutPage = props => {
       <Divider space='5' />
       <Divider space='5' />
       <Contact content={content['contact']} />
+      <Divider space='5' />
+      <Table content={content['stock-information-table']} />
       <Divider space='5' />
       <Footer content={content['footer']} />
     </Layout>

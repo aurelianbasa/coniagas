@@ -65,6 +65,12 @@
           "variant": "links.nav-dark",
           "buttons": [
             {
+              "text": "Stock Information",
+              "type": "PAGE",
+              "link": "/investors#capital-structure",
+              "variant": "links.nav-dark"
+            },
+            {
               "text": "Capital Structure",
               "type": "PAGE",
               "link": "/investors#capital-structure",
@@ -83,9 +89,9 @@
               "variant": "links.nav-dark"
             },
             {
-              "text": "Financials",
+              "text": "AGM Documents",
               "type": "PAGE",
-              "link": "/investors#faq",
+              "link": "/investors#agm",
               "variant": "links.nav-dark"
             }
           ]

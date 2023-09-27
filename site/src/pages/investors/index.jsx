@@ -29,7 +29,6 @@ const MediaPage = props => {
       <Divider space='5' />
       <Divider space='5' />
       <StockChart content={content['stock-information-chart']} />
-      <Table content={content['stock-information-table']} />
       <Divider space='5' />
       <Container variant='narrow'>
       <Download content={content['download-2']} />
