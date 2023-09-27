@@ -11,6 +11,12 @@ module.exports = {
       }
     },
     {
+         resolve: 'gatsby-plugin-mailchimp',
+         options: {
+           endpoint: process.env.MAILCHIMP_END_POINT
+         }
+     },
+    {
       resolve: '@elegantstack/gatsby-theme-flexiblocks',
       options: {
         createDemoPages: false,
@@ -20,6 +26,10 @@ module.exports = {
     {
       resolve: '@elegantstack/gatsby-theme-flexiblog-science',
       options: {
+        services: {
+          // algolia: true
+          mailchimp: true
+        },
         sources: {
           contentful: true,
           local: false
