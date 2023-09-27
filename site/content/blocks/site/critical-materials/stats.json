@@ -18,12 +18,12 @@
         {
           "text": "Cobalt",
           "color": "omegaDarker",
-          "variant": "h2"
+          "variant": "h3"
         },
         {
           "text": "Current Supply: 177,000 t",
           "color": "omega",
-          "variant": "h4",
+          "variant": "h5",
           "align": ["left"]
         },
         {
@@ -44,12 +44,12 @@
         {
           "text": "Nickel",
           "color": "omegaDarker",
-          "variant": "h2"
+          "variant": "h3"
         },
         {
           "text": "Current Supply: 3,160,000 t",
           "color": "omega",
-          "variant": "h4",
+          "variant": "h5",
           "align": ["left"]
         },
         {
