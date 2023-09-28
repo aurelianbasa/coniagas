@@ -36,7 +36,7 @@ module.exports = {
       resolve: '@elegantstack/gatsby-theme-flexiblog-science',
       options: {
         services: {
-          algolia: true,
+          algolia: false,
           mailchimp: true
         },
         sources: {
