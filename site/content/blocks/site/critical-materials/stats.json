@@ -4,11 +4,12 @@
       "text": "Critical Shortage",
       "color": "beta",
       "variant": "h2",
-      "align": ["left"]
+      "align": ["left"],
+      "space": 0
     },
     {
-      "text": "Benchmark Mineral Intelligence estimates a widening shortfall in supply of critical materials by 2035.",
-      "variant": "medium",
+      "text": "Benchmark Mineral Intelligence estimates a widening shortfall in supply by 2035.",
+      "variant": "h4",
       "align": ["left"]
     }
   ],
@@ -23,7 +24,7 @@
         {
           "text": "Current Supply: 177,000 t",
           "color": "omega",
-          "variant": "h5",
+          "variant": "h6",
           "align": ["left"]
         },
         {
@@ -49,7 +50,7 @@
         {
           "text": "Current Supply: 3,160,000 t",
           "color": "omega",
-          "variant": "h5",
+          "variant": "h6",
           "align": ["left"]
         },
         {

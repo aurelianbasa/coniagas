@@ -2,10 +2,14 @@
   "text": [
     {
       "text": "Technical Report",
-      "variant": "h5"
+      "variant": "h4",
+      "align": ["left"]
     },
     {
-      "text": "Most recently updated 43-101 from May, 2023."
+      "text": "Most recently updated 43-101 from May, 2023.",
+      "align": ["left"],
+      "variant": "h6",
+      "space": 4
     }
   ],
   "buttons": [

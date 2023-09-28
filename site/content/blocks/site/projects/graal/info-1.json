@@ -3,7 +3,8 @@
     {
       "text": "History",
       "color": "alpha",
-      "variant": "h4"
+      "variant": "h2",
+      "align": ["left"]
     },
     {
       "text": "Historical exploration on the property encountered numerous encouraging showings of nickel, copper and cobalt.",

@@ -2,7 +2,9 @@
   "paragraph": {
     "paragraphtext": [
       {
-        "text": "The World needs more "
+        "text": "The World needs more ",
+        "variant": "h1",
+        "align": "left" 
       },
       {
         "wordScroll": [

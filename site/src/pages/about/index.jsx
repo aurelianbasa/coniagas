@@ -27,11 +27,11 @@ const AboutUs02 = props => {
       <ModalSimple content={content['disclaimer']} />
       {/* Blocks */}
       <Header content={content['header']} />
+      <Divider space='6' />
       <Container variant='wide' sx={styles.heroContainer}>
         <Hero content={content['hero']} />
-        <Divider space='6' />
+        <Divider space='7' />
       </Container>
-      <Divider space='5' />
       <Secondary content={content['mission']} />
       <Divider space='4' />
       <Team content={content['team']} />

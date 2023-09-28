@@ -2,16 +2,26 @@
   "text": [
     {
       "text": "Strategy",
-      "color": "alpha",
-      "variant": "h4"
+      "color": "beta",
+      "variant": "h2"
     },
     {
-      "text": "The Company has conducted a 15,000m drill program at Graal, targeting the Bouguer Anomaly. The company is seeking to identify significant amounts of nickel-copper-sulphide mineralization at the base of the magmatic chamber.",
+      "text": "The Company has conducted a 15,000m drill program at Graal",
+      "variant": "h4",
+      "align": ["left"]
+    },
+    {
+      "text": "The program targeted the Bouguer Anomaly. The company is seeking to identify significant amounts of nickel-copper-sulphide mineralization at the base of the magmatic chamber.",
       "variant": "medium",
       "align": ["left"]
     },
     {
-      "text": "Early-stage drill results have been excellent. Initial drilling intersected massive sulphides with assays for the first three drill holes indicating up to 2.08% nickel and 3.75% copper. Lab results are still pending.",
+      "text": "Early-stage drill results have been excellent",
+      "variant": "h4",
+      "align": ["left"]
+    },
+    {
+      "text": "Initial drilling intersected massive sulphides with assays for the first three drill holes indicating up to 2.08% nickel and 3.75% copper. Lab results are still pending.",
       "variant": "medium",
       "align": ["left"]
     }

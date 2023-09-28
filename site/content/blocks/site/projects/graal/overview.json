@@ -2,8 +2,10 @@
   "text": [
     {
       "text": "The Graal",
-      "color": "omegaDark",
-      "variant": "h2"
+      "color": "beta",
+      "variant": "h1",
+      "align": ["left"],
+      "space": 0
     },
     {
       "text": "A **Strategic** Move to add Discoveries",

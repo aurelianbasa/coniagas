@@ -2,8 +2,8 @@
   "text": [
     {
       "text": "Geology",
-      "color": "alpha",
-      "variant": "h4"
+      "variant": "h2",
+      "align": ["left"]
     },
     {
       "text": "The Graal property, located in the Lac St-Jean region southeast of the Lac a Paul Arianne Phosphate deposit and 160 km north-northeast of the city of Saguenay, comprises 87 owned and 23 optioned claims covering 6,113 hectares.",

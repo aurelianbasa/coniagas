@@ -11,7 +11,7 @@ import Content from '@solid-ui-blocks/Content/Block02'
 import Gallery from '@solid-ui-blocks/Hero/Block02'
 import Comparison from '../../blocks/FeaturesWithPhoto/Block06'
 import Stats from '../../blocks/Features/Block06'
-import CustomTextBlock from '../../blocks/CustomText/CustomTextBlock'
+//import CustomTextBlock from '../../blocks/CustomText/CustomTextBlock'
 import Footer from '@solid-ui-blocks/Footer/Block01'
 import { normalizeBlockContentNodes } from '@blocks-helpers'
 import styles from './_styles'
@@ -33,19 +33,15 @@ const Services03 = props => {
         <Content content={content['hero']} />
         <Divider space='6' />
       </Container>
+      <Comparison content={content['comparison']} reverse />
+      <Divider space='5' />
+      <Stats content={content['stats']} />
+      <Divider space='5' />
       <Gallery content={content['gallery-1']} />
       <Divider space='5' />
       <Gallery content={content['gallery-2']} />
       <Divider space='5' />
       <Gallery content={content['gallery-3']} />
-      <Divider space='5' />
-      <CustomTextBlock content={content['heading']} />
-      <Divider space='5' />
-      <CustomTextBlock content={content['paragraph']} />
-      <Divider space='5' />
-      <Comparison content={content['comparison']} />
-      <Divider space='5' />
-      <Stats content={content['stats']} />
       <Divider space='5' />
       <Divider space='5' />
       <Divider space='4' />
