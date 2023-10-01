@@ -12,6 +12,7 @@ import Footer from '@solid-ui-blocks/Footer/Block01'
 import { normalizeBlockContentNodes } from '@blocks-helpers'
 import CustomTextBlock from '../../blocks/CustomText/CustomTextBlock'
 import JuxtaposeImage from '../../components/JuxtaposeImage/JuxtaposeImage'
+import DatawrapperEmbed from '../../components/DatawrapperEmbed/DatawrapperEmbed'
 
 const ProjectItemPage = props => {
   const { allBlockContent } = props.data
@@ -32,6 +33,8 @@ const ProjectItemPage = props => {
       <CustomTextBlock content={content['custom-text-test']} />
       <Divider space='5' />
       <JuxtaposeImage content={content['juxtapose-test']} />
+      <Divider space='5' />
+      <DatawrapperEmbed content={content['data-embed']}/>
       <Divider space='5' />
       <Container variant='narrow'>
         <Info content={content['info-1']} reverse />
