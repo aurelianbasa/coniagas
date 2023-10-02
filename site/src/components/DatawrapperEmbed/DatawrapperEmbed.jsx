@@ -1,6 +1,6 @@
 import React from 'react';
 
-const DatawrapperEmbed = ({ as: content, CustomComponent, ...props }) => {
+const DatawrapperEmbed = ({ as: CustomComponent, content, ...props }) => {
     const { text } = content;
     const src = text[0].text;
 
