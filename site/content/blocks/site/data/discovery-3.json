@@ -6,11 +6,11 @@
       "variant": "h4"
     },
     {
-      "text": "Unlimited Collection of **Advanced Lessons**",
+      "text": "",
       "variant": "h2"
     },
     {
-      "text": "Target your audience based on their interests. Lorem ipsum dolor sit amet, consectetur magna aliqua.",
+      "text": "",
       "variant": "medium"
     }
   ],
@@ -24,36 +24,36 @@
     {
       "text": [
         {
-          "text": "Automatic interest detection",
+          "text": "",
           "color": "omegaDarker",
           "variant": "h5"
         },
         {
-          "text": "Tempor incididunt ut labore et dolore magna aliqua consectetur magna aliqua."
+          "text": ""
         }
       ]
     },
     {
       "text": [
         {
-          "text": "Daily email reports",
+          "text": "",
           "color": "omegaDarker",
           "variant": "h5"
         },
         {
-          "text": "Tempor incididunt ut labore et dolore magna aliqua consectetur magna aliqua."
+          "text": ""
         }
       ]
     },
     {
       "text": [
         {
-          "text": "Daily email reports",
+          "text": "",
           "color": "omegaDarker",
           "variant": "h5"
         },
         {
-          "text": "Tempor incididunt ut labore et dolore magna aliqua consectetur magna aliqua."
+          "text": ""
         }
       ]
     }
