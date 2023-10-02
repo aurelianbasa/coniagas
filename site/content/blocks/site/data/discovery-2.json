@@ -1,61 +1,17 @@
-{
-  "text": [
     {
-      "text": "Close Up",
-      "color": "omegaDark",
-      "variant": "h4"
-    },
-    {
-      "text": "",
-      "variant": "h2"
-    },
-    {
-      "text": "",
-      "variant": "medium"
-    }
-  ],
-  "images": [
-    {
-      "src": "../../../assets/site/data/discovery-2.png",
-      "alt": "alt text"
-    }
-  ],
-  "collection": [
-    {
-      "icon": {
-        "src": "../../../assets/flexiblocks/icons/bx-check-circle.svg",
-        "color": "beta"
-      },
       "text": [
         {
-          "text": "Test",
-          "variant": "h5"
+          "text": "Close Up",
+          "color": "beta",
+          "variant": "h4"
         }
-      ]
-    },
-    {
-      "icon": {
-        "src": "../../../assets/flexiblocks/icons/bx-check-circle.svg",
-        "color": "beta"
-      },
-      "text": [
+      ],
+      "images": [
         {
-          "text": "Test",
-          "variant": "h5"
-        }
-      ]
-    },
-    {
-      "icon": {
-        "src": "../../../assets/flexiblocks/icons/bx-check-circle.svg",
-        "color": "beta"
-      },
-      "text": [
-        {
-          "text": "Test",
-          "variant": "h5"
+          "src": "../../../assets/site/data/discovery-2.png",
+          "alt": "alt text",
+          "effects": ["fadeInUp"]
         }
       ]
     }
-  ]
-}
+    

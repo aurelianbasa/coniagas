@@ -8,8 +8,7 @@ import ModalSimple from '@solid-ui-blocks/Modal/Block02'
 import Header from '@solid-ui-blocks/Header/Block01'
 import Tabs from '@solid-ui-components/Tabs'
 import Data from '../../components/DatawrapperEmbed/DatawrapperEmbed'
-import CrossSectionOne from '@solid-ui-blocks/FeaturesWithPhoto/Block01'
-import CrossSectionTwo from '@solid-ui-blocks/FeaturesWithPhoto/Block07'
+import Photo from '@solid-ui-blocks/FeaturesWithPhoto/Block03'
 import Footer from '@solid-ui-blocks/Footer/Block01'
 import { normalizeBlockContentNodes } from '@blocks-helpers'
 
@@ -30,8 +29,24 @@ const DataPage = props => {
       <Container variant='narrow'>
       <Tabs space={4} variant='pill'>
           <Data content={content['discovery-1']}/>
-          <CrossSectionOne content={content['discovery-2']} reverse />
-          <CrossSectionTwo content={content['discovery-3']} />
+          <Photo content={content['discovery-2']} />
+          <Photo content={content['discovery-3']} />
+      </Tabs>
+      </Container>
+      <Divider space='5' />
+      <Container variant='narrow'>
+      <Tabs space={4} variant='pill'>
+          <Data content={content['mhy-1']}/>
+          <Photo content={content['mhy-2']} />
+          <Photo content={content['mhy-3']} />
+      </Tabs>
+      </Container>
+      <Divider space='5' />
+      <Container variant='narrow'>
+      <Tabs space={4} variant='pill'>
+          <Data content={content['gravi-1']}/>
+          <Photo content={content['gravi-2']} />
+          <Photo content={content['gravi-3']} />
       </Tabs>
       </Container>
       <Divider space='5' />

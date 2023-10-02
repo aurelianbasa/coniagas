@@ -1,14 +1,14 @@
 {
   "text": [
     {
-      "text": "Cross Section",
+      "text": "Close Up",
       "color": "beta",
       "variant": "h4"
     }
   ],
   "images": [
     {
-      "src": "../../../assets/site/data/discovery-3.png",
+      "src": "../../../assets/site/data/mhy-2.png",
       "alt": "alt text",
       "effects": ["fadeInUp"]
     }
