@@ -21,6 +21,12 @@
           "link": "/projects/graal/",
           "type": "PAGE" 
             },
+            {
+              "text": "Data",
+              "variant": "links.nav-dark",
+              "link": "/data/",
+              "type": "PAGE" 
+                },
            {
           "text": "Critical Materials",
           "type": "PAGE",
