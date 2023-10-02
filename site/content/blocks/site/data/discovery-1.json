@@ -1,5 +1,10 @@
 {
-  "text": [
+  "text":
+  [
+    {
+      "text": "Drill Highlights",
+      "variant": "h2"
+    },
     {
       "text": "https://datawrapper.dwcdn.net/DieoU/1/"
     }

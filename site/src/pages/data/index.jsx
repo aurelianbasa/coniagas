@@ -1,5 +1,6 @@
 import React from 'react'
 import { graphql } from 'gatsby'
+import { Container } from 'theme-ui'
 import Layout from '@solid-ui-layout/Layout'
 import Seo from '@solid-ui-components/Seo'
 import Divider from '@solid-ui-components/Divider'
@@ -26,11 +27,13 @@ const DataPage = props => {
       <Header content={content['header']} />
       <Divider space='5' />
       <Divider space='5' />
+      <Container variant='narrow'>
       <Tabs space={4} variant='pill'>
           <Data content={content['discovery-1']}/>
           <CrossSectionOne content={content['discovery-2']} reverse />
           <CrossSectionTwo content={content['discovery-3']} />
       </Tabs>
+      </Container>
       <Divider space='5' />
       <Footer content={content['footer']} />
     </Layout>
