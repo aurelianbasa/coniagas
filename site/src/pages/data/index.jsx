@@ -12,7 +12,7 @@ import CrossSectionTwo from '@solid-ui-blocks/FeaturesWithPhoto/Block07'
 import Footer from '@solid-ui-blocks/Footer/Block01'
 import { normalizeBlockContentNodes } from '@blocks-helpers'
 
-const DataPage = props => {
+const MediaPage = props => {
   const { allBlockContent } = props.data
   const content = normalizeBlockContentNodes(allBlockContent?.nodes)
 
@@ -48,4 +48,4 @@ export const query = graphql`
     }
   }
 `
-export default DataPage
+export default MediaPage
