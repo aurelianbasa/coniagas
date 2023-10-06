@@ -28,6 +28,7 @@ const TestimonialsBlock03 = ({
     <Flex
       sx={{
         p: 2,
+        m: 3,
         justifyContent: `space-between`,
         alignItems: `flex-start`,
         flexDirection: [
@@ -41,6 +42,7 @@ const TestimonialsBlock03 = ({
       <Box
         sx={{
           p: 2,
+          m: 3,
           flexBasis: `full`
         }}
       > 
@@ -54,6 +56,7 @@ const TestimonialsBlock03 = ({
               <Flex
                 sx={{
                  p: 2,
+                 m: 3,
                   alignItems: `center`,
                   position: `relative`,
                   flexWrap: `wrap`,
