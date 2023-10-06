@@ -27,6 +27,7 @@ const TestimonialsBlock03 = ({
   <Container>
     <Flex
       sx={{
+        justifyContent: `space-between`,
         alignItems: `flex-start`,
         flexDirection: [
           reverse ? `column-reverse` : `column`,
