@@ -40,7 +40,7 @@ const TestimonialsBlock03 = ({
     >
       <Box
         sx={{
-          flexBasis: `1/2`,
+          flexBasis: `full`,
           mx: [null, null, null, 4],
           [reverse ? 'mt' : 'mb']: [5, null, null, 0]
         }}
