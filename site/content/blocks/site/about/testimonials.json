@@ -1,16 +1,4 @@
 {
-  "text": [
-    {
-      "text": "Adapting to the **New Reality**",
-      "variant": "h2",
-      "align": ["left"]
-    },
-    {
-      "text": "Company founder and CEO Frank Basa, P.Eng., a metallurgical engineer and mill expert, has worked with treatment of complex ores for over 30 years. During that time, the Re-2Ox process was conceived and perfected on a variety of feed types to produce client-specific end-products.",
-      "variant": "medium",
-      "align": ["left"]
-    }
-  ],
   "collection": [
     {
       "text": [
@@ -31,20 +19,26 @@
         "src": "../../../assets/site/index/headshot.png",
         "alt": "alt text"
       }
-    }
-  ],
-  "buttons": [
-    {
-      "text": "Our Presentation",
-      "type": "PAGE",
-      "link": "/Presentation.pdf",
-      "variant": "primary"
     },
     {
-      "text": "How our Process Works ➜",
-      "type": "PAGE",
-      "link": "/services",
-      "variant": "secondary"
+      "text": [
+        {
+          "text": "Frank Basa",
+          "variant": "h5"
+        },
+        {
+          "text": "Founder",
+          "color": "omegaDark",
+          "variant": "h6"
+        },
+        {
+          "text": "Recycling batteries alone is not cost-effective. That's why we initiated a tolling process to appeal to the incumbent collection bodies who want to retain ownership of the metal, while we only provide them with a service."
+        }
+      ],
+      "avatar": {
+        "src": "../../../assets/site/index/headshot.png",
+        "alt": "alt text"
+      }
     }
   ]
 }
