@@ -1,6 +1,5 @@
 import React from 'react'
 import { Container, Flex, Box, css } from 'theme-ui'
-import { ImQuotesRight } from 'react-icons/im'
 import Reveal from '@solid-ui-components/Reveal'
 import Divider from '@solid-ui-components/Divider'
 import ContentText from '@solid-ui-components/ContentText'
@@ -79,22 +78,12 @@ const TestimonialsBlock03 = ({
                   </Reveal>
                 </Box>
               </Flex>
-              <ImQuotesRight
-                css={css({
-                  size: `30%`,
-                  color: `omegaLighter`,
-                  position: `absolute`,
-                  transform: `translate(0, -20%)`,
-                  bottom: 0,
-                  right: 0
-                })}
-              />
             </ContentContainer>
           ))}
       </Box>
       <Box
         sx={{
-          flexBasis: `1/2`,
+          flexBasis: `full`,
           mx: [null, null, null, 4],
           textAlign: [`center`, null, null, `left`]
         }}
