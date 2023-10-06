@@ -1,0 +1,24 @@
+{
+  "collection": [
+    {
+      "text": [
+        {
+          "text": "Remantra Sheopaul",
+          "variant": "h5"
+        },
+        {
+          "text": "Chief Financial Officer",
+          "color": "omegaDark",
+          "variant": "h6"
+        },
+        {
+          "text": "Remantra Sheopaul works with Marrelli Support Services Inc. of Toronto, Ontario, which provides CFO, accounting, regulatory, compliance and management advisory services to numerous issuers on the Toronto Stock Exchange, TSXV and other Canadian and U.S. exchanges. In his role with Marrelli Support Services Inc., Mr. Sheopaul has been regularly involved in initial public offerings, analysis of complex accounting transactions, and assisting non-public and public clients regarding IFRS disclosure and compliance matters. Mr. Sheopaul has a focus on building strong relationships with clients to understand and anticipate their needs. He is currently Chief Financial Officer of Granada Gold Mine Inc., Canada Carbon Inc. and Angel Wing Metals Inc., all of which are companies listed on the TSXV, and of Metalite Resources Inc., a company listed on the Canadian Securities Exchange. Mr. Sheopaul holds a Bachelor of Commerce degree in Accounting from Ryerson University (now Toronto Metropolitan University)."
+        }
+      ],
+      "avatar": {
+        "src": "../../../assets/site/index/remantra.png",
+        "alt": "alt text"
+      }
+    }
+  ]
+}

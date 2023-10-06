@@ -9,10 +9,7 @@ import ModalSimple from '@solid-ui-blocks/Modal/Block02'
 import Header from '@solid-ui-blocks/Header/Block01'
 import Hero from '@solid-ui-blocks/Hero/Block02'
 import Testimonials from '../../blocks/Quotes/Block03'
-import Secondary from '@solid-ui-blocks/FeaturesWithPhoto/Block02'
-import Tertiary from '@solid-ui-blocks/FeaturesWithPhoto/Block01'
 import Footer from '@solid-ui-blocks/Footer/Block01'
-import Team from '@solid-ui-blocks/Teams/Block02'
 import { normalizeBlockContentNodes } from '@blocks-helpers'
 import styles from './_styles'
 
@@ -33,13 +30,20 @@ const AboutUs02 = props => {
         <Hero content={content['hero']} />
         <Divider space='7' />
       </Container>
-      <Testimonials content={content['testimonials']} />
-      <Divider space='4' />
-      <Team content={content['team']} />
-      <Divider space='5' />
-      <Tertiary content={content['sustainability']} />
-      <Divider space='5' />
-      <Divider space='4' />
+      <Testimonials content={content['testimonials-1']} />
+      <Divider space='2' />
+      <Testimonials content={content['testimonials-2']} />
+      <Divider space='2' />
+      <Testimonials content={content['testimonials-3']} />
+      <Divider space='2' />
+      <Testimonials content={content['testimonials-4']} />
+      <Divider space='2' />
+      <Testimonials content={content['testimonials-5']} />
+      <Divider space='2' />
+      <Testimonials content={content['testimonials-6']} />
+      <Divider space='2' />
+      <Testimonials content={content['testimonials-7']} />
+      <Divider space='2' />
       <Divider space='5' />
       <Footer content={content['footer']} />
     </Layout>
