@@ -18,10 +18,9 @@
       "avatar": {
         "src": "../../../assets/site/index/headshot.png",
         "alt": "alt text"
-      },
-      "space": 2
+      }
     },
-
+  
     {
       "text": [
         {
