@@ -34,15 +34,12 @@ const TestimonialsBlock03 = ({
           null,
           null,
           reverse ? `row-reverse` : `row`
-        ],
-        mx: [null, null, null, -4]
+        ]
       }}
     >
       <Box
         sx={{
-          flexBasis: `full`,
-          mx: [null, null, null, 4],
-          [reverse ? 'mt' : 'mb']: [5, null, null, 0]
+          flexBasis: `full`
         }}
       > 
           {collection?.map(({ container, text, avatar }, index) => (
