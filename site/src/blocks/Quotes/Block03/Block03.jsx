@@ -77,11 +77,12 @@ const TestimonialsBlock03 = ({
                     ))}
                   </Reveal>
                 </Box>
+                <Divider space={3} />
               </Flex>
             </ContentContainer>
           ))}
       </Box>
-      <Divider space={3} />
+      
         <Reveal effect={reverse ? 'fadeInLeft' : 'fadeInRight'}>
           <ContentText content={text} />
           {buttons && (
