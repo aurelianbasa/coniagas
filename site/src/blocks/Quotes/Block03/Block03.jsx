@@ -25,7 +25,17 @@ const TestimonialsBlock03 = ({
   reverse
 }) => (
   <Container>
-    <Flex>
+    <Flex
+      sx={{
+        alignItems: `flex-start`,
+        flexDirection: [
+          reverse ? `column-reverse` : `column`,
+          null,
+          null,
+          reverse ? `row-reverse` : `row`
+        ]
+      }}
+    >
       <Box
         sx={{
           flexBasis: `full`
@@ -71,13 +81,7 @@ const TestimonialsBlock03 = ({
             </ContentContainer>
           ))}
       </Box>
-      <Box
-        sx={{
-          flexBasis: `full`,
-          mx: [null, null, null, 4],
-          textAlign: [`center`, null, null, `left`]
-        }}
-      >
+      
         <Reveal effect={reverse ? 'fadeInLeft' : 'fadeInRight'}>
           <ContentText content={text} />
           {buttons && (
@@ -87,7 +91,7 @@ const TestimonialsBlock03 = ({
             </>
           )}
         </Reveal>
-      </Box>
+      
     </Flex>
   </Container>
 )
