@@ -25,17 +25,7 @@ const TestimonialsBlock03 = ({
   reverse
 }) => (
   <Container>
-    <Flex
-      sx={{
-        alignItems: `flex-start`,
-        flexDirection: [
-          reverse ? `column-reverse` : `column`,
-          null,
-          null,
-          reverse ? `row-reverse` : `row`
-        ]
-      }}
-    >
+    <Flex>
       <Box
         sx={{
           flexBasis: `full`
