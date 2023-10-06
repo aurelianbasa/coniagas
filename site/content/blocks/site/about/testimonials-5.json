@@ -4,7 +4,8 @@
       "text": [
         {
           "text": "Dianne Tookenay",
-          "variant": "h5"
+          "variant": "h4",
+          "space": 0
         },
         {
           "text": "Independent Director",
@@ -12,7 +13,8 @@
           "variant": "h6"
         },
         {
-          "text": "Dianne Tookenay is a band member of Brunswick House First Nation in Ontario and has been a director of CCW since June 15, 2015 and has been a director of Granada Gold Mine Inc., a company listed on the TSXV, since April 2017. Ms. Tookenay holds a Certificate in Mining Law from Osgoode Hall Law School, York University, a Joint Masters of Public Administration degree from the University of Manitoba, a Bachelor of Administration degree from Lakehead University and Native Band Management and Indian Economic Development Diplomas from Confederation College Applied Arts and Technology. Ms. Tookenay has accumulated a wide breadth of business development and advocacy roots within the First Nation communities."
+          "text": "Dianne Tookenay is a band member of Brunswick House First Nation in Ontario and has been a director of CCW since June 15, 2015 and has been a director of Granada Gold Mine Inc., a company listed on the TSXV, since April 2017. Ms. Tookenay holds a Certificate in Mining Law from Osgoode Hall Law School, York University, a Joint Masters of Public Administration degree from the University of Manitoba, a Bachelor of Administration degree from Lakehead University and Native Band Management and Indian Economic Development Diplomas from Confederation College Applied Arts and Technology. Ms. Tookenay has accumulated a wide breadth of business development and advocacy roots within the First Nation communities.",
+          "variant": "small"
         }
       ],
       "avatar": {

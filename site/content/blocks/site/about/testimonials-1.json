@@ -4,7 +4,8 @@
       "text": [
         {
           "text": "Frank Basa",
-          "variant": "h5"
+          "variant": "h4",
+          "space": 0
         },
         {
           "text": "President, CEO and Director",
@@ -12,7 +13,8 @@
           "variant": "h6"
         },
         {
-          "text": "Mr. Basa has more than 29 years of global experience in gold mining and development as a professional hydrometallurgical engineer with a focus on milling, gravity concentration, flotation, leaching and refining of precious and base metals. He graduated from McGill University with a B.A. in Engineering in 1983 and has been a member of the Professional Engineers of Ontario since 1987. He has served as Chairman, President and Chief Executive Officer of Granada Gold Mine Inc., a company listed on the TSXV, since June 2004."
+          "text": "Mr. Basa has more than 29 years of global experience in gold mining and development as a professional hydrometallurgical engineer with a focus on milling, gravity concentration, flotation, leaching and refining of precious and base metals. He graduated from McGill University with a B.A. in Engineering in 1983 and has been a member of the Professional Engineers of Ontario since 1987. He has served as Chairman, President and Chief Executive Officer of Granada Gold Mine Inc., a company listed on the TSXV, since June 2004.",
+          "variant": "small"
         }
       ],
       "avatar": {

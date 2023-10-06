@@ -4,7 +4,8 @@
       "text": [
         {
           "text": "Vincent Maltais",
-          "variant": "h5"
+          "variant": "h4",
+          "space": 0
         },
         {
           "text": "Corporate Secretary",
@@ -12,7 +13,8 @@
           "variant": "h6"
         },
         {
-          "text": "Vincent Maltais is a lawyer in the business law group at the Montreal office of Fasken Martineau DuMoulin LLP. He practises business law with a focus on securities law, mining law and mergers and acquisitions. Mr. Maltais assists private and public companies in various industries with mergers and acquisitions as well as banking and public corporate financings. He holds a Bachelor of Laws degree and a cumulative Bachelor's degree in philosophy and political science from the Université de Montréal. Before joining Fasken Martineau DuMoulin LLP in April 2021, Mr. Maltais practised in the business law group of a Montréalarea law firm."
+          "text": "Vincent Maltais is a lawyer in the business law group at the Montreal office of Fasken Martineau DuMoulin LLP. He practises business law with a focus on securities law, mining law and mergers and acquisitions. Mr. Maltais assists private and public companies in various industries with mergers and acquisitions as well as banking and public corporate financings. He holds a Bachelor of Laws degree and a cumulative Bachelor's degree in philosophy and political science from the Université de Montréal. Before joining Fasken Martineau DuMoulin LLP in April 2021, Mr. Maltais practised in the business law group of a Montréalarea law firm.",
+          "variant": "small"
         }
       ],
       "avatar": {
