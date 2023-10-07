@@ -59,6 +59,16 @@ type BlockContentParagraph {
 ## Paragraph Text
 ############################################
 
+type BlockContentWordScrollText {
+  text: String
+  color: String
+  space: Int
+  variant: String
+  align: [String]
+  underlineColor: String
+  highlightColor: String
+}
+
 type BlockContentParagraphText {
   text: String
   color: String
@@ -67,7 +77,7 @@ type BlockContentParagraphText {
   align: [String]
   underlineColor: String
   highlightColor: String
-  wordScroll: [BlockContentText]
+  wordScroll: [BlockContentWordScrollText]
 }
 
 ############################################

@@ -7,7 +7,7 @@ const headings = ['h1', 'h2', 'h3', 'h4', 'h5', 'h6']
 
 const marqueeVariants = {
   animate: {
-    y: [50, -50],
+    y: [200, -200],
     transition: {
       y: {
         repeat: Infinity,
@@ -62,9 +62,8 @@ const CustomText = ({ as: CustomComponent, content, ...props }) => {
   const { variant, color, align, space } = props
 
   let textComponent;
-  if (content.length > 1) {
+  if (content.length >= 1) {
     textComponent = content.map((item, index) => {
-
       if (item.wordScroll) {
         const wordList = item.wordScroll.map((word, scrollIndex) => {
           let style = { textDecoration: word.underlineColor ? 'underline' : '', textDecorationColor: word.underlineColor ?? '', backgroundColor: word.highlightColor ?? '' }
