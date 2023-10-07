@@ -1,6 +1,8 @@
 const fontFile = require('./src/@elegantstack/solid-ui-theme/typography-fonts.json')
 require('dotenv').config()
 
+const siteUrl = "https://coniagas.netlify.app"
+
 module.exports = {
   plugins: [
     {
@@ -47,10 +49,52 @@ module.exports = {
         display: 'minimal-ui',
         icon: 'content/assets/favicon.png'
       }
+    },
+    {
+      resolve: "gatsby-plugin-sitemap",
+      options: {
+        query: `
+        {
+          site {
+            siteMetadata {
+              siteUrl
+            }
+          }
+          allSitePage {
+            nodes {
+              path
+            }
+          }
+          allSite {
+            nodes {
+              buildTime
+            }
+          }
+        }
+      `,
+        resolveSiteUrl: () => siteUrl,
+        resolvePages: ({allSitePage, allSite}) => {
+          allPages = allSitePage.nodes
+          buildTime = allSite.nodes[0].buildTime
+          return allPages.map(page => {
+            return {
+              path: page.path,
+              buildTime: buildTime
+            }
+          })
+        },
+        serialize: ({path, buildTime}) => {
+          return {
+            url: `${siteUrl}${path}`,
+            lastmod: buildTime,
+            priority: 0.7
+          }
+        },
+      }
     }
   ],
   siteMetadata: {
-    siteUrl: 'https://coniagas.netlify.app',
+    siteUrl: siteUrl,
     title: 'Coniagas Battery Metals',
     name: 'Coniagas Battery Metals',
     description: 'Coniagas Battery Metals',
