@@ -1,7 +1,7 @@
 import { graphql } from 'gatsby'
 
 export const query = graphql`
-  fragment BlockContentParagraphText on BlockContentParagraphText {
+  fragment BlockContentWordScrollText on BlockContentWordScrollText {
     text
     color
     space
@@ -9,8 +9,5 @@ export const query = graphql`
     align
     underlineColor
     highlightColor
-    wordScroll {
-        ...BlockContentWordScrollText
-    }
   }
 `
