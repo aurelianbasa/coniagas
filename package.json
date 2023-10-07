@@ -2,7 +2,10 @@
   "name": "elegantstack",
   "private": true,
   "license": "",
-  "workspaces": ["packages/**", "site"],
+  "workspaces": [
+    "packages/**",
+    "site"
+  ],
   "scripts": {
     "build": "lerna run build",
     "clean": "lerna clean",
@@ -19,5 +22,8 @@
   "engines": {
     "yarn": "^1.17.3",
     "node": ">=12.13.0"
+  },
+  "dependencies": {
+    "react-calendly": "^4.2.0"
   }
 }

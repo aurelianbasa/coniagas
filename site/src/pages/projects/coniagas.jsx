@@ -13,6 +13,7 @@ import { normalizeBlockContentNodes } from '@blocks-helpers'
 import CustomTextBlock from '../../blocks/CustomText/CustomTextBlock'
 import JuxtaposeImage from '../../components/JuxtaposeImage/JuxtaposeImage'
 import DatawrapperEmbed from '../../components/DatawrapperEmbed/DatawrapperEmbed'
+import CalendlyButton from '../../components/CalendlyButton/CalendlyButton'
 
 const ProjectItemPage = props => {
   const { allBlockContent } = props.data
@@ -40,6 +41,8 @@ const ProjectItemPage = props => {
         <Info content={content['info-1']} reverse />
         <Divider space='5' />
         <Info content={content['info-2']} />
+        <Divider space='5' />
+        <CalendlyButton />
         <Divider space='5' />
         <Download content={content['download']} />
       </Container>
