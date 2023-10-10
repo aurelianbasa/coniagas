@@ -32,6 +32,31 @@ export default {
       opacity: 0.4
     }
   },
+  newContainer: {
+    position: `relative`,
+    py: [5],
+    '::before, ::after': {
+      position: `absolute`,
+      content: `" "`,
+      size: `full`,
+      top: [0, null, `30%`],
+      left: 0,
+      transform: [`translate(0, 0)`, null, `translate(0, 0)`],
+      zIndex: -1,
+      borderRadius: [0, null]
+    },
+    '::after': {
+      background: `linear-gradient(
+          180deg,
+          rgba(255,255,255,0.9) 0%,
+          rgba(255,255,255,0.3) 100%
+        )`
+    },
+    '::before': {
+      background: `url(images/about.jpg) no-repeat center center`,
+      backgroundSize: `cover`
+    }
+  },
   teamContainer: {
     'img, .block-overlay': {
       borderRadius: `xl`

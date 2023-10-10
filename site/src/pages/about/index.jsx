@@ -31,6 +31,7 @@ const AboutUs02 = props => {
         <Hero content={content['hero']} />
         <Divider space='6' />
       </Container>
+      <Container variant='wide' sx={styles.newContainer}>
       <CustomTextBlock content={content['title']} />
       <Divider space='3' />
       <Testimonials content={content['testimonials-1']} />
@@ -47,6 +48,7 @@ const AboutUs02 = props => {
       <Divider space='2' />
       <Testimonials content={content['testimonials-7']} />
       <Divider space='2' />
+      </Container>
       <Divider space='5' />
       <Footer content={content['footer']} />
     </Layout>
