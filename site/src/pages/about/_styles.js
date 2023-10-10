@@ -23,8 +23,7 @@ export default {
       mx: `auto`
     },
     '::before': {
-      zIndex: -3,
-      bg: `beta`
+      zIndex: -3
     },
     '::after': {
       zIndex: -2,
