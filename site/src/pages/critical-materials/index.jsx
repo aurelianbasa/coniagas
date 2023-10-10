@@ -11,6 +11,7 @@ import Content from '@solid-ui-blocks/Content/Block02'
 import Gallery from '@solid-ui-blocks/Hero/Block02'
 import Comparison from '../../blocks/FeaturesWithPhoto/Block06'
 import Stats from '../../blocks/Features/Block06'
+import Data from '../../components/DatawrapperEmbed/DatawrapperEmbed'
 //import CustomTextBlock from '../../blocks/CustomText/CustomTextBlock'
 import Footer from '@solid-ui-blocks/Footer/Block01'
 import { normalizeBlockContentNodes } from '@blocks-helpers'
@@ -43,7 +44,11 @@ const Services03 = props => {
       <Divider space='5' />
       <Gallery content={content['gallery-3']} />
       <Divider space='5' />
-      <Divider space='5' />
+      <Container variant='narrow'>
+      <Data content={content['chart-1']}/>
+      <Divider space='2' />
+      <Data content={content['chart-2']}/>
+      </Container>
       <Divider space='4' />
       <Footer content={content['footer']} />
     </Layout>
