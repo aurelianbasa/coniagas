@@ -36,15 +36,15 @@ const Marquee = (props) => {
   }, [])
 
   return (
-      <span className="marquee">
-        <motion.span
-          className="track"
-          variants={marqueeVariants}
-          animate="animate"
-        >
-          {props.children[scrollIndex]}
-        </motion.span>
-      </span>
+    <span className="marquee">
+      <motion.span
+        className="track"
+        variants={marqueeVariants}
+        animate="animate"
+      >
+        {props.children[scrollIndex]}
+      </motion.span>
+    </span>
   );
 };
 
@@ -62,39 +62,39 @@ const CustomText = ({ as: CustomComponent, content, ...props }) => {
   const { variant, color, align, space } = props
 
   let textComponent;
-  if (content.length >= 1) {
-    textComponent = content.map((item, index) => {
-      if (item.wordScroll) {
-        const wordList = item.wordScroll.map((word, scrollIndex) => {
-          let style = { textDecoration: word.underlineColor ? 'underline' : '', textDecorationColor: word.underlineColor ?? '', backgroundColor: word.highlightColor ?? '' }
-          return <Text
-            as='default'
-            key={index + '-' + scrollIndex}
-            content={word.text}
-            style={style}
-          />
-        })
-        return <Marquee key={index}>{wordList}</Marquee>
-      } else {
-        let style = { textDecoration: item.underlineColor ? 'underline' : '', textDecorationColor: item.underlineColor ?? '', backgroundColor: item.highlightColor ?? '' }
-        let t = item.text
+  textComponent = content.map((item, index) => {
+    if (item.wordScroll) {
+      const wordList = item.wordScroll.map((word, scrollIndex) => {
+        let style = { textDecoration: word.underlineColor ? 'underline' : '', textDecorationColor: word.underlineColor ?? '', backgroundColor: word.highlightColor ?? '' }
         return <Text
           as='default'
-          key={index}
-          content={t}
+          key={index + '-' + scrollIndex}
+          content={word.text}
           style={style}
         />
-      }
-    })
-  }
+      })
+      return <Marquee key={index}>{wordList}</Marquee>
+    } else {
+      let style = { textDecoration: item.underlineColor ? 'underline' : '', textDecorationColor: item.underlineColor ?? '', backgroundColor: item.highlightColor ?? '' }
+      let t = item.text
+      return <Text
+        as='default'
+        key={index}
+        content={t}
+        style={style}
+      />
+    }
+  })
 
   const isHeading = headings.includes(variant)
 
   return isHeading ? <HeadingType
     type={variant}
-    color={color}
-    sx={{ textAlign: align || undefined }}
-    content={textComponent} /> : textComponent;
+    content={textComponent} 
+    style={{ 
+      textAlign: align || undefined, 
+      color: color 
+    }}/> : textComponent;
 }
 
 export default CustomText
