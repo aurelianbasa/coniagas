@@ -46,13 +46,13 @@ const IndexPage = props => {
       <Divider space='5' />
       <Container variant='wide' sx={styles.tabsContainer}>
       <Data content={content['data-1']}/>
-      <Divider space='3' />
+      <Divider space='4' />
       <Data content={content['data-2']}/>
-      <Divider space='3' />
+      <Divider space='4' />
       <Download content={content['download']} />
       <Divider space='2' />
       <Data content={content['data-3']}/>
-      <Divider space='3' />
+      <Divider space='5' />
       </Container>
       <Divider space='1' />
       <WithRecentPosts>

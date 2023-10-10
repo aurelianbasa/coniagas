@@ -24,7 +24,7 @@
       "effects": ["fadeInLeft"]
     },
     {
-      "src": "../../../assets/site/index/overlay.png",
+      "src": "../../../assets/site/index/overlay-1.png",
       "alt": "alt text",
       "radius": "lg",
       "shadow": "default",

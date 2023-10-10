@@ -44,10 +44,11 @@ const Services03 = props => {
       <Divider space='5' />
       <Gallery content={content['gallery-3']} />
       <Divider space='5' />
-      <Container variant='narrow'>
+      <Container variant='wide' sx={styles.tabsContainer}>
       <Data content={content['chart-1']}/>
-      <Divider space='2' />
+      <Divider space='4' />
       <Data content={content['chart-2']}/>
+      <Divider space='6' />
       </Container>
       <Divider space='4' />
       <Footer content={content['footer']} />

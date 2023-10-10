@@ -33,6 +33,24 @@ export default {
       opacity: 0.25
     }
   },
+  tabsContainer: {
+    position: `relative`,
+    py: [4, 5],
+    '::before': {
+      position: `absolute`,
+      content: `" "`,
+      size: `full`,
+      top: 0,
+      right: 0,
+      zIndex: -1,
+      borderRadius: `xl`,
+      background: `linear-gradient(
+        180deg,
+        #f7f9fe 0%,
+        #f4f4f8 100%
+      )`
+    }
+  },
   teamContainer: {
     'img, .block-overlay': {
       borderRadius: `xl`
