@@ -32,6 +32,8 @@ const AboutPage = props => {
       <Table content={content['stock-information-table']} />
       <Divider space='5' />
       </Container>
+      <Divider space='5' />
+      <Divider space='5' />
       <Footer content={content['footer']} />
     </Layout>
   )

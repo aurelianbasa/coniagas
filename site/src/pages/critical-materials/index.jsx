@@ -49,7 +49,7 @@ const Services03 = props => {
       <DataSmall content={content['chart-1']}/>
       <Divider space='2' />
       <Data content={content['chart-2']}/>
-      <Divider space='4' />
+      <Divider space='3' />
       </Container>
       <Divider space='4' />
       <Footer content={content['footer']} />

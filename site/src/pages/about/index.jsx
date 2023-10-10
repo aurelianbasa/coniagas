@@ -50,6 +50,7 @@ const AboutUs02 = props => {
       <Divider space='2' />
       </Container>
       <Divider space='5' />
+      <Divider space='5' />
       <Footer content={content['footer']} />
     </Layout>
   )
