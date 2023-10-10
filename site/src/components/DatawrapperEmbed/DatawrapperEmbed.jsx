@@ -5,7 +5,7 @@ const DatawrapperEmbed = ({ as: CustomComponent, content, ...props }) => {
     const src = text[1].text;
 
     return (
-        <iframe src={src} style={{width: '1px', minWidth: '100%', border: 'none', minHeight: '100%', maxHeight:'90vh'}} data-external="1" />
+        <iframe src={src} style={{width: '1px', minWidth: '100%', border: 'none', minHeight: '100%', maxHeight:'100vh'}} data-external="1" />
     );
 }
 
