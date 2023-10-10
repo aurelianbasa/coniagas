@@ -10,6 +10,7 @@ import Header from '@solid-ui-blocks/Header/Block01'
 import Contact from '../../blocks/Form/Block01'
 import Footer from '@solid-ui-blocks/Footer/Block01'
 import { normalizeBlockContentNodes } from '@blocks-helpers'
+import styles from './_styles'
 
 const AboutPage = props => {
   const { allBlockContent } = props.data
@@ -25,10 +26,12 @@ const AboutPage = props => {
       <Header content={content['header']} />
       <Divider space='5' />
       <Divider space='5' />
+      <Container variant='wide' sx={styles.heroContainer}>
       <Contact content={content['contact']} />
       <Divider space='5' />
       <Table content={content['stock-information-table']} />
       <Divider space='5' />
+      </Container>
       <Footer content={content['footer']} />
     </Layout>
   )
