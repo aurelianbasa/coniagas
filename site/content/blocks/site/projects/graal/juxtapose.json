@@ -1,0 +1,8 @@
+{
+    "juxtapose": {
+     "srcImg1": "../../../../assets/site/projects/nourricier/2021.png",
+     "labelImg1": "Before",
+     "srcImg2": "../../../../assets/site/projects/nourricier/2022.png",
+     "labelImg2": "After"
+    }
+ }
