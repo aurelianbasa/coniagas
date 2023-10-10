@@ -6,6 +6,7 @@
  */
 
 import tornado from './assets/tornado-pattern.svg'
+import about from './assets/about.svg'
 
 export default {
   heroContainer: {
@@ -38,19 +39,19 @@ export default {
     '::before, ::after': {
       position: `absolute`,
       content: `" "`,
-      size: `full`,
-      top: [0, null, `10%`],
-      left: 0,
-      transform: [`translate(0, 0)`, null, `translate(0, 0)`],
-      zIndex: -1,
-      borderRadius: [0, null]
+      width: `full`,
+      height: `11/12`,
+      top: 0,
+      right: 0,
+      borderRadius: t => `0 0 ${t.radii.xl} ${t.radii.xl}`,
+      borderRadius: `xl`,
+      mx: `auto`
     },
     '::after': {
-      background: `linear-gradient(
-          180deg,
-          rgba(255,255,255,0.8) 0%,
-          rgba(255,255,255,0.4) 100%
-        )`
+      zIndex: -2,
+      background: `url(${about}) no-repeat left top`,
+      backgroundSize: `cover`,
+      opacity: 0.4
     },
     '::before': {
       background: `url(images/about.svg) center center`,
