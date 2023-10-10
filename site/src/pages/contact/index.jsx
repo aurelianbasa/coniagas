@@ -28,7 +28,7 @@ const AboutPage = props => {
       <Divider space='5' />
       <Container variant='wide' sx={styles.heroContainer}>
       <Contact content={content['contact']} />
-      <Divider space='5' />
+      <Divider space='3' />
       </Container>
       <Table content={content['stock-information-table']} />
       <Divider space='5' />
