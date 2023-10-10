@@ -28,7 +28,7 @@ export default {
     },
     '::before': {
       background: `url(images/contact.jpg) no-repeat center center`,
-      backgroundSize: `contain`
+      backgroundSize: `cover`
     }
   },
   tabsContainer: {
