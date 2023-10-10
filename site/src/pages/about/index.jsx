@@ -51,6 +51,7 @@ const AboutUs02 = props => {
       </Container>
       <Divider space='5' />
       <Divider space='5' />
+      <Divider space='5' />
       <Footer content={content['footer']} />
     </Layout>
   )

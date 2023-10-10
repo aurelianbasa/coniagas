@@ -39,7 +39,7 @@ export default {
       position: `absolute`,
       content: `" "`,
       size: `full`,
-      top: [0, null, `30%`],
+      top: [0, null, `40%`],
       left: 0,
       transform: [`translate(0, 0)`, null, `translate(0, 0)`],
       zIndex: -1,
@@ -48,13 +48,13 @@ export default {
     '::after': {
       background: `linear-gradient(
           180deg,
-          rgba(255,255,255,0.9) 0%,
-          rgba(255,255,255,0.3) 100%
+          rgba(255,255,255,0.8) 0%,
+          rgba(255,255,255,0.4) 100%
         )`
     },
     '::before': {
       background: `url(images/about.jpg) no-repeat center center`,
-      backgroundSize: `cover`
+      backgroundSize: `full`
     }
   },
   teamContainer: {
