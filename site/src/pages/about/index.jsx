@@ -8,6 +8,7 @@ import ModalWithTabs from '@solid-ui-blocks/Modal/Block01'
 import ModalSimple from '@solid-ui-blocks/Modal/Block02'
 import Header from '@solid-ui-blocks/Header/Block01'
 import Hero from '@solid-ui-blocks/Hero/Block02'
+import CustomTextBlock from '../../blocks/CustomText/CustomTextBlock'
 import Testimonials from '../../blocks/Quotes/Block03'
 import Footer from '@solid-ui-blocks/Footer/Block01'
 import { normalizeBlockContentNodes } from '@blocks-helpers'
@@ -28,8 +29,10 @@ const AboutUs02 = props => {
       <Divider space='6' />
       <Container variant='wide' sx={styles.heroContainer}>
         <Hero content={content['hero']} />
-        <Divider space='7' />
+        <Divider space='6' />
       </Container>
+      <CustomTextBlock content={content['title']} />
+      <Divider space='3' />
       <Testimonials content={content['testimonials-1']} />
       <Divider space='2' />
       <Testimonials content={content['testimonials-2']} />

@@ -1,0 +1,17 @@
+{
+    "paragraph": {
+      "paragraphtext": [
+        {
+            "text": "It's All About The"
+          },
+        {
+          "text": "Experience",
+          "underlineColor": "#AE181C"
+        }
+      ],
+      "variant": "h1",
+      "align": [
+        "left"
+      ]
+    }
+  }
