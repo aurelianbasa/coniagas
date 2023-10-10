@@ -48,9 +48,9 @@ const IndexPage = props => {
       <Divider space='5' />
       <Container variant='wide' sx={styles.tabsContainer}>
       <DataSmall content={content['data-2']}/>
-      <Divider space='1' />
+      <Divider space='3' />
       <DataSmall content={content['data-1']}/>
-      <Divider space='1' />
+      <Divider space='3' />
       <Data content={content['data-3']}/>
       <Divider space='3' />
       </Container>

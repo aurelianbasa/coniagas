@@ -47,9 +47,9 @@ const Services03 = props => {
       <Divider space='5' />
       <Container variant='wide' sx={styles.tabsContainer}>
       <DataSmall content={content['chart-1']}/>
-      <Divider space='2' />
-      <Data content={content['chart-2']}/>
       <Divider space='3' />
+      <Data content={content['chart-2']}/>
+      <Divider space='4' />
       </Container>
       <Divider space='4' />
       <Footer content={content['footer']} />
