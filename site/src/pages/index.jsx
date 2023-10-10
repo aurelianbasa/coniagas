@@ -44,15 +44,14 @@ const IndexPage = props => {
       <Divider space='5' />
       <Intro content={content['intro']} />
       <Divider space='5' />
-      <Container variant='narrow'>
+      <Container variant='wide' sx={styles.tabsContainer}>
       <Data content={content['data-1']}/>
-      <Divider space='2' />
       <Data content={content['data-2']}/>
       </Container>
       <Divider space='3' />
       <Download content={content['download']} />
       <Divider space='3' />
-      <Container variant='narrow'>
+      <Container variant='wide' sx={styles.testimonialsContainer}>
       <Data content={content['data-3']}/>
       </Container>
       <Divider space='2' />
