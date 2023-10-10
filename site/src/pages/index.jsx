@@ -12,6 +12,7 @@ import Hero from '@solid-ui-blocks/Hero/Block01'
 import Intro from '@solid-ui-blocks/Hero/Block02'
 import Download from '@solid-ui-blocks/CallToAction/Block02'
 import Data from '../components/DatawrapperEmbed/DatawrapperEmbed'
+import DataSmall from '../components/DatawrapperEmbed/DatawrapperEmbedSmall'
 import Blog from '@solid-ui-blocks/Blog/Block01'
 import Footer from '@solid-ui-blocks/Footer/Block01'
 import { normalizeBlockContentNodes } from '@blocks-helpers'
@@ -45,9 +46,9 @@ const IndexPage = props => {
       <Intro content={content['intro']} />
       <Divider space='5' />
       <Container variant='wide' sx={styles.tabsContainer}>
-      <Data content={content['data-1']}/>
+      <DataSmall content={content['data-1']}/>
       <Divider space='2' />
-      <Data content={content['data-2']}/>
+      <DataSmall content={content['data-2']}/>
       <Divider space='2' />
       <Download content={content['download']} />
       <Divider space='2' />

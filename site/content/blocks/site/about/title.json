@@ -2,11 +2,12 @@
     "paragraph": {
       "paragraphtext": [
         {
-            "text": "It's All About The"
+            "text": "Leading By"
           },
         {
-          "text": "Experience",
-          "underlineColor": "#AE181C"
+          "text": " Experience",
+          "underlineColor": "#AE181C",
+          "variant": "h1"
         }
       ],
       "variant": "h1",
