@@ -53,7 +53,7 @@ export default {
         )`
     },
     '::before': {
-      background: `url(images/about.jpg) no-repeat center center`,
+      background: `url(images/about.svg) center center`,
       backgroundSize: `cover`
     }
   },
