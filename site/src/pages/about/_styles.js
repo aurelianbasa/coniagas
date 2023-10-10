@@ -54,7 +54,7 @@ export default {
     },
     '::before': {
       background: `url(images/about.jpg) no-repeat center center`,
-      backgroundSize: `full`
+      backgroundSize: `contain`
     }
   },
   teamContainer: {
