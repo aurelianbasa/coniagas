@@ -17,6 +17,7 @@ type BlockContent implements Node @dontInfer {
   map: BlockContentMap
   buttons: [BlockContentButton]
   form: BlockContentForm
+  links: [BlockContentLink]
   collection: [BlockContent]
 }
 
@@ -182,4 +183,13 @@ type BlockContentFormField {
   placeholder: BlockContentText
   value: String
   icon: BlockContentIcon
+}
+
+############################################
+## Links
+############################################
+
+type BlockContentLink {
+  type: String
+  url: String
 }
