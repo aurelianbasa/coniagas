@@ -44,19 +44,19 @@ const ProjectItemPage = props => {
         <Divider space='5' />
         <Info content={content['info-3']} reverse />
         <Divider space='5' />
-        </Container>
+  
       <Stats content={content['stats']} />
       <Divider space='5' />
-      <Container variant='narrow'>
+    
       <JuxtaposeImage content={content['juxtapose']} />
       </Container>
       <Divider space='5' />
-      <Container variant='narrow'>
+     
         <Info content={content['info-1']} reverse />
         <Divider space='5' />
         <Info content={content['info-2']} />
         <Divider space='5' />
-      </Container>
+      
       <Divider space='5' />
       <Footer content={content['footer']} />
     </Layout>
