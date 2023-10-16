@@ -5,8 +5,8 @@ import { Container } from 'theme-ui'
 
 const JuxtaposeImage = ({ as: CustomComponent, content, ...props }) => {
     const { srcImg1, srcImg2, labelImg1, labelImg2 } = content.juxtapose
-    const width = 1000
-    const height = 1400
+    const width = 1200
+    const height = "1500px"
 
     const [percentLeftSide, setPercentLeftSide] = React.useState(50)
 

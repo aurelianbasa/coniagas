@@ -1,0 +1,96 @@
+div.calendly-btn-box {
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #3c4c5c;
+    background-color: #3c4c5c;
+    padding: 0.75em 0.8em;
+    border-radius: 50px;
+}
+
+.calendly-btn {
+    width: 100%;
+    border: none;
+    font-family: inherit;
+    font-size: 1em;
+    background-color: unset;
+    color: #fff;
+}
+
+.calendly-btn-box:hover {
+    animation: scale-up-btn 300ms;
+    transform: scale(1.05);
+    transition: all 250ms ease;
+    cursor: pointer;
+    filter: brightness(95%);
+}
+
+.calendly-btn-box:not(:hover) {
+    animation: scale-down-btn 300ms;
+    transform: scale(1);
+    transition: all 250ms ease;
+}
+
+.calendly-btn:hover {
+    animation: rev-scale-up-btn 300ms;
+    transform: scale(calc(1/1.05));
+    transition: all 250ms ease;
+    cursor: pointer;
+    filter: brightness(130%);
+}
+
+.calendly-btn:not(:hover) {
+    animation: rev-scale-down-btn 300ms;
+    transform: scale(1);
+    transition: all 250ms ease;
+}
+
+@keyframes scale-up-btn {
+    20% {
+        transform: scale(1.05);
+    }
+    90% {
+        transform: scale(1.03);
+    }
+}
+
+@keyframes rev-scale-up-btn {
+    20% {
+        transform: scale(calc(1/1.05));
+    }
+    90% {
+        transform: scale(calc(1/1.03));
+    }
+}
+
+@keyframes scale-down-btn {
+    20% {
+        transform: scale(1.03);
+    }
+    60% {
+        transform: scale(1);
+    }
+    90% {
+        transform: scale(0.98);
+    }
+}
+
+@keyframes rev-scale-down-btn {
+    20% {
+        transform: scale(calc(1/1.03));
+    }
+    60% {
+        transform: scale(1);
+    }
+    90% {
+        transform: scale(calc(1/0.98));
+    }
+}
+
+/*.calendly-btn:hover {
+    background-color: bisque;
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+    transition: all 250ms ease;
+}*/
