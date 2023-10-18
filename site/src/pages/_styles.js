@@ -42,11 +42,7 @@ export default {
       right: 0,
       zIndex: -1,
       borderRadius: `xl`,
-      background: `linear-gradient(
-        180deg,
-        #f7f9fe 0%,
-        #323d4d 100%
-      )`
+      background: `#323d4d`
     }
   },
   testimonialsContainer: {
