@@ -47,7 +47,7 @@ export default {
       background: `linear-gradient(
         180deg,
         #f7f9fe 0%,
-        #f4f4f8 100%
+        #323d4d 100%
       )`
     }
   },

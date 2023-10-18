@@ -48,6 +48,8 @@ const Services03 = props => {
       <Container variant='wide' sx={styles.tabsContainer}>
       <DataSmall content={content['chart-1']}/>
       <Divider space='3' />
+      <DataSmall content={content['chart-3']}/>
+      <Divider space='3' />
       <Data content={content['chart-2']}/>
       <Divider space='4' />
       </Container>
