@@ -4,12 +4,13 @@
       "text": "PRODUCT IS MERIT",
       "color": "omegaDark",
       "variant": "h4",
-      "align": ["left"]
+      "align": ["left"],
+      "space": 0
     },
     {
       "text": "**Metals Are** Essential",
       "color": "beta",
-      "variant": "h1",
+      "variant": "h2",
       "align": ["left"],
       "space": 0
     },
