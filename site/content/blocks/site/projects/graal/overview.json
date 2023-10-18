@@ -8,29 +8,30 @@
       "space": 0
     },
     {
-      "text": "A **Strategic** Move to add Discoveries",
+      "text": "A Strategic Move to add Discoveries",
       "variant": "h3",
-      "color": "alpha",
+      "color": "omegaDarker",
       "align": ["left"]
     },
     {
-      "text": "We are advancing the Graal project towards production to meet the rising demand for Critical Minerals from Safe Jurisdictions",
-      "variant": "medium",
+      "text": "We are advancing the Graal project towards production to meet the rising demand for **Critical Minerals from Safe Jurisdictions**",
+      "color": "omegaDarker",
+      "variant": "h5",
       "align": ["left"]
     },
     {
-      "text": "Evidence points to a large deposit of high-grade nickel, copper and cobalt near surface with showings of platinum and palladium and potential for a significant deposit at depth",
-      "variant": "medium",
+      "text": "Evidence points to a large deposit of high-grade nickel, copper and cobalt near surface with showings of platinum and palladium and potential for a significant deposit at depth.",
+      "variant": "h6",
       "align": ["left"]
     },
     {
       "text": "The property is ideally located close to major battery manufacturing infrastructure with access to deep sea ports",
-      "variant": "medium",
+      "variant": "h6",
       "align": ["left"]
     },
     {
       "text": "Work in the coming year will focus on exploration drilling aimed at expanding the size of the mineralized deposit area and delivering a maiden resource report",
-      "variant": "medium",
+      "variant": "h6",
       "align": ["left"]
     }
   ],

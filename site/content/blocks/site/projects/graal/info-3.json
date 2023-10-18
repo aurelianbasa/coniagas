@@ -21,7 +21,7 @@
       "align": ["left"]
     },
     {
-      "text": "Initial drilling intersected massive sulphides with assays for the first three drill holes indicating up to 2.08% nickel and 3.75% copper. Lab results are still pending.",
+      "text": "Initial drilling intersected massive sulphides proven with detailed assays showing 1.12% NiEq over 28.9m mostly at shallow depths of only 50 to 100m.",
       "variant": "medium",
       "align": ["left"]
     }
@@ -32,5 +32,15 @@
       "radius": "xl",
       "alt": "alt text"
     }
+  ],
+  "buttons": [
+    {
+      "text": "More Details Here",
+      "type": "PAGE",
+      "link": "/data/",
+      "variant": "primary",
+      "width": "100%"
+    }
   ]
 }
+

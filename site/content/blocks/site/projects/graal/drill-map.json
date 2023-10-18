@@ -2,6 +2,10 @@
   "text": [
     {
       "text": "View Drill Holes Map",
+      "variant": "h3"
+    },
+    {
+      "text": "All Exploration data is featured below in an interactive format",
       "variant": "h5"
     },
     {
