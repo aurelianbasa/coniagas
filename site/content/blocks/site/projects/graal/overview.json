@@ -17,21 +17,24 @@
       "text": "We are advancing the Graal project towards production to meet the rising demand for **Critical Minerals from Safe Jurisdictions**",
       "color": "omega",
       "variant": "h5",
-      "align": ["left"]
+      "align": ["left"],
+      "space": 2
     },
     {
-      "text": "Evidence points to a large deposit of high-grade nickel, copper and cobalt near surface with showings of platinum and palladium and potential for a significant deposit at depth.",
-      "variant": "medium",
-      "align": ["left"]
+      "text": "Evidence points to a large deposit of **high-grade nickel, copper and cobalt** near surface with showings of platinum and palladium and potential for a significant deposit at depth.",
+      "variant": "h5",
+      "align": ["left"],
+      "space": 2
     },
     {
-      "text": "The property is ideally located close to major battery manufacturing infrastructure with access to deep sea ports",
-      "variant": "medium",
-      "align": ["left"]
+      "text": "The property is ideally located **close to major battery manufacturing infrastructure** with access to deep sea ports",
+      "variant": "h5",
+      "align": ["left"],
+      "space": 2
     },
     {
-      "text": "Work in the coming year will focus on exploration drilling aimed at expanding the size of the mineralized deposit area and delivering a maiden resource report",
-      "variant": "medium",
+      "text": "Work in the coming year will focus on exploration drilling aimed at expanding the size of the mineralized deposit area and **delivering a maiden resource** report",
+      "variant": "h5",
       "align": ["left"]
     }
   ],

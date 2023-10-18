@@ -10,7 +10,8 @@
       "text": "**Metals Are** Essential",
       "color": "beta",
       "variant": "h1",
-      "align": ["left"]
+      "align": ["left"],
+      "space": 0
     },
     {
       "text": "The energy transition needs new critical minerals deposits. Coniagas has secured the Graal in Saguenay, Québec. Drilling indicates a polymetallic deposit containing nickel, copper, and cobalt. And if mined, would allow proceeds from one metal to finance production of another.",
