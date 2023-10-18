@@ -17,6 +17,31 @@
     {
       "text": [
         {
+          "text": "Nickel",
+          "color": "omegaDarker",
+          "variant": "h3"
+        },
+        {
+          "text": "Current Supply: 3,160,000 t",
+          "color": "omega",
+          "variant": "h6",
+          "align": ["left"]
+        },
+        {
+          "text": "Expected Demand: 6,200,000 t",
+          "color": "beta",
+          "variant": "h4",
+          "align": ["left"]
+        }
+      ],
+      "avatar": 
+        {
+          "src": "../../../assets/site/index/gallery-2.jpg"
+        }
+    },
+    {
+      "text": [
+        {
           "text": "Cobalt",
           "color": "omegaDarker",
           "variant": "h3"
@@ -38,31 +63,6 @@
       "avatar":
         {
           "src": "../../../assets/site/index/gallery-1.jpg"
-        }
-    },
-    {
-      "text": [
-        {
-          "text": "Nickel",
-          "color": "omegaDarker",
-          "variant": "h3"
-        },
-        {
-          "text": "Current Supply: 3,160,000 t",
-          "color": "omega",
-          "variant": "h6",
-          "align": ["left"]
-        },
-        {
-          "text": "Expected Demand: 6,200,000 t",
-          "color": "beta",
-          "variant": "h4",
-          "align": ["left"]
-        }
-      ],
-      "avatar": 
-        {
-          "src": "../../../assets/site/index/gallery-2.jpg"
         }
     }
   ]

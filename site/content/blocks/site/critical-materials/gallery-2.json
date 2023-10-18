@@ -28,6 +28,13 @@
         "text": "Canada has significant reserves of many critical minerals that are essential for clean energy technologies, electronics, and other applications. Developing this sector could boost Canada's economy and position it as a global supplier. Meaningfully engaging and collaborating with Indigenous peoples is a priority, and critical mineral development presents opportunities to grow Indigenous economies and partnerships.",
         "color": "omegaDark",
         "variant": "medium",
+        "align": ["left"],
+        "space": 3
+      },
+      {
+        "text": "Source: The Canadian Critical Minerals Strategy, Government of Canada",
+        "color": "omega",
+        "variant": "small",
         "align": ["left"]
       }
     ],
@@ -41,7 +48,7 @@
     ],
   "buttons": [
     {
-      "text": "Link to Report ➥ ",
+      "text": "Link to Canadian Report ➥ ",
     "type": "PAGE",
     "width": "100%",
       "link": "https://www.canada.ca/content/dam/nrcan-rncan/site/critical-minerals/Critical-minerals-strategyDec09.pdf",
