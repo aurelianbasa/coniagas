@@ -25,7 +25,7 @@ const SearchInput = ({ isLoaded, focus, loadSearch, ...props }) => (
         css={!isLoaded && customStyles.notLoaded}
         sx={styles.input}
         type='text'
-        placeholder='Discover news, articles and more...'
+        placeholder='Search company news releases...'
         aria-label='Search'
         onClick={loadSearch ? loadSearch : undefined}
         autoFocus={isLoaded ? true : undefined}
