@@ -49,10 +49,6 @@ const Marquee = (props) => {
 };
 
 function Text(props) {
-  return React.createElement('span', props, props.content);
-}
-
-function HeadingType(props) {
   return React.createElement(props.type, props, props.content);
 }
 
@@ -65,8 +61,15 @@ const CustomText = ({ as: CustomComponent, content, ...props }) => {
   textComponent = content.map((item, index) => {
     if (item.wordScroll) {
       const wordList = item.wordScroll.map((word, scrollIndex) => {
-        let style = { textDecoration: word.underlineColor ? 'underline' : '', textDecorationColor: word.underlineColor ?? '', backgroundColor: word.highlightColor ?? '' }
+        let style = {
+          textDecoration: word.underlineColor ? 'underline' : '', 
+          textDecorationColor: word.underlineColor ?? '', 
+          backgroundColor: word.highlightColor ?? '',
+          display: 'inline',
+          color: item.color || 'inherit'
+        }
         return <Text
+          type={item.variant || 'span'}
           as='default'
           key={index + '-' + scrollIndex}
           content={word.text}
@@ -75,9 +78,16 @@ const CustomText = ({ as: CustomComponent, content, ...props }) => {
       })
       return <Marquee key={index}>{wordList}</Marquee>
     } else {
-      let style = { textDecoration: item.underlineColor ? 'underline' : '', textDecorationColor: item.underlineColor ?? '', backgroundColor: item.highlightColor ?? '' }
+      let style = {
+        textDecoration: item.underlineColor ? 'underline' : '', 
+        textDecorationColor: item.underlineColor ?? '', 
+        backgroundColor: item.highlightColor ?? '',
+        display: 'inline',
+        color: item.color || 'inherit'
+      }
       let t = item.text
       return <Text
+        type={item.variant || 'span'}
         as='default'
         key={index}
         content={t}
@@ -88,13 +98,13 @@ const CustomText = ({ as: CustomComponent, content, ...props }) => {
 
   const isHeading = headings.includes(variant)
 
-  return isHeading ? <HeadingType
-    type={variant}
-    content={textComponent} 
-    style={{ 
-      textAlign: align || undefined, 
-      color: color 
-    }}/> : textComponent;
+  return isHeading ? <Text
+    type={variant || 'p'}
+    content={textComponent}
+    style={{
+      textAlign: align || undefined,
+      color: color
+    }} /> : textComponent;
 }
 
 export default CustomText
