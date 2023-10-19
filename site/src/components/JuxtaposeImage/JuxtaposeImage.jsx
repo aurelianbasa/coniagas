@@ -4,11 +4,17 @@ import { motion } from 'framer-motion'
 import { Container } from 'theme-ui'
 
 const JuxtaposeImage = ({ as: CustomComponent, content, ...props }) => {
-    const { srcImg1, srcImg2, labelImg1, labelImg2 } = content.juxtapose
-    const width = 1200
-    const height = "1500px"
+    const { srcImg1, srcImg2, labelImg1, labelImg2, height } = content.juxtapose;
+    //const width = 1200;
 
-    const [percentLeftSide, setPercentLeftSide] = React.useState(50)
+    const [percentLeftSide, setPercentLeftSide] = React.useState(50);
+    const [width, setWidth] = React.useState(0);
+
+    const calcImgRatio = ({target: img}) => {
+        let ratio = img.naturalWidth / img.naturalHeight;
+        let newWidth = ratio * height;
+        setWidth(newWidth);
+    }
 
     const onDrag = (event, info) => {
         if (info.point.x < 0) return
@@ -19,7 +25,7 @@ const JuxtaposeImage = ({ as: CustomComponent, content, ...props }) => {
     }
 
     return (
-        <div style={{ width: width + 'px', height: height }} class="juxtapose"  >
+        <div style={{ width: width + 'px', height: height + 'px' }} class="juxtapose"  >
             <div class="jx-slider">
                 <motion.div drag='x' onDrag={onDrag} dragMomentum={false} class="jx-handle" style={{ left: percentLeftSide + '%' }}>
                     <div class="jx-arrow jx-left"></div>
@@ -29,7 +35,7 @@ const JuxtaposeImage = ({ as: CustomComponent, content, ...props }) => {
                     <div class="jx-arrow jx-right"></div>
                 </motion.div>
                 <div class="jx-image jx-left" style={{ width: percentLeftSide + '%' }}>
-                    <img src={srcImg1} alt="" />
+                    <img onLoad={calcImgRatio} src={srcImg1} alt="" />
                     <div class="jx-label" tabindex="0">{labelImg1}</div>
                 </div>
                 <div class="jx-image jx-right" style={{ width: (100 - percentLeftSide) + '%' }}>
