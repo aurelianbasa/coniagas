@@ -1,94 +1,95 @@
 {
   "collection": [
     {
-      "container": {
-        "variant": "cards.paper"
-      },
       "text": [
         {
-          "text": "Online Learning",
-          "color": "omegaDarker",
-          "variant": "h5"
+          "text": "Castle East",
+          "color": "alpha",
+          "variant": "h4"
         },
         {
-          "text": "Understand First. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt."
+          "text": "Highest silver grades in the world, with a cobalt byproduct"
         }
       ],
-      "icon": [
-      {
-        "src": "../../../assets/flexiblocks/icons/bx-message-detail.svg",
-        "bg": "#D3E7FE",
-        "color": "#276BF0"
-      }
-    ],
+    "icon": {
+      "src": "../../../assets/flexiblocks/icons/bx-analyse.svg",
+      "alt": "alt text"
+    },
       "buttons": [
-      {
-        "text": "Get it on Google Play",
-        "type": "APP",
-        "link": "",
-        "variant": "google"
-      }
-    ]
+        {
+          "text": "Read more    ➜",
+          "type": "PAGE",
+          "width": "100%",
+          "link": "/projects/castle-east",
+          "variant": "dark"
+        }
+      ]
     },
+
     {
-      "container": {
-        "variant": "cards.paper"
-      },
       "text": [
         {
-          "text": "International",
-          "color": "omegaDarker",
-          "variant": "h5"
+          "text": "Castle Mine",
+          "color": "alpha",
+          "variant": "h4"
         },
         {
-          "text": "Understand First. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt."
+          "text": "Past producer of high-grade silver and cobalt in Ontario"
         }
       ],
-      "icon": {
-        "src": "../../../assets/flexiblocks/icons/bx-planet.svg",
-        "bg": "#FFF3CC",
-        "color": "#FF9D01"
-      }
+      "buttons": [
+        {
+          "text": "Read more    ➜",
+          "type": "PAGE",
+          "width": "100%",
+          "link": "/projects/castle-mine",
+          "variant": "dark"
+        }
+      ]
     },
+
     {
-      "container": {
-        "variant": "cards.paper"
-      },
       "text": [
         {
-          "text": "Competition",
-          "color": "omegaDarker",
-          "variant": "h5"
+          "text": "Graal",
+          "color": "alpha",
+          "variant": "h4"
         },
         {
-          "text": "Understand First. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt."
+          "text": "High-grade nickel, copper, and cobalt in Quebec"
         }
       ],
-      "icon": {
-        "src": "../../../assets/flexiblocks/icons/bx-coin.svg",
-        "bg": "#FEE8D1",
-        "color": "#F7491D"
-      }
+      "buttons": [
+        {
+          "text": "Read more    ➜",
+          "type": "PAGE",
+          "width": "100%",
+          "link": "/projects/nourricier",
+          "variant": "dark"
+        }
+      ]
     },
+
     {
-      "container": {
-        "variant": "cards.paper"
-      },
       "text": [
         {
-          "text": "Organizer",
-          "color": "omegaDarker",
-          "variant": "h5"
+          "text": "Eby-Otto",
+          "color": "alpha",
+          "variant": "h4"
         },
         {
-          "text": "Understand First. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt."
+          "text": "Prospective gold property close to the Macassa mine"
         }
       ],
-      "icon": {
-        "src": "../../../assets/flexiblocks/icons/bx-box.svg",
-        "bg": "#D5FCDD",
-        "color": "#2DC88A"
-      }
+      "buttons": [
+        {
+          "text": "Read more    ➜",
+          "type": "PAGE",
+          "width": "100%",
+          "link": "/projects/ebby-otto",
+          "variant": "dark"
+        }
+      ]
     }
   ]
 }
