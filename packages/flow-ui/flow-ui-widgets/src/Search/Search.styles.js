@@ -101,14 +101,16 @@ export default {
   close: {
     position: `fixed`,
     zIndex: 99,
-    right: [`10%`, 4],
-    top: [`95%`, 4],
+    left: [`10%`, 4],
+    top: [`65%`, 4],
     transform: [`translate(50%, -50%)`, `none`],
     textAlign: `center`,
     color: `omega`,
-    fontSize: 1
+    fontSize: 4
   },
   esc: {
+    left: [`10%`, 4],
+    top: [`65%`, 4],
     display: [`none`, `block`]
   }
 }
