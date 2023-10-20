@@ -14,18 +14,21 @@
           "text": "Understand First. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt."
         }
       ],
-      "icon": {
+      "icon": [
+      {
         "src": "../../../assets/flexiblocks/icons/bx-message-detail.svg",
         "bg": "#D3E7FE",
         "color": "#276BF0"
-      },
-      "buttons": 
+      }
+    ],
+      "buttons": [
       {
         "text": "Get it on Google Play",
         "type": "APP",
         "link": "",
         "variant": "google"
       }
+    ]
     },
     {
       "container": {
