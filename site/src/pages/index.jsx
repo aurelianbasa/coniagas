@@ -8,6 +8,7 @@ import ModalWithTabs from '@solid-ui-blocks/Modal/Block01'
 import ModalSimple from '@solid-ui-blocks/Modal/Block02'
 import Header from '@solid-ui-blocks/Header/Block01'
 import Primary from '@solid-ui-blocks/FeaturesWithPhoto/Block01'
+import Buttons from '@solid-ui-blocks/Features/Block06'
 import Hero from '@solid-ui-blocks/Hero/Block01'
 import Intro from '@solid-ui-blocks/Hero/Block02'
 import Download from '@solid-ui-blocks/CallToAction/Block02'
@@ -40,7 +41,7 @@ const IndexPage = props => {
       <Divider space='5' />
       <Primary content={content['primary']} reverse />
       <Divider space='4' />
-      <Download content={content['download']} />
+      <Buttons content={content['buttons']} />
       <Divider space='5' />
       <Intro content={content['intro']} />
       <Divider space='5' />
