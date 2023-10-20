@@ -101,7 +101,7 @@ export default {
   close: {
     position: `fixed`,
     zIndex: 99,
-    left: [`50%`, 1],
+    left: [`50%`, 10],
     top: [`65%`, 4],
     transform: [`translate(50%, -50%)`, `none`],
     textAlign: `center`,
@@ -109,7 +109,7 @@ export default {
     fontSize: 4
   },
   esc: {
-    left: [`50%`, 1],
+    left: [`50%`, 10],
     top: [`65%`, 4],
     display: [`none`, `block`]
   }
