@@ -12,17 +12,16 @@
         }
       ],
     "icon": {
-      "src": "../../../assets/flexiblocks/icons/bx-analyse.svg",
+      "src": "../../../assets/flexiblocks/icons/bx-line-chart.svg",
       "alt": "alt text"
     },
       "buttons": [
         {
-          "text": "Download ➜",
-          "type": "PAGE",
-          "width": "100%",
-          "link": "/projects/castle-east",
-          "variant": "dark"
-        }
+          "text": "Download   ➜",
+            "type": "PAGE",
+            "link": "/Presentation.pdf",
+            "variant": "primary"
+          }
       ]
     },
 
@@ -38,16 +37,17 @@
         }
       ],
       "icon": {
-        "src": "../../../assets/flexiblocks/icons/bx-analyse.svg",
+        "src": "../../../assets/flexiblocks/icons/bx-mail-send.svg",
+        "color": "beta",
+        "bg": "betaLighter",
         "alt": "alt text"
       },
       "buttons": [
         {
-          "text": "Subscribe ➜",
+          "text": "Subscribe   ➜",
           "type": "PAGE",
-          "width": "100%",
-          "link": "/projects/castle-mine",
-          "variant": "dark"
+          "link": "https://us21.list-manage.com/subscribe?u=e9b6857e0010b1af9e9be9433&id=a13478dbf4",
+          "variant": "primary"
         }
       ]
     },
@@ -64,15 +64,15 @@
         }
       ],
       "icon": {
-        "src": "../../../assets/flexiblocks/icons/bx-analyse.svg",
+        "src": "../../../assets/flexiblocks/icons/bx-calendar-check.svg",
         "alt": "alt text"
       },
       "buttons": [
         {
-          "text": "Schedule ➜",
+          "text": "Schedule   ➜",
           "type": "PAGE",
           "width": "100%",
-          "link": "/projects/nourricier",
+          "link": "https://calendly.com/aurelianbasa/30-minute-meeting?hide_event_type_details=1&hide_gdpr_banner=1",
           "variant": "dark"
         }
       ]
