@@ -15,6 +15,11 @@ const styles = {
     minWidth: 300,
     p: 3
   },
+  card: {
+    overflow: `hidden`,
+    bg: `omegaLight`,
+    height: `full`
+  },
   itemDescription: {
     flexBasis: `3/5`,
     flexGrow: 1,
@@ -43,7 +48,7 @@ const FeaturesBlock05 = ({ content: { text, collection } }) => (
                 <ContentContainer
                   content={container}
                   variant='cards.paper'
-                  sx={{ height: `full` }}
+                  sx={styles.card}
                 >
                   <Icon content={icon} size='md' mr='3' mb='3' />
                   <ContentText content={text?.[0]} />

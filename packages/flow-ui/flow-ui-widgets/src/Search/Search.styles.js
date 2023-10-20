@@ -99,10 +99,10 @@ export default {
     height: `full`
   },
   close: {
-    position: `fixed`,
+    position: `relative`,
     zIndex: 99,
-    left: [`90%`, 10],
-    top: [`25%`, 4],
+    left: 10,
+    top: 4,
     textAlign: `center`,
     color: `beta`,
     fontSize: 4

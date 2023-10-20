@@ -8,19 +8,23 @@
           "variant": "h4"
         },
         {
-          "text": "Our latest corporate presentation"
+          "text": "Our latest corporate presentation",
+          "variant": "h5"
         }
       ],
     "icon": {
       "src": "../../../assets/flexiblocks/icons/bx-line-chart.svg",
+      "color": "beta",
+      "bg": "betaLighter",
       "alt": "alt text"
     },
       "buttons": [
         {
           "text": "Download   ➜",
             "type": "PAGE",
+            "width": "100%",
             "link": "/Presentation.pdf",
-            "variant": "primary"
+            "variant": "dark"
           }
       ]
     },
@@ -33,7 +37,8 @@
           "variant": "h4"
         },
         {
-          "text": "Join our mailing list"
+          "text": "Join our mailing list",
+          "variant": "h5"
         }
       ],
       "icon": {
@@ -46,8 +51,9 @@
         {
           "text": "Subscribe   ➜",
           "type": "PAGE",
+          "width": "100%",
           "link": "https://us21.list-manage.com/subscribe?u=e9b6857e0010b1af9e9be9433&id=a13478dbf4",
-          "variant": "primary"
+          "variant": "dark"
         }
       ]
     },
@@ -60,11 +66,14 @@
           "variant": "h4"
         },
         {
-          "text": "Make an appointment with us"
+          "text": "Make an appointment with us",
+          "variant": "h5"
         }
       ],
       "icon": {
         "src": "../../../assets/flexiblocks/icons/bx-calendar-check.svg",
+        "color": "beta",
+        "bg": "betaLighter",
         "alt": "alt text"
       },
       "buttons": [
