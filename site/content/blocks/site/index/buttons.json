@@ -3,12 +3,12 @@
     {
       "text": [
         {
-          "text": "Castle East",
+          "text": "Invest",
           "color": "alpha",
           "variant": "h4"
         },
         {
-          "text": "Highest silver grades in the world, with a cobalt byproduct"
+          "text": "Our latest corporate presentation"
         }
       ],
     "icon": {
@@ -17,7 +17,7 @@
     },
       "buttons": [
         {
-          "text": "Read more    ➜",
+          "text": "Download ➜",
           "type": "PAGE",
           "width": "100%",
           "link": "/projects/castle-east",
@@ -29,17 +29,21 @@
     {
       "text": [
         {
-          "text": "Castle Mine",
+          "text": "Follow",
           "color": "alpha",
           "variant": "h4"
         },
         {
-          "text": "Past producer of high-grade silver and cobalt in Ontario"
+          "text": "Join our mailing list"
         }
       ],
+      "icon": {
+        "src": "../../../assets/flexiblocks/icons/bx-analyse.svg",
+        "alt": "alt text"
+      },
       "buttons": [
         {
-          "text": "Read more    ➜",
+          "text": "Subscribe ➜",
           "type": "PAGE",
           "width": "100%",
           "link": "/projects/castle-mine",
@@ -51,42 +55,24 @@
     {
       "text": [
         {
-          "text": "Graal",
+          "text": "Contact",
           "color": "alpha",
           "variant": "h4"
         },
         {
-          "text": "High-grade nickel, copper, and cobalt in Quebec"
+          "text": "Make an appointment with us"
         }
       ],
+      "icon": {
+        "src": "../../../assets/flexiblocks/icons/bx-analyse.svg",
+        "alt": "alt text"
+      },
       "buttons": [
         {
-          "text": "Read more    ➜",
+          "text": "Schedule ➜",
           "type": "PAGE",
           "width": "100%",
           "link": "/projects/nourricier",
-          "variant": "dark"
-        }
-      ]
-    },
-
-    {
-      "text": [
-        {
-          "text": "Eby-Otto",
-          "color": "alpha",
-          "variant": "h4"
-        },
-        {
-          "text": "Prospective gold property close to the Macassa mine"
-        }
-      ],
-      "buttons": [
-        {
-          "text": "Read more    ➜",
-          "type": "PAGE",
-          "width": "100%",
-          "link": "/projects/ebby-otto",
           "variant": "dark"
         }
       ]
