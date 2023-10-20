@@ -101,8 +101,8 @@ export default {
   close: {
     position: `relative`,
     zIndex: 99,
-    left: 10,
-    top: 4,
+    left: 40,
+    top: 2,
     textAlign: `center`,
     color: `beta`,
     fontSize: 4

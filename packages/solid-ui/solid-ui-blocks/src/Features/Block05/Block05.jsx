@@ -50,7 +50,7 @@ const FeaturesBlock05 = ({ content: { text, collection } }) => (
                   variant='cards.paper'
                   sx={styles.card}
                 >
-                  <Icon content={icon} size='md' mr='3' mb='3' />
+                  <Icon content={icon} size='xl' mr='3' mb='3' />
                   <ContentText content={text?.[0]} />
                   <Flex sx={{ alignItems: `center`, flexWrap: `wrap` }}>
                     <ContentText
