@@ -38,25 +38,24 @@ const ProjectItemPage = props => {
       <Milestones content={content['milestones-1']} />
       <Divider space='5' />
       <Container variant='wide'>
-      <DrillMap content={content['drill-map']} />
+        <DrillMap content={content['drill-map']} />
       </Container>
       <Container>
         <Divider space='5' />
         <Info content={content['info-3']} reverse />
         <Divider space='5' />
-  
-      <Stats content={content['stats']} />
-      <Divider space='5' />
-    
-      <JuxtaposeImage content={content['juxtapose']} />
+        <Stats content={content['stats']} />
       </Container>
+
       <Divider space='5' />
-     
-        <Info content={content['info-1']} reverse />
-        <Divider space='5' />
-        <Info content={content['info-2']} />
-        <Divider space='5' />
-      
+      <JuxtaposeImage content={content['juxtapose']} />
+      <Divider space='5' />
+
+      <Info content={content['info-1']} reverse />
+      <Divider space='5' />
+      <Info content={content['info-2']} />
+      <Divider space='5' />
+
       <Divider space='5' />
       <Footer content={content['footer']} />
     </Layout>

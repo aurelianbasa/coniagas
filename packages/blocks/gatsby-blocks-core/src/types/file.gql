@@ -118,6 +118,7 @@ type BlockContentJuxtapose {
   labelImg1: String
   srcImg2: String
   labelImg2: String
+  height: Float
 }
 
 ############################################
