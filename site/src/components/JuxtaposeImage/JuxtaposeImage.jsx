@@ -3,29 +3,60 @@ import './juxtapose.css'
 import { motion } from 'framer-motion'
 import { Container } from 'theme-ui'
 
+function getWindowDimensions() {
+    const { innerWidth: width, innerHeight: height } = window;
+    return {
+      width,
+      height
+    };
+  }
+
 const JuxtaposeImage = ({ as: CustomComponent, content, ...props }) => {
     const { srcImg1, srcImg2, labelImg1, labelImg2, height } = content.juxtapose;
-    //const width = 1200;
 
     const [percentLeftSide, setPercentLeftSide] = React.useState(50);
-    const [width, setWidth] = React.useState(0);
+    const [imgDimensions, setImgDimensions] = React.useState({"width": 1, "heigth": 1});
+    const [windowDimensions, setWindowDimensions] = React.useState(getWindowDimensions());
 
-    const calcImgRatio = ({target: img}) => {
+    React.useEffect(() => {
+        function handleResize() {
+            setWindowDimensions(getWindowDimensions());
+        }
+
+        window.addEventListener('resize', handleResize);
+        return () => window.removeEventListener('resize', handleResize);
+    }, []);
+
+    const calcImgRatio = ({ target: img }) => {
         let ratio = img.naturalWidth / img.naturalHeight;
-        let newWidth = ratio * height;
-        setWidth(newWidth);
+        let dimensions = {
+            "width": height * ratio,
+            "height": height
+        }
+
+        if (windowDimensions.width < dimensions.width) {
+            dimensions.width = windowDimensions.width * 0.95;
+            dimensions.height = dimensions.width / ratio;
+        }
+
+        setImgDimensions(dimensions);
     }
 
     const onDrag = (event, info) => {
         if (info.point.x < 0) return
-        if (info.point.x > width) return
-        let percent = (info.point.x % width) / width * 100
+        if (info.point.x > imgDimensions.width) return
+        let percent = (info.point.x % imgDimensions.width) / imgDimensions.width * 100
 
         setPercentLeftSide(percent)
     }
 
+    let style = {
+        width: imgDimensions.width + 'px',
+        height: imgDimensions.height + 'px'
+    }
+
     return (
-        <div style={{ width: width + 'px', height: height + 'px' }} class="juxtapose"  >
+        <div style={style} class="juxtapose"  >
             <div class="jx-slider">
                 <motion.div drag='x' onDrag={onDrag} dragMomentum={false} class="jx-handle" style={{ left: percentLeftSide + '%' }}>
                     <div class="jx-arrow jx-left"></div>
