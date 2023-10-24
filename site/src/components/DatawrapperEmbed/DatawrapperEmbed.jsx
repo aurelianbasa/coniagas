@@ -6,7 +6,7 @@ const DatawrapperEmbed = ({ as: CustomComponent, content, ...props }) => {
 
     return (
         <div style={{maxWidth: "100%", display: "flex", justifyContent: "center"}}>
-            <img src={src} alt="" style={{maxWidth: "80%"}} />
+            <img src={src} alt="" style={{maxWidth: "95%"}} />
         </div>
     );
 }
