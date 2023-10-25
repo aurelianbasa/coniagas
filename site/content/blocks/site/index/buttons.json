@@ -5,7 +5,8 @@
         {
           "text": "Invest",
           "color": "alpha",
-          "variant": "h4"
+          "variant": "h4",
+          "space": 0
         },
         {
           "text": "Our Corporate Presentation",
@@ -34,7 +35,8 @@
         {
           "text": "Follow",
           "color": "alpha",
-          "variant": "h4"
+          "variant": "h4",
+          "space": 0
         },
         {
           "text": "Join our mailing list",
@@ -63,7 +65,8 @@
         {
           "text": "Contact",
           "color": "alpha",
-          "variant": "h4"
+          "variant": "h4",
+          "space": 0
         },
         {
           "text": "Make an appointment with us",
@@ -79,7 +82,7 @@
       "buttons": [
         {
           "text": "Schedule   ➜",
-          "type": "MODAL",
+          "type": "PAGE",
           "width": "100%",
           "link": "https://calendly.com/aurelianbasa/30-minute-meeting?hide_event_type_details=1&hide_gdpr_banner=1",
           "variant": "dark"

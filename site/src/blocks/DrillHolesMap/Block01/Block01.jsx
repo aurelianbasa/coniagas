@@ -104,7 +104,9 @@ const DrillHolesMapBlock01 = ({
                   <iframe style={styles.iframe} src={text[1]?.text} />
                 </Box>
                 <Divider space={3} />
+                <Box sx={styles.container}>
                 <ContentText content={text?.[2]} mb='0' pr='5' />
+                </Box>
               </AccordionItemPanel>
             </AccordionItem>
           </ContentContainer>
