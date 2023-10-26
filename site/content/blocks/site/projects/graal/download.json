@@ -2,18 +2,23 @@
   "text": [
     {
       "text": "Technical Report",
-      "variant": "h4",
       "color": "white",
+      "variant": "h4",
       "align": ["left"]
     }
   ],
+  "icon": {
+    "src": "../../../assets/flexiblocks/icons/bx-line-chart.svg",
+    "color": "beta",
+    "bg": "betaLighter",
+    "alt": "alt text"
+  },
   "buttons": [
     {
       "text": "Download",
       "type": "PAGE",
       "link": "/reports/2023may.pdf",
-      "variant": "primary",
-      "width": "100%"
+      "variant": "primary"
     }
   ]
 }

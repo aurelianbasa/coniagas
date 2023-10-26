@@ -1,5 +1,5 @@
 import React from 'react'
-import { Container, Flex, Box } from 'theme-ui'
+import { Container, Flex } from 'theme-ui'
 import ContentText from '@solid-ui-components/ContentText'
 import ContentContainer from '@solid-ui-components/ContentContainer'
 import ContentButtons from '@solid-ui-components/ContentButtons'
@@ -8,7 +8,6 @@ import WithDefaultContent from '@solid-ui-blocks/WithDefaultContent'
 
 const styles = {
   card: {
-    width: `full`,
     bg: `beta`,
     height: `full`,
     flexDirection: [`column`, `row`],
@@ -27,12 +26,12 @@ const CallToActionBlock02 = ({ content: { container, text, icon, buttons } }) =>
                     
                     <ContentText content={text} sx={{
           alignItems: `center`
-        }} mb='2' />
-                    <Box>
+        }} mb='2' mr='3' p='2' />
+                    
                     <ContentButtons content={buttons}  sx={{
           alignItems: `right`
-        }} mb='2' />
-      </Box></Flex>
+        }} mb='2' mr='4' p='4' />
+      </Flex>
     </ContentContainer>
   </Container>
 )
