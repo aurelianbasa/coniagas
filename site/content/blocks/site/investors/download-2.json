@@ -3,16 +3,10 @@
       {
         "text": "Investor Presentation",
         "color": "white",
-        "variant": "h4",
+        "variant": "h3",
         "align": ["left"]
       }
     ],
-    "icon": {
-      "src": "../../../assets/flexiblocks/icons/bx-down.svg",
-      "color": "omega",
-      "bg": "omegaLighter",
-      "alt": "alt text"
-    },
     "buttons": [
       {
         "text": "Download",
