@@ -3,13 +3,13 @@
       "paragraphtext": [
         {
             "text": "Leading By ",
-            "variant": "h3"
+            "variant": "h1"
           },
         {
-          "text": "Experience",
+          "text": " Experience ",
           "color": "#FFFFFF",
           "highlightColor": "#AE181C",
-          "variant": "h2"
+          "variant": "h1"
         }
       ],
       "align": [
