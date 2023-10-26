@@ -10,7 +10,11 @@ const styles = {
   card: {
     width: `full`,
     bg: `beta`,
-    height: `full`
+    height: `full`,
+    flexDirection: [`column`, `row`],
+    justifyContent: `space-between`,
+    alignItems: `center`,
+    textAlign: [`left`, `left`]
   }
 }
 
@@ -21,9 +25,13 @@ const CallToActionBlock02 = ({ content: { container, text, icon, buttons } }) =>
         <Flex sx={{ flexWrap: `wrap` }} p='3'>
                     <Icon content={icon} size='md' mr='3' p='2' round />
                     
-                    <ContentText content={text} mb='2' />
+                    <ContentText content={text} sx={{
+          alignItems: `center`
+        }} mb='2' />
                     <Box>
-                    <ContentButtons content={buttons}   mb='2' />
+                    <ContentButtons content={buttons}  sx={{
+          alignItems: `right`
+        }} mb='2' />
       </Box></Flex>
     </ContentContainer>
   </Container>
