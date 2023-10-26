@@ -12,7 +12,8 @@
       "text": "Download",
       "type": "PAGE",
       "link": "/reports/2023may.pdf",
-      "variant": "primary"
+      "variant": "primary",
+      "width": "100%"
     }
   ]
 }
