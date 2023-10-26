@@ -5,9 +5,18 @@ import ContentContainer from '@solid-ui-components/ContentContainer'
 import ContentButtons from '@solid-ui-components/ContentButtons'
 import WithDefaultContent from '@solid-ui-blocks/WithDefaultContent'
 
+const styles = {
+  card: {
+    overflow: `hidden`,
+    bg: `omegaDark`,
+    height: `full`
+  }
+}
+
+
 const CallToActionBlock02 = ({ content: { container, text, buttons } }) => (
   <Container>
-    <ContentContainer content={container} variant='cards.paper'>
+    <ContentContainer content={container} variant='cards.paper' sx={styles.card}>
       <Flex
         sx={{
           flexDirection: [`column`, `row`],
