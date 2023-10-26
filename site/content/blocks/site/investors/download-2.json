@@ -7,6 +7,12 @@
         "align": ["left"]
       }
     ],
+    "icon": {
+      "src": "../../../assets/flexiblocks/icons/bx-down.svg",
+      "color": "omega",
+      "bg": "omegaLighter",
+      "alt": "alt text"
+    },
     "buttons": [
       {
         "text": "Download",

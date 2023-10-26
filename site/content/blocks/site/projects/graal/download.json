@@ -8,9 +8,9 @@
     }
   ],
   "icon": {
-    "src": "../../../../assets/flexiblocks/icons/bx-line-chart.svg",
-    "color": "beta",
-    "bg": "betaLighter",
+    "src": "../../../../assets/flexiblocks/icons/bx-down.svg",
+    "color": "omega",
+    "bg": "omegaLighter",
     "alt": "alt text"
   },
   "buttons": [
