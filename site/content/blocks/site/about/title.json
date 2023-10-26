@@ -2,15 +2,16 @@
     "paragraph": {
       "paragraphtext": [
         {
-            "text": "Leading By"
+            "text": "Leading By ",
+            "variant": "h3"
           },
         {
-          "text": " Experience",
-          "underlineColor": "#AE181C",
-          "variant": "h1"
+          "text": "Experience",
+          "color": "#FFFFFF",
+          "highlightColor": "#AE181C",
+          "variant": "h2"
         }
       ],
-      "variant": "h1",
       "align": [
         "left"
       ]
