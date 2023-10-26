@@ -8,7 +8,7 @@ import WithDefaultContent from '@solid-ui-blocks/WithDefaultContent'
 const styles = {
   card: {
     overflow: `hidden`,
-    bg: `omegaDark`,
+    bg: `beta`,
     height: `full`
   }
 }
