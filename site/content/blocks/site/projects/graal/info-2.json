@@ -11,8 +11,9 @@
       "align": ["left"]
     },
     {
-      "text": "An airborne geophysical (gravity and magnetic) survey in early 2021 identified Graal as the most geologically prospective of the five properties surveyed.",
-      "variant": "medium",
+      "text": "An airborne geophysical (gravity and magnetic) survey in early 2021 identified Graal as the most geologically prospective in the region.",
+      "color": "alpha",
+      "variant": "h4",
       "align": ["left"]
     }
   ],
