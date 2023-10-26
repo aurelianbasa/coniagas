@@ -3,13 +3,8 @@
     {
       "text": "Technical Report",
       "variant": "h4",
+      "color": "white",
       "align": ["left"]
-    },
-    {
-      "text": "Most recently updated 43-101 from May, 2023.",
-      "align": ["left"],
-      "variant": "h6",
-      "space": 4
     }
   ],
   "buttons": [
@@ -17,8 +12,7 @@
       "text": "Download",
       "type": "PAGE",
       "link": "/reports/2023may.pdf",
-      "variant": "primary",
-      "width": "250px"
+      "variant": "primary"
     }
   ]
 }

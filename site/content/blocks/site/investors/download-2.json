@@ -2,11 +2,9 @@
     "text": [
       {
         "text": "Investor Presentation",
-        "color": "alpha",
-        "variant": "h4"
-      },
-      {
-        "text": ""
+        "color": "white",
+        "variant": "h4",
+        "align": ["left"]
       }
     ],
     "buttons": [
