@@ -28,10 +28,11 @@ const CallToActionBlock02 = ({ content: { container, text, icon, buttons } }) =>
           alignItems: `center`
         }} mb='2' mr='3' p='2' />
                     
-                    <ContentButtons content={buttons}  sx={{
+                
+      </Flex>
+      <ContentButtons content={buttons}  sx={{
           alignItems: `right`
         }} mb='2' mr='4' p='4' />
-      </Flex>
     </ContentContainer>
   </Container>
 )

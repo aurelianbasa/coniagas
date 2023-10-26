@@ -8,7 +8,7 @@
     }
   ],
   "icon": {
-    "src": "../../../assets/flexiblocks/icons/bx-line-chart.svg",
+    "src": "../../../../assets/flexiblocks/icons/bx-line-chart.svg",
     "color": "beta",
     "bg": "betaLighter",
     "alt": "alt text"
