@@ -3,6 +3,7 @@ import { Container, Flex, Box } from 'theme-ui'
 import ContentText from '@solid-ui-components/ContentText'
 import ContentContainer from '@solid-ui-components/ContentContainer'
 import ContentButtons from '@solid-ui-components/ContentButtons'
+import Icon from '@solid-ui-components/ContentIcon'
 import WithDefaultContent from '@solid-ui-blocks/WithDefaultContent'
 
 const styles = {
@@ -14,7 +15,7 @@ const styles = {
 }
 
 
-const CallToActionBlock02 = ({ content: { container, text, buttons } }) => (
+const CallToActionBlock02 = ({ content: { container, text, icon, buttons } }) => (
   <Container>
     <ContentContainer content={container} variant='cards.paper' sx={styles.card}>
       <Flex
@@ -26,6 +27,7 @@ const CallToActionBlock02 = ({ content: { container, text, buttons } }) => (
         }}
       >
         <Box>
+        <Icon content={icon} size='lg' mr='2' mb='2' />
           <ContentText content={text} />
         </Box>
         <ContentButtons content={buttons} 
