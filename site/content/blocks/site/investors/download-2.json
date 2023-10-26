@@ -12,7 +12,8 @@
         "text": "Download",
         "type": "PAGE",
         "link": "/Presentation.pdf",
-        "variant": "primary"
+        "variant": "primary",
+        "width": "100%"
       }
     ]
   }

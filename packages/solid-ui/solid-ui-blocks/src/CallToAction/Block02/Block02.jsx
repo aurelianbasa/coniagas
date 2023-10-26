@@ -18,13 +18,11 @@ const styles = {
 const CallToActionBlock02 = ({ content: { container, text, icon, buttons } }) => (
   <Container>
     <ContentContainer content={container} variant='cards.paper' sx={styles.card}>
-        <Flex sx={{ alignItems: `center` }} p='3'>
+        <Flex sx={{ alignItems: `left` }} p='3'>
                     <Icon content={icon} size='md' mr='3' p='2' round />
                     <ContentText content={text} mb='0' pr='5' />
-        <ContentButtons content={buttons} 
-        sx={{
-          alignItems: `right`
-        }}
+                    <ContentButtons content={buttons} 
+        sx={{ alignItems: `left` }}
         />
       </Flex>
     </ContentContainer>
