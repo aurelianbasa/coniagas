@@ -4,6 +4,16 @@ const DatawrapperEmbed = ({ as: CustomComponent, content, ...props }) => {
     const { text } = content;
     const src = text[1].text;
 
+    const isBrowser = typeof window !== "undefined";
+
+    /*React.useEffect(() => {
+
+    });*/
+
+    if (!isBrowser) {
+        return null;
+    }
+
     return (
         <div style={{ width: "100%" }}>
             <iframe
