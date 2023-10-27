@@ -4,24 +4,13 @@ const DatawrapperEmbed = ({ as: CustomComponent, content, ...props }) => {
     const { text } = content;
     const src = text[1].text;
 
-    /*return (
-        <div style={{maxWidth: "100%", display: "flex", justifyContent: "center"}}>
-            <img src={src} alt="" style={{maxWidth: "95%"}} />
-        </div>
-    );*/ //"https://datawrapper.dwcdn.net/qOC7L/full.png" "https://datawrapper.dwcdn.net/DieoU/1/embed.js?v=2"
-    /*return (
-        <div style={{maxWidth: "100%", display: "flex", justifyContent: "center"}}>
-            <script type="text/javascript" defer src="https://datawrapper.dwcdn.net/DieoU/1/embed.js?v=2" charSet="utf-8"></script>
-            <img src="https://datawrapper.dwcdn.net/DieoU/full.png" alt="" />
-        </div>
-    );*/
     return (
         <div style={{ width: "100%" }}>
             <iframe
                 title="Required scale-up in Demand and Mines"
                 aria-label="Arrow Plot"
                 id="datawrapper-chart-qOC7L"
-                src={src/*"https://datawrapper.dwcdn.net/qOC7L/2/"*/}
+                src={src}
                 scrolling="no"
                 frameborder="0"
                 style={{ width: "inherit", minWidth: "100% !important", border: "none" }}
