@@ -6,10 +6,6 @@ const DatawrapperEmbed = ({ as: CustomComponent, content, ...props }) => {
 
     const isBrowser = typeof window !== "undefined";
 
-    /*React.useEffect(() => {
-
-    });*/
-
     if (!isBrowser) {
         return null;
     }
