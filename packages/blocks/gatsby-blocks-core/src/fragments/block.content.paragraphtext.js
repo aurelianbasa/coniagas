@@ -10,7 +10,7 @@ export const query = graphql`
     underlineColor
     highlightColor
     wordScroll {
-        ...BlockContentText
+        ...BlockContentWordScrollText
     }
   }
 `

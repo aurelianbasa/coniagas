@@ -21,26 +21,30 @@
         "underlineColor": "purple"
       },
       {
-        "text": "The "
+        "text": " The ",
+        "variant": "h1"
       },
       {
         "wordScroll": [
           {
-            "text": "Eby-Otto"
+            "text": "Eby-Otto",
+            "underlineColor": "purple"
           },
           {
-            "text": "Tinney"
+            "text": "Tinney",
+            "highlightColor": "#8080e6"
           }
         ]
       },
       {
-        "text": " area was originally discovered by silver prospectors originating from the town of Cobalt prospecting for silver."
+        "text": " area was originally discovered by silver prospectors originating from the town of Cobalt prospecting for silver. ",
+        "color": "#8080e6"
       },
       {
         "text": "But instead of silver, they found occurrences of gold near the shore of Otto Lake in 1906."
       }
     ],
-    "variant": "h1",
+    "variant": "h3",
     "align": [
       "left"
     ]

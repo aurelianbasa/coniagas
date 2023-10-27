@@ -11,6 +11,7 @@ import Info from '@solid-ui-blocks/FeaturesWithPhoto/Block05'
 import Location from '@solid-ui-blocks/FeaturesWithPhoto/Block03'
 import Download from '@solid-ui-blocks/CallToAction/Block02'
 import Milestones from '@solid-ui-blocks/Features/Block01'
+import JuxtaposeImage from '../../components/JuxtaposeImage/JuxtaposeImage'
 import Stats from '@solid-ui-blocks/Stats/Block01'
 import Results from '@solid-ui-blocks/FeaturesWithPhoto/Block04'
 import Footer from '@solid-ui-blocks/Footer/Block01'
@@ -37,22 +38,24 @@ const ProjectItemPage = props => {
       <Milestones content={content['milestones-1']} />
       <Divider space='5' />
       <Container variant='wide'>
-      <DrillMap content={content['drill-map']} />
+        <DrillMap content={content['drill-map']} />
       </Container>
       <Container>
-      
         <Divider space='5' />
         <Info content={content['info-3']} reverse />
         <Divider space='5' />
-        </Container>
-      <Stats content={content['stats']} />
-      <Divider space='5' />
-      <Container variant='narrow'>
-        <Info content={content['info-1']} reverse />
-        <Divider space='5' />
-        <Info content={content['info-2']} />
-        <Divider space='5' />
+        <Stats content={content['stats']} />
       </Container>
+
+      <Divider space='5' />
+      <JuxtaposeImage content={content['juxtapose']} />
+      <Divider space='5' />
+
+      <Info content={content['info-1']} reverse />
+      <Divider space='5' />
+      <Info content={content['info-2']} />
+      <Divider space='5' />
+
       <Divider space='5' />
       <Footer content={content['footer']} />
     </Layout>

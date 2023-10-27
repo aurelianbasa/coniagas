@@ -23,7 +23,7 @@ export default {
       background: `linear-gradient(
           180deg,
           rgba(255,255,255,0.9) 0%,
-          rgba(255,255,255,0.3) 100%
+          rgba(255,255,255,0.5) 100%
         )`
     },
     '::before': {
@@ -42,11 +42,7 @@ export default {
       right: 0,
       zIndex: -1,
       borderRadius: `xl`,
-      background: `linear-gradient(
-        180deg,
-        #f7f9fe 0%,
-        #f4f4f8 100%
-      )`
+      background: `#323d4d`
     }
   },
   testimonialsContainer: {

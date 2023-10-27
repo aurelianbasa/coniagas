@@ -21,12 +21,6 @@
           "link": "/projects/graal/",
           "type": "PAGE" 
             },
-            {
-              "text": "Data",
-              "variant": "links.nav-dark",
-              "link": "/data/",
-              "type": "PAGE" 
-                },
            {
           "text": "Critical Materials",
           "type": "PAGE",
@@ -66,6 +60,12 @@
           ]
         },
         {
+          "text": "Data",
+          "variant": "links.nav-dark",
+          "link": "/data/",
+          "type": "PAGE" 
+            },
+        {
           "text": "Investors",
           "type": "SUB",
           "variant": "links.nav-dark",
@@ -73,7 +73,13 @@
             {
               "text": "Stock Information",
               "type": "PAGE",
-              "link": "/investors#capital-structure",
+              "link": "/investors",
+              "variant": "links.nav-dark"
+            },
+            {
+              "text": "Presentations",
+              "type": "PAGE",
+              "link": "/investors#download-2",
               "variant": "links.nav-dark"
             },
             {
@@ -83,15 +89,9 @@
               "variant": "links.nav-dark"
             },
             {
-              "text": "Presentations",
-              "type": "PAGE",
-              "link": "/investors#presentations",
-              "variant": "links.nav-dark"
-            },
-            {
               "text": "Technical Reports",
               "type": "PAGE",
-              "link": "/investors#technical-data",
+              "link": "/investors#download",
               "variant": "links.nav-dark"
             },
             {

@@ -3,15 +3,18 @@
     {
       "text": "PRODUCT IS MERIT",
       "color": "omegaDark",
-      "variant": "h4"
+      "variant": "h4",
+      "align": ["left"]
     },
     {
       "text": "**Metals Are** Essential",
       "color": "beta",
-      "variant": "h1"
+      "variant": "h2",
+      "align": ["left"],
+      "space": 0
     },
     {
-      "text": "The energy transition can't happen without the discovery of new critical minerals deposits. Coniagas has secured the Graal in Saguenay, Québec. Drilling indicates a polymetallic deposit that if mined, would allow proceeds from one metal to finance production of another.",
+      "text": "The energy transition needs new critical minerals deposits. Coniagas has secured the Graal in Saguenay, Québec. Drilling indicates a polymetallic deposit containing nickel, copper, and cobalt. And if mined, would allow proceeds from one metal to finance production of another.",
       "variant": "medium",
       "align": ["left"]
     }
@@ -22,6 +25,17 @@
       "alt": "Sulphide mineralization from Grand Portage property",
       "radius": "lg",
       "effects": ["fadeInLeft"]
+    },
+    {
+      "src": "../../../assets/site/index/overlay-1.png",
+      "alt": "alt text",
+      "radius": "lg",
+      "shadow": "default",
+      "effects": ["fadeInDown", "floatFaster"],
+      "position": {
+        "top": "5%",
+        "right": "-5%"
+      }
     }
   ],
   "buttons": [
@@ -29,7 +43,8 @@
       "text": "Learn More",
       "type": "PAGE",
       "link": "/projects/graal",
-      "variant": "primary"
+      "variant": "primary",
+      "width": "100%"
     }
   ]
 }

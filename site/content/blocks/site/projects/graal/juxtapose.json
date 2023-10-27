@@ -1,0 +1,9 @@
+{
+    "juxtapose": {
+     "srcImg1": "/images/2021.jpg",
+     "labelImg1": "2021",
+     "srcImg2": "/images/2022.jpg",
+     "labelImg2": "2022",
+     "height": 750
+    }
+ }

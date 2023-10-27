@@ -99,16 +99,17 @@ export default {
     height: `full`
   },
   close: {
-    position: `fixed`,
+    position: `relative`,
     zIndex: 99,
-    right: [`50%`, 4],
-    top: [`95%`, 4],
-    transform: [`translate(50%, -50%)`, `none`],
+    left: 40,
+    top: 2,
     textAlign: `center`,
-    color: `omega`,
-    fontSize: 1
+    color: `beta`,
+    fontSize: 4
   },
   esc: {
+    left: [`90%`, 10],
+    top: [`25%`, 4],
     display: [`none`, `block`]
   }
 }

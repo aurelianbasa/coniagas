@@ -28,6 +28,13 @@
         "text": "The authors conclude that research and development efforts are needed to improve recycling, reduce material intensity and find substitutes. Addressing materials criticality now can help ensure a sustainable clean energy future.",
         "color": "omegaDark",
         "variant": "medium",
+        "align": ["left"],
+        "space": 3
+      },
+      {
+        "text": "Source: Critical Materials Assessment, U.S. Department of Energy ",
+        "color": "omega",
+        "variant": "small",
         "align": ["left"]
       }
     ],
@@ -41,7 +48,7 @@
   ],
 "buttons": [
   {
-    "text": "Link to Report ➥ ",
+    "text": "Link to American Report ➥ ",
     "type": "PAGE",
     "width": "100%",
     "link": "https://www.energy.gov/sites/default/files/2023-07/doe-critical-material-assessment_07312023.pdf",

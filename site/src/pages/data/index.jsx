@@ -28,20 +28,20 @@ const DataPage = props => {
       <Divider space='5' />
       <Container variant='narrow'>
       <Tabs space={4} variant='pill'>
-          <Data content={content['gravi-1']}/>
-          <Photo content={content['gravi-2']} />
-          <Photo content={content['gravi-3']} />
-      </Tabs>
-      </Container>
-      <Divider space='5' />
-      <Container variant='narrow'>
-      <Tabs space={4} variant='pill'>
           <Data content={content['mhy-1']}/>
           <Photo content={content['mhy-2']} />
           <Photo content={content['mhy-3']} />
       </Tabs>
       </Container>
-      <Divider space='5' />
+      <Divider space='3' />
+      <Container variant='narrow'>
+      <Tabs space={4} variant='pill'>
+          <Data content={content['gravi-1']}/>
+          <Photo content={content['gravi-2']} />
+          <Photo content={content['gravi-3']} />
+      </Tabs>
+      </Container>
+      <Divider space='3' />
       <Container variant='narrow'>
       <Tabs space={4} variant='pill'>
           <Data content={content['discovery-1']}/>
@@ -49,7 +49,7 @@ const DataPage = props => {
           <Photo content={content['discovery-3']} />
       </Tabs>
       </Container>
-      <Divider space='5' />
+      <Divider space='3' />
       <Footer content={content['footer']} />
     </Layout>
   )

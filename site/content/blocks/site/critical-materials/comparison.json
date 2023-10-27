@@ -1,13 +1,13 @@
 {
     "text": [
       {
-        "text": "The **Energy Transition**",
+        "text": "The Energy Transition",
         "variant": "h2"
       },
       {
-        "text": "The charts below show demand from present levels increasing to 2025, **and accelerating to 2035.**",
+        "text": "**The charts below show demand from present levels increasing to 2025,** and accelerating to 2035.",
         "variant": "h5",
-        "color": "omegaDark",
+        "color": "beta",
         "align": ["left"]
       },
       {

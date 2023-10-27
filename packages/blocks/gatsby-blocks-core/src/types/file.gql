@@ -17,6 +17,7 @@ type BlockContent implements Node @dontInfer {
   map: BlockContentMap
   buttons: [BlockContentButton]
   form: BlockContentForm
+  links: [BlockContentLink]
   collection: [BlockContent]
 }
 
@@ -59,6 +60,16 @@ type BlockContentParagraph {
 ## Paragraph Text
 ############################################
 
+type BlockContentWordScrollText {
+  text: String
+  color: String
+  space: Int
+  variant: String
+  align: [String]
+  underlineColor: String
+  highlightColor: String
+}
+
 type BlockContentParagraphText {
   text: String
   color: String
@@ -67,7 +78,7 @@ type BlockContentParagraphText {
   align: [String]
   underlineColor: String
   highlightColor: String
-  wordScroll: [BlockContentText]
+  wordScroll: [BlockContentWordScrollText]
 }
 
 ############################################
@@ -107,6 +118,7 @@ type BlockContentJuxtapose {
   labelImg1: String
   srcImg2: String
   labelImg2: String
+  height: Float
 }
 
 ############################################
@@ -182,4 +194,13 @@ type BlockContentFormField {
   placeholder: BlockContentText
   value: String
   icon: BlockContentIcon
+}
+
+############################################
+## Links
+############################################
+
+type BlockContentLink {
+  type: String
+  url: String
 }

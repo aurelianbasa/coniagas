@@ -37,5 +37,8 @@ export const query = graphql`
     form {
       ...BlockContentForm
     }
+    links {
+      ...BlockContentLink
+    }
   }
 `

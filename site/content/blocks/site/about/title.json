@@ -1,0 +1,18 @@
+{
+    "paragraph": {
+      "paragraphtext": [
+        {
+            "text": "Leading By"
+          },
+        {
+          "text": " Experience",
+          "underlineColor": "#AE181C",
+          "variant": "h1"
+        }
+      ],
+      "variant": "h1",
+      "align": [
+        "left"
+      ]
+    }
+  }

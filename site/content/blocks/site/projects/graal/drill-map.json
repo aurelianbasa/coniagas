@@ -2,10 +2,14 @@
   "text": [
     {
       "text": "View Drill Holes Map",
-      "variant": "h5"
+      "variant": "h4"
     },
     {
       "text": "https://graal-drilling-map.netlify.app/"
+    },
+    {
+      "text": "All Exploration data is featured below in an interactive format: The legend in the top right indicates to which each symbol corresponds, and clicking on them displays the associated data.",
+      "variant": "small"
     }
   ],
   "icon": {

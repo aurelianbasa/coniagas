@@ -6,5 +6,6 @@ export const query = graphql`
     labelImg1
     srcImg2
     labelImg2
+    height
   }
 `

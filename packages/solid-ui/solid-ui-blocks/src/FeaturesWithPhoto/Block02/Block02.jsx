@@ -5,7 +5,6 @@ import Divider from '@solid-ui-components/Divider'
 import ListItem from '@solid-ui-components/ListItem'
 import FlexImage from '@solid-ui-components/FlexImage'
 import FlexContent from '@solid-ui-components/FlexContent'
-import FlexOverlapFade from '@solid-ui-components/FlexOverlapFade'
 import ContentText from '@solid-ui-components/ContentText'
 import ContentImages from '@solid-ui-components/ContentImages'
 import ContentButtons from '@solid-ui-components/ContentButtons'
@@ -21,6 +20,7 @@ const FeaturesWithPhotoBlock02 = ({
         alignItems: [null, `center`],
         flexDirection: [
           reverse ? `column-reverse` : `column`,
+          null,
           reverse ? `row-reverse` : `row`
         ],
         mx: [null, null, null, -4]
@@ -60,7 +60,6 @@ const FeaturesWithPhotoBlock02 = ({
         )}
       </FlexContent>
     </Flex>
-    <FlexOverlapFade direction={reverse ? 'ltr' : 'rtl'} />
   </Container>
 )
 

@@ -28,6 +28,13 @@
         "text": "The plan's vision is for Québec to become a global leader in ethical and sustainable CSM production, transformation, and recycling. If successful, the plan could position Québec strongly in green technologies and renewable energy industries.",
         "color": "omegaDark",
         "variant": "medium",
+        "align": ["left"],
+        "space": 3
+      },
+      {
+        "text": "Source: Critical and Strategic Minerals, Government of Québec",
+        "color": "omega",
+        "variant": "small",
         "align": ["left"]
       }
     ],
@@ -41,7 +48,7 @@
     ],
   "buttons": [
     {
-      "text": "Link to Report ➥ ",
+      "text": "Link to Québec Report ➥ ",
       "type": "PAGE",
       "width": "100%",
       "link": "https://cdn-contenu.quebec.ca/cdn-contenu/ressources-naturelles/Documents/PL_resume_critical_strategic_minerals.pdf",

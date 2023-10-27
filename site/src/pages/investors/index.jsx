@@ -13,6 +13,7 @@ import StockChart from '../../blocks/StockChart/Block01'
 import Footer from '@solid-ui-blocks/Footer/Block01'
 import Download from '@solid-ui-blocks/CallToAction/Block02'
 import { normalizeBlockContentNodes } from '@blocks-helpers'
+import styles from './_styles'
 
 const MediaPage = props => {
   const { allBlockContent } = props.data
@@ -30,15 +31,14 @@ const MediaPage = props => {
       <Divider space='5' />
       <StockChart content={content['stock-information-chart']} />
       <Divider space='5' />
-      <Container variant='narrow'>
       <Download content={content['download-2']} />
-      </Container>
       <Divider space='5' />
+      <Container variant='wide' sx={styles.heroContainer}>
       <Table content={content['capital-structure']} />
       <Divider space='5' />
       <Divider space='5' />
-      <Container variant='narrow'>
       <Download content={content['download']} />
+      <Divider space='5' />
       </Container>
       <Divider space='5' />
       <Divider space='5' />
