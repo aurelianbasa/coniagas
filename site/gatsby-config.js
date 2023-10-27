@@ -47,10 +47,56 @@ module.exports = {
         display: 'minimal-ui',
         icon: 'content/assets/favicon.png'
       }
+    },
+    {
+      output: "/",
+      resolve: "gatsby-plugin-sitemap",
+      options: {
+        query: `
+        {
+          site {
+            siteMetadata {
+              siteUrl
+            }
+          }
+          allSitePage {
+            nodes {
+              path
+            }
+          }
+          allSite {
+            nodes {
+              buildTime
+            }
+          }
+        }
+      `,
+        resolveSiteUrl: ({ site }) => {
+          return site.siteMetadata.siteUrl;
+        },
+        resolvePages: ({site, allSitePage, allSite}) => {
+          allPages = allSitePage.nodes
+          buildTime = allSite.nodes[0].buildTime
+          return allPages.map(page => {
+            return {
+              url: site.siteMetadata.siteUrl,
+              path: page.path,
+              buildTime: buildTime
+            }
+          })
+        },
+        serialize: ({url, path, buildTime}) => {
+          return {
+            url: `${url}${path}`,
+            lastmod: buildTime,
+            priority: 0.7
+          }
+        },
+      }
     }
   ],
   siteMetadata: {
-    siteUrl: 'https://coniagas.netlify.app',
+    siteUrl: "https://coniagas.netlify.app",
     title: 'Coniagas Battery Metals',
     name: 'Coniagas Battery Metals',
     description: 'Coniagas Battery Metals',
