@@ -4,19 +4,24 @@ import { motion } from 'framer-motion'
 import { Container } from 'theme-ui'
 
 function getWindowDimensions() {
+    if (typeof window === "undefined") {
+        return null;
+    }
+
     const { innerWidth: width, innerHeight: height } = window;
     return {
-      width,
-      height
+        width,
+        height
     };
-  }
+}
 
 const JuxtaposeImage = ({ as: CustomComponent, content, ...props }) => {
     const { srcImg1, srcImg2, labelImg1, labelImg2, height } = content.juxtapose;
 
     const [percentLeftSide, setPercentLeftSide] = React.useState(50);
-    const [imgDimensions, setImgDimensions] = React.useState({"width": 1, "heigth": 1});
+    const [imgDimensions, setImgDimensions] = React.useState({ "width": 1, "heigth": 1 });
     const [windowDimensions, setWindowDimensions] = React.useState(getWindowDimensions());
+    const [sliderOffset, setSliderOffset] = React.useState(null);
 
     React.useEffect(() => {
         function handleResize() {
@@ -34,7 +39,7 @@ const JuxtaposeImage = ({ as: CustomComponent, content, ...props }) => {
             "height": height
         }
 
-        if (windowDimensions.width < dimensions.width) {
+        if (windowDimensions && windowDimensions.width < dimensions.width) {
             dimensions.width = windowDimensions.width * 0.95;
             dimensions.height = dimensions.width / ratio;
         }
@@ -43,11 +48,25 @@ const JuxtaposeImage = ({ as: CustomComponent, content, ...props }) => {
     }
 
     const onDrag = (event, info) => {
-        if (info.point.x < 0) return
-        if (info.point.x > imgDimensions.width) return
-        let percent = (info.point.x % imgDimensions.width) / imgDimensions.width * 100
+        let x = info.point.x;
 
+        if(sliderOffset) {
+            x = x + sliderOffset;
+        }
+
+        if (x < 0) return
+        if (x > imgDimensions.width) return
+
+        let percent = (x % imgDimensions.width) / imgDimensions.width * 100;
         setPercentLeftSide(percent)
+    }
+
+    const onDragStart = (event, info) => {
+        if(!sliderOffset) {
+            let x = info.point.x;
+            let offset = (imgDimensions.width / 2) - x;
+            setSliderOffset(offset);
+        }
     }
 
     let style = {
@@ -58,7 +77,7 @@ const JuxtaposeImage = ({ as: CustomComponent, content, ...props }) => {
     return (
         <div style={style} class="juxtapose"  >
             <div class="jx-slider">
-                <motion.div drag='x' onDrag={onDrag} dragMomentum={false} class="jx-handle" style={{ left: percentLeftSide + '%' }}>
+                <motion.div drag='x' onDragStart={onDragStart} onDrag={onDrag} dragMomentum={false} class="jx-handle" style={{ left: percentLeftSide + '%' }}>
                     <div class="jx-arrow jx-left"></div>
                     <div class="jx-control">
                         <div class="jx-controller" tabindex="0" role="slider" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" />
