@@ -11,7 +11,7 @@ const DatawrapperEmbed = ({ as: CustomComponent, content, ...props }) => {
     }
 
     return (
-        <div style={{ width: "100%" }}>
+        <div id={src} style={{ width: "100%" }}>
             <iframe
                 src={src}
                 scrolling="no"
