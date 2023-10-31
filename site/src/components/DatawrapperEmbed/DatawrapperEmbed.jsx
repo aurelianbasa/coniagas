@@ -13,14 +13,11 @@ const DatawrapperEmbed = ({ as: CustomComponent, content, ...props }) => {
     return (
         <div style={{ width: "100%" }}>
             <iframe
-                title="Required scale-up in Demand and Mines"
-                aria-label="Arrow Plot"
-                id="datawrapper-chart-qOC7L"
                 src={src}
                 scrolling="no"
                 frameborder="0"
                 style={{ width: "inherit", minWidth: "100% !important", border: "none" }}
-                height="214" data-external="1"></iframe>
+                data-external="1"></iframe>
             <script type="text/javascript">
                 {!function () {
                     "use strict";
