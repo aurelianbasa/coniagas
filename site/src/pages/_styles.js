@@ -40,7 +40,6 @@ export default {
       size: `full`,
       top: 0,
       right: 0,
-      zIndex: -1,
       borderRadius: `xl`,
       background: `#323d4d`
     }
