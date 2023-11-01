@@ -39,7 +39,7 @@ const Services03 = props => {
       <Divider space='5' />
       <Stats content={content['stats']} />
       <Divider space='5' />
-      <Gallery content={content['gallery-1']} />
+      <Gallery content={content['gallery-1']} reverse />
       <Divider space='5' />
       <Gallery content={content['gallery-2']} />
       <Divider space='5' />
