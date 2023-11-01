@@ -44,7 +44,7 @@ const IndexPage = props => {
       <Divider space='4' />
       <Buttons content={content['buttons']} />
       <Divider space='4' />
-      <Container sx={styles.tabsContainer}>
+      <Container sx={{ background: `#323d4d` }}>
       <Divider space='4' />
       <Data content={content['data-3']}/>
       <Divider space='4' />
