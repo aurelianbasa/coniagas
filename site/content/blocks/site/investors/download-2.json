@@ -1,20 +1,20 @@
 {
-  "text": [
-    {
-      "text": "Investor Presentation",
-      "color": "alpha",
-      "variant": "h4"
-    },
-    {
-      "text": ""
-    }
-  ],
-  "buttons": [
-    {
-      "text": "Download",
-      "type": "PAGE",
-      "link": "/Presentation.pdf",
-      "variant": "primary"
-    }
-  ]
-}
+    "text": [
+      {
+        "text": "Investor Presentation",
+        "color": "white",
+        "variant": "h3",
+        "align": ["left"]
+      }
+    ],
+    "buttons": [
+      {
+        "text": "Download",
+        "type": "PAGE",
+        "link": "/Presentation.pdf",
+        "variant": "dark",
+        "width": "100%"
+      }
+    ]
+  }
+  

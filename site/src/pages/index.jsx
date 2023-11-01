@@ -48,11 +48,11 @@ const IndexPage = props => {
       <Container sx={styles.tabsContainer}>
       <Divider space='4' />
       <Data content={content['data-2']}/>
-      <Divider space='8' />
+      <Divider space='4' />
       <DataSmall content={content['data-3']}/>
       <Divider space='4' />
       </Container>
-      <Divider space='10' />
+      <Divider space='4' />
       <WithRecentPosts>
         <Blog content={content['latest-blogs']} />
       </WithRecentPosts>
