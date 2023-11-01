@@ -34,16 +34,9 @@ export default {
   tabsContainer: {
     position: `relative`,
     py: [4, 5],
-    '::before': {
-      position: `absolute`,
-      content: `" "`,
-      size: `full`,
-      top: 0,
-      zIndex: 0,
-      right: 0,
       borderRadius: `xl`,
       background: `#323d4d`
-    }
+    
   },
   testimonialsContainer: {
     position: `relative`,
