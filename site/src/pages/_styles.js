@@ -32,7 +32,7 @@ export default {
     }
   },
   tabsContainer: {
-    position: `relative`,
+    position: `absolute`,
     py: [4, 5],
       borderRadius: `xl`,
       background: `#323d4d`
