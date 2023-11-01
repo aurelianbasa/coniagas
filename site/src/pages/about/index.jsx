@@ -31,11 +31,10 @@ const AboutUs02 = props => {
       <Container variant='wide' sx={styles.heroContainer}>
       <Divider space='1' />
         <Hero content={content['hero']} />
-        <Divider space='4' />
-      
+        <Divider space='5' />
       <Intro content={content['intro']} />
       </Container>
-      <Divider space='3' />
+      <Divider space='4' />
       <Container variant='wide' sx={styles.newContainer}>
       <CustomTextBlock content={content['title']} />
       <Divider space='3' />
