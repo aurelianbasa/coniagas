@@ -13,7 +13,8 @@ const styles = {
     flexDirection: [`column`, `row`],
     justifyContent: `space-between`,
     alignItems: `center`,
-    textAlign: [`left`, `left`]
+    textAlign: [`left`, `left`],
+    boxShadow: `2px 2px 7px 0 rgba(1,1,1,.2)`
   }
 }
 

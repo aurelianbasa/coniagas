@@ -40,13 +40,13 @@ const IndexPage = props => {
       <Divider space='5' />
       <Primary content={content['primary']} reverse />
       <Divider space='4' />
-      <Buttons content={content['buttons']} />
-      <Divider space='5' />
       <Intro content={content['intro']} />
-      <Divider space='5' />
-      <Container>
+      <Divider space='4' />
+      <Buttons content={content['buttons']} />
+      <Divider space='4' />
+      <Container sx={styles.tabsContainer}>
       <Data content={content['data-2']}/>
-      <Divider space='3' />
+      <Divider space='4' />
       <Data content={content['data-3']}/>
       <Divider space='3' />
       </Container>

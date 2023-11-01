@@ -1,0 +1,19 @@
+{
+    "text": [
+      {
+        "text": "",
+        "color": "omegaDarker",
+        "variant": "h4",
+        "align": ["left"]
+      }
+    ],
+    "images": [
+      {
+        "src": "../../../assets/site/about/coniagas.png",
+        "alt": "alt text",
+        "radius": "lg",
+        "effects": ["fadeInUp"]
+      }
+    ]
+  }
+  
