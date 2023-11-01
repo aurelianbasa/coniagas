@@ -32,6 +32,11 @@ export default {
     }
   },
   tabsContainer: {
+    position: `relative`,
+    borderRadius: `xl`,
+    pt: 6,
+    pb: 5,
+    zIndex:0,
       background: `#323d4d`
   },
   testimonialsContainer: {
