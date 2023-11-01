@@ -29,9 +29,9 @@ const AboutUs02 = props => {
       <Header content={content['header']} />
       <Divider space='6' />
       <Container variant='wide' sx={styles.heroContainer}>
-      <Divider space='3' />
+      <Divider space='1' />
         <Hero content={content['hero']} />
-        <Divider space='5' />
+        <Divider space='4' />
       </Container>
       <Intro content={content['intro']} />
       <Divider space='3' />
