@@ -12,7 +12,6 @@ import Buttons from '@solid-ui-blocks/Features/Block05'
 import Hero from '@solid-ui-blocks/Hero/Block01'
 import Intro from '@solid-ui-blocks/Hero/Block02'
 import Data from '../components/DatawrapperEmbed/DatawrapperEmbed'
-import DataSmall from '../components/DatawrapperEmbedSmall/DatawrapperEmbed'
 import Blog from '@solid-ui-blocks/Blog/Block01'
 import Footer from '@solid-ui-blocks/Footer/Block01'
 import { normalizeBlockContentNodes } from '@blocks-helpers'
@@ -48,8 +47,6 @@ const IndexPage = props => {
       <Container sx={styles.tabsContainer}>
       <Divider space='4' />
       <Data content={content['data-2']}/>
-      <Divider space='4' />
-      <DataSmall content={content['data-3']}/>
       <Divider space='4' />
       </Container>
       <Divider space='4' />
