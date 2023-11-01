@@ -1,0 +1,41 @@
+{
+  "paragraph": {
+    "paragraphtext": [
+      {
+        "text": " Co "
+      },
+      {
+        "text": " Cobalt ",
+        "highlightColor": "#0047AB"
+      },
+      {
+        "text": " Ni "
+      },
+      {
+        "text": " Nickel ",
+        "highlightColor": "#458e98"
+      },
+      {
+        "text": " Ag "
+      },
+      {
+        "text": " Silver ",
+        "highlightColor": "#D8D8D8"
+      },
+      {
+        "text": " As "
+      },
+      {
+        "text": " Arsenic ",
+        "highlightColor": "#84b795"
+      },
+      {
+        "text": " "
+      }
+    ],
+    "variant": "h1",
+    "align": [
+      "left"
+    ]
+  }
+}
