@@ -2,21 +2,26 @@
   "paragraph": {
     "paragraphtext": [
       {
-        "text": " Co "
+        "text": " [Co] ",
+        "highlightColor": "#0047AB",
+        "color": "#8080e6"
       },
       {
         "text": " Cobalt ",
-        "highlightColor": "#0047AB"
+        "color": "#8080e6"
       },
       {
-        "text": " Ni "
+        "text": " [Ni] ",
+        "color": "#8080e6"
       },
       {
         "text": " Nickel ",
-        "highlightColor": "#458e98"
+        "highlightColor": "#458e98",
+        "color": "#8080e6"
       },
       {
-        "text": " Ag "
+        "text": " Ag ",
+        "color": "#8080e6"
       },
       {
         "text": " Silver ",
