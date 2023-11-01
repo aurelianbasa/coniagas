@@ -41,7 +41,9 @@ const IndexPage = props => {
       <Primary content={content['primary']} reverse />
       <Divider space='4' />
       <Intro content={content['intro']} />
-      <Divider space='4' />
+      <Divider space='3' />
+      <Buttons content={content['buttons']} />
+      <Divider space='2' />
       <Container sx={styles.tabsContainer}>
       <Divider space='4' />
       <Data content={content['data-2']}/>
@@ -49,8 +51,7 @@ const IndexPage = props => {
       <Data content={content['data-3']}/>
       </Container>
       <Divider space='4' />
-      <Buttons content={content['buttons']} />
-      <Divider space='1' />
+    
       <WithRecentPosts>
         <Blog content={content['latest-blogs']} />
       </WithRecentPosts>
