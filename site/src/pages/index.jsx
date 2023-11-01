@@ -52,7 +52,7 @@ const IndexPage = props => {
       <DataSmall content={content['data-3']}/>
       <Divider space='4' />
       </Container>
-      <Divider space='4' />
+      <Divider space='10' />
       <WithRecentPosts>
         <Blog content={content['latest-blogs']} />
       </WithRecentPosts>
