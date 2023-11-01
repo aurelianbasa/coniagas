@@ -12,6 +12,7 @@ import Buttons from '@solid-ui-blocks/Features/Block05'
 import Hero from '@solid-ui-blocks/Hero/Block01'
 import Intro from '@solid-ui-blocks/Hero/Block02'
 import Data from '../components/DatawrapperEmbed/DatawrapperEmbed'
+import DataSmall from '../components/DatawrapperEmbedSmall/DatawrapperEmbed'
 import Blog from '@solid-ui-blocks/Blog/Block01'
 import Footer from '@solid-ui-blocks/Footer/Block01'
 import { normalizeBlockContentNodes } from '@blocks-helpers'
@@ -44,12 +45,14 @@ const IndexPage = props => {
       <Divider space='4' />
       <Buttons content={content['buttons']} />
       <Divider space='4' />
-      <Container sx={{ background: `#323d4d` }}>
+      <Container sx={styles.tabsContainer}>
       <Divider space='4' />
-      <Data content={content['data-3']}/>
+      <Data content={content['data-2']}/>
+      <Divider space='8' />
+      <DataSmall content={content['data-3']}/>
       <Divider space='4' />
       </Container>
-      <Divider space='4' />
+      <Divider space='10' />
       <WithRecentPosts>
         <Blog content={content['latest-blogs']} />
       </WithRecentPosts>
