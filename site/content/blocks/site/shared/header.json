@@ -93,12 +93,6 @@
               "type": "PAGE",
               "link": "/investors#download",
               "variant": "links.nav-dark"
-            },
-            {
-              "text": "AGM Documents",
-              "type": "PAGE",
-              "link": "/investors#agm",
-              "variant": "links.nav-dark"
             }
           ]
         }
