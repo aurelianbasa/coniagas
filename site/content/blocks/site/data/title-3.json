@@ -3,6 +3,7 @@
       "paragraphtext": [
         {
           "text": "Discovery Zone",
+          "variant": "h1",
           "underlineColor": "#AE181C"
         }
       ],

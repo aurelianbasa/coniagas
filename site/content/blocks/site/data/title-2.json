@@ -3,6 +3,7 @@
       "paragraphtext": [
         {
           "text": "Gravi Zone",
+          "variant": "h1",
           "underlineColor": "#AE181C"
         }
       ],

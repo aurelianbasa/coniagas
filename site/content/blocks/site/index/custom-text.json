@@ -2,29 +2,34 @@
   "paragraph": {
     "paragraphtext": [
       {
-        "text": "The World needs more "
+        "text": "The World needs more ",
+        "variant": "h1"
       },
       {
         "wordScroll": [
       {
         "text": " Cobalt ",
         "highlightColor": "#0047AB",
+        "variant": "h1",
         "color": "white"
       },
       {
         "text": " Nickel ",
         "highlightColor": "#458e98",
-        "color": "#8080e6"
+        "variant": "h1",
+        "color": "white"
       },
       {
         "text": " Silver ",
         "highlightColor": "#D8D8D8",
-        "color": "#8080e6"
+        "variant": "h1",
+        "color": "#FFFFFF"
       },
       {
         "text": " Arsenic ",
         "highlightColor": "#84b795",
-        "color": "#8080e6"
+        "variant": "h1",
+        "color": "#FFFFFF"
       }
     ]
   }
