@@ -62,7 +62,6 @@ const IndexPage = props => {
         </WithRecentPosts>
       </Container>
       <Divider space='5' />
-      <div style={{ color: "red" }}>DEBUG::</div>
       <Footer content={content['footer']} />
     </Layout>
   )
