@@ -8,6 +8,7 @@ export const query = graphql`
     variant
     align
     underlineColor
+    underlineWidth
     highlightColor
   }
 `
