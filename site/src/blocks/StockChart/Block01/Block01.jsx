@@ -8,7 +8,7 @@ import WithDefaultContent from '@solid-ui-blocks/WithDefaultContent'
 const CONTAINER_ID = 'tradingview-chart-mini-widget'
 
 const StockChartBlock01 = ({ content: { text, buttons } }) => {
-  const containerId = `${CONTAINER_ID}-${Math.random()}`
+  // const containerId = `${CONTAINER_ID}-${Math.random()}`
 
   const chartProps = {
     symbol: '',
@@ -31,9 +31,12 @@ const StockChartBlock01 = ({ content: { text, buttons } }) => {
       'https://s3.tradingview.com/external-embedding/embed-widget-mini-symbol-overview.js'
     script.async = false
     script.innerHTML = JSON.stringify(chartProps)
-    document.getElementById(containerId).appendChild(script)
+    const container = document.getElementById(CONTAINER_ID)
+    if (container) {
+      container.appendChild(script)
+    }
     return () => {
-      const container = document.getElementById(containerId)
+      const container = document.getElementById(CONTAINER_ID)
       if (container) container.innerHTML = ''
     }
   }, [])
@@ -45,7 +48,7 @@ const StockChartBlock01 = ({ content: { text, buttons } }) => {
       </Box>
       <Divider />
       <Box sx={{ height: `400px`, bg: `white` }}>
-        <div id={containerId}></div>
+        <div id={CONTAINER_ID}></div>
       </Box>
       {buttons && (
         <>
