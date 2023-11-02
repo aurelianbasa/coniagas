@@ -33,7 +33,7 @@ const IndexPage = props => {
       <Header content={content['header']} />
       <Divider space='3' />
       <Container variant='wide' sx={styles.heroContainer}>
-      <Hero content={content['hero']} />
+        <Hero content={content['hero']} />
       </Container>
       <Divider space='5' />
       <Divider space='5' />
@@ -45,11 +45,13 @@ const IndexPage = props => {
       <Intro content={content['intro']} />
       <Divider space='5' />
       <Container>
-      <Divider space='1' />
-      <Data content={content['data-2']}/>
-      <Divider space='3' />
-      <Data content={content['data-3']}/>
-      <Divider space='3' />
+        <Divider space='1' />
+        <Data content={content['data-2']} />
+        </Container>
+        <Divider space='3' />
+        <Container>
+        <Data content={content['data-3']} />
+        <Divider space='3' />
       </Container>
       <Divider space='1' />
       <WithRecentPosts>

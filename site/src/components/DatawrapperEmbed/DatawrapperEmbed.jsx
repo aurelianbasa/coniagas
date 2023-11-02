@@ -26,7 +26,7 @@ const DatawrapperEmbed = ({ as: CustomComponent, content, ...props }) => {
                         if (void 0 !== a.data["datawrapper-height"]) {
                             var e = dwRef.current;
                             for (var t in a.data["datawrapper-height"])
-                                if (e.contentWindow === a.source) {
+                                if (e && e.contentWindow === a.source) {
                                     var i = a.data["datawrapper-height"][t] + "px"; e.style.height = i
                                 }
                         }
