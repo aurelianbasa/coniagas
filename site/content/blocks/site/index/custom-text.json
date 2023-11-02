@@ -31,6 +31,10 @@
         "variant": "h1",
         "color": "#FFFFFF"
       }
+    ],
+    "variant": "h1",
+    "align": [
+      "left"
     ]
   }
     ],
