@@ -17,7 +17,7 @@ const DatawrapperEmbed = ({ as: CustomComponent, content, ...props }) => {
                 src={src}
                 scrolling="no"
                 frameborder="0"
-                style={{ width: "inherit", minWidth: "100% !important", border: "none" }}
+                style={{ width: "100%", minWidth: "100% !important", height:"fit-content", border: "none" }}
                 data-external="1"></iframe>
             <script type="text/javascript">
                 {!function () {
