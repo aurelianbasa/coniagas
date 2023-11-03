@@ -30,7 +30,7 @@ const AboutPage = props => {
       <Container variant='wide' sx={styles.heroContainer}>
       <Contact content={content['contact']} />
       <Divider space='3' />
-      <Container sx={{background:`#323d4d`}}>
+      <Container sx={{ background:`#323d4d`, borderRadius:`xl` }}>
       <CalendlyButton content={content['links-test']} />
       </Container>
       <Divider space='3' />
