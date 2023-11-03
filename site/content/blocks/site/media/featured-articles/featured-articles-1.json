@@ -20,21 +20,21 @@
       },
       "text": [
         {
-          "text": "Ontario Mining Review",
+          "text": "Quebec Mining Review",
           "color": "alphaDark"
         },
         {
-          "text": "Driving the Energy Transition Forward with Silver and Battery Metals",
+          "text": "Potential for a New Critical Metals Mining Camp",
           "color": "omegaDarker",
           "variant": "h5"
         },
         {
-          "text": ""
+          "text": "November 2023"
         }
       ],
       "images": [
         {
-          "src": "../../../../assets/site/media/featured-articles/omr.jpg",
+          "src": "../../../../assets/site/media/featured-articles/quebec-review.jpg",
           "alt": "alt text"
         }
       ],
@@ -42,81 +42,7 @@
         {
           "text": "Read More",
           "type": "PAGE",
-          "link": "/OMRarticle.pdf",
-          "variant": "primary"
-        }
-      ]
-    },
-    {
-      "container": {
-        "variant": "cards.interactive",
-        "link": {
-          "type": "PAGE",
-          "link": ""
-        }
-      },
-      "text": [
-        {
-          "text": "Innovation News Network",
-          "color": "alphaDark"
-        },
-        {
-          "text": "ESG-compliant Re-2Ox technology revolutionises battery metals processing",
-          "color": "omegaDarker",
-          "variant": "h5"
-        },
-        {
-          "text": ""
-        }
-      ],
-      "images": [
-        {
-          "src": "../../../../assets/site/media/featured-articles/innovation.png",
-          "alt": "alt text"
-        }
-      ],
-      "buttons": [
-        {
-          "text": "Read More",
-          "type": "PAGE",
-          "link": "https://www.innovationnewsnetwork.com/re-2ox-technology-revolutionises-battery-metals-processing/28926/",
-          "variant": "primary"
-        }
-      ]
-    },
-    {
-      "container": {
-        "variant": "cards.interactive",
-        "link": {
-          "type": "PAGE",
-          "link": ""
-        }
-      },
-      "text": [
-        {
-          "text": "Mining.com",
-          "color": "alphaDark"
-        },
-        {
-          "text": "Working on New Battery Recycling Initiative",
-          "color": "omegaDarker",
-          "variant": "h5"
-        },
-        {
-          "text": ""
-        }
-      ],
-      "images": [
-        {
-          "src": "../../../../assets/site/media/featured-articles/miningdotcom.png",
-          "alt": "alt text"
-        }
-      ],
-      "buttons": [
-        {
-          "text": "Read More",
-          "type": "PAGE",
-          "link": "https://www.mining.com/canada-silver-cobalt-working-on-new-battery-recycling-initiative/",
+          "link": "/QMRarticle.pdf",
           "variant": "primary"
         }
       ]
