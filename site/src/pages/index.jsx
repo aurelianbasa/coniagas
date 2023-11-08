@@ -35,7 +35,7 @@ const IndexPage = props => {
       <Header content={content['header']} />
       <Divider space='3' />
       <Container variant='wide' sx={styles.heroContainer}>
-      <Hero content={content['hero']} />
+        <Hero content={content['hero']} />
       </Container>
       <Divider space='5' />
       <Divider space='5' />
@@ -48,13 +48,20 @@ const IndexPage = props => {
       <Divider space='4' />
       <CustomTextBlock content={content['custom-text']} />
       <Divider space='4' />
-      <Data content={content['data-2']}/>
-      <Divider space='4' />
-      <DataSmall content={content['data-3']}/>
-      <Divider space='4' />
-      <WithRecentPosts>
-        <Blog content={content['latest-blogs']} />
-      </WithRecentPosts>
+        <Divider space='1' />
+        <Container>
+          <Data content={content['data-2']} />
+        </Container>
+        <Divider space='4' />
+        <Container>
+          <DataSmall content={content['data-3']} />
+        </Container>
+        <Divider space='4' />
+      <Container>
+        <WithRecentPosts>
+          <Blog content={content['latest-blogs']} />
+        </WithRecentPosts>
+      </Container>
       <Divider space='5' />
       <Footer content={content['footer']} />
     </Layout>

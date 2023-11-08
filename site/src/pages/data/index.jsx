@@ -33,7 +33,7 @@ const DataPage = props => {
           <Data content={content['mhy-1']}/>
           <Photo content={content['mhy-2']} />
           <Photo content={content['mhy-3']} />
-      </Tabs>
+        </Tabs>
       </Container>
       <Divider space='3' />
       <Container variant='narrow'>
@@ -42,7 +42,7 @@ const DataPage = props => {
           <Data content={content['gravi-1']}/>
           <Photo content={content['gravi-2']} />
           <Photo content={content['gravi-3']} />
-      </Tabs>
+        </Tabs>
       </Container>
       <Divider space='3' />
       <Container variant='narrow'>
@@ -51,7 +51,7 @@ const DataPage = props => {
           <Data content={content['discovery-1']}/>
           <Photo content={content['discovery-2']} />
           <Photo content={content['discovery-3']} />
-      </Tabs>
+        </Tabs>
       </Container>
       <Divider space='3' />
       <Footer content={content['footer']} />
