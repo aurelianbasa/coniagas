@@ -5,6 +5,7 @@ import Layout from '@solid-ui-layout/Layout'
 import Seo from '@solid-ui-components/Seo'
 import Divider from '@solid-ui-components/Divider'
 import ModalWithTabs from '@solid-ui-blocks/Modal/Block01'
+import Intro from '@solid-ui-blocks/Hero/Block02'
 import ModalSimple from '@solid-ui-blocks/Modal/Block02'
 import Header from '@solid-ui-blocks/Header/Block01'
 import Hero from '@solid-ui-blocks/Hero/Block02'
@@ -28,9 +29,12 @@ const AboutUs02 = props => {
       <Header content={content['header']} />
       <Divider space='6' />
       <Container variant='wide' sx={styles.heroContainer}>
+      <Divider space='1' />
         <Hero content={content['hero']} />
-        <Divider space='7' />
+        <Divider space='3' />
+      <Intro content={content['intro']} />
       </Container>
+      <Divider space='4' />
       <Container variant='wide' sx={styles.newContainer}>
       <CustomTextBlock content={content['title']} />
       <Divider space='3' />

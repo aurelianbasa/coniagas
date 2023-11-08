@@ -56,6 +56,12 @@
               "type": "PAGE",
               "link": "/media/video-interviews",
               "variant": "links.nav-dark"
+            },
+            {
+              "text": "Featured Articles",
+              "type": "PAGE",
+              "link": "/media/featured-articles",
+              "variant": "links.nav-dark"
             }
           ]
         },
@@ -92,12 +98,6 @@
               "text": "Technical Reports",
               "type": "PAGE",
               "link": "/investors#download",
-              "variant": "links.nav-dark"
-            },
-            {
-              "text": "AGM Documents",
-              "type": "PAGE",
-              "link": "/investors#agm",
               "variant": "links.nav-dark"
             }
           ]

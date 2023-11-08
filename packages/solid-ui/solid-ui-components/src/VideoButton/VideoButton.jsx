@@ -10,7 +10,7 @@ const styles = {
   },
   button: {
     minWidth: `auto`,
-    borderWidth: `sm`,
+    borderWidth: `xl`,
     borderRadius: `full`,
     p: 3,
     mr: 3,
@@ -70,7 +70,7 @@ const VideoButton = ({ variant, children, link }) => {
         >
           <FaPlay />
         </Button>
-        <Text variant="h5">{children}</Text>
+        <Text variant="h4">{children}</Text>
       </Box>
     </>
   )

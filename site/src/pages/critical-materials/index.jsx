@@ -45,14 +45,12 @@ const Services03 = props => {
       <Divider space='5' />
       <Gallery content={content['gallery-3']} />
       <Divider space='5' />
-      <Container sx={styles.tabsContainer}>
       <DataSmall content={content['chart-1']}/>
       <Divider space='3' />
       <DataSmall content={content['chart-3']}/>
       <Divider space='3' />
       <Data content={content['chart-2']}/>
       <Divider space='4' />
-      </Container>
       <Divider space='4' />
       <Footer content={content['footer']} />
     </Layout>

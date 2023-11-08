@@ -8,6 +8,7 @@ import Table from '../../blocks/Table/Block01'
 import ModalSimple from '@solid-ui-blocks/Modal/Block02'
 import Header from '@solid-ui-blocks/Header/Block01'
 import Contact from '../../blocks/Form/Block01'
+import CalendlyButton from '../../components/CalendlyButton/CalendlyButton'
 import Footer from '@solid-ui-blocks/Footer/Block01'
 import { normalizeBlockContentNodes } from '@blocks-helpers'
 import styles from './_styles'
@@ -28,6 +29,10 @@ const AboutPage = props => {
       <Divider space='5' />
       <Container variant='wide' sx={styles.heroContainer}>
       <Contact content={content['contact']} />
+      <Divider space='3' />
+      <Container sx={{ background:`#323d4d`, borderRadius:`xl` }}>
+      <CalendlyButton content={content['links-test']} />
+      </Container>
       <Divider space='3' />
       </Container>
       <Table content={content['stock-information-table']} />

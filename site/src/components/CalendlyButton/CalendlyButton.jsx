@@ -17,7 +17,7 @@ const CalendlyButton = ({ content: {links}, ...props }) => {
             <PopupButton 
                 url={calendlyUrl} 
                 rootElement={document.getElementById("___gatsby")} 
-                text="Book Appoitment"
+                text="Book Appointment"
                 className="calendly-btn"
             />
         </div>

@@ -18,7 +18,8 @@ const styles = {
   card: {
     overflow: `hidden`,
     bg: `omegaLight`,
-    height: `full`
+    height: `full`,
+    boxShadow: `2px 2px 7px 0 rgba(1,1,1,.2)`
   },
   itemDescription: {
     flexBasis: `3/5`,
@@ -68,7 +69,7 @@ const FeaturesBlock05 = ({ content: { text, collection } }) => (
                   </Flex>
                   {buttons && (
                     <>
-                      <Divider space={3} />
+                      <Divider space={1} />
                       <ContentButtons content={buttons} />
                     </>
                   )}

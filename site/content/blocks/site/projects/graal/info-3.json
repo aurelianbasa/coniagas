@@ -35,7 +35,7 @@
   ],
   "buttons": [
     {
-      "text": "More Details Here",
+      "text": "More Drill Result Details Here",
       "type": "PAGE",
       "link": "/data/",
       "variant": "primary",

@@ -7,6 +7,7 @@ import Divider from '@solid-ui-components/Divider'
 import ModalSimple from '@solid-ui-blocks/Modal/Block02'
 import Header from '@solid-ui-blocks/Header/Block01'
 import Tabs from '@solid-ui-components/Tabs'
+import CustomTextBlock from '../../blocks/CustomText/CustomTextBlock'
 import Data from '../../components/DatawrapperEmbed/DatawrapperEmbed'
 import Photo from '@solid-ui-blocks/FeaturesWithPhoto/Block03'
 import Footer from '@solid-ui-blocks/Footer/Block01'
@@ -27,24 +28,27 @@ const DataPage = props => {
       <Divider space='5' />
       <Divider space='5' />
       <Container variant='narrow'>
-        <Tabs space={4} variant='pill'>
-          <Data content={content['mhy-1']} />
+      <CustomTextBlock content={content['title-1']} />
+      <Tabs space={4} variant='pill'>
+          <Data content={content['mhy-1']}/>
           <Photo content={content['mhy-2']} />
           <Photo content={content['mhy-3']} />
         </Tabs>
       </Container>
       <Divider space='3' />
       <Container variant='narrow'>
-        <Tabs space={4} variant='pill'>
-          <Data content={content['gravi-1']} />
+      <CustomTextBlock content={content['title-2']} />
+      <Tabs space={4} variant='pill'>
+          <Data content={content['gravi-1']}/>
           <Photo content={content['gravi-2']} />
           <Photo content={content['gravi-3']} />
         </Tabs>
       </Container>
       <Divider space='3' />
       <Container variant='narrow'>
-        <Tabs space={4} variant='pill'>
-          <Data content={content['discovery-1']} />
+      <CustomTextBlock content={content['title-3']} />
+      <Tabs space={4} variant='pill'>
+          <Data content={content['discovery-1']}/>
           <Photo content={content['discovery-2']} />
           <Photo content={content['discovery-3']} />
         </Tabs>

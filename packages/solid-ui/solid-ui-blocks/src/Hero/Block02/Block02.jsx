@@ -8,27 +8,11 @@ import ContentButtons from '@solid-ui-components/ContentButtons'
 import QuickSignupForm from '@solid-ui-components/QuickSignupForm'
 import WithDefaultContent from '@solid-ui-blocks/WithDefaultContent'
 
-const HeroBlock02 = ({ content: { text, buttons, form, images } }) => (
+const HeroBlock02 = ({ content: { text, images, form, buttons } }) => (
   <Container sx={{ textAlign: `center` }}>
     <Reveal effect='fadeInDown'>
       <ContentText content={text} />
     </Reveal>
-    {buttons && (
-      <>
-        <Divider space={3} />
-        <Reveal effect='fadeInUp' duration={0.7}>
-          <ContentButtons content={buttons} />
-        </Reveal>
-      </>
-    )}
-    {form && (
-      <>
-        <Divider space={4} />
-        <Reveal effect='fadeInRight' delay={0.7}>
-          <QuickSignupForm {...form} space={3} />
-        </Reveal>
-      </>
-    )}
     {images && (
       <>
         <Divider space={4} />
@@ -40,6 +24,22 @@ const HeroBlock02 = ({ content: { text, buttons, form, images } }) => (
             imageEffect='fadeInUp'
           />
         </Box>
+      </>
+    )}
+    {form && (
+      <>
+        <Divider space={4} />
+        <Reveal effect='fadeInRight' delay={0.7}>
+          <QuickSignupForm {...form} space={3} />
+        </Reveal>
+      </>
+    )}
+     {buttons && (
+      <>
+        <Divider space={3} />
+        <Reveal effect='fadeInUp' duration={0.7}>
+          <ContentButtons content={buttons} />
+        </Reveal>
       </>
     )}
   </Container>

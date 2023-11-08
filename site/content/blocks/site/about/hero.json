@@ -7,13 +7,6 @@
       "align": ["left"]
     },
     {
-      "text": "Discover Our Story",
-      "color": "omegaDark",
-      "variant": "h2",
-      "align": ["left"],
-      "space": 4
-    },
-    {
       "text": "The name Coniagas spells out the key products according to symbols of periodic table: Cobalt, Nickel, Silver, and Arsenic. Over a century ago, a handful of prospects in the back country of Canada grew into a vertically integrated producer of specialized metal products. Once again demand for critical metals has gripped the world and the name Coniagas is a return to form.",
       "color": "omegaDarker",
       "variant": "h5",
@@ -21,7 +14,7 @@
       "space": 4
     },
     {
-      "text": "The resurrected team of Coniagas are regional veterans who understand both the local geology and the imperative of the energy transition. It's a combination of world class deposits with a capable team with the expertise to produce.",
+      "text": "We are regional veterans who understand both the local geology and the imperative of the energy transition. It's a combination of world class deposits with a capable team with the expertise to bring mines into production.",
       "color": "omegaDarker",
       "variant": "h5",
       "align": ["left"]
