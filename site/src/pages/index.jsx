@@ -48,7 +48,6 @@ const IndexPage = props => {
       <CustomTextBlock content={content['custom-text']} />
       <Divider space='4' />
       <Container sx={styles.tabsContainer}>
-        <Divider space='1' />
         <Container>
           <Data content={content['data-2']} />
         </Container>
