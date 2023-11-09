@@ -12,7 +12,6 @@ import Buttons from '@solid-ui-blocks/Features/Block05'
 import Hero from '@solid-ui-blocks/Hero/Block01'
 import Intro from '@solid-ui-blocks/Hero/Block02'
 import Data from '../components/DatawrapperEmbed/DatawrapperEmbed'
-import DataSmall from '../components/DatawrapperEmbedSmall/DatawrapperEmbed'
 import CustomTextBlock from '../blocks/CustomText/CustomTextBlock'
 import Blog from '@solid-ui-blocks/Blog/Block01'
 import Footer from '@solid-ui-blocks/Footer/Block01'
@@ -48,14 +47,14 @@ const IndexPage = props => {
       <Divider space='4' />
       <CustomTextBlock content={content['custom-text']} />
       <Divider space='4' />
-      <Container sx={{ background:`#323d4d` }}>
+      <Container sx={styles.tabsContainer}>
         <Divider space='1' />
         <Container>
           <Data content={content['data-2']} />
         </Container>
         <Divider space='4' />
         <Container>
-          <DataSmall content={content['data-3']} />
+          <Data content={content['data-3']} />
         </Container>
         <Divider space='1' />
         </Container>
