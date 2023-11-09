@@ -48,6 +48,7 @@ const IndexPage = props => {
       <Divider space='4' />
       <CustomTextBlock content={content['custom-text']} />
       <Divider space='4' />
+      <Container sx={{ background:`#323d4d` }}>
         <Divider space='1' />
         <Container>
           <Data content={content['data-2']} />
@@ -55,6 +56,8 @@ const IndexPage = props => {
         <Divider space='4' />
         <Container>
           <DataSmall content={content['data-3']} />
+        </Container>
+        <Divider space='1' />
         </Container>
         <Divider space='4' />
       <Container>
