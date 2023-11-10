@@ -17,7 +17,7 @@ type BlockContent implements Node @dontInfer {
   map: BlockContentMap
   buttons: [BlockContentButton]
   form: BlockContentForm
-  links: [BlockContentLink]
+  calendly: BlockContentCalendlyButton
   collection: [BlockContent]
 }
 
@@ -197,10 +197,11 @@ type BlockContentFormField {
 }
 
 ############################################
-## Links
+## CalendlyButton
 ############################################
 
-type BlockContentLink {
-  type: String
+type BlockContentCalendlyButton {
+  text: String
   url: String
+  variant: String
 }
