@@ -35,7 +35,6 @@ const AboutPage = props => {
           <CalendlyButton content={content['calendly-test-2']} />
         </Container>
       </Container>
-      <Divider space='5' />
       <Table content={content['stock-information-table']} />
       <Divider space='5' />
       <Divider space='5' />

@@ -139,7 +139,7 @@ const ButtonComponent = ({ content, children, styles = {}, className }) => {
   })
 
   if (type == "CALENDLY" && !children) {
-    children = <CalendlyComponent text={text} url={link} />
+    children = <CalendlyComponent text={text} link={link} />
     styles.padding = [0, 0, 0, 0]
   } else {
     children = <>

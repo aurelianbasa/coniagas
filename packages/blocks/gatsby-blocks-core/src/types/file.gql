@@ -94,6 +94,7 @@ enum BlockContentButtonType {
   TAB
   SUBMIT
   SUB
+  CALENDLY
 }
 
 type BlockContentButton {
@@ -202,6 +203,6 @@ type BlockContentFormField {
 
 type BlockContentCalendlyButton {
   text: String
-  url: String
+  link: String
   variant: String
 }
