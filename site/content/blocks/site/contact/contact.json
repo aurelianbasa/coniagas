@@ -93,6 +93,13 @@
             "type": "SUBMIT",
             "variant": "secondary",
             "width": "200px"
+          },
+          {
+            "text": "Book Appointment",
+            "type": "CALENDLY",
+            "variant": "primary",
+            "width": "200px",
+            "link": "https://calendly.com/aurelianbasa/30-minute-meeting?hide_event_type_details=1&hide_gdpr_banner=1"
           }
         ]
       }

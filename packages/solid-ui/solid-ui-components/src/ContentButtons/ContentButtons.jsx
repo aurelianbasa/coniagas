@@ -6,6 +6,9 @@ import { ModalContext } from '@solid-ui-components/Modal'
 import { TabsContext } from '@solid-ui-components/Tabs'
 import { buildLinkProps } from '@solid-ui-components/ContentButtons'
 import { BiChevronDown } from 'react-icons/bi'
+import { PopupButton } from "react-calendly";
+
+import "./calendly.css";
 
 const styles = {
   horizontal: {
@@ -97,6 +100,32 @@ const styles = {
   }
 }
 
+const CalendlyComponent = ({ content, ...props }) => {
+  if (typeof window == "undefined")
+    return null
+
+  const { link,  text } = props
+
+  const style = {
+    backgroundColor: "red",
+    fontSize: "inherit",
+    fontFamily: "inherit",
+    color: "inherit",
+    border: "none",
+    padding: "12px 32px"
+  }
+
+  return (
+    <PopupButton
+      sx={style}
+      url={link}
+      rootElement={document.getElementById("___gatsby")}
+      text={text}
+      className="calendly-btn"
+    />
+  );
+}
+
 const ButtonComponent = ({ content, children, styles = {}, className }) => {
   const { setActiveModal } = useContext(ModalContext)
   const { setActiveTab } = useContext(TabsContext)
@@ -109,6 +138,18 @@ const ButtonComponent = ({ content, children, styles = {}, className }) => {
     setActiveTab
   })
 
+  if (type == "CALENDLY" && !children) {
+    children = <CalendlyComponent text={text} link={link} />
+    styles.padding = [0, 0, 0, 0]
+  } else {
+    children = <>
+      <Box sx={{ display: `inline-block` }}>
+        <Icon content={icon} size='xs' mr='1' /> {text}
+      </Box>
+      {children}
+    </>
+  }
+
   return (
     <Component
       variant={variant || 'primary'}
@@ -116,15 +157,11 @@ const ButtonComponent = ({ content, children, styles = {}, className }) => {
         width,
         '::after': { bg, borderColor: bg },
         position: `relative`,
-        ...styles
+        ...styles,
       }}
       {...linkProps}
       className={[linkProps.className, className].join(' ')}
     >
-      <Box sx={{ display: `inline-block` }}>
-        <Icon content={icon} size='xs' mr='1' /> {text}
-      </Box>
-
       {children}
     </Component>
   )
@@ -155,9 +192,8 @@ const ContentButton = ({ content, level = 1 }) => {
       {level === 1 && <BiChevronDown />}
       <Box
         sx={styles.subContainer}
-        className={`container-level-${level} ${
-          !collection ? 'no-collection' : ''
-        }`}
+        className={`container-level-${level} ${!collection ? 'no-collection' : ''
+          }`}
       >
         {collection ? (
           collection.map(({ container, buttons }, index) => (

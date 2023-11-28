@@ -3,6 +3,7 @@ import AnchorLink from 'react-anchor-link-smooth-scroll'
 import { Button, Link } from 'theme-ui'
 import AppButton from '@solid-ui-components/AppButton'
 import VideoButton from '@solid-ui-components/VideoButton'
+import CalendlyButton from '../../../../../site/src/components/CalendlyButton/CalendlyButton'
 
 const isValidHttpUrl = link => {
   let url
@@ -28,6 +29,10 @@ const buildLinkProps = ({
   let Component = isLinkVariant ? Link : Button
 
   switch (type) {
+    case 'CALENDLY':
+      Component = Button
+      linkProps = { link }
+      break
     case 'VIDEO':
       Component = VideoButton
       linkProps = { link }

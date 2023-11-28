@@ -17,7 +17,7 @@ type BlockContent implements Node @dontInfer {
   map: BlockContentMap
   buttons: [BlockContentButton]
   form: BlockContentForm
-  links: [BlockContentLink]
+  calendly: BlockContentCalendlyButton
   collection: [BlockContent]
 }
 
@@ -100,6 +100,7 @@ enum BlockContentButtonType {
   TAB
   SUBMIT
   SUB
+  CALENDLY
 }
 
 type BlockContentButton {
@@ -203,10 +204,11 @@ type BlockContentFormField {
 }
 
 ############################################
-## Links
+## CalendlyButton
 ############################################
 
-type BlockContentLink {
-  type: String
-  url: String
+type BlockContentCalendlyButton {
+  text: String
+  link: String
+  variant: String
 }

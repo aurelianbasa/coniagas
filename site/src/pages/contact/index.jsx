@@ -28,8 +28,12 @@ const AboutPage = props => {
       <Divider space='5' />
       <Divider space='5' />
       <Container variant='wide' sx={styles.heroContainer}>
-      <Contact content={content['contact']} />
-      <Divider space='3' />
+        <Contact content={content['contact']} />
+        <Divider space='5' />
+        <Container sx={{ display: "flex", justifyContent: "space-evenly" }}>
+          <CalendlyButton content={content['calendly-test']} />
+          <CalendlyButton content={content['calendly-test-2']} />
+        </Container>
       </Container>
       <Table content={content['stock-information-table']} />
       <Divider space='5' />

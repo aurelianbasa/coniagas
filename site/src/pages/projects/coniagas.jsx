@@ -42,7 +42,7 @@ const ProjectItemPage = props => {
         <Divider space='5' />
         <Info content={content['info-2']} />
         <Divider space='5' />
-        <CalendlyButton content={content['links-test']} />
+        <CalendlyButton content={content['calendly-test']} />
         <Divider space='5' />
         <Download content={content['download']} />
       </Container>

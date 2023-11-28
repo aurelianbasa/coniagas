@@ -1,0 +1,9 @@
+.calendly-btn {
+    background-color: unset;
+    font-size: inherit;
+    font-family: inherit;
+    color: inherit;
+    border: none;
+    padding: 11px 32px;
+    cursor: pointer;
+}

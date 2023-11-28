@@ -1,26 +1,19 @@
 import React from "react";
-import { PopupButton } from "react-calendly";
-import "./calendly.css";
+import ContentButtons from '@solid-ui-components/ContentButtons'
 
-const CalendlyButton = ({ content: {links}, ...props }) => {
-    // Show a 404 text until the 'document' element becomes accessible
-    if(typeof window == "undefined") {
-        return (
-            <div>404</div>
-        )
-    }
-    
-    const calendlyUrl = links.filter((link) => link.type === "calendly")[0].url
-
+const CalendlyButton = ({ content: { calendly }, ...props }) => {
+    if(typeof window == "undefined")
+        return null
+    const { text, link, variant } = calendly
     return (
-        <div className="calendly-btn-box">
-            <PopupButton 
-                url={calendlyUrl} 
-                rootElement={document.getElementById("___gatsby")} 
-                text="Book Appointment"
-                className="calendly-btn"
-            />
-        </div>
+        <>
+            <ContentButtons content={[{
+                type: "CALENDLY",
+                text: text,
+                variant: variant || "primary",
+                link: link
+            }]} />
+        </>
     );
 };
 
