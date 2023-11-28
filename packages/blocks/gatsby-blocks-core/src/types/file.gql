@@ -70,6 +70,7 @@ type BlockContentWordScrollText {
   align: [String]
   weight: String
   underlineColor: String
+  underlineWidth: String
   highlightColor: String
 }
 
@@ -81,6 +82,7 @@ type BlockContentParagraphText {
   align: [String]
   weight: String
   underlineColor: String
+  underlineWidth: String
   highlightColor: String
   wordScroll: [BlockContentWordScrollText]
 }

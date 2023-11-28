@@ -52,6 +52,31 @@ function Text(props) {
   return React.createElement(props.type, props, props.content);
 }
 
+function buildTextStyle({underlineColor, underlineWidth, highlightColor, textColor, textWeight}) {
+  let style = {
+    textDecoration: '',
+    textDecorationColor: '',
+    borderBottom: '',
+    backgroundColor: highlightColor ?? '',
+    display: 'inline',
+    color: textColor || 'inherit',
+    fontWeight: textWeight
+  }
+
+  if (underlineColor) {
+    if (underlineWidth) {
+      style["borderBottomStyle"] = "solid";
+      style["borderBottomColor"] = underlineColor;
+      style["borderBottomWidth"] = underlineWidth;
+    } else {
+      style["textDecoration"] = "underline";
+      style["textDecorationColor"] = underlineColor;
+    }
+  }
+
+  return style;
+}
+
 const CustomText = ({ as: CustomComponent, content, ...props }) => {
   if (!content || content.length < 1) return null
 
@@ -61,14 +86,13 @@ const CustomText = ({ as: CustomComponent, content, ...props }) => {
   textComponent = content.map((item, index) => {
     if (item.wordScroll) {
       const wordList = item.wordScroll.map((word, scrollIndex) => {
-        let style = {
-          textDecoration: word.underlineColor ? 'underline' : '', 
-          textDecorationColor: word.underlineColor ?? '', 
-          backgroundColor: word.highlightColor ?? '',
-          display: 'inline',
-          color: item.color || 'inherit',
-          fontWeight: item.weight
-        }
+        let style = buildTextStyle({
+          underlineColor: word.underlineColor,
+          underlineWidth: word.underlineWidth,
+          highlightColor: word.highlightColor,
+          textColor: item.color,
+          textWeight: item.weight
+        });
         return <Text
           type={item.variant || 'span'}
           as='default'
@@ -79,14 +103,13 @@ const CustomText = ({ as: CustomComponent, content, ...props }) => {
       })
       return <Marquee key={index}>{wordList}</Marquee>
     } else {
-      let style = {
-        textDecoration: item.underlineColor ? 'underline' : '', 
-        textDecorationColor: item.underlineColor ?? '', 
-        backgroundColor: item.highlightColor ?? '',
-        display: 'inline',
-        color: item.color || 'inherit',
-        fontWeight: item.weight
-      }
+      let style = buildTextStyle({
+        underlineColor: item.underlineColor,
+        underlineWidth: item.underlineWidth,
+        highlightColor: item.highlightColor,
+        textColor: item.color,
+        textWeight: item.weight
+      });
       let t = item.text
       return <Text
         type={item.variant || 'span'}

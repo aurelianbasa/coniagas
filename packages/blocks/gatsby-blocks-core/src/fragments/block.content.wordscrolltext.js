@@ -9,6 +9,7 @@ export const query = graphql`
     align
     weight
     underlineColor
+    underlineWidth
     highlightColor
   }
 `

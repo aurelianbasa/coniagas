@@ -21,7 +21,7 @@
   },
   "engines": {
     "yarn": "^1.17.3",
-    "node": ">=12.13.0"
+    "node": "^16.20.2"
   },
   "dependencies": {
     "react-calendly": "^4.2.0"
