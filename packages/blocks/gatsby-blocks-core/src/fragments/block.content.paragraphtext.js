@@ -7,6 +7,7 @@ export const query = graphql`
     space
     variant
     align
+    weight
     underlineColor
     highlightColor
     wordScroll {
