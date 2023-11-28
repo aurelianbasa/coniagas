@@ -60,7 +60,7 @@ function buildTextStyle({underlineColor, underlineWidth, highlightColor, textCol
     backgroundColor: highlightColor ?? '',
     display: 'inline',
     color: textColor || 'inherit',
-    fontWeight: item.weight || 'inherit'
+    fontWeight: textWeight
   }
 
   if (underlineColor) {
