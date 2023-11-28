@@ -8,5 +8,6 @@ export const query = graphql`
     space
     variant
     align
+    weight
   }
 `

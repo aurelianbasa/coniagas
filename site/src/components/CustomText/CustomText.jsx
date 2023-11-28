@@ -55,7 +55,7 @@ function Text(props) {
 const CustomText = ({ as: CustomComponent, content, ...props }) => {
   if (!content || content.length < 1) return null
 
-  const { variant, color, align, space } = props
+  const { variant, color, align, space, weight } = props
 
   let textComponent;
   textComponent = content.map((item, index) => {
@@ -66,7 +66,8 @@ const CustomText = ({ as: CustomComponent, content, ...props }) => {
           textDecorationColor: word.underlineColor ?? '', 
           backgroundColor: word.highlightColor ?? '',
           display: 'inline',
-          color: item.color || 'inherit'
+          color: item.color || 'inherit',
+          fontWeight: item.weight
         }
         return <Text
           type={item.variant || 'span'}
@@ -83,7 +84,8 @@ const CustomText = ({ as: CustomComponent, content, ...props }) => {
         textDecorationColor: item.underlineColor ?? '', 
         backgroundColor: item.highlightColor ?? '',
         display: 'inline',
-        color: item.color || 'inherit'
+        color: item.color || 'inherit',
+        fontWeight: item.weight
       }
       let t = item.text
       return <Text
@@ -103,7 +105,8 @@ const CustomText = ({ as: CustomComponent, content, ...props }) => {
     content={textComponent}
     style={{
       textAlign: align || undefined,
-      color: color
+      color: color,
+      fontWeight: weight
     }} /> : textComponent;
 }
 
