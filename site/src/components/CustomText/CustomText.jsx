@@ -52,14 +52,15 @@ function Text(props) {
   return React.createElement(props.type, props, props.content);
 }
 
-function buildTextStyle({underlineColor, underlineWidth, highlightColor, textColor}) {
+function buildTextStyle({underlineColor, underlineWidth, highlightColor, textColor, textWeight}) {
   let style = {
     textDecoration: '',
     textDecorationColor: '',
     borderBottom: '',
     backgroundColor: highlightColor ?? '',
     display: 'inline',
-    color: textColor || 'inherit'
+    color: textColor || 'inherit',
+    fontWeight: item.weight || 'inherit'
   }
 
   if (underlineColor) {
@@ -79,9 +80,7 @@ function buildTextStyle({underlineColor, underlineWidth, highlightColor, textCol
 const CustomText = ({ as: CustomComponent, content, ...props }) => {
   if (!content || content.length < 1) return null
 
-  const { variant, color, align, space } = props
-
-  console.log("----- DEBUG::");
+  const { variant, color, align, space, weight } = props
 
   let textComponent;
   textComponent = content.map((item, index) => {
@@ -91,7 +90,8 @@ const CustomText = ({ as: CustomComponent, content, ...props }) => {
           underlineColor: word.underlineColor,
           underlineWidth: word.underlineWidth,
           highlightColor: word.highlightColor,
-          textColor: item.color
+          textColor: item.color,
+          textWeight: item.weight
         });
         return <Text
           type={item.variant || 'span'}
@@ -107,9 +107,9 @@ const CustomText = ({ as: CustomComponent, content, ...props }) => {
         underlineColor: item.underlineColor,
         underlineWidth: item.underlineWidth,
         highlightColor: item.highlightColor,
-        textColor: item.color
+        textColor: item.color,
+        textWeight: item.weight
       });
-      console.log("-----", style);
       let t = item.text
       return <Text
         type={item.variant || 'span'}
@@ -128,7 +128,8 @@ const CustomText = ({ as: CustomComponent, content, ...props }) => {
     content={textComponent}
     style={{
       textAlign: align || undefined,
-      color: color
+      color: color,
+      fontWeight: weight
     }} /> : textComponent;
 }
 

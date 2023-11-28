@@ -2,7 +2,9 @@
   "paragraph": {
     "paragraphtext": [
       {
-        "text": "Forgues Project "
+        "text": "Forgues Project ",
+        "weight": "lighter",
+        "variant": "h1"
       },
       {
         "text": "Prospective",
