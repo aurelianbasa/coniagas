@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'theme-ui'
 import SVG from 'react-inlinesvg'
-import gatsbySVG from '../../assets/Gatsby-Logo.svg'
+import gatsbySVG from '../../../assets/Gatsby-Logo.svg'
 
 const styles = {
   link: {

@@ -1,35 +1,38 @@
 import React from 'react'
 import { Link } from 'theme-ui'
 import SVG from 'react-inlinesvg'
-import gatsbySVG from '../../assets/Gatsby-Logo.svg'
+import gatsbySVG from '../../../assets/Gatsby-Logo.svg'
 
 const styles = {
   link: {
     display: `inline-flex`,
     color: `heading`,
     fontWeight: `medium`,
+    textDecoration: `none`,
     ':visited': {
       color: `heading`
     },
+    ':hover': {
+      color: `#9cc2dd`
+    },
     svg: {
-      fill: `omegaDarker`,
-      height: 24,
-      ml: 2
+      height: 18,
+      width: 18,
+      mr: 2
     }
   }
 }
 
 const PoweredByGatsby = () => (
   <Link
-    variant='mute'
     target='_blank'
     title='Gatsby'
-    href='https://www.gatsbyjs.org'
+    href='https://www.resourceactive.com'
     rel='noopener'
     sx={styles.link}
   >
-    Powered By
     {gatsbySVG && <SVG src={gatsbySVG} />}
+    Designed By Resource Active
   </Link>
 )
 
