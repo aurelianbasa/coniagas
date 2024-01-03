@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from '@theme-ui'
+import { Link } from 'gatsby'
 import SVG from 'react-inlinesvg'
 import gatsbySVG from '../../assets/Gatsby-Logo.svg'
 
