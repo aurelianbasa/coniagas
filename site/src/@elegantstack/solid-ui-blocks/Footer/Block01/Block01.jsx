@@ -4,6 +4,7 @@ import { Container, Box, Flex } from 'theme-ui'
 import ContentText from '@solid-ui-components/ContentText'
 import ContentImages from '@solid-ui-components/ContentImages'
 import ContentButtons from '@solid-ui-components/ContentButtons'
+import PoweredByGatsby from '@solid-ui-components/PoweredByGatsby'
 import WithDefaultContent from '@solid-ui-blocks/WithDefaultContent'
 import Newsletter from '../../../../components/NewsletterFooter'
 
@@ -32,12 +33,15 @@ const FooterBlock01 = ({ content: { images, collection } }) => {
               <GLink to='/'>
                 <ContentImages content={{ images }} imageEffect='fadeIn' />
               </GLink>
+              </Box>
+            <Box>
+              <Newsletter />
             </Box>
             <Box pt='2' mb={3}>
               © {new Date().getFullYear()}, All Rights Reserved.
             </Box>
             <Box>
-              <Newsletter />
+              <PoweredByGatsby />
             </Box>
           </Box>
           {collection?.map(

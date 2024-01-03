@@ -13,11 +13,12 @@ const styles = {
       color: `heading`
     },
     ':hover': {
-      color: `#663399`
+      color: `#9cc2dd`
     },
     svg: {
-      height: 24,
-      ml: 2
+      height: 18,
+      width: 18,
+      mr: 2
     }
   }
 }
@@ -26,12 +27,12 @@ const PoweredByGatsby = () => (
   <Link
     target='_blank'
     title='Gatsby'
-    href='https://www.gatsbyjs.org'
+    href='https://www.resourceactive.com'
     rel='noopener'
     sx={styles.link}
   >
-    Powered By
     {gatsbySVG && <SVG src={gatsbySVG} />}
+    Designed By Resource Active
   </Link>
 )
 
