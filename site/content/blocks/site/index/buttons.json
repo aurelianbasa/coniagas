@@ -21,13 +21,13 @@
     },
       "buttons": [
         {
-          "text": "Presentation   ➜",
+          "text": "Presentation",
             "type": "PAGE",
             "link": "/Presentation.pdf",
             "variant": "dark"
           },
           {
-            "text": "Fact Sheet   ➜",
+            "text": "Fact Sheet",
               "type": "PAGE",
               "link": "/Factsheet.pdf",
               "variant": "dark"
