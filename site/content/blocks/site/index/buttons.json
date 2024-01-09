@@ -23,15 +23,16 @@
         {
           "text": "Presentation",
             "type": "PAGE",
+            "width": "20%",
             "link": "/Presentation.pdf",
-            "space": 4,
-            "variant": "dark"
+            "variant": "links.nav-dark"
           },
           {
             "text": "Fact Sheet",
               "type": "PAGE",
+              "width": "20%",
               "link": "/Factsheet.pdf",
-              "variant": "dark"
+              "variant": "links.nav-dark"
             }
       ]
     },
