@@ -23,14 +23,14 @@
         {
           "text": "Presentation   ➜",
             "type": "PAGE",
-            "width": "50%",
+            "width": "40%",
             "link": "/Presentation.pdf",
             "variant": "dark"
           },
           {
             "text": "Fact Sheet   ➜",
               "type": "PAGE",
-              "width": "50%",
+              "width": "40%",
               "link": "/Factsheet.pdf",
               "variant": "dark"
             }
