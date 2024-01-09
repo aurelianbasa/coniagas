@@ -3,13 +3,13 @@
     {
       "text": [
         {
-          "text": "Invest",
+          "text": "Learn more",
           "color": "alpha",
           "variant": "h4",
           "space": 0
         },
         {
-          "text": "Our Corporate Presentation",
+          "text": "",
           "variant": "h5"
         }
       ],
@@ -21,19 +21,26 @@
     },
       "buttons": [
         {
-          "text": "Download   ➜",
+          "text": "Presentation   ➜",
             "type": "PAGE",
-            "width": "100%",
+            "width": "50%",
             "link": "/Presentation.pdf",
             "variant": "dark"
-          }
+          },
+          {
+            "text": "Fact Sheet   ➜",
+              "type": "PAGE",
+              "width": "50%",
+              "link": "/Factsheet.pdf",
+              "variant": "dark"
+            }
       ]
     },
 
     {
       "text": [
         {
-          "text": "Follow",
+          "text": "Receive updates",
           "color": "alpha",
           "variant": "h4",
           "space": 0
@@ -63,7 +70,7 @@
     {
       "text": [
         {
-          "text": "Contact",
+          "text": "Get in touch",
           "color": "alpha",
           "variant": "h4",
           "space": 0
