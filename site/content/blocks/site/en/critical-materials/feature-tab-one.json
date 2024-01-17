@@ -1,0 +1,61 @@
+{
+  "text": [
+    {
+      "text": "SUSTAINABLE",
+      "color": "omegaDark",
+      "variant": "h4"
+    },
+    {
+      "text": "Securing Battery supply chains for a **Sustainable** Energy Future",
+      "variant": "h2"
+    },
+    {
+      "text": "The Re-2Ox process takes metal-rich mining concentrates, or recycled battery materials.",
+      "variant": "medium"
+    }
+  ],
+  "images": [
+    {
+      "src": "../../../../assets/site/technology/tab-feature-one.png",
+      "alt": "alt text",
+      "radius": "lg",
+      "shadow": "default"
+    }
+  ],
+  "collection": [
+    {
+      "text": [
+        {
+          "text": "15+",
+          "color": "beta",
+          "variant": "h2",
+          "space": 1
+        },
+        {
+          "text": "A New Benchmark for Recovery",
+          "variant": "h6"
+        },
+        {
+          "text": "______"
+        }
+      ]
+    },
+    {
+      "text": [
+        {
+          "text": "10+",
+          "color": "beta",
+          "variant": "h2",
+          "space": 1
+        },
+        {
+          "text": "Recycled Solutions",
+          "variant": "h6"
+        },
+        {
+          "text": "_______"
+        }
+      ]
+    }
+  ]
+}

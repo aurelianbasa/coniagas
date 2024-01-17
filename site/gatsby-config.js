@@ -4,6 +4,15 @@ require('dotenv').config()
 module.exports = {
   plugins: [
     {
+      resolve: `gatsby-plugin-i18n`,
+      options: {
+        langKeyForNull: 'en',
+        langKeyDefault: 'en',
+        useLangKeyLayout: false,
+        prefixDefault: false,
+      },
+    },
+    {
       resolve: 'gatsby-source-contentful',
       options: {
         spaceId: "vk0rg1n9n19r",

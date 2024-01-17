@@ -1,0 +1,124 @@
+{
+  "text": [
+    {
+      "text": "MILESTONES",
+      "color": "omega",
+      "variant": "h3"
+    },
+    {
+      "text": "",
+      "color": "beta",
+      "variant": "h1"
+    }
+  ],
+  "collection": [
+    {
+      "text": [
+        {
+          "text": "Expanded claims",
+          "color": "black",
+          "variant": "h4",
+          "space": 0
+        },
+        {
+          "text": "Acquired 888.56 hectares in 2021 for a grand total of 6,113 hectares",
+          "color": "omega"
+        }
+      ],
+      "icon": {
+        "src": "../../../../../assets/flexiblocks/icons/bx-layer-plus.svg",
+        "color": "beta"
+      }
+    },
+    {
+      "text": [
+        {
+          "text": "Mineralized strike length",
+          "color": "black",
+          "variant": "h4",
+          "space": 0
+        },
+        {
+          "text": "6km of near-surface copper, nickel, and cobalt",
+          "color": "omega"
+        }
+      ],
+      "icon": {
+        "src": "../../../../../assets/flexiblocks/icons/bx-line-chart.svg",
+        "color": "beta"
+      }
+    },
+    {
+      "text": [
+        {
+          "text": "Strategic study",
+          "color": "black",
+          "variant": "h4",
+          "space": 0
+        },
+        {
+          "text": "Airborne gravimetric and magnetic survey on select areas",
+          "color": "omega"
+        }
+      ],
+      "icon": {
+        "src": "../../../../../assets/flexiblocks/icons/bxs-vial.svg",
+        "color": "beta"
+      }
+    },
+    {
+      "text": [
+        {
+          "text": "Diamond drilling",
+          "color": "black",
+          "variant": "h4",
+          "space": 0
+        },
+        {
+          "text": "Completed 16,000 meters targeting geophysical anomalies",
+          "color": "omega"
+        }
+      ],
+      "icon": {
+        "src": "../../../../../assets/flexiblocks/icons/bx-target-lock.svg",
+        "color": "beta"
+      }
+    },
+    {
+      "text": [
+        {
+          "text": "Massive sulphides",
+          "color": "black",
+          "variant": "h4",
+          "space": 0
+        },
+        {
+          "text": "Mineralised sulphides hit in almost every drill hole",
+          "color": "omega"
+        }
+      ],
+      "icon": {
+        "src": "../../../../../assets/flexiblocks/icons/bx-check-circle.svg",
+        "color": "beta"
+      }
+    },
+    {
+      "text": [
+        {
+          "text": "Borehole geophysics",
+          "color": "black",
+          "variant": "h4",
+          "space": 0
+        },
+        {
+          "text": "To quantify potential thickness around the sulphide intersections",
+          "color": "omega"
+        }
+      ],
+      "icon": {
+        "src": "../../../../../assets/flexiblocks/icons/bx-hive.svg",
+        "color": "beta"
+      }
+    }
+  ]
+}

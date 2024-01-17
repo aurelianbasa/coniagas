@@ -1,0 +1,19 @@
+{
+  "text": [
+    {
+      "text": "Technical Report",
+      "color": "white",
+      "variant": "h3",
+      "align": ["left"]
+    }
+  ],
+  "buttons": [
+    {
+      "text": "Download",
+      "type": "PAGE",
+      "link": "/reports/2023may.pdf",
+      "variant": "dark",
+      "width": "100%"
+    }
+  ]
+}

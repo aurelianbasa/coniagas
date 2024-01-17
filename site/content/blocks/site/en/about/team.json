@@ -1,0 +1,115 @@
+{
+  "text": [
+    {
+      "text": "Meet Our Talented Team",
+      "color": "alpha",
+      "variant": "h4"
+    },
+    {
+      "text": "",
+      "variant": "h2"
+    },
+    {
+      "text": "",
+      "color": "omegaDark",
+      "variant": "medium"
+    }
+  ],
+  "collection": [
+    {
+      "text": [
+        {
+          "text": "Frank Basa",
+          "variant": "h6"
+        },
+        {
+          "text": ""
+        },
+        {
+          "text": "",
+          "color": "omega",
+          "variant": "small"
+        }
+      ],
+      "avatar": {
+        "src": "../../../../assets/site/about/john-doe-large.png"
+      }
+    },
+    {
+      "text": [
+        {
+          "text": "Matt Halliday",
+          "variant": "h6"
+        },
+        {
+          "text": ""
+        },
+        {
+          "text": "",
+          "color": "omega",
+          "variant": "small"
+        }
+      ],
+      "avatar": {
+        "src": "../../../../assets/site/about/jane-smith-large.png"
+      }
+    },
+    {
+      "text": [
+        {
+          "text": "Diane Tookenay",
+          "variant": "h6"
+        },
+        {
+          "text": ""
+        },
+        {
+          "text": "",
+          "color": "omega",
+          "variant": "small"
+        }
+      ],
+      "avatar": {
+        "src": "../../../../assets/site/about/sarah-doe-large.png"
+      }
+    },
+    {
+      "text": [
+        {
+          "text": "Kevin Bradley",
+          "variant": "h6"
+        },
+        {
+          "text": ""
+        },
+        {
+          "text": "",
+          "color": "omega",
+          "variant": "small"
+        }
+      ],
+      "avatar": {
+        "src": "../../../../assets/site/about/steve-grant-large.png"
+      }
+    },
+    {
+      "text": [
+        {
+          "text": "Aurelian Basa",
+          "variant": "h6"
+        },
+        {
+          "text": ""
+        },
+        {
+          "text": "",
+          "color": "omega",
+          "variant": "small"
+        }
+      ],
+      "avatar": {
+        "src": "../../../../assets/site/about/florrie-jacobs-large.png"
+      }
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "text": [
+    {
+      "text": "Overview Map",
+      "color": "beta",
+      "variant": "h4"
+    }
+  ],
+  "images": [
+    {
+      "src": "../../../../assets/site/data/gravi-2.png",
+      "alt": "alt text",
+      "effects": ["fadeInUp"]
+    }
+  ]
+}

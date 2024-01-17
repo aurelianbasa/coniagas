@@ -1,0 +1,67 @@
+{
+  "text": [
+    {
+      "text": "",
+      "color": "omega",
+      "variant": "h3"
+    },
+    {
+      "text": "",
+      "color": "beta",
+      "variant": "h1"
+    }
+  ],
+  "collection": [
+    {
+      "text": [
+        {
+          "text": "Continue Drilling",
+          "color": "alpha",
+          "variant": "h5"
+        },
+        {
+          "text": "In the MHY zone extension and geophysical anomaly to the Southeast",
+          "color": "omega"
+        }
+      ],
+      "icon": {
+        "src": "../../../../assets/flexiblocks/icons/bx-line-chart.svg",
+        "color": "omegaDark"
+      }
+    },
+    {
+      "text": [
+        {
+          "text": "Borehole Geophysics",
+          "color": "alpha",
+          "variant": "h5"
+        },
+        {
+          "text": "To quantify potential thickness around the sulphide intersections",
+          "color": "omega"
+        }
+      ],
+      "icon": {
+        "src": "../../../../assets/flexiblocks/icons/bx-target-lock.svg",
+        "color": "omegaDark"
+      }
+    },
+    {
+      "text": [
+        {
+          "text": "Ground Survey",
+          "color": "alpha",
+          "variant": "h5"
+        },
+        {
+          "text": "To identify conductive zones to create high-value targets at depth",
+          "color": "omega"
+        }
+      ],
+      "icon": {
+        "src": "../../../../assets/flexiblocks/icons/bx-layer-plus.svg",
+        "color": "omegaDark"
+      }
+    }
+  ]
+}

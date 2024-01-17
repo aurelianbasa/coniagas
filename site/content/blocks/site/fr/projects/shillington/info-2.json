@@ -1,0 +1,24 @@
+{
+  "text": [
+    {
+      "text": "Geology",
+      "color": "alpha",
+      "variant": "h4"
+    },
+    {
+      "text": "The Robinson Discovery Zone vein shoot has been found 1.9 km east of Castle Shaft #3, and just below the middle of the Nipissing diabase at under-explored Shillington.",
+      "variant": "medium"
+    },
+    {
+      "text": "The upper and lower portions of the Nipissing diabase in this part of the 78 sq. km property have never been systematically tested, reinforcing the potential for additional deposits beyond the three main mines in the Gowganda Camp that were very active high-grade silver producers last century.",
+      "variant": "medium"
+    }
+  ],
+  "images": [
+    {
+      "src": "../../../../../assets/site/projects/shillington/info-2.jpg",
+      "radius": "xl",
+      "alt": "alt text"
+    }
+  ]
+}

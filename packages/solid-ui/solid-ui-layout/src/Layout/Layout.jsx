@@ -6,24 +6,26 @@ import pageContextProvider from '@helpers/pageContextProvider'
 import { FormContextProvider } from '@solid-ui-components/ContentForm'
 import { ModalContextProvider } from '@solid-ui-components/Modal'
 import { TabsContextProvider } from '@solid-ui-components/Tabs'
-import ColorMode from '@solid-ui-components/ColorMode'
+import {LanguageProvider} from './LanguageContext'
+import LanguageToggle from './LanguageToggle'
 
 const Layout = ({ children, pageContext = {}, location, theme = {} }) => {
   return (
     <ThemeProvider theme={merge(baseTheme, theme)}>
-      <pageContextProvider.Provider value={{ pageContext, location }}>
-        <FormContextProvider>
-          <ModalContextProvider>
-            <TabsContextProvider>
-              <Flex variant='layout.layout'>
-                <Global styles={css(theme => theme.global)} />
-                <ColorMode />
-                <Box variant='layout.body'>{children}</Box>
-              </Flex>
-            </TabsContextProvider>
-          </ModalContextProvider>
-        </FormContextProvider>
-      </pageContextProvider.Provider>
+      <LanguageProvider>
+        <pageContextProvider.Provider value={{ pageContext, location }}>
+          <FormContextProvider>
+            <ModalContextProvider>
+              <TabsContextProvider>
+                <Flex variant='layout.layout'>
+                  <Global styles={css(theme => theme.global)} />
+                  <Box variant='layout.body'>{children}</Box>
+                </Flex>
+              </TabsContextProvider>
+            </ModalContextProvider>
+          </FormContextProvider>
+        </pageContextProvider.Provider>
+      </LanguageProvider>
     </ThemeProvider>
   )
 }

@@ -1,0 +1,20 @@
+{
+  "text": [
+    {
+      "text": "Download Resources",
+      "variant": "h5"
+    },
+    {
+      "text": "Consequat excepteur venia Lorem labore eiusmod."
+    }
+  ],
+  "buttons": [
+    {
+      "text": "Downloads",
+      "type": "PAGE",
+      "link": "files/link-to-file.pdf",
+      "variant": "primary",
+      "width": "250px"
+    }
+  ]
+}

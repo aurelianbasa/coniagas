@@ -1,0 +1,16 @@
+{
+  "text": [
+    {
+      "text": "Cross Section",
+      "color": "beta",
+      "variant": "h4"
+    }
+  ],
+  "images": [
+    {
+      "src": "../../../../assets/site/data/mhy-3.png",
+      "alt": "alt text",
+      "effects": ["fadeInUp"]
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "text": [
+    {
+      "text": "History",
+      "variant": "h2",
+      "align": ["left"],
+      "space": 0
+    },
+    {
+      "text": "Historical exploration on the property encountered numerous encouraging showings of nickel, copper and cobalt.",
+      "color": "alpha",
+      "variant": "h4",
+      "align": ["left"]
+    },
+    {
+      "text": "However, the property was sparsely explored, with up to 800m drill hole spacing or more, and the deepest hole investigated at merely a 100m vertical depth, leaving a lot of ground to investigate more thoroughly.",
+      "variant": "medium",
+      "align": ["left"]
+    },
+    {
+      "text": "Pictured here is Claude Duplessis P. Eng. of Gold Minds Geoservices overseeing drilling at Graal.",
+      "variant": "small",
+      "color": "beta",
+      "align": ["left"]
+    }
+  ],
+  "images": [
+    {
+      "src": "../../../../../assets/site/projects/nourricier/info-1.jpg",
+      "radius": "xl",
+      "alt": "alt text"
+    }
+  ]
+}
