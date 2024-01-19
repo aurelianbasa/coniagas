@@ -48,12 +48,6 @@
       ],
       "buttons": [
         {
-          "text": "News",
-          "type": "PAGE",
-          "link": "/news",
-          "variant": "links.nav-light"
-        },
-        {
           "text": "Contact",
           "type": "PAGE",
           "link": "/contact",
@@ -80,6 +74,16 @@
         }
       ],
       "buttons": [
+        {
+          "text": "Forum",
+          "type": "PAGE",
+          "link": "https://crucible.live/c/coniagas/7",
+          "variant": "links.nav-light",
+          "icon": {
+            "src": "../../../assets/flexiblocks/icons/crucible.svg",
+            "color": "#1da1f2"
+          }
+        },
         {
           "text": "Twitter",
           "type": "PAGE",
