@@ -1,8 +1,5 @@
-import React, { useState, useEffect, useContext } from 'react'
-import { Box, useThemeUI } from 'theme-ui'
-import pageContextProvider from '@helpers/pageContextProvider'
-import { MdInvertColors } from 'react-icons/md'
-import { FaChevronDown } from 'react-icons/fa'
+import React, { useContext } from 'react'
+import { Box, } from 'theme-ui'
 import { LanguageContext } from './LanguageContext'
 
 const styles = {
@@ -76,58 +73,15 @@ const styles = {
   }
 }
 
-const LanguageToggle = () => {
-  const { language, setLanguage } = useContext(LanguageContext);
-  const toggleLanguage = () => {
-      setLanguage(language === 'en' ? 'fr' : 'en');
-  };
-  const [open, setOpen] = useState()
-  const context = useThemeUI()
-  const { pageContext } = useContext(pageContextProvider)
-
-  const { modes } = context.theme.colors
-  const modeNames = Object.keys(modes)
-
-  const handleToggle = () => setOpen(state => !state)
-
-  useEffect(() => {
-    // Theme-UI saves last color mode in local storage. We don't want that.
-    pageContext.colorMode === false &&
-      localStorage.removeItem('theme-ui-color-mode')
-  }, [])
-
-  if (pageContext.colorMode === false) return null
+const LanguageToggle = ({onClick}) => {
+  const language = useContext(LanguageContext);
 
   return (
-    <Box sx={styles.wrapper}>
-      <Box
-        sx={{
-          ...styles.items,
-          ...(open && styles.items.open),
-          ...(open && { maxHeight: modeNames.length * 40 + 50 })
-        }}
-      >
-        {modeNames.map((mode, index) => (
-          <Box
-            key={`item-${index}`}
-            sx={styles.item}
-            title={mode}
-            onClick={() => toggleLanguage()}
-          >
-            <Box bg={modes[mode].alphaLight}></Box>
-            <Box bg={modes[mode].alpha}></Box>
-            <Box bg={modes[mode].beta}></Box>
-            <Box bg={modes[mode].betaLight}></Box>
-          </Box>
-        ))}
-        <Box sx={styles.close} onClick={handleToggle}>
-          <FaChevronDown size={20} />
-        </Box>
-      </Box>
-      <Box sx={styles.button} onClick={handleToggle}>
-        <MdInvertColors size={26} />
-        <span>Colors</span>
-      </Box>
+    <Box
+      sx={styles.wrapper}
+      onClick={onClick}
+    >
+      <span>{language === 'en' ? 'Français' : 'English'}</span>
     </Box>
   )
 }

@@ -14,7 +14,7 @@ const Seo = ({
   siteUrl
 }) => {
   const site = useSiteMetadata()
-  const { language } = useContext(LanguageContext);
+  const language = useContext(LanguageContext);
 
   const social = (author && author.social) || site.social || []
   const twitter =
