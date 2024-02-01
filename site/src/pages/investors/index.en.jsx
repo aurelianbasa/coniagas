@@ -18,15 +18,16 @@ import styles from './_styles'
 const MediaPage = props => {
   const { allBlockContent } = props.data
   const content = normalizeBlockContentNodes(allBlockContent?.nodes)
+  const language = "en"
 
   return (
     <Layout {...props}>
-      <Seo title='Investors' />
+      <Seo title='Investors' language={language} />
       {/* Modals */}
       <ModalSimple content={content['privacy-policy']} />
       <ModalSimple content={content['disclaimer']} />
       {/* Blocks */}
-      <Header content={content['header']} />
+      <Header content={content['header']} location={props.location} />
       <Divider space='5' />
       <Divider space='5' />
       <StockChart content={content['stock-information-chart']} />

@@ -13,15 +13,16 @@ import { normalizeBlockContentNodes } from '@blocks-helpers'
 const ProjectsPage = props => {
   const { allBlockContent } = props.data
   const content = normalizeBlockContentNodes(allBlockContent?.nodes)
+  const language = "en"
 
   return (
     <Layout {...props}>
-      <Seo title='Projects' />
+      <Seo title='Projects' language={language} />
       {/* Modals */}
       <ModalSimple content={content['privacy-policy']} />
       <ModalSimple content={content['disclaimer']} />
       {/* Blocks */}
-      <Header content={content['header']} />
+      <Header content={content['header']} location={props.location} />
       <Divider space='5' />
       <Divider space='5' />
       <Projects content={content['projects-row-1']} />

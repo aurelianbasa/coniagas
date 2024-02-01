@@ -15,18 +15,19 @@ import JuxtaposeImage from '../../components/JuxtaposeImage/JuxtaposeImage'
 import DatawrapperEmbed from '../../components/DatawrapperEmbed/DatawrapperEmbed'
 import CalendlyButton from '../../components/CalendlyButton/CalendlyButton'
 
-const ProjectItemPage = props => {
+const ProjectItemPage = (props) => {
   const { allBlockContent } = props.data
   const content = normalizeBlockContentNodes(allBlockContent?.nodes)
+  const language = "en"
 
   return (
     <Layout {...props}>
-      <Seo title='Coniagas Project' />
+      <Seo title='Coniagas Project' language={language} />
       {/* Modals */}
       <ModalSimple content={content['privacy-policy']} />
       <ModalSimple content={content['disclaimer']} />
       {/* Blocks */}
-      <Header content={content['header']} />
+      <Header content={content['header']} location={props.location} />
       <Divider space='5' />
       <Divider space='5' />
       <Info content={content['overview']} />

@@ -10,21 +10,21 @@
     {
       "buttons": [
         {
-          "text": "About",
+          "text": "À Propos",
           "type": "PAGE",
-          "link": "/about/",
+          "link": "/fr/about/",
           "variant": "links.nav-dark"
         },
         {
-          "text": "Project",
+          "text": "Projet",
           "variant": "links.nav-dark",
-          "link": "/projects/graal/",
+          "link": "/fr/projects/graal/",
           "type": "PAGE" 
             },
            {
-          "text": "Critical Materials",
+          "text": "Matériaux",
           "type": "PAGE",
-          "link": "/critical-materials/",
+          "link": "/fr/critical-materials/",
           "variant": "links.nav-dark"
         },   
         {
@@ -41,24 +41,24 @@
           ]
         },
                 {
-          "text": "Media",
+          "text": "Médias",
           "type": "SUB",
           "variant": "links.nav-dark",
           "buttons": [
             {
-              "text": "Photo Gallery",
+              "text": "Galerie Photos",
               "type": "PAGE",
-              "link": "/media/photo-gallery",
+              "link": "/fr/media/photo-gallery",
               "variant": "links.nav-dark"
             },
             {
-              "text": "Videos",
+              "text": "Vidéos",
               "type": "PAGE",
-              "link": "/media/video-interviews",
+              "link": "/fr/media/video-interviews",
               "variant": "links.nav-dark"
             },
             {
-              "text": "Featured Articles",
+              "text": "En vedette",
               "type": "PAGE",
               "link": "/media/featured-articles",
               "variant": "links.nav-dark"
@@ -66,38 +66,38 @@
           ]
         },
         {
-          "text": "Data",
+          "text": "Données",
           "variant": "links.nav-dark",
-          "link": "/data/",
+          "link": "/fr/data/",
           "type": "PAGE" 
             },
         {
-          "text": "Investors",
+          "text": "Investir",
           "type": "SUB",
           "variant": "links.nav-dark",
           "buttons": [
             {
-              "text": "Stock Information",
+              "text": "Informations Boursières",
               "type": "PAGE",
-              "link": "/investors",
+              "link": "/fr/investors",
               "variant": "links.nav-dark"
             },
             {
-              "text": "Presentations",
+              "text": "Présentations",
               "type": "PAGE",
-              "link": "/investors#download-2",
+              "link": "/fr/investors#download-2",
               "variant": "links.nav-dark"
             },
             {
-              "text": "Capital Structure",
+              "text": "Structure du Capital",
               "type": "PAGE",
-              "link": "/investors#capital-structure",
+              "link": "/fr/investors#capital-structure",
               "variant": "links.nav-dark"
             },
             {
-              "text": "Technical Reports",
+              "text": "Rapports Techniques",
               "type": "PAGE",
-              "link": "/investors#download",
+              "link": "/fr/investors#download",
               "variant": "links.nav-dark"
             }
           ]
@@ -108,9 +108,9 @@
     {
       "buttons": [
         {
-          "text": "Contact Us",
+          "text": "Contactez Nous",
           "type": "PAGE",
-          "link": "/contact",
+          "link": "/fr/contact",
           "variant": "secondary"
         }
       ]

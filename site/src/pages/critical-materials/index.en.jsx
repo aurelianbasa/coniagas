@@ -21,15 +21,16 @@ import styles from './_styles'
 const Services03 = props => {
   const { allBlockContent } = props.data
   const content = normalizeBlockContentNodes(allBlockContent?.nodes)
+  const language = "en"
 
   return (
     <Layout {...props}>
-      <Seo title='Critical Materials' />
+      <Seo title='Critical Materials' language={language} />
       {/* Modals */}
       <ModalSimple content={content['privacy-policy']} />
       <ModalSimple content={content['disclaimer']} />
       {/* Blocks */}
-      <Header content={content['header']} />
+      <Header content={content['header']} location={props.location} />
       <Divider space='6' />
       <Container variant='wide' sx={styles.heroContainer}>
         <Content content={content['hero']} />

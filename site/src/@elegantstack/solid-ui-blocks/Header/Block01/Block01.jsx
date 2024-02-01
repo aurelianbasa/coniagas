@@ -9,6 +9,7 @@ import ContentButtons from '@solid-ui-components/ContentButtons'
 import WithDefaultContent from '@solid-ui-blocks/WithDefaultContent'
 import Drawer from '@solid-ui-components/Drawer'
 import Search from '@widgets/Search'
+import LanguageToggle from './LanguageToggle'
 
 const styles = {
   wrapper: {
@@ -60,7 +61,7 @@ const styles = {
   }
 }
 
-const HeaderBlock01 = ({ content: { images, collection }, menuJustify }) => {
+const HeaderBlock01 = ({ content: { images, collection }, menuJustify, location }) => {
   return (
     <>
       <Sticky
@@ -159,6 +160,13 @@ const HeaderBlock01 = ({ content: { images, collection }, menuJustify }) => {
                       )}
                       <Divider space={5} />
                     </Drawer>
+                  </Box>
+                  <Box
+                    sx={{ order: [2, null, `unset`] }}
+                    ml={[`auto`, null, 3]}
+                    mr={[4, null, 0]}
+                  >
+                    <LanguageToggle location={location} />
                   </Box>
                   <Box
                     sx={{ order: [2, null, `unset`] }}
