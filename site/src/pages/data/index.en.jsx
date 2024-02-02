@@ -20,7 +20,7 @@ const DataPage = props => {
 
   return (
     <Layout {...props}>
-      <Seo title='Data' langauge={language} />
+      <Seo title='Data' language={language} />
       {/* Modals */}
       <ModalSimple content={content['privacy-policy']} />
       <ModalSimple content={content['disclaimer']} />
