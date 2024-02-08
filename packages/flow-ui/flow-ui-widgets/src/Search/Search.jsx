@@ -35,6 +35,7 @@ const Search = ({ isFocused = false }) => {
       const shouldSearch = requests.some(
         ({ params: { query } }) => query !== ''
       )
+      //console.log("----------- DEBUG::Search.jsx::", shouldSearch, "req:", requests)
       if (focus && shouldSearch) {
         return algoliaClient.search(requests)
       }
@@ -46,6 +47,8 @@ const Search = ({ isFocused = false }) => {
 
   const handleClose = () => setFocus(false)
   const handleFocus = () => !focus && setFocus(true)
+
+  console.log("----------- DEBUG::Search.jsx::process.env::", process.env)
 
   return (
     <Box>

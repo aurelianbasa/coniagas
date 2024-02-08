@@ -35,12 +35,19 @@ const SearchBox = ({
       handleClose()
     }
   }
+
+  const onChange = (e) => {
+    setSearchTerm(e.target.value)
+    //console.log("---------> target::", e.target.value, "--value::", searchTerm)
+  }
+  //console.log("==value::", searchTerm, searchTerm !== '')
+
   return (
     <>
       <SearchInput
         focus={focus}
         onFocus={handleFocus}
-        onChange={e => setSearchTerm(e.target.value)}
+        onChange={onChange}
         onKeyDown={handleEsc}
         isLoaded
         {...rest}

@@ -11,7 +11,10 @@ import Card from '@components/Card'
 import useScrollDisabler from '@components/useScrollDisabler'
 import styles from './Search.styles'
 
-const Hits = ({ searchState, searchResults }) => {
+const Hits = (props) => {
+  console.log("DEBUG::Search.Results.jsx::props::", props)
+  const searchState = props.searchState
+  const searchResults = props.searchResults
   useScrollDisabler()
 
   if (!searchResults || !searchState.query) {
@@ -22,6 +25,9 @@ const Hits = ({ searchState, searchResults }) => {
     //Waiting for search request to return results from server
     return <Spinner strokeWidth={2} duration={700} sx={styles.spinner} />
   }
+
+  //console.log("DEBUG::Search.Results.jsx::searchResults::", searchResults)
+  //console.log("DEBUG::Search.Results.jsx::searchState::", searchState.query)
 
   if (searchResults && searchResults.nbHits < 1) {
     return `No results for '${searchResults.query}'`
