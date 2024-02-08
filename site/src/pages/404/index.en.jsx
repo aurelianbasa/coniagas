@@ -10,11 +10,10 @@ import { normalizeBlockContentNodes } from '@blocks-helpers'
 const NotFoundPage = props => {
   const { allBlockContent } = props.data
   const content = normalizeBlockContentNodes(allBlockContent?.nodes)
-  const language = "en"
 
   return (
     <Layout {...props}>
-      <Seo title='Home' language={language} />
+      <Seo title='Home' />
       <Header content={content['header']} location={props.location} />
       <Divider space='5' />
       <Divider space='5' />

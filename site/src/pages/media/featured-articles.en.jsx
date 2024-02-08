@@ -12,11 +12,10 @@ import { normalizeBlockContentNodes } from '@blocks-helpers'
 const MediaPage = props => {
   const { allBlockContent } = props.data
   const content = normalizeBlockContentNodes(allBlockContent?.nodes)
-  const language = "en"
 
   return (
     <Layout {...props}>
-      <Seo title='Featured Articles' language={language} />
+      <Seo title='Featured Articles' />
       {/* Modals */}
       <ModalSimple content={content['privacy-policy']} />
       <ModalSimple content={content['disclaimer']} />

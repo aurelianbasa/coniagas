@@ -1,16 +1,6 @@
 import React from 'react'
+import { LanguageContext } from '../../../../../../packages/solid-ui/solid-ui-layout/src/Layout/LanguageContext';
 
-const detectLanguageFromPath = (pathname) => {
-  if (/^\/[a-z]{2}(\-[A-Z]{2})?\//.test(pathname)) {
-    if (pathname.startsWith("/fr/")) {
-      return "fr";
-    } else {
-      throw Error(`Could not detect language from path ${pathname}`);
-    }
-  } else {
-    return "en";
-  }
-}
 
 const getToggleDisplayValues = (lang, location) => {
   let text = "En"
@@ -31,7 +21,7 @@ const getToggleDisplayValues = (lang, location) => {
 }
 
 const LanguageToggle = ({ location }) => {
-  const language = location ? detectLanguageFromPath(location.pathname) : null;
+  const language = React.useContext(LanguageContext);
   const { text, pathname } = getToggleDisplayValues(language, location);
   return (
     <>

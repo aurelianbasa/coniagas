@@ -18,11 +18,10 @@ import styles from './_styles'
 const AboutUs02 = props => {
   const { allBlockContent } = props.data
   const content = normalizeBlockContentNodes(allBlockContent?.nodes)
-  const language = "en"
 
   return (
     <Layout {...props}>
-      <Seo title='Home' language={language} />
+      <Seo title='Home' />
       {/* Modals */}
       <ModalSimple content={content['privacy-policy']} />
       <ModalSimple content={content['disclaimer']} />

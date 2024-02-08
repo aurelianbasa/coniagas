@@ -1,6 +1,7 @@
 import {React, useContext} from 'react'
 import Helmet from 'react-helmet'
 import useSiteMetadata from '@blocks-helpers/useSiteMetadata'
+import { LanguageContext } from '../../../solid-ui-layout/src/Layout/LanguageContext'
 
 const Seo = ({
   title,
@@ -10,10 +11,10 @@ const Seo = ({
   keywords,
   author,
   thumbnail,
-  siteUrl,
-  language = "en"
+  siteUrl
 }) => {
   const site = useSiteMetadata()
+  const language = useContext(LanguageContext)
 
   const social = (author && author.social) || site.social || []
   const twitter =

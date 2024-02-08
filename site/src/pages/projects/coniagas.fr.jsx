@@ -18,11 +18,10 @@ import CalendlyButton from '../../components/CalendlyButton/CalendlyButton'
 const ProjectItemPage = props => {
   const { allBlockContent } = props.data
   const content = normalizeBlockContentNodes(allBlockContent?.nodes)
-  const language = "fr"
 
   return (
     <Layout {...props}>
-      <Seo title='Coniagas Project' language={language} />
+      <Seo title='Coniagas Project' />
       {/* Modals */}
       <ModalSimple content={content['privacy-policy']} />
       <ModalSimple content={content['disclaimer']} />

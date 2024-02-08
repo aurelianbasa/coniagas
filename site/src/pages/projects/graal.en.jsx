@@ -20,11 +20,10 @@ import { normalizeBlockContentNodes } from '@blocks-helpers'
 const ProjectItemPage = props => {
   const { allBlockContent } = props.data
   const content = normalizeBlockContentNodes(allBlockContent?.nodes)
-  const language = "en"
 
   return (
     <Layout {...props}>
-      <Seo title='The Graal Project' language={language} />
+      <Seo title='The Graal Project' />
       {/* Modals */}
       <ModalSimple content={content['privacy-policy']} />
       <ModalSimple content={content['disclaimer']} />
