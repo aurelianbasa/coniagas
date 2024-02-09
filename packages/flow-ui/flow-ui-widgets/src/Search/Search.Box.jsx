@@ -38,9 +38,7 @@ const SearchBox = ({
 
   const onChange = (e) => {
     setSearchTerm(e.target.value)
-    //console.log("---------> target::", e.target.value, "--value::", searchTerm)
   }
-  //console.log("==value::", searchTerm, searchTerm !== '')
 
   return (
     <>

@@ -1,5 +1,6 @@
 const fontFile = require('./src/@elegantstack/solid-ui-theme/typography-fonts.json')
-require('dotenv').config()
+const dotenv = require('dotenv')
+dotenv.config()
 
 module.exports = {
   plugins: [
