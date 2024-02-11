@@ -11,7 +11,9 @@ import Card from '@components/Card'
 import useScrollDisabler from '@components/useScrollDisabler'
 import styles from './Search.styles'
 
-const Hits = ({ searchState, searchResults }) => {
+const Hits = (props) => {
+  const searchState = props.searchState
+  const searchResults = props.searchResults
   useScrollDisabler()
 
   if (!searchResults || !searchState.query) {

@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState } from 'react'
 import { InstantSearch, Configure } from 'react-instantsearch-dom'
 import algoliasearch from 'algoliasearch/lite'
 import { Box, IconButton } from 'theme-ui'
@@ -35,6 +35,7 @@ const Search = ({ isFocused = false }) => {
       const shouldSearch = requests.some(
         ({ params: { query } }) => query !== ''
       )
+      
       if (focus && shouldSearch) {
         return algoliaClient.search(requests)
       }
