@@ -162,16 +162,15 @@ const HeaderBlock01 = ({ content: { images, collection }, menuJustify, location 
                     </Drawer>
                   </Box>
                   <Box
-                    sx={{ order: [2, null, `unset`] }}
                     ml={[`auto`, null, 3]}
-                    mr={[4, null, 0]}
+                    mr={[3, null, 0]}
                   >
                     <LanguageToggle location={location} />
                   </Box>
                   <Box
                     sx={{ order: [2, null, `unset`] }}
                     ml={[`auto`, null, 3]}
-                    mr={[4, null, 0]}
+                    mr={[3, null, 0]}
                   >
                     <Search />
                   </Box>
