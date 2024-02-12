@@ -24,6 +24,7 @@
     "node": "^16.20.2"
   },
   "dependencies": {
+    "gatsby-plugin-i18n": "^1.0.1",
     "react-calendly": "^4.2.0"
   }
 }
