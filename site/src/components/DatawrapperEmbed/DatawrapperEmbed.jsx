@@ -16,7 +16,7 @@ const DatawrapperEmbed = ({ as: CustomComponent, content, ...props }) => {
                 ref={dwRef}
                 src={src}
                 scrolling="no"
-                frameborder="0"
+                frameBorder="0"
                 style={{ width: "100%", minWidth: "100% !important", height:"fit-content", border: "none" }}
                 data-external="1"></iframe>
             <script type="text/javascript">

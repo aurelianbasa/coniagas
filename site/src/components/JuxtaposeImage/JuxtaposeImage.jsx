@@ -75,22 +75,22 @@ const JuxtaposeImage = ({ as: CustomComponent, content, ...props }) => {
     }
 
     return (
-        <div style={style} class="juxtapose"  >
-            <div class="jx-slider">
-                <motion.div drag='x' onDragStart={onDragStart} onDrag={onDrag} dragMomentum={false} class="jx-handle" style={{ left: percentLeftSide + '%' }}>
-                    <div class="jx-arrow jx-left"></div>
-                    <div class="jx-control">
-                        <div class="jx-controller" tabindex="0" role="slider" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" />
+        <div style={style} className="juxtapose"  >
+            <div className="jx-slider">
+                <motion.div drag='x' onDragStart={onDragStart} onDrag={onDrag} dragMomentum={false} className="jx-handle" style={{ left: percentLeftSide + '%' }}>
+                    <div className="jx-arrow jx-left"></div>
+                    <div className="jx-control">
+                        <div className="jx-controller" tabIndex="0" role="slider" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" />
                     </div>
-                    <div class="jx-arrow jx-right"></div>
+                    <div className="jx-arrow jx-right"></div>
                 </motion.div>
-                <div class="jx-image jx-left" style={{ width: percentLeftSide + '%' }}>
+                <div className="jx-image jx-left" style={{ width: percentLeftSide + '%' }}>
                     <img onLoad={calcImgRatio} src={srcImg1} alt="" />
-                    <div class="jx-label" tabindex="0">{labelImg1}</div>
+                    <div className="jx-label" tabIndex="0">{labelImg1}</div>
                 </div>
-                <div class="jx-image jx-right" style={{ width: (100 - percentLeftSide) + '%' }}>
+                <div className="jx-image jx-right" style={{ width: (100 - percentLeftSide) + '%' }}>
                     <img src={srcImg2} alt="" />
-                    <div class="jx-label" tabindex="0">{labelImg2}</div>
+                    <div className="jx-label" tabIndex="0">{labelImg2}</div>
                 </div>
             </div>
         </div>
