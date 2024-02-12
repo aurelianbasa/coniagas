@@ -48,12 +48,6 @@
       ],
       "buttons": [
         {
-          "text": "News",
-          "type": "PAGE",
-          "link": "/news",
-          "variant": "links.nav-light"
-        },
-        {
           "text": "Contact",
           "type": "PAGE",
           "link": "/contact",
@@ -81,9 +75,19 @@
       ],
       "buttons": [
         {
+          "text": "Forum",
+          "type": "PAGE",
+          "link": "https://crucible.live/c/coniagas/7",
+          "variant": "links.nav-light",
+          "icon": {
+            "src": "../../../assets/flexiblocks/icons/crucible.svg",
+            "color": "#1da1f2"
+          }
+        },
+        {
           "text": "Twitter",
           "type": "PAGE",
-          "link": "https://twitter.com/canadacobalt/",
+          "link": "https://twitter.com/coniagasmetals",
           "variant": "links.nav-light",
           "icon": {
             "src": "../../../../assets/flexiblocks/icons/bxl-twitter.svg",
@@ -93,7 +97,7 @@
         {
           "text": "Linkedin",
           "type": "PAGE",
-          "link": "https://ca.linkedin.com/company/canada-cobalt-works/",
+          "link": "https://www.linkedin.com/company/coniagas-battery-metals/",
           "variant": "links.nav-light",
           "icon": {
             "src": "../../../../assets/flexiblocks/icons/bxl-linkedin-square.svg",
@@ -103,7 +107,7 @@
         {
           "text": "Facebook",
           "type": "PAGE",
-          "link": "https://www.facebook.com/canadacobaltworks/",
+          "link": "https://www.facebook.com/coniagas/",
           "variant": "links.nav-light",
           "icon": {
             "src": "../../../../assets/flexiblocks/icons/bxl-facebook.svg",

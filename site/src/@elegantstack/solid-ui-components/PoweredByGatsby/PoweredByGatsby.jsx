@@ -27,7 +27,7 @@ const PoweredByGatsby = () => (
   <Link
     target='_blank'
     title='Gatsby'
-    href='https://www.resourceactive.com'
+    href='https://www.resourceactive.com/documentation'
     rel='noopener'
     sx={styles.link}
   >

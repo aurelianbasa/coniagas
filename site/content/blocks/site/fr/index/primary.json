@@ -29,8 +29,6 @@
     {
       "src": "../../../../assets/site/index/overlay-1.png",
       "alt": "alt text",
-      "radius": "lg",
-      "shadow": "default",
       "effects": ["fadeInDown", "floatFaster"],
       "position": {
         "top": "5%",
