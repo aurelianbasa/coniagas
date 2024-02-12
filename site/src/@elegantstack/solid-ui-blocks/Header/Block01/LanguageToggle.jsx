@@ -7,12 +7,12 @@ const EN_ICON = "/icons/canada.png"
 
 const getToggleDisplayValues = (lang, location) => {
   let caption = "English"
-  let pathname = location.pathname
+  let pathname = "#"
   let iconSrc = EN_ICON
   
   if (location) {
     if (lang === 'en') {
-      caption = "Francais"
+      caption = "Français"
       pathname = `/fr${location.pathname}`
       iconSrc = FR_ICON
     } else if (lang === 'fr') {
@@ -32,7 +32,13 @@ const LanguageToggle = ({ location }) => {
   console.log(iconSrc)
   return (
     <>
-      <a href={pathname} style={{ display: "flex", alignItems: "center", justifyContent: "center", textDecoration: "none", color: "unset" }} >
+      <a href={pathname} style={{
+        display: "flex", 
+        alignItems: "center", 
+        justifyContent: "center", 
+        textDecoration: "none", 
+        color: "unset" 
+        }} >
         <img src={iconSrc} alt={caption} style={{ width: '20px', height: 'auto' }} />
       </a>
     </>
