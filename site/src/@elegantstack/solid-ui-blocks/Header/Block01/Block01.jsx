@@ -10,6 +10,7 @@ import WithDefaultContent from '@solid-ui-blocks/WithDefaultContent'
 import Drawer from '@solid-ui-components/Drawer'
 import Search from '@widgets/Search'
 import LanguageToggle from './LanguageToggle'
+import { LanguageContext } from '../../../../../../packages/solid-ui/solid-ui-layout/src/Layout/LanguageContext'
 
 const styles = {
   wrapper: {
@@ -62,6 +63,8 @@ const styles = {
 }
 
 const HeaderBlock01 = ({ content: { images, collection }, menuJustify, location }) => {
+  const language = React.useContext(LanguageContext);
+  const homeLink = language ? (language === "fr" ? "/fr/" : "/") : "/";
   return (
     <>
       <Sticky
@@ -73,7 +76,7 @@ const HeaderBlock01 = ({ content: { images, collection }, menuJustify, location 
           <Container px={[2, 4]}>
             <Flex sx={styles.header}>
               <Flex sx={styles.logoContainer}>
-                <GLink to='/'>
+                <GLink to={homeLink}>
                   <ContentImages
                     content={{ images }}
                     sx={styles.image}
