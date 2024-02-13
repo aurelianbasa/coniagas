@@ -33,7 +33,7 @@ export const Layout = ({ children, pageContext, location }) => {
 
 const headerQuery = graphql`
   query blogLayoutBlockContent {
-    allBlockContent(filter: { page: { in: ["site/shared"] } }) {
+    allBlockContent(filter: { page: { in: ["site/en/shared"] } }) {
       nodes {
         ...BlockContent
       }

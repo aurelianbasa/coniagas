@@ -1,0 +1,24 @@
+{
+  "text": [
+    {
+      "text": "404 Page Introuvable",
+      "color": "omegaDark",
+      "variant": "h4"
+    },
+    {
+      "text": "Désolé, cette page n'est pas disponible.",
+      "variant": "h2"
+    },
+    {
+      "text": "Vous avez peut-être mal saisi l'adresse ou la page a peut-être bougé."
+    }
+  ],
+  "buttons": [
+    {
+      "text": "Aller à la page d'accueil",
+      "type": "PAGE",
+      "link": "/fr/",
+      "variant": "primary"
+    }
+  ]
+}

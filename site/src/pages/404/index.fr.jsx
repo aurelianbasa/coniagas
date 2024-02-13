@@ -24,7 +24,7 @@ const NotFoundPage = props => {
 
 export const query = graphql`
   query {
-    allBlockContent(filter: { page: { in: ["site/en/404", "site/en/shared"] } }) {
+    allBlockContent(filter: { page: { in: ["site/fr/404", "site/fr/shared"] } }) {
       nodes {
         ...BlockContent
       }

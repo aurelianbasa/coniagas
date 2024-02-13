@@ -29,7 +29,6 @@ const getToggleDisplayValues = (lang, location) => {
 const LanguageToggle = ({ location }) => {
   const language = React.useContext(LanguageContext);
   const { caption, pathname, iconSrc } = getToggleDisplayValues(language, location);
-  console.log(iconSrc)
   return (
     <>
       <a href={pathname} style={{
