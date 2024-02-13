@@ -6,9 +6,9 @@ const FR_ICON = "/icons/quebec.png"
 const EN_ICON = "/icons/canada.png"
 
 const getToggleDisplayValues = (lang, location) => {
-  let caption = "English"
+  let caption = "Français"
   let pathname = "#"
-  let iconSrc = EN_ICON
+  let iconSrc = FR_ICON
   
   if (location) {
     if (lang === 'en') {
