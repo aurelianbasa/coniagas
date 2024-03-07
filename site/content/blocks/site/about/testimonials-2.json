@@ -3,22 +3,22 @@
     {
       "text": [
         {
-          "text": "Aurelian Basa",
+          "text": "Jessie Acton",
           "variant": "h4",
           "space": 0
         },
         {
-          "text": "Director",
+          "text": "COO and Director",
           "color": "omegaDark",
           "variant": "h6"
         },
         {
-          "text": "Aurelian Basa has spent nearly a decade engaged in the natural resources industry and has travelled extensively in this capacity. Most recently, he secured feed sources for the Re-2Ox Process including high-grade tailings projects, recycled batteries, and battery metal deposits abroad. Presently, Mr. Basa advances 'Metalsas-a-Service (MaaS)', a platform connecting commodity traders to responsible sources of critical metals supported through ongoing relationships with European metal traders and Asian battery manufacturers. Mr. Basa holds a Bachelor's degree in Geography with a specialization in Planning and the Environment from Concordia University, Montreal, Québec. He also manages Resource Active Media, a digital content agency tailored to publicly-traded mining companies.",
+          "text": "Jessie Acton, a seasoned business architect, offers fractional COO services through his private consultancy. With over 25 years of experience primarily in the resource sector, he has advised numerous Canadian companies and holds extensive industry and government connections. Acton's expertise spans corporate policy, DEI, and ESG frameworks, complemented by a successful track record of founding and exiting companies. He excels in communication, policy, and compliance, fostering idea synthesis across various disciplines and stakeholders. Acton is culturally agile and deeply respects diverse cultural values, particularly demonstrated in his work with Indigenous communities, where he emphasizes the uniqueness of each group and their paths to reconciliation.",
           "variant": "small"
         }
       ],
       "avatar": {
-        "src": "../../../assets/site/index/aurelian.png",
+        "src": "../../../assets/site/index/jessie.png",
         "alt": "alt text"
       }
     }
