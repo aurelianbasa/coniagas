@@ -37,7 +37,14 @@
               "type": "PAGE",
               "link": "/category/2023/",
               "variant": "links.nav-dark"
+            },
+            {
+              "text": "   2024   ",
+              "type": "PAGE",
+              "link": "/category/2024/",
+              "variant": "links.nav-dark"
             }
+
           ]
         },
                 {
