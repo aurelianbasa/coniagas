@@ -11,7 +11,7 @@ const StockChartBlock01 = ({ content: { text, buttons } }) => {
   // const containerId = `${CONTAINER_ID}-${Math.random()}`
 
   const chartProps = {
-    symbol: '',
+    symbol: 'TSXV:COS',
     width: '100%',
     height: '400',
     locale: 'en',
