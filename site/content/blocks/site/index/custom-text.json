@@ -15,7 +15,7 @@
       },
       {
         "text": " Nickel ",
-        "highlightColor": "#458e98",
+        "highlightColor": "#458E98",
         "variant": "h1",
         "color": "white"
       },
@@ -27,7 +27,13 @@
       },
       {
         "text": " Arsenic ",
-        "highlightColor": "#84b795",
+        "highlightColor": "#84B795",
+        "variant": "h1",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Copper ",
+        "highlightColor": "#BB6622",
         "variant": "h1",
         "color": "#FFFFFF"
       }

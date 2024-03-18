@@ -21,8 +21,13 @@
       "align": ["left"]
     },
     {
-      "text": "Initial drilling intersected massive sulphides proven with detailed assays showing 1.12% NiEq over 28.9m mostly at shallow depths of only 50 to 100m.",
+      "text": "Initial drilling intersected massive sulphides proven with detailed assays showing 1.07% NiEq and 2.26% CuEq over 28.9m mostly at shallow depths of only 50 to 100m.",
       "variant": "medium",
+      "align": ["left"]
+    },
+    {
+      "text": "Nickel and Copper equivalents based on Nickel US$18,134.00/tonne, Copper US$8,560.55/tonne and Cobalt $28,550.00/tonne as of March 13, 2024.",
+      "variant": "small",
       "align": ["left"]
     }
   ],
