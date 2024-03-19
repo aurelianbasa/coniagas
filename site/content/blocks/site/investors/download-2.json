@@ -1,7 +1,7 @@
 {
     "text": [
       {
-        "text": "Investor Presentation",
+        "text": "Company Materials",
         "color": "white",
         "variant": "h3",
         "align": ["left"]
@@ -9,11 +9,16 @@
     ],
     "buttons": [
       {
-        "text": "Download",
+        "text": "Corporate Presentation",
         "type": "PAGE",
         "link": "/Presentation.pdf",
-        "variant": "dark",
-        "width": "100%"
+        "variant": "dark"
+      },
+      {
+        "text": "Fact Sheet",
+        "type": "PAGE",
+        "link": "/Factsheet.pdf",
+        "variant": "dark"
       }
     ]
   }
