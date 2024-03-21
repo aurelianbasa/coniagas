@@ -1,0 +1,51 @@
+{
+  "text": [
+    {
+      "text": "The Graal",
+      "color": "beta",
+      "variant": "h1",
+      "align": ["left"],
+      "space": 0
+    },
+    {
+      "text": "A Strategic Move to add Discoveries",
+      "variant": "h3",
+      "color": "omegaDarker",
+      "align": ["left"],
+      "space": 4
+    },
+    {
+      "text": "**We are advancing the Graal project towards production to meet the rising demand for** Critical Minerals from Safe Jurisdictions",
+      "color": "beta",
+      "variant": "h5",
+      "align": ["left"],
+      "space": 4
+    },
+    {
+      "text": "**Evidence points to a large deposit of** high-grade nickel, copper and cobalt **near surface with showings of platinum and palladium and potential for a significant deposit at depth.**",
+      "color": "beta",
+      "variant": "h5",
+      "align": ["left"],
+      "space": 4
+    },
+    {
+      "text": "**The property is ideally located** close to major battery manufacturing infrastructure **with access to ports**",
+      "color": "beta",
+      "variant": "h5",
+      "align": ["left"],
+      "space": 4
+    },
+    {
+      "text": "**Work in the coming year will focus on exploration drilling aimed at expanding the size of the mineralized deposit area and** delivering a maiden resource report",
+      "color": "beta",
+      "variant": "h5",
+      "align": ["left"]
+    }
+  ],
+  "images": [
+    {
+      "src": "../../../../../assets/site/projects/nourricier/overview.jpg",
+      "alt": "alt text"
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "text": [
+    {
+      "text": "Expected When Trading Begins",
+      "color": "alpha",
+      "variant": "h4"
+    },
+    {
+      "text": "Capital Structure",
+      "color": "omegaDarker",
+      "variant": "h2"
+    }
+  ],
+  "collection": [
+    {
+      "collection": [
+        {
+          "text": [
+            {
+              "text": "Issued and Outstanding",
+              "variant": "h5",
+              "space": 0
+            }
+          ]
+        },
+        {
+          "text": [
+            {
+              "text": "30,400,000",
+              "variant": "medium",
+              "space": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "collection": [
+        {
+          "text": [
+            {
+              "text": "Options",
+              "variant": "h5",
+              "space": 0
+            }
+          ]
+        },
+        {
+          "text": [
+            {
+              "text": "0",
+              "variant": "medium",
+              "space": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "collection": [
+        {
+          "text": [
+            {
+              "text": "Warrants ($0.40)",
+              "variant": "h5",
+              "space": 0
+            }
+          ]
+        },
+        {
+          "text": [
+            {
+              "text": "15,400,000",
+              "variant": "medium",
+              "space": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "collection": [
+        {
+          "text": [
+            {
+              "text": "Fully Diluted",
+              "variant": "h5",
+              "space": 0
+            }
+          ]
+        },
+        {
+          "text": [
+            {
+              "text": "45,800,000",
+              "variant": "medium",
+              "space": 0
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -9,6 +9,8 @@ import ContentButtons from '@solid-ui-components/ContentButtons'
 import WithDefaultContent from '@solid-ui-blocks/WithDefaultContent'
 import Drawer from '@solid-ui-components/Drawer'
 import Search from '@widgets/Search'
+import LanguageToggle from './LanguageToggle'
+import { LanguageContext } from '../../../../../../packages/solid-ui/solid-ui-layout/src/Layout/LanguageContext'
 
 const styles = {
   wrapper: {
@@ -60,7 +62,9 @@ const styles = {
   }
 }
 
-const HeaderBlock01 = ({ content: { images, collection }, menuJustify }) => {
+const HeaderBlock01 = ({ content: { images, collection }, menuJustify, location }) => {
+  const language = React.useContext(LanguageContext);
+  const homeLink = language ? (language === "fr" ? "/fr/" : "/") : "/";
   return (
     <>
       <Sticky
@@ -72,7 +76,7 @@ const HeaderBlock01 = ({ content: { images, collection }, menuJustify }) => {
           <Container px={[2, 4]}>
             <Flex sx={styles.header}>
               <Flex sx={styles.logoContainer}>
-                <GLink to='/'>
+                <GLink to={homeLink}>
                   <ContentImages
                     content={{ images }}
                     sx={styles.image}
@@ -161,9 +165,15 @@ const HeaderBlock01 = ({ content: { images, collection }, menuJustify }) => {
                     </Drawer>
                   </Box>
                   <Box
+                    ml={[`auto`, null, 3]}
+                    mr={[3, null, 0]}
+                  >
+                    <LanguageToggle location={location} />
+                  </Box>
+                  <Box
                     sx={{ order: [2, null, `unset`] }}
                     ml={[`auto`, null, 3]}
-                    mr={[4, null, 0]}
+                    mr={[3, null, 0]}
                   >
                     <Search />
                   </Box>

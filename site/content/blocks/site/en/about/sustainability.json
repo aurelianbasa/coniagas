@@ -1,0 +1,65 @@
+{
+  "text": [
+    {
+      "text": "SUSTAINABILITY",
+      "color": "omegaDark",
+      "variant": "h4"
+    },
+    {
+      "text": "A Future of Abundance",
+      "color": "beta",
+      "variant": "h2"
+    },
+    {
+      "text": "",
+      "variant": "medium",
+      "align": ["left"]
+    }
+  ],
+  "images": [
+    {
+      "src": "../../../../assets/site/index/tertiary.jpg",
+      "alt": "Abandoned mine site",
+      "radius": "lg",
+      "effects": ["fadeInLeft"]
+    }
+  ],
+  "collection": [
+    {
+      "icon": {
+        "src": "../../../../assets/flexiblocks/icons/bx-check-circle.svg",
+        "color": "beta"
+      },
+      "text": [
+        {
+          "text": "Rapid path to production",
+          "variant": "h5"
+        }
+      ]
+    },
+    {
+      "icon": {
+        "src": "../../../../assets/flexiblocks/icons/bx-check-circle.svg",
+        "color": "beta"
+      },
+      "text": [
+        {
+          "text": "Regenerate local ecology",
+          "variant": "h5"
+        }
+      ]
+    },
+    {
+      "icon": {
+        "src": "../../../../assets/flexiblocks/icons/bx-check-circle.svg",
+        "color": "beta"
+      },
+      "text": [
+        {
+          "text": "Cost effective",
+          "variant": "h5"
+        }
+      ]
+    }
+  ]
+}

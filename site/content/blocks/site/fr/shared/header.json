@@ -1,0 +1,119 @@
+{
+  "images": [
+    {
+      "src": "../../../../assets/site/shared/logo.svg",
+      "width": "210px",
+      "alt": "alt text"
+    }
+  ],
+  "collection": [
+    {
+      "buttons": [
+        {
+          "text": "À Propos",
+          "type": "PAGE",
+          "link": "/fr/about/",
+          "variant": "links.nav-dark"
+        },
+        {
+          "text": "Projet",
+          "variant": "links.nav-dark",
+          "link": "/fr/projects/graal/",
+          "type": "PAGE" 
+            },
+           {
+          "text": "Matériaux",
+          "type": "PAGE",
+          "link": "/fr/critical-materials/",
+          "variant": "links.nav-dark"
+        },   
+        {
+          "text": "News",
+          "type": "SUB",
+          "variant": "links.nav-dark",
+          "buttons": [
+            {
+              "text": "   2023   ",
+              "type": "PAGE",
+              "link": "/category/2023/",
+              "variant": "links.nav-dark"
+            }
+          ]
+        },
+                {
+          "text": "Médias",
+          "type": "SUB",
+          "variant": "links.nav-dark",
+          "buttons": [
+            {
+              "text": "Galerie Photos",
+              "type": "PAGE",
+              "link": "/fr/media/photo-gallery",
+              "variant": "links.nav-dark"
+            },
+            {
+              "text": "Vidéos",
+              "type": "PAGE",
+              "link": "/fr/media/video-interviews",
+              "variant": "links.nav-dark"
+            },
+            {
+              "text": "En vedette",
+              "type": "PAGE",
+              "link": "/media/featured-articles",
+              "variant": "links.nav-dark"
+            }
+          ]
+        },
+        {
+          "text": "Données",
+          "variant": "links.nav-dark",
+          "link": "/fr/data/",
+          "type": "PAGE" 
+            },
+        {
+          "text": "Investir",
+          "type": "SUB",
+          "variant": "links.nav-dark",
+          "buttons": [
+            {
+              "text": "Informations Boursières",
+              "type": "PAGE",
+              "link": "/fr/investors",
+              "variant": "links.nav-dark"
+            },
+            {
+              "text": "Présentations",
+              "type": "PAGE",
+              "link": "/fr/investors#download-2",
+              "variant": "links.nav-dark"
+            },
+            {
+              "text": "Structure du Capital",
+              "type": "PAGE",
+              "link": "/fr/investors#capital-structure",
+              "variant": "links.nav-dark"
+            },
+            {
+              "text": "Rapports Techniques",
+              "type": "PAGE",
+              "link": "/fr/investors#download",
+              "variant": "links.nav-dark"
+            }
+          ]
+        }
+      ]
+    },
+    
+    {
+      "buttons": [
+        {
+          "text": "Contactez Nous",
+          "type": "PAGE",
+          "link": "/fr/contact",
+          "variant": "secondary"
+        }
+      ]
+    }
+  ]
+}

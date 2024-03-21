@@ -1,0 +1,36 @@
+{
+  "text": [
+    {
+      "text": "Temiskaming Testing Labs",
+      "color": "alpha",
+      "variant": "h4"
+    },
+    {
+      "text": "Fully certified processing facility located in the town of Cobalt",
+      "variant": "h2"
+    },
+    {
+      "text": "The acquisition achieves a key goal of becoming a vertically integrated leader in Canada’s silver-cobalt heartland with multiple potential revenue streams: bullion pouring, bulk sampling, commercial assaying and e-waste processing.",
+      "variant": "medium"
+    },
+    {
+      "text": "Located within just 50 meters of a rail line and just a short distance from Canada Cobalt’s Castle and Beaver properties, the facility will also become the new home of the Company’s environmentally friendly Re-2OX Process.",
+      "variant": "medium"
+    }
+  ],
+  "images": [
+    {
+      "src": "../../../../assets/site/projects/asset-ttl-facility.jpg",
+      "radius": "xl",
+      "alt": "alt text"
+    }
+  ],
+  "buttons": [
+    {
+      "text": "Button",
+      "type": "PAGE",
+      "link": "/link-to-page",
+      "variant": "dark"
+    }
+  ]
+}

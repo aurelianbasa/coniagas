@@ -1,0 +1,51 @@
+{
+  "text": [
+    {
+      "text": "Strategy",
+      "color": "beta",
+      "variant": "h2"
+    },
+    {
+      "text": "The Company has conducted a 16,000m drill program at Graal",
+      "variant": "h4",
+      "align": ["left"]
+    },
+    {
+      "text": "The program targeted the Bouguer Anomaly. The company is seeking to identify significant amounts of nickel-copper-sulphide mineralization at the base of the magmatic chamber.",
+      "variant": "medium",
+      "align": ["left"]
+    },
+    {
+      "text": "Early-stage drill results have been excellent",
+      "variant": "h4",
+      "align": ["left"]
+    },
+    {
+      "text": "Initial drilling intersected massive sulphides proven with detailed assays showing 1.07% NiEq and 2.26% CuEq over 28.9m mostly at shallow depths of only 50 to 100m.",
+      "variant": "medium",
+      "align": ["left"]
+    },
+    {
+      "text": "Nickel and Copper equivalents based on Nickel US$18,134.00/tonne, Copper US$8,560.55/tonne and Cobalt $28,550.00/tonne as of March 13, 2024.",
+      "variant": "small",
+      "align": ["left"]
+    }
+  ],
+  "images": [
+    {
+      "src": "../../../../../assets/site/projects/nourricier/info-3.jpg",
+      "radius": "xl",
+      "alt": "alt text"
+    }
+  ],
+  "buttons": [
+    {
+      "text": "More Drill Result Details Here",
+      "type": "PAGE",
+      "link": "/data/",
+      "variant": "primary",
+      "width": "100%"
+    }
+  ]
+}
+

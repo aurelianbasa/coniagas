@@ -1,0 +1,27 @@
+{
+  "collection": [
+    {
+      "text": [
+        {
+          "text": "OVERVIEW",
+          "color": "white",
+          "align": ["left"],
+          "variant": "h3"
+        },
+        {
+          "text": "Critical Everywhere,",
+          "color": "betaLight",
+          "align": ["left"],
+          "variant": "h2",
+          "space": 0
+        },
+        {
+          "text": "All at Once",
+          "color": "betaLight",
+          "align": ["left"],
+          "variant": "h2"
+        }
+      ]
+    }
+  ]
+}

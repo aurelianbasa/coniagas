@@ -1,0 +1,135 @@
+{
+  "collection": [
+    {
+      "collection": [
+        {
+          "text": [
+            {
+              "text": "",
+              "variant": "h5"
+            }
+          ]
+        },
+        {
+          "text": [
+            {
+              "text": "",
+              "space": 0
+            },
+            {
+              "text": "",
+              "space": 0
+            },
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "collection": [
+        {
+          "text": [
+            {
+              "text": "Head Office",
+              "variant": "h5"
+            }
+          ]
+        },
+        {
+          "text": [
+            {
+              "text": "550 Burrard Street, Suite 2900",
+              "space": 0
+            },
+            {
+              "text": "Vancouver, BC V6C 0A3",
+              "space": 0
+            },
+            {
+              "text": "Canada",
+              "space": 0
+            },
+            {
+              "text": "Phone: 604-828-1475",
+              "space": 0
+            },
+            {
+              "text": "Fax: 604-608-3512"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "collection": [
+        {
+          "text": [
+            {
+              "text": "Auditors",
+              "variant": "h5"
+            }
+          ]
+        },
+        {
+          "text": [
+            {
+              "text": "UHY McGovern Hurley LLP",
+              "variant": "h6",
+              "space": 2
+            },
+            {
+              "text": "251 Consumers Road, Suite 800"
+            },
+            {
+              "text": "Toronto, Ontario, Canada M2J 4R3"
+            },
+            {
+              "text": "Phone: 416.496.1234"
+            },
+            {
+              "text": "Fax: 416.496.0125"
+            },
+            {
+              "text": "Email: info@uhymh.com"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "collection": [
+        {
+          "text": [
+            {
+              "text": "Transfer Agent",
+              "variant": "h5"
+            }
+          ]
+        },
+        {
+          "text": [
+            {
+              "text": "Computershare Investor Services Inc.",
+              "variant": "h6",
+              "space": 2
+            },
+            {
+              "text": "510 Burrard Street, 2nd Floor Vancouver"
+            },
+            {
+              "text": "British Columbia V6C 3B9"
+            },
+            {
+              "text": "Phone: 604-661-9400"
+            },
+            {
+              "text": "Fax: 604-661-9401"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

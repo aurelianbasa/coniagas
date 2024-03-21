@@ -1,0 +1,98 @@
+{
+  "text": [
+    {
+      "text": "Graal",
+      "variant": "h2"
+    },
+    {
+      "text": "Photos of drill core at Graal and from the Graal property.",
+      "variant": "medium"
+    }
+  ],
+  "collection": [
+    {
+      "images": [
+        {
+          "src": "../../../../../assets/site/media/photo-gallery/graal/one-sm.jpg",
+          "radius": "default",
+          "alt": "image thumbnail"
+        },
+        {
+          "src": "../../../../../assets/site/media/photo-gallery/graal/one.jpg",
+          "radius": "default",
+          "alt": "full image"
+        }
+      ]
+    },
+    {
+      "images": [
+        {
+          "src": "../../../../../assets/site/media/photo-gallery/graal/two-sm.jpg",
+          "radius": "default",
+          "alt": "image thumbnail"
+        },
+        {
+          "src": "../../../../../assets/site/media/photo-gallery/graal/two.jpg",
+          "radius": "default",
+          "alt": "full image"
+        }
+      ]
+    },
+    {
+      "images": [
+        {
+          "src": "../../../../../assets/site/media/photo-gallery/graal/three-sm.jpg",
+          "radius": "default",
+          "alt": "image thumbnail"
+        },
+        {
+          "src": "../../../../../assets/site/media/photo-gallery/graal/three.jpg",
+          "radius": "default",
+          "alt": "full image"
+        }
+      ]
+    },
+    {
+      "images": [
+        {
+          "src": "../../../../../assets/site/media/photo-gallery/graal/four-sm.jpg",
+          "radius": "default",
+          "alt": "image thumbnail"
+        },
+        {
+          "src": "../../../../../assets/site/media/photo-gallery/graal/four.jpg",
+          "radius": "default",
+          "alt": "full image"
+        }
+      ]
+    },
+    {
+      "images": [
+        {
+          "src": "../../../../../assets/site/media/photo-gallery/graal/five-sm.jpg",
+          "radius": "default",
+          "alt": "image thumbnail"
+        },
+        {
+          "src": "../../../../../assets/site/media/photo-gallery/graal/five.jpg",
+          "radius": "default",
+          "alt": "full image"
+        }
+      ]
+    },
+    {
+      "images": [
+        {
+          "src": "../../../../../assets/site/media/photo-gallery/graal/six-sm.jpg",
+          "radius": "default",
+          "alt": "image thumbnail"
+        },
+        {
+          "src": "../../../../../assets/site/media/photo-gallery/graal/six.jpg",
+          "radius": "default",
+          "alt": "full image"
+        }
+      ]
+    }
+  ]
+}
