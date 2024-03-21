@@ -65,7 +65,7 @@ const ProjectItemPage = props => {
 }
 
 export const query = graphql`
-  query siteProjectsGraalBlockContent {
+  query {
     allBlockContent(
       filter: { page: { in: ["site/en/projects/graal", "site/en/shared"] } }
     ) {
