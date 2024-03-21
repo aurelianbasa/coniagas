@@ -62,7 +62,7 @@ const AboutUs02 = props => {
 }
 
 export const query = graphql`
-  query innerpageSiteAboutBlockContent {
+  query {
     allBlockContent(filter: { page: { in: ["site/fr/about", "site/fr/shared"] } }) {
       nodes {
         ...BlockContent

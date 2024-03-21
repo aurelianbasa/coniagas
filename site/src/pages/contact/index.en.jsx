@@ -45,7 +45,7 @@ const AboutPage = props => {
 }
 
 export const query = graphql`
-  query siteContactBlockContent {
+  query {
     allBlockContent(filter: { page: { in: ["site/en/contact", "site/en/shared"] } }) {
       nodes {
         ...BlockContent
