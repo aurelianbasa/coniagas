@@ -33,7 +33,7 @@ const MediaPage = props => {
 export const query = graphql`
   query siteMediaPhotoGalleryBlockContent {
     allBlockContent(
-      filter: { page: { in: ["site/en/media/photo-gallery", "site/en/shared"] } }
+      filter: { page: { in: ["site/fr/media/photo-gallery", "site/fr/shared"] } }
     ) {
       nodes {
         ...BlockContent

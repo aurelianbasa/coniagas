@@ -68,7 +68,7 @@ const Services03 = props => {
 export const query = graphql`
   query innerpageSiteCriticalMaterialsBlockContent {
     allBlockContent(
-      filter: { page: { in: ["site/en/critical-materials", "site/en/shared"] } }
+      filter: { page: { in: ["site/fr/critical-materials", "site/fr/shared"] } }
     ) {
       nodes {
         ...BlockContent

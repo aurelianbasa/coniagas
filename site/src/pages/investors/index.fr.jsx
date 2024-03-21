@@ -50,7 +50,7 @@ const MediaPage = props => {
 export const query = graphql`
   query siteInvestorsBlockContent {
     allBlockContent(
-      filter: { page: { in: ["site/en/investors", "site/en/shared"] } }
+      filter: { page: { in: ["site/fr/investors", "site/fr/shared"] } }
     ) {
       nodes {
         ...BlockContent
