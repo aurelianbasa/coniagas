@@ -60,7 +60,7 @@ const DataPage = props => {
 }
 
 export const query = graphql`
-  query siteDataBlockContent {
+  query {
     allBlockContent(
       filter: { page: { in: ["site/fr/data", "site/fr/shared"] } }
     ) {

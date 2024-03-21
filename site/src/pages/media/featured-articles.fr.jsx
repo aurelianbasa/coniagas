@@ -34,7 +34,7 @@ const MediaPage = props => {
 }
 
 export const query = graphql`
-  query siteMediaFeaturedArticlesBlockContent {
+  query {
     allBlockContent(
       filter: { page: { in: ["site/fr/media/featured-articles", "site/fr/shared"] } }
     ) {
