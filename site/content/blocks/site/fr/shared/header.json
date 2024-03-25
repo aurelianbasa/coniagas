@@ -32,12 +32,12 @@
           "type": "SUB",
           "variant": "links.nav-dark",
           "buttons": [
-            {
-              "text": "   2023   ",
-              "type": "PAGE",
-              "link": "/category/2023/",
-              "variant": "links.nav-dark"
-            }
+              {
+                "text": "   2024   ",
+                "type": "PAGE",
+                "link": "/category/FR-2024/",
+                "variant": "links.nav-dark"
+              }
           ]
         },
                 {
