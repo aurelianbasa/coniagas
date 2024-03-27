@@ -28,14 +28,14 @@
           "variant": "links.nav-dark"
         },   
         {
-          "text": "News",
+          "text": "Nouvelles",
           "type": "SUB",
           "variant": "links.nav-dark",
           "buttons": [
               {
                 "text": "   2024   ",
                 "type": "PAGE",
-                "link": "/category/FR-2024/",
+                "link": "/category/fr-2024/",
                 "variant": "links.nav-dark"
               }
           ]
