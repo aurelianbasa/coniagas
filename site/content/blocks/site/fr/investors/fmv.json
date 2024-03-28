@@ -1,0 +1,21 @@
+{
+  "text": [
+    {
+      "text": "Coniagas Fair Market Valuation (FMV)",
+      "color": "white",
+      "variant": "h1",
+      "align": ["left"]
+    },
+    {
+      "text": "Nord Precious Metals recently distributed Coniagas Battery Metals shares and warrants to Nord shareholders.",
+      "color": "white",
+      "variant": "h3",
+      "align": ["left"]
+    },
+    {
+      "text": "For tax purposes, Nord Precious Metals considers that the fair market value (in Canadian dollars) of the Coniagas shares is $0.25 for each share and the fair market value of the warrants is $0.001 for each warrant.  This determination has been made for Nord's own purposes and will not be binding on a holder of the shares or the Canada Revenue Agency. Holders should consult their own tax advisors in this regard.",
+      "color": "white",
+      "align": ["left"]
+    }
+  ]
+}

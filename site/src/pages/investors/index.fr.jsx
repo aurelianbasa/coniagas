@@ -41,6 +41,8 @@ const MediaPage = props => {
       <Divider space='5' />
       </Container>
       <Divider space='5' />
+      <Download content={content['fmv']} />
+      <Divider space='5' />
       <Divider space='5' />
       <Footer content={content['footer']} />
     </Layout>

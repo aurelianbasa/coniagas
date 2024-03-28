@@ -106,6 +106,12 @@
               "type": "PAGE",
               "link": "/investors#download",
               "variant": "links.nav-dark"
+            },
+            {
+              "text": "Coniagas FMV",
+              "type": "PAGE",
+              "link": "/investors#fmv",
+              "variant": "links.nav-dark"
             }
           ]
         }
