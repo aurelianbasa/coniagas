@@ -1,7 +1,7 @@
 {
   "text": [
     {
-      "text": "Most Recent",
+      "text": "",
       "variant": "h1"
     },
     {
@@ -16,40 +16,7 @@
       },
       "text": [
         {
-          "text": "March 28, 2024",
-          "color": "beta"
-        },
-        {
-          "text": "Proactive Investors",
-          "color": "omegaDarker",
-          "variant": "h5"
-        },
-        {
-          "text": "New key ground with focus on copper-nickel-cobalt-platinum"
-        }
-      ],
-      "images": [
-        {
-          "src": "../../../../assets/site/media/video-interviews/proactive.jpg",
-          "alt": "alt text"
-        }
-      ],
-      "buttons": [
-        {
-          "text": "Watch Video",
-          "type": "VIDEO",
-          "link": "https://www.youtube.com/embed/nN_dA9dW7G8?autoplay=1&modestbranding=1&showinfo=0&rel=0",
-          "variant": "secondary"
-        }
-      ]
-    },
-    {
-      "container": {
-        "variant": "cards.interactive"
-      },
-      "text": [
-        {
-          "text": "March 27, 2024",
+          "text": "Nov. 22, 2023",
           "color": "beta"
         },
         {
@@ -58,7 +25,7 @@
           "variant": "h5"
         },
         {
-          "text": "Win-win Opportunity for Investors"
+          "text": "Next steps for the Graal Property"
         }
       ],
       "images": [
@@ -71,7 +38,7 @@
         {
           "text": "Watch Video",
           "type": "VIDEO",
-          "link": "https://www.youtube.com/embed/_pM8Qn0tQq4?autoplay=1&modestbranding=1&showinfo=0&rel=0",
+          "link": "https://www.youtube.com/embed/ean-8z-8lC0?autoplay=1&modestbranding=1&showinfo=0&rel=0",
           "variant": "secondary"
         }
       ]
@@ -82,7 +49,7 @@
       },
       "text": [
         {
-          "text": "March 5, 2024",
+          "text": "Feb. 17, 2023",
           "color": "beta"
         },
         {
@@ -91,7 +58,7 @@
           "variant": "h5"
         },
         {
-          "text": "Coniagas showcases commitment to advancing battery technology"
+          "text": "Update on Graal Property in Québec"
         }
       ],
       "images": [
@@ -104,11 +71,43 @@
         {
           "text": "Watch Video",
           "type": "VIDEO",
-          "link": "https://www.youtube.com/embed/ZSdhSW0Zvl8?autoplay=1&modestbranding=1&showinfo=0&rel=0",
+          "link": "https://www.youtube.com/embed/yGk7lC5qwoY?autoplay=1&modestbranding=1&showinfo=0&rel=0",
+          "variant": "secondary"
+        }
+      ]
+    },
+    {
+      "container": {
+        "variant": "cards.interactive"
+      },
+      "text": [
+        {
+          "text": "May 30, 2022",
+          "color": "beta"
+        },
+        {
+          "text": "Crux Interview",
+          "color": "omegaDarker",
+          "variant": "h5"
+        },
+        {
+          "text": "Ready to Spin out Battery Metals"
+        }
+      ],
+      "images": [
+        {
+          "src": "../../../../assets/site/media/video-interviews/crux.jpg",
+          "alt": "alt text"
+        }
+      ],
+      "buttons": [
+        {
+          "text": "Watch Video",
+          "type": "VIDEO",
+          "link": "https://www.youtube.com/embed/5nO4SoN7ZX0?autoplay=1&modestbranding=1&showinfo=0&rel=0",
           "variant": "secondary"
         }
       ]
     }
-
   ]
 }
