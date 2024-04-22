@@ -1,11 +1,6 @@
 {
   "text": [
     {
-      "text": "Expected When Trading Begins",
-      "color": "alpha",
-      "variant": "h4"
-    },
-    {
       "text": "Capital Structure",
       "color": "omegaDarker",
       "variant": "h2"
@@ -99,6 +94,11 @@
           ]
         }
       ]
+    },
+    {
+      "text": "As of March 31, 2024",
+      "color": "alpha",
+      "variant": "xs"
     }
   ]
 }
