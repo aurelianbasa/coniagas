@@ -4,6 +4,11 @@
       "text": "Capital Structure",
       "color": "omegaDarker",
       "variant": "h2"
+    },
+    {
+      "text": "As of March 31, 2024",
+      "color": "alpha",
+      "variant": "h5"
     }
   ],
   "collection": [
