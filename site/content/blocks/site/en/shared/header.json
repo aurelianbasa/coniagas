@@ -102,6 +102,12 @@
               "variant": "links.nav-dark"
             },
             {
+              "text": "Analyst Coverage",
+              "type": "PAGE",
+              "link": "/investors#analyst-coverage",
+              "variant": "links.nav-dark"
+            },
+            {
               "text": "Technical Reports",
               "type": "PAGE",
               "link": "/investors#download",
