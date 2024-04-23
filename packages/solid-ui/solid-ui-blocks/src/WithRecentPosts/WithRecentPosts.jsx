@@ -1,9 +1,14 @@
 import React, { Children } from 'react'
 import { useRecentPosts } from '@helpers-blog'
 import getImageVariant from '@components/utils/getImageVariant'
+import { LanguageContext } from '../../../solid-ui-layout/src/Layout/LanguageContext';
 
 const WithRecentPosts = ({ children, limit = 3 }) => {
-  const recentPosts = useRecentPosts()
+  const _recentPosts = useRecentPosts()
+  const language = React.useContext(LanguageContext);
+  const recentPosts = _recentPosts.filter(post => {
+    return post.language === language
+  })
 
   if (!recentPosts || recentPosts.length === 0) return null
 
