@@ -7,7 +7,9 @@ const WithDatedPosts = ({ children, limit = 6 }) => {
   const _datedPosts = useDatedPosts()
   
   const language = React.useContext(LanguageContext);
-  const year = '2024'
+
+  const match = location.pathname.match(/\/(\d+)\//);
+  const year = match[1]
 
   const datedPosts = _datedPosts.filter(post => {
     return (post.language === language && post.category.name === year)
