@@ -10,7 +10,7 @@ import Blog from '@solid-ui-blocks/Blog/Block01'
 import Footer from '@solid-ui-blocks/Footer/Block01'
 import { normalizeBlockContentNodes } from '@blocks-helpers'
 import WithDatedPosts from '@solid-ui-blocks/WithDatedPosts'
-import theme from '../../_theme'
+import theme from '../_theme'
 
 const IndexPage = props => {
   const { allBlockContent } = props.data
@@ -41,7 +41,7 @@ const IndexPage = props => {
 
 export const query = graphql`
   query {
-    allBlockContent(filter: { page: { in: ["site/en/index", "site/en/shared"] } }) {
+    allBlockContent(filter: { page: { in: ["site/fr/index", "site/fr/shared"] } }) {
       nodes {
         ...BlockContent
       }
