@@ -23,10 +23,10 @@ module.exports = async (helpers, pluginOptions) => {
   /**
    * Category posts pages
    */
-  await createCollectionPage(helpers, pluginOptions, {
-    template: require.resolve('./templates/collection.category'),
-    slugField: 'category___slug'
-  })
+  // await createCollectionPage(helpers, pluginOptions, {
+  //   template: require.resolve('./templates/collection.category'),
+  //   slugField: 'category___slug'
+  // })
 
   /**
    * Tag posts pages
