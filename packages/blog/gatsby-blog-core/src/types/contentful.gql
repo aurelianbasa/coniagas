@@ -39,6 +39,7 @@ type ContentfulArticleProxy implements Node & Article
     @link(by: "parent.id", on: "Mdx")
     @proxyResolver(on: "Mdx")
   draft: Boolean
+  language: String @proxyField
 }
 
 ############################################
