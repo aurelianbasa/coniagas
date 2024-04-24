@@ -1,18 +1,21 @@
 import React, { Children } from 'react'
-import { useRecentPosts } from '@helpers-blog'
+import { useDatedPosts } from '@helpers-blog'
 import getImageVariant from '@components/utils/getImageVariant'
 import { LanguageContext } from '../../../solid-ui-layout/src/Layout/LanguageContext';
 
-const WithRecentPosts = ({ children, limit = 3 }) => {
-  const _recentPosts = useRecentPosts()
+const WithDatedPosts = ({ children, limit = 6 }) => {
+  const _datedPosts = useDatedPosts()
+  
   const language = React.useContext(LanguageContext);
-  const recentPosts = _recentPosts.filter(post => {
-    return post.language === language
+  const year = '2024'
+
+  const datedPosts = _datedPosts.filter(post => {
+    return (post.language === language && post.category.name === year)
   })
 
-  if (!recentPosts || recentPosts.length === 0) return null
+  if (!datedPosts || datedPosts.length === 0) return null
 
-  const collection = recentPosts.map(post => ({
+  const collection = datedPosts.map(post => ({
     container: {
       variant: 'cards.interactive',
       link: {
@@ -78,8 +81,8 @@ const WithRecentPosts = ({ children, limit = 3 }) => {
   return wrappedBlock
 }
 
-export default WithRecentPosts
+export default WithDatedPosts
 
-WithRecentPosts.defaultProps = {
-  limit: 3
+WithDatedPosts.defaultProps = {
+  limit: 6
 }

@@ -10,6 +10,7 @@ export const query = graphql`
     timeToRead @include(if: $includeTimeToRead)
     featured
     thumbnailText
+    language
     date(formatString: "MMMM DD, YYYY")
     category {
       ...ArticleCategory
