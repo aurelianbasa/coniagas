@@ -5,14 +5,12 @@
           {
             "text": "ANALYST COVERAGE",
             "color": "omegaDark",
-            "variant": "h2",
-            "align": ["left"]
+            "variant": "h2"
           },
           {
             "text": "Any estimates, opinions or forecasts made by analysts listed here are theirs alone and do not necessarily represent the estimates, opinions or forecasts of Coniagas Battery Metals Inc. or its executives.",
             "color": "beta",
             "variant": "h5",
-            "align": ["left"],
             "space": 0
           }
         ]
