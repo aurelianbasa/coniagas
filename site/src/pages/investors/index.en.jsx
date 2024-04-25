@@ -36,6 +36,7 @@ const MediaPage = props => {
       <Container variant='wide' sx={styles.heroContainer}>
       <Table content={content['capital-structure']} />
       <Divider space='5' />
+      </Container>
       <Divider space='5' />
       <Content content={content['analyst-intro']} />
       <Divider space='1' />
@@ -43,7 +44,6 @@ const MediaPage = props => {
       <Divider space='5' />
       <Download content={content['download']} />
       <Divider space='5' />
-      </Container>
       <Divider space='5' />
       <Download content={content['fmv']} />
       <Divider space='5' />
