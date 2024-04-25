@@ -12,6 +12,7 @@ import Table from '../../blocks/Table/Block01'
 import StockChart from '../../blocks/StockChart/Block01'
 import Footer from '@solid-ui-blocks/Footer/Block01'
 import Download from '@solid-ui-blocks/CallToAction/Block02'
+import Reload from '@solid-ui-blocks/CallToAction/Block01'
 import { normalizeBlockContentNodes } from '@blocks-helpers'
 import styles from './_styles'
 
@@ -38,9 +39,9 @@ const MediaPage = props => {
       <Divider space='5' />
       </Container>
       <Divider space='5' />
-      <Content content={content['analyst-intro']} />
+      <Faq content={content['analyst-intro']} />
       <Divider space='1' />
-      <Download content={content['analyst-coverage']} />
+      <Reload content={content['analyst-coverage']} />
       <Divider space='5' />
       <Download content={content['download']} />
       <Divider space='5' />
