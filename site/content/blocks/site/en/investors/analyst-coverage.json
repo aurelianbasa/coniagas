@@ -1,119 +1,52 @@
 {
-    "text": [
-      {
-        "text": "ANALYST COVERAGE",
-        "color": "alpha",
-        "variant": "h2",
-        "align": ["left"]
-      },
-      {
-        "text": "Any estimates, opinions or forecasts made by analysts listed here are theirs alone and do not necessarily represent the estimates, opinions or forecasts of Coniagas Battery Metals Inc. or its executives.",
-        "color": "omega",
-        "variant": "h5",
-        "align": ["left"]
-      }
-    ],
-    "collection": [
-      {
-        "collection": [
-          {
-            "text": [
-              {
-                "text": "Date",
-                "variant": "sm",
-                "space": 0
-              }
-            ]
-          },
-          {
-            "text": [
-              {
-                "text": "Firm",
-                "variant": "sm",
-                "space": 0
-              }
-            ]
-          },
-          {
-            "text": [
-              {
-                "text": "Analyst",
-                "variant": "sm",
-                "space": 0
-              }
-            ]
-          },
-          {
-            "text": [
-              {
-                "text": "Email",
-                "variant": "sm",
-                "space": 0
-              }
-            ]
-          },
-          {
-            "text": [
-              {
-                "text": "Link",
-                "variant": "sm",
-                "space": 0
-              }
-            ]
-          }
-  
-        ]
-      },
-      {
-        "collection": [
-          {
-            "text": [
-              {
-                "text": "April 17, 2024",
-                "variant": "xs",
-                "space": 1
-              }
-            ]
-          },
-          {
-            "text": [
-              {
-                "text": "Fundamental Research",
-                "variant": "xs",
-                "space": 1
-              }
-            ]
-          },
-          {
-            "text": [
-              {
-                "text": "Sid Rajeev",
-                "variant": "xs",
-                "space": 1
-              }
-            ]
-          },
-          {
-            "text": [
-              {
-                "text": "sidr@researchfrc.com",
-                "variant": "xs",
-                "space": 1
-              }
-            ]
-          },
-          {
-            "buttons": [
-              {
-                "text": "Download",
-                "type": "PAGE",
-                "link": "/reports/fundamental.pdf",
-                "variant": "primary"
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  }
+  "text": [
+    {
+      "text": "ANALYST COVERAGE",
+      "color": "alpha",
+      "variant": "h2",
+      "align": ["left"]
+    },
+    {
+      "text": "Any estimates, opinions or forecasts made by analysts listed here are theirs alone and do not necessarily represent the estimates, opinions or forecasts of Coniagas Battery Metals Inc. or its executives.",
+      "color": "omega",
+      "variant": "h5",
+      "align": ["left"]
+    }
+  ],
+  "collection": [
+    {
+      "collection": [
+        {
+          "text": [
+            {
+              "text": "April 17, 2024",
+              "variant": "xs",
+              "space": 1
+            }
+          ]
+        },
+        {
+          "text": [
+            {
+              "text": "Fundamental Research",
+              "variant": "xs",
+              "space": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "buttons": [
+        {
+          "text": "Download",
+          "type": "PAGE",
+          "link": "/reports/fundamental.pdf",
+          "variant": "primary"
+        }
+      ]
+    }
+  ]
+}
+
   
