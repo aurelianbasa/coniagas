@@ -35,18 +35,14 @@
           ]
         }
       ]
-    },
+    }
+  ],
+  "buttons": [
     {
-      "buttons": [
-        {
-          "text": "Download",
-          "type": "PAGE",
-          "link": "/reports/fundamental.pdf",
-          "variant": "primary"
-        }
-      ]
+      "text": "Download",
+      "type": "PAGE",
+      "link": "/reports/fundamental.pdf",
+      "variant": "primary"
     }
   ]
 }
-
-  
