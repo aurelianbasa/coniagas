@@ -9,6 +9,7 @@ import Content from '@solid-ui-blocks/Content/Block02'
 import Header from '@solid-ui-blocks/Header/Block01'
 import Faq from '@solid-ui-blocks/Faq/Block02'
 import Table from '../../blocks/Table/Block01'
+import NewTable from '../../blocks/Table/Block02'
 import StockChart from '../../blocks/StockChart/Block01'
 import Footer from '@solid-ui-blocks/Footer/Block01'
 import Download from '@solid-ui-blocks/CallToAction/Block02'
@@ -40,7 +41,7 @@ const MediaPage = props => {
       <Divider space='5' />
       <Content content={content['analyst-intro']} />
       <Divider space='1' />
-      <Table content={content['analyst-coverage']} />
+      <NewTable content={content['analyst-coverage']} />
       <Divider space='5' />
       <Download content={content['download']} />
       <Divider space='5' />
