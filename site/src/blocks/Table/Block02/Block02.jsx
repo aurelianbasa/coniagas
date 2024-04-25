@@ -29,7 +29,7 @@ const styles = {
   }
 };
 
-const ContentTable01 = ({ content: { text, collection, buttons } }) => (
+const ContentTable02 = ({ content: { text, collection, buttons } }) => (
   <Container>
     <Box sx={{ textAlign: 'center' }}>
       <ContentText content={text} />
