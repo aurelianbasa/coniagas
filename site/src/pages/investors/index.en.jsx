@@ -5,7 +5,7 @@ import Layout from '@solid-ui-layout/Layout'
 import Seo from '@solid-ui-components/Seo'
 import Divider from '@solid-ui-components/Divider'
 import ModalSimple from '@solid-ui-blocks/Modal/Block02'
-import Content from '@solid-ui-blocks/Content/Block01'
+import Content from '@solid-ui-blocks/Content/Block02'
 import Header from '@solid-ui-blocks/Header/Block01'
 import Faq from '@solid-ui-blocks/Faq/Block02'
 import Table from '../../blocks/Table/Block01'
@@ -36,13 +36,14 @@ const MediaPage = props => {
       <Container variant='wide' sx={styles.heroContainer}>
       <Table content={content['capital-structure']} />
       <Divider space='5' />
+      </Container>
+      <Divider space='5' />
       <Content content={content['analyst-intro']} />
       <Divider space='1' />
-      <Faq content={content['analyst-coverage']} />
+      <Table content={content['analyst-coverage']} />
       <Divider space='5' />
       <Download content={content['download']} />
       <Divider space='5' />
-      </Container>
       <Divider space='5' />
       <Download content={content['fmv']} />
       <Divider space='5' />
