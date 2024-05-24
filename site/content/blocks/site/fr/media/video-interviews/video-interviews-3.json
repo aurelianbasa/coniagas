@@ -1,0 +1,48 @@
+{
+  "text": [
+    {
+      "text": "Most Recent",
+      "variant": "h1"
+    },
+    {
+      "text": "",
+      "variant": "medium"
+    }
+  ],
+  "collection": [
+    {
+      "container": {
+        "variant": "cards.interactive"
+      },
+      "text": [
+        {
+          "text": "May 23, 2024",
+          "color": "beta"
+        },
+        {
+          "text": "Proactive Investors",
+          "color": "omegaDarker",
+          "variant": "h5"
+        },
+        {
+          "text": "Strategic Partnership with SGS to Advance Production Facility"
+        }
+      ],
+      "images": [
+        {
+          "src": "../../../../assets/site/media/video-interviews/proactive.jpg",
+          "alt": "alt text"
+        }
+      ],
+      "buttons": [
+        {
+          "text": "Watch Video",
+          "type": "VIDEO",
+          "link": "https://www.youtube.com/embed/mR-y7Zg5CGs?autoplay=1&modestbranding=1&showinfo=0&rel=0",
+          "variant": "secondary"
+        }
+      ]
+    }
+    
+  ]
+}

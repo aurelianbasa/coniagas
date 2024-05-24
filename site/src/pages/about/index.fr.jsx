@@ -40,8 +40,6 @@ const AboutUs02 = props => {
       <Divider space='3' />
       <Testimonials content={content['testimonials-1']} />
       <Divider space='2' />
-      <Testimonials content={content['testimonials-2']} />
-      <Divider space='2' />
       <Testimonials content={content['testimonials-3']} />
       <Divider space='2' />
       <Testimonials content={content['testimonials-4']} />
