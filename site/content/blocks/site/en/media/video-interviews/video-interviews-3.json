@@ -16,6 +16,40 @@
       },
       "text": [
         {
+          "text": "May 28, 2024",
+          "color": "beta"
+        },
+        {
+          "text": "Stocks to Watch",
+          "color": "omegaDarker",
+          "variant": "h5"
+        },
+        {
+          "text": "Investing in the Battery Metals Boom: The Graal Project"
+        }
+      ],
+      "images": [
+        {
+          "src": "../../../../assets/site/media/video-interviews/stockstowatch.png",
+          "alt": "alt text"
+        }
+      ],
+      "buttons": [
+        {
+          "text": "Watch Video",
+          "type": "VIDEO",
+          "link": "https://www.youtube.com/embed/bJ5wDh9Bi8I?autoplay=1&modestbranding=1&showinfo=0&rel=0",
+          "variant": "secondary"
+        }
+      ]
+    },
+
+    {
+      "container": {
+        "variant": "cards.interactive"
+      },
+      "text": [
+        {
           "text": "May 23, 2024",
           "color": "beta"
         },
@@ -30,7 +64,7 @@
       ],
       "images": [
         {
-          "src": "../../../../assets/site/media/video-interviews/proactive.jpg",
+          "src": "../../../../../assets/site/media/video-interviews/proactive.jpg",
           "alt": "alt text"
         }
       ],
@@ -39,6 +73,40 @@
           "text": "Watch Video",
           "type": "VIDEO",
           "link": "https://www.youtube.com/embed/mR-y7Zg5CGs?autoplay=1&modestbranding=1&showinfo=0&rel=0",
+          "variant": "secondary"
+        }
+      ]
+    },
+
+    {
+      "container": {
+        "variant": "cards.interactive"
+      },
+      "text": [
+        {
+          "text": "Apr. 24, 2024",
+          "color": "beta"
+        },
+        {
+          "text": "Invercio",
+          "color": "omegaDarker",
+          "variant": "h5"
+        },
+        {
+          "text": "Coniagas: the exciting spin-out project"
+        }
+      ],
+      "images": [
+        {
+          "src": "../../../../../assets/site/media/video-interviews/invercio.png",
+          "alt": "alt text"
+        }
+      ],
+      "buttons": [
+        {
+          "text": "Watch Video",
+          "type": "VIDEO",
+          "link": "https://www.youtube.com/embed/i18rbTJlD9E?autoplay=1&modestbranding=1&showinfo=0&rel=0",
           "variant": "secondary"
         }
       ]
