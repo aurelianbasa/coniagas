@@ -1,0 +1,20 @@
+{
+    "collection": [
+      {
+        "text": [
+          {
+            "text": "FINANCIALS",
+            "color": "omegaDark",
+            "variant": "h5"
+          },
+          {
+            "text": "Financial Statements",
+            "color": "beta",
+            "variant": "h3",
+            "space": 0
+          }
+        ]
+      }
+    ]
+  }
+  

@@ -13,6 +13,7 @@ import NewTable from '../../blocks/Table/Block02'
 import StockChart from '../../blocks/StockChart/Block01'
 import Footer from '@solid-ui-blocks/Footer/Block01'
 import Download from '@solid-ui-blocks/CallToAction/Block02'
+import Stats from '@solid-ui-blocks/CallToAction/Block02'
 import { normalizeBlockContentNodes } from '@blocks-helpers'
 import styles from './_styles'
 
@@ -37,7 +38,15 @@ const MediaPage = props => {
       <Container variant='wide' sx={styles.heroContainer}>
       <Table content={content['capital-structure']} />
       <Divider space='5' />
-      </Container>
+      </Container> 
+      <Content content={content['financials-intro']} />
+      <Divider space='1' />
+      <Stats content={content['financials-one']} />
+      <Divider space='3' />
+      <Content content={content['mda-intro']} />
+      <Divider space='1' />
+      <Stats content={content['mda-one']} />
+      <Divider space='2' />
       <Divider space='5' />
       <Content content={content['analyst-intro']} />
       <Divider space='1' />

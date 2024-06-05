@@ -102,6 +102,12 @@
               "variant": "links.nav-dark"
             },
             {
+              "text": "Financials",
+              "type": "PAGE",
+              "link": "/investors#financials-intro",
+              "variant": "links.nav-dark"
+            },
+            {
               "text": "Analyst Coverage",
               "type": "PAGE",
               "link": "/investors#analyst-coverage",
