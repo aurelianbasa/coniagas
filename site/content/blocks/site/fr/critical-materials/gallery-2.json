@@ -13,7 +13,7 @@
         "align": ["left"]
       },
       {
-        "text": "December 2022",
+        "text": "June 2024",
         "color": "beta",
         "variant": "h5",
         "align": ["left"]
@@ -51,7 +51,7 @@
       "text": "Link to Canadian Report ➥ ",
     "type": "PAGE",
     "width": "100%",
-      "link": "https://www.canada.ca/content/dam/nrcan-rncan/site/critical-minerals/Critical-minerals-strategyDec09.pdf",
+      "link": "https://www.canada.ca/en/natural-resources-canada/news/2024/06/government-of-canada-releases-updated-critical-minerals-list.html",
       "variant": "secondary-gradient"
 
     }
