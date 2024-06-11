@@ -23,6 +23,8 @@ const MediaPage = props => {
       <Header content={content['header']} location={props.location} />
       <Divider space='5' />
       <Divider space='5' />
+      <Cards content={content['video-interviews-4']} />
+      <Divider space='5' />
       <Cards content={content['video-interviews-3']} />
       <Divider space='5' />
       <Cards content={content['video-interviews-2']} />

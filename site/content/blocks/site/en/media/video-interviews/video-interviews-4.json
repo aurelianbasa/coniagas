@@ -1,0 +1,48 @@
+{
+    "text": [
+      {
+        "text": "Most Recent",
+        "variant": "h1"
+      },
+      {
+        "text": "",
+        "variant": "medium"
+      }
+    ],
+    "collection": [
+      {
+        "container": {
+          "variant": "cards.interactive"
+        },
+        "text": [
+          {
+            "text": "June 10, 2024",
+            "color": "beta"
+          },
+          {
+            "text": "Crux Investor",
+            "color": "omegaDarker",
+            "variant": "h5"
+          },
+          {
+            "text": "High Risk, High Reward Bet on Battery Metal Exploration in Quebec"
+          }
+        ],
+        "images": [
+          {
+            "src": "../../../../assets/site/media/video-interviews/crux.jpg",
+            "alt": "alt text"
+          }
+        ],
+        "buttons": [
+          {
+            "text": "Watch Video",
+            "type": "VIDEO",
+            "link": "https://www.youtube.com/embed/qzno-53pT54?autoplay=1&modestbranding=1&showinfo=0&rel=0",
+            "variant": "secondary"
+          }
+        ]
+      }
+      
+    ]
+  }
