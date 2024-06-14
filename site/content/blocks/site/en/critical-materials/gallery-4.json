@@ -1,0 +1,224 @@
+{
+  "collection": [
+    {
+      "collection": [
+        {
+          "text": [
+            {
+              "text": "Antimony",
+              "variant": "h5",
+              "space": 0
+            }
+          ]
+        },
+        {
+          "text": [
+            {
+              "text": "Niobium",
+              "variant": "h5",
+              "space": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "collection": [
+        {
+          "text": [
+            {
+              "text": "Cobalt",
+              "variant": "h5",
+              "space": 0
+            }
+          ]
+        },
+        {
+          "text": [
+            {
+              "text": "Magnesium",
+              "variant": "h5",
+              "space": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "collection": [
+        {
+          "text": [
+            {
+              "text": "Copper",
+              "variant": "h5",
+              "space": 0
+            }
+          ]
+        },
+        {
+          "text": [
+            {
+              "text": "Platinum Group Metals (PGMs)",
+              "variant": "h5",
+              "space": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "collection": [
+        {
+          "text": [
+            {
+              "text": "Fluorspar",
+              "variant": "h5",
+              "space": 0
+            }
+          ]
+        },
+        {
+          "text": [
+            {
+              "text": "Rare Earth Elements (REEs)",
+              "variant": "h5",
+              "space": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "collection": [
+        {
+          "text": [
+            {
+              "text": "Gallium",
+              "variant": "h5",
+              "space": 0
+            }
+          ]
+        },
+        {
+          "text": [
+            {
+              "text": "Silicon",
+              "variant": "h5",
+              "space": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "collection": [
+        {
+          "text": [
+            {
+              "text": "Graphite",
+              "variant": "h5",
+              "space": 0
+            }
+          ]
+        },
+        {
+          "text": [
+            {
+              "text": "Tantalum",
+              "variant": "h5",
+              "space": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "collection": [
+        {
+          "text": [
+            {
+              "text": "Lithium",
+              "variant": "h5",
+              "space": 0
+            }
+          ]
+        },
+        {
+          "text": [
+            {
+              "text": "Tellurium",
+              "variant": "h5",
+              "space": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "collection": [
+        {
+          "text": [
+            {
+              "text": "Nickel",
+              "variant": "h5",
+              "space": 0
+            }
+          ]
+        },
+        {
+          "text": [
+            {
+              "text": "Tungsten",
+              "variant": "h5",
+              "space": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "collection": [
+        {
+          "text": [
+            {
+              "text": "",
+              "variant": "h5",
+              "space": 0
+            }
+          ]
+        },
+        {
+          "text": [
+            {
+              "text": "Uranium",
+              "variant": "h5",
+              "space": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "collection": [
+        {
+          "text": [
+            {
+              "text": "",
+              "variant": "h5",
+              "space": 0
+            }
+          ]
+        },
+        {
+          "text": [
+            {
+              "text": "Vanadium",
+              "variant": "h5",
+              "space": 0
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

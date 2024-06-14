@@ -9,6 +9,7 @@ import ModalSimple from '@solid-ui-blocks/Modal/Block02'
 import Header from '@solid-ui-blocks/Header/Block01'
 import Content from '@solid-ui-blocks/Content/Block02'
 import Gallery from '@solid-ui-blocks/Hero/Block02'
+import Table from '../../blocks/Table/Block01'
 import Comparison from '../../blocks/FeaturesWithPhoto/Block06'
 import Stats from '../../blocks/Features/Block06'
 import Data from '../../components/DatawrapperEmbed/DatawrapperEmbed'
@@ -44,6 +45,10 @@ const Services03 = props => {
       <Gallery content={content['gallery-2']} />
       <Divider space='5' />
       <Gallery content={content['gallery-3']} />
+      <Divider space='5' />
+      <Table content={content['gallery-4']} />
+      <Divider space='5' />
+      <Gallery content={content['gallery-5']} />
       <Divider space='5' />
       <Container sx={styles.tabsContainer}>
       <Container>
