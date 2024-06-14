@@ -16,6 +16,41 @@
         },
         "text": [
           {
+            "text": "June 13, 2024",
+            "color": "beta"
+          },
+          {
+            "text": "Proactive",
+            "color": "omegaDarker",
+            "variant": "h5"
+          },
+          {
+            "text": "Exploration Expands at Graal Project with Promising Results"
+          }
+        ],
+        "images": [
+          {
+            "src": "../../../../../assets/site/media/video-interviews/proactive.png",
+            "alt": "alt text"
+          }
+        ],
+        "buttons": [
+          {
+            "text": "Watch Video",
+            "type": "VIDEO",
+            "link": "https://www.youtube.com/embed/1xnIcm8kPpg?autoplay=1&modestbranding=1&showinfo=0&rel=0",
+            "variant": "secondary"
+          }
+        ]
+      },
+      
+      
+      {
+        "container": {
+          "variant": "cards.interactive"
+        },
+        "text": [
+          {
             "text": "June 10, 2024",
             "color": "beta"
           },
@@ -44,5 +79,8 @@
         ]
       }
       
+
+
+
     ]
   }
