@@ -25,8 +25,8 @@ export default function NewsPost({ data, location }) {
   const post = data.contentfulPost;
   const allPosts = data.allContentfulPost.edges;
 
-  const nextPost = allPosts.filter((element) => element.node.slug === post.slug)[0].next;
-  const previousPost = allPosts.filter((element) => element.node.slug === post.slug)[0].previous;
+  const nextPost = allPosts.filter((element) => element.node.slug === post.slug)[0]?.next;
+  const previousPost = allPosts.filter((element) => element.node.slug === post.slug)[0]?.previous;
   const relatedPosts = allPosts
     .filter((element) => element.node.year.year === post.year.year)
     .filter((element) => element.node.slug !== post.slug)
