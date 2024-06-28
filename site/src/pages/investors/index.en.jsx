@@ -7,6 +7,7 @@ import Divider from '@solid-ui-components/Divider'
 import ModalSimple from '@solid-ui-blocks/Modal/Block02'
 import Content from '@solid-ui-blocks/Content/Block02'
 import Header from '@solid-ui-blocks/Header/Block01'
+import MaterialsOne from '@solid-ui-blocks/Hero/Block03'
 import Faq from '@solid-ui-blocks/Faq/Block02'
 import Table from '../../blocks/Table/Block01'
 import NewTable from '../../blocks/Table/Block02'
@@ -54,6 +55,16 @@ const MediaPage = props => {
       <Divider space='5' />
       <Download content={content['download']} />
       <Divider space='5' />
+      <Container sx={styles.captionContainer}>
+      <MaterialsOne content={content['agm']} />
+      <Divider space='0' />
+      <Download content={content['agm-details-1']} />
+      <Divider space='2' />
+      <Download content={content['agm-details-2']} />
+      <Divider space='2' />
+      <Download content={content['agm-details-3']} />
+      <Divider space='2' />
+      </Container>
       <Divider space='5' />
       <Download content={content['fmv']} />
       <Divider space='5' />

@@ -1,0 +1,20 @@
+{
+  "text": [
+    {
+      "text": "Proxy Form",
+      "color": "alpha",
+      "variant": "h5"
+    },
+    {
+      "text": "June 2024"
+    }
+  ],
+  "buttons": [
+    {
+      "text": "Download",
+      "type": "PAGE",
+      "link": "/agm/proxy.pdf",
+      "variant": "primary"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "text": [
+    {
+      "text": "Management Information Circular",
+      "color": "alpha",
+      "variant": "h5"
+    },
+    {
+      "text": "June 2024"
+    }
+  ],
+  "buttons": [
+    {
+      "text": "Download",
+      "type": "PAGE",
+      "link": "/agm/circular.pdf",
+      "variant": "primary"
+    }
+  ]
+}
