@@ -1,0 +1,82 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  font-family: 'Poppins';
+  color: theme('colors.black');
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+em {
+  font-weight: 600;
+  font-style: normal;
+}
+
+mark {
+  display: inline-block;
+  color: theme('colors.white');
+  background-color: theme('colors.primary');
+}
+
+.show-more-button {
+  display: block;
+  cursor: pointer;
+  margin: 16px 0px 8px;
+  color: theme('colors.primary');
+}
+
+.rich-text {
+  ol {
+    list-style: decimal;
+    margin-left: 20px;
+  }
+
+  ul {
+    list-style: disc;
+    margin-left: 20px;
+  }
+
+  a {
+    color: theme('colors.primary');
+    word-break: break-all;
+  }
+
+  b {
+    font-weight: 500;
+  }
+
+  table {
+    text-align: left;
+    color: theme('colors.secondary');
+
+    tr:nth-child(odd) {
+      background-color: theme('colors.white');
+    }
+    tr:nth-child(even) {
+      background-color: rgba(177, 195, 205, 0.1);
+    }
+    td {
+      padding: 8px 16px;
+    }
+    th {
+      background-color: theme('colors.tertiary');
+      padding: 8px 16px;
+
+      p {
+        font-weight: 500 !important;
+      }
+    }
+  }
+
+  blockquote {
+    padding: 16px 32px;
+    border-left: 4px solid theme('colors.tertiary');
+    background-color: rgba(177, 195, 205, 0.1);
+  }
+}

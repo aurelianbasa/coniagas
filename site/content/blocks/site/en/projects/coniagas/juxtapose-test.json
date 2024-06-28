@@ -1,9 +1,0 @@
-{
-   "juxtapose": {
-    "srcImg1": "/images/example1.jpg",
-    "labelImg1": "Before",
-    "srcImg2": "/images/example2.jpg",
-    "labelImg2": "After",
-    "height": 270
-   }
-}
