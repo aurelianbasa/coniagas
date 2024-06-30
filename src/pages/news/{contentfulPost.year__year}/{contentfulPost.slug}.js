@@ -176,23 +176,14 @@ export function Head({ data, location }) {
       <title>News | {data.contentfulPost.title}</title>
       <meta name='description' content={data.contentfulPost.title} />
 
-      <meta property='og:type' content='article'></meta>
-      <meta property='og:site_name' content='Coniagas'></meta>
-      <meta property='og:title' content={data.contentfulPost.title}></meta>
-      <meta property='og:url' content={`https://coniagas.com/${location.pathname}`}></meta>
+      <meta name='twitter:card' content='summary' />
+      <meta property='og:url' content={`https://coniagas.com${location.pathname}`} />
+      <meta property='og:title' content={data.contentfulPost.title} />
+      <meta property='og:description' content={data.contentfulPost.title} />
       <meta
         property='og:image'
-        content={`https:${data.contentfulPost.heroImage.file.url}?fit=thumb&w=1200&h=600&fl=progressive&q=75&fm=jpg`}
-      ></meta>
-
-      <meta name='twitter:site' content='Coniagas'></meta>
-      <meta name='twitter:card' content='summary_large_image'></meta>
-      <meta name='twitter:creator' content='https://coniagas.com/'></meta>
-      <meta name='twitter:title' content={data.contentfulPost.title}></meta>
-      <meta
-        name='twitter:image'
-        content={`https:${data.contentfulPost.heroImage.file.url}?fit=thumb&w=1200&h=600&fl=progressive&q=75&fm=jpg`}
-      ></meta>
+        content={`https:${data.contentfulPost.heroImage.file.url}?fit=thumb&w=1200&h=630&fl=progressive&q=75&fm=jpg`}
+      />
     </>
   );
 }
