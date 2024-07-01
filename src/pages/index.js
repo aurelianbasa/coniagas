@@ -199,7 +199,7 @@ export default function Home({ data }) {
             </motion.p>
 
             <motion.p
-              className='absolute bg-green'
+              className='absolute bg-primary'
               animate={{ y: [100, 0, 0, -100] }}
               transition={{ duration: 4, delay: 4, repeatDelay: 12, repeat: Infinity, repeatType: 'loop' }}
             >
@@ -215,7 +215,7 @@ export default function Home({ data }) {
             </motion.p>
 
             <motion.p
-              className='absolute bg-greenLight'
+              className='absolute bg-green'
               animate={{ y: [100, 0, 0, -100] }}
               transition={{ duration: 4, delay: 12, repeatDelay: 12, repeat: Infinity, repeatType: 'loop' }}
             >

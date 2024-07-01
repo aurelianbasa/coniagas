@@ -69,7 +69,7 @@ export default function CriticalMaterials() {
 
               <div className='absolute left-[80%] top-[60%] md:left-[74%] md:top-[60%]'>
                 <CountUp
-                  className='text-3xl text-green'
+                  className='text-3xl text-primary'
                   end='28'
                   suffix='%'
                   duration={3}
@@ -81,7 +81,7 @@ export default function CriticalMaterials() {
 
               <div className='absolute left-[7%] top-[69%] md:left-[18%] md:top-[69%]'>
                 <CountUp
-                  className='text-3xl text-greenLight'
+                  className='text-3xl text-green'
                   end='19'
                   suffix='%'
                   duration={3}
@@ -104,7 +104,7 @@ export default function CriticalMaterials() {
                 initial={{ scale: 0 }}
                 whileInView={{ scale: 1 }}
                 transition={{ duration: 1, delay: 0.2, type: 'spring', stiffness: 150 }}
-                className='absolute left-[48%] top-[53%] size-[76px] rounded-full bg-green md:left-1/2 md:top-[53%]'
+                className='absolute left-[48%] top-[53%] size-[76px] rounded-full bg-primary md:left-1/2 md:top-[53%]'
               ></motion.div>
 
               <motion.div
@@ -112,7 +112,7 @@ export default function CriticalMaterials() {
                 initial={{ scale: 0 }}
                 whileInView={{ scale: 1 }}
                 transition={{ duration: 1, delay: 0.2, type: 'spring', stiffness: 150 }}
-                className='absolute left-[24%] top-[54%] size-[52px] rounded-full bg-greenLight md:left-[36%] md:top-[54%]'
+                className='absolute left-[24%] top-[54%] size-[52px] rounded-full bg-green md:left-[36%] md:top-[54%]'
               ></motion.div>
             </div>
           </div>
@@ -135,7 +135,7 @@ export default function CriticalMaterials() {
 
               <div className='absolute left-[64%] top-[8%] md:left-[8%] md:top-[51%]'>
                 <CountUp
-                  className='text-4xl-mobile text-green md:text-4xl'
+                  className='text-4xl-mobile text-primary md:text-4xl'
                   end='96'
                   suffix='%'
                   duration={3}
@@ -147,7 +147,7 @@ export default function CriticalMaterials() {
 
               <div className='absolute left-[8%] top-[41%] md:left-[80%] md:top-[7%]'>
                 <CountUp
-                  className='text-4xl-mobile text-greenLight md:text-4xl'
+                  className='text-4xl-mobile text-green md:text-4xl'
                   end='88'
                   suffix='%'
                   duration={3}
@@ -170,7 +170,7 @@ export default function CriticalMaterials() {
                 initial={{ scale: 0 }}
                 whileInView={{ scale: 1 }}
                 transition={{ duration: 2, delay: 0.2, type: 'spring', stiffness: 150 }}
-                className='absolute left-[4%] top-0 size-[154px] rounded-full bg-green md:left-[20%] md:top-[-3%]'
+                className='absolute left-[4%] top-0 size-[154px] rounded-full bg-primary md:left-[20%] md:top-[-3%]'
               ></motion.div>
 
               <motion.div
@@ -178,7 +178,7 @@ export default function CriticalMaterials() {
                 initial={{ scale: 0 }}
                 whileInView={{ scale: 1 }}
                 transition={{ duration: 2, delay: 0.2, type: 'spring', stiffness: 150 }}
-                className='absolute left-1/2 top-[35%] size-[140px] rounded-full bg-greenLight md:left-1/2 md:top-[9%]'
+                className='absolute left-1/2 top-[35%] size-[140px] rounded-full bg-green md:left-1/2 md:top-[9%]'
               ></motion.div>
             </div>
           </div>

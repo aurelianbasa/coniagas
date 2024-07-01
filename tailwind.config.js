@@ -23,14 +23,13 @@ module.exports = {
       '4xl-mobile': ['40px', { lineHeight: '48px', fontWeight: 600 }],
     },
     colors: {
-      primary: '#ae191d', // burgundy
+      primary: '#458e98', // green dark
       secondary: '#30444e', // gray dark
       tertiary: '#b1c3cd', // gray light
 
       blue: '#0047AB',
       silver: '#d8d8d8',
-      green: '#458e98',
-      greenLight: '#84b795',
+      green: '#84b795',
 
       white: '#fff',
       whiteLight: '#F4F7F8',
