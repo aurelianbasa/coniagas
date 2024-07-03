@@ -113,41 +113,41 @@ export default function Media({ location }) {
               <motion.div initial='hidden' animate='visible' variants={container} className='grid gap-6 md:grid-cols-2'>
                 <motion.div variants={items}>
                   <CardVideo
-                    date={t('video1Date')}
-                    subtitle={t('video1Subtitle')}
-                    title={t('video1Title')}
+                    date={t('video11Date')}
+                    subtitle={t('video11Subtitle')}
+                    title={t('video11Title')}
                     src='https://www.youtube.com/embed/1xnIcm8kPpg?si=HaErIiFSq_rFZ1pH'
                   ></CardVideo>
                 </motion.div>
                 <motion.div variants={items}>
                   <CardVideo
-                    date={t('video2Date')}
-                    subtitle={t('video2Subtitle')}
-                    title={t('video2Title')}
+                    date={t('video10Date')}
+                    subtitle={t('video10Subtitle')}
+                    title={t('video10Title')}
                     src='https://www.youtube.com/embed/qzno-53pT54?si=vhxRRK6Spcj-Sbjx'
                   ></CardVideo>
                 </motion.div>
                 <motion.div variants={items}>
                   <CardVideo
-                    date={t('video3Date')}
-                    subtitle={t('video3Subtitle')}
-                    title={t('video3Title')}
+                    date={t('video9Date')}
+                    subtitle={t('video9Subtitle')}
+                    title={t('video9Title')}
                     src='https://www.youtube.com/embed/bJ5wDh9Bi8I?si=fWATpVtNJoFoRfe-'
                   ></CardVideo>
                 </motion.div>
                 <motion.div variants={items}>
                   <CardVideo
-                    date={t('video4Date')}
-                    subtitle={t('video4Subtitle')}
-                    title={t('video4Title')}
+                    date={t('video8Date')}
+                    subtitle={t('video8Subtitle')}
+                    title={t('video8Title')}
                     src='https://www.youtube.com/embed/mR-y7Zg5CGs?si=AsBEFAzqDeqJBNq2'
                   ></CardVideo>
                 </motion.div>
                 <motion.div variants={items}>
                   <CardVideo
-                    date={t('video5Date')}
-                    subtitle={t('video5Subtitle')}
-                    title={t('video5Title')}
+                    date={t('video7Date')}
+                    subtitle={t('video7Subtitle')}
+                    title={t('video7Title')}
                     src='https://www.youtube.com/embed/i18rbTJlD9E?si=-0R5hqh1wcjR-zIK'
                   ></CardVideo>
                 </motion.div>
@@ -161,41 +161,41 @@ export default function Media({ location }) {
                 </motion.div>
                 <motion.div variants={items}>
                   <CardVideo
-                    date={t('video7Date')}
-                    subtitle={t('video7Subtitle')}
-                    title={t('video7Title')}
+                    date={t('video5Date')}
+                    subtitle={t('video5Subtitle')}
+                    title={t('video5Title')}
                     src='https://www.youtube.com/embed/_pM8Qn0tQq4?si=hbMypgXPwjn_TCr6'
                   ></CardVideo>
                 </motion.div>
                 <motion.div variants={items}>
                   <CardVideo
-                    date={t('video8Date')}
-                    subtitle={t('video8Subtitle')}
-                    title={t('video8Title')}
+                    date={t('video4Date')}
+                    subtitle={t('video4Subtitle')}
+                    title={t('video4Title')}
                     src='https://www.youtube.com/embed/ZSdhSW0Zvl8?si=BqKOvayYNnlhmx6i'
                   ></CardVideo>
                 </motion.div>
                 <motion.div variants={items}>
                   <CardVideo
-                    date={t('video9Date')}
-                    subtitle={t('video9Subtitle')}
-                    title={t('video9Title')}
+                    date={t('video3Date')}
+                    subtitle={t('video3Subtitle')}
+                    title={t('video3Title')}
                     src='https://www.youtube.com/embed/ean-8z-8lC0?si=0E-oFR3jTdJsBERu'
                   ></CardVideo>
                 </motion.div>
                 <motion.div variants={items}>
                   <CardVideo
-                    date={t('video10Date')}
-                    subtitle={t('video10Subtitle')}
-                    title={t('video10Title')}
+                    date={t('video2Date')}
+                    subtitle={t('video2Subtitle')}
+                    title={t('video2Title')}
                     src='https://www.youtube.com/embed/yGk7lC5qwoY?si=K6F3Mg_1o2pL9s48'
                   ></CardVideo>
                 </motion.div>
                 <motion.div variants={items}>
                   <CardVideo
-                    date={t('video11Date')}
-                    subtitle={t('video11Subtitle')}
-                    title={t('video11Title')}
+                    date={t('video1Date')}
+                    subtitle={t('video1Subtitle')}
+                    title={t('video1Title')}
                     src='https://www.youtube.com/embed/5nO4SoN7ZX0?si=3iHBFFG4YR5zfqnB'
                   ></CardVideo>
                 </motion.div>
