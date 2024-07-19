@@ -36,6 +36,7 @@
     "gatsby-source-contentful": "^8.13.2",
     "gatsby-source-filesystem": "^5.13.1",
     "gatsby-transformer-remark": "^6.13.1",
+    "i18next": "^22.0.6",
     "postcss": "^8.4.38",
     "react": "^18.2.0",
     "react-countup": "^6.5.3",
