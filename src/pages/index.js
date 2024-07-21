@@ -25,15 +25,15 @@ export default function Home({ data }) {
     <Layout>
       <div
         style={{ '--bg-image-url': `url(${HeroImage})` }}
-        className={`flex min-h-screen items-center bg-[image:var(--bg-image-url)] bg-cover bg-center pt-24`}
+        className={`flex items-left bg-[image:var(--bg-image-url)] bg-cover bg-center pt-12`}
       >
-        <div className='container mx-auto grid gap-16 px-5 py-28 md:gap-10 md:px-10 lg:grid-cols-2'>
+        <div className='container mx-auto grid gap-10 px-5 py-5 md:gap-10 md:px-10 lg:grid-cols-2' style={{ minHeight: '75vh' }}>
           <motion.div
             viewport={{ once: true }}
             transition={{ duration: 0.5, delay: 0.2 }}
             initial={{ x: '-80px', opacity: 0 }}
             whileInView={{ x: '0', opacity: 1 }}
-            className='order-2 flex flex-col items-center justify-center gap-4 text-center lg:order-1 lg:items-start lg:text-left'
+            className='order-2 flex flex-col  items-center justify-center gap-4 text-left lg:order-1 lg:items-start lg:text-left'
           >
             <Trans parent='h1' i18nKey='heroTitle' className='text-6xl-mobile text-white md:text-6xl'></Trans>
 
