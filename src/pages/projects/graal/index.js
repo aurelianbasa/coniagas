@@ -22,7 +22,7 @@ import Graal2021Image from '@media/projects/graal/graal-2021.jpg';
 import Graal2022Image from '@media/projects/graal/graal-2022.jpg';
 import GraalMap2Image from '@media/projects/graal/graal-map-2.webp';
 
-import May2023PDF from '@media/projects/graal/may-2023.pdf';
+import Jan2024PDF from '@media/projects/graal/jan-2024.pdf';
 
 export default function Graal() {
   const { t } = useTranslation();
@@ -47,7 +47,7 @@ export default function Graal() {
               <p className='text-3xl text-whiteLight'>{t('reportTitle')}</p>
             </div>
 
-            <Button type='tertiary' external href={May2023PDF}>
+            <Button type='tertiary' external href={Jan2024PDF}>
               {t('reportButton')}
             </Button>
           </div>
