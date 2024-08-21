@@ -14,6 +14,7 @@ import HeroImage from '@media/home/hero.png';
 import MetalsImage from '@media/home/metals.png';
 import LocationImage from '@media/home/location.png';
 import MetalsProjectImage from '@media/home/metals-project.png';
+import PresentationPDF from '@media/investors/presentation.pdf';
 
 export default function Home({ data }) {
   const { t } = useTranslation();
@@ -118,10 +119,10 @@ export default function Home({ data }) {
             </div>
 
             <div className='flex flex-wrap gap-4'>
-              <Button className='grow' type='primary' href='/projects/graal'>
+              <Button className='grow' type='primary' href={PresentationPDF}>
                 {t('card1Button1')}
               </Button>
-              <Button className='grow' type='primary-outlined' href='/projects/graal'>
+              <Button className='grow' type='primary-outlined' href={PresentationPDF}>
                 {t('card1Button2')}
               </Button>
             </div>

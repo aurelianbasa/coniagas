@@ -113,6 +113,22 @@ export default function Media({ location }) {
               <motion.div initial='hidden' animate='visible' variants={container} className='grid gap-6 md:grid-cols-2'>
               <motion.div variants={items}>
                   <CardVideo
+                    date={t('video16Date')}
+                    subtitle={t('video16Subtitle')}
+                    title={t('video16Title')}
+                    src='https://www.youtube.com/embed/Dx0rPDKa6GE?si=DeoorPjxZsGxryyT'
+                  ></CardVideo>
+                </motion.div>
+              <motion.div variants={items}>
+                  <CardVideo
+                    date={t('video15Date')}
+                    subtitle={t('video15Subtitle')}
+                    title={t('video15Title')}
+                    src='https://www.youtube.com/embed/K5bLOxnLqqM?si=LqGnPOqiJuIhmTKc'
+                  ></CardVideo>
+                </motion.div>
+              <motion.div variants={items}>
+                  <CardVideo
                     date={t('video14Date')}
                     subtitle={t('video14Subtitle')}
                     title={t('video14Title')}
