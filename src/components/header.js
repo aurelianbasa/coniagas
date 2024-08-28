@@ -29,6 +29,7 @@ export default function Header() {
     };
   }, []);
 
+
   return (
     <>
       <motion.header
@@ -40,9 +41,16 @@ export default function Header() {
         animate={{ y: 0, opacity: 1 }}
       >
         <div className='container mx-auto flex justify-between px-5 md:px-10'>
-          <Link className='flex' to='/'>
-            <img className='min-w-40 md:min-w-48' src={logo} alt='Coniagas logo' />
-          </Link>
+          <div className='flex items-center'>
+            <Link className='flex' to='/'>
+              <img className='min-w-40 md:min-w-48' src={logo} alt='Coniagas logo' />
+            </Link>
+            <div className='ml-4 text-xs text-gray-500'>
+              TSX-V:
+              <br />
+              COS
+            </div>
+          </div>
 
           <nav className='hidden gap-5 xl:flex'>
             <Link className='py-4 hover:text-primary' to='/about'>
