@@ -2,7 +2,7 @@ import * as React from 'react';
 import { AnimatePresence, motion } from 'framer-motion';
 import { Link, Trans, useTranslation } from 'gatsby-plugin-react-i18next';
 import { Description, Dialog, DialogPanel, DialogTitle } from '@headlessui/react';
-import { RiCloseFill, RiTwitterXFill, RiLinkedinFill, RiFacebookFill } from 'react-icons/ri';
+import { RiCloseFill, RiTwitterXFill, RiLinkedinFill, RiFacebookFill, RiYoutubeFill } from 'react-icons/ri';
 
 import SubscribeForm from '@components/subscribe-form';
 
@@ -88,6 +88,15 @@ export default function Footer() {
             >
               <RiFacebookFill className='size-6' />
               {t('footer.facebook')}
+            </a>
+            <a
+              className='flex flex-col items-center gap-2 hover:text-primary lg:flex-row'
+              href='https://www.youtube.com/@coniagasbatterymetals'
+              target='_blank'
+              rel='noreferrer'
+            >
+              <RiYoutubeFill className='size-6' />
+              {t('footer.x')}
             </a>
           </div>
         </div>
