@@ -96,7 +96,7 @@ export default function Footer() {
               rel='noreferrer'
             >
               <RiYoutubeFill className='size-6' />
-              {t('footer.x')}
+              {t('footer.youtube')}
             </a>
           </div>
         </div>
