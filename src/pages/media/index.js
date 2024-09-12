@@ -113,6 +113,14 @@ export default function Media({ location }) {
               <motion.div initial='hidden' animate='visible' variants={container} className='grid gap-6 md:grid-cols-2'>
               <motion.div variants={items}>
                   <CardVideo
+                    date={t('video17Date')}
+                    subtitle={t('video17Subtitle')}
+                    title={t('video17Title')}
+                    src='https://www.youtube.com/embed/nofB_Vf32hY?si=SMr3Fg_lYkhBbIaS'
+                  ></CardVideo>
+                </motion.div>
+              <motion.div variants={items}>
+                  <CardVideo
                     date={t('video16Date')}
                     subtitle={t('video16Subtitle')}
                     title={t('video16Title')}
