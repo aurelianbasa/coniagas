@@ -5,11 +5,12 @@ import { Trans, useTranslation } from 'gatsby-plugin-react-i18next';
 
 import Layout from '@components/layout';
 
-import MemberImage from '@media/about/member.png';
 import MetalsImage from '@media/about/metals.png';
-import Member1Image from '@media/about/member-1.webp';
+import Member1Image from '@media/about/member-1.png';
 import Member2Image from '@media/about/member-2.webp';
 import Member3Image from '@media/about/member-3.webp';
+import Member4Image from '@media/about/member-4.webp';
+import Member5Image from '@media/about/member-5.webp';
 import OverviewImage from '@media/about/overview.png';
 import ConiagasImage from '@media/about/coniagas.webp';
 
@@ -113,7 +114,7 @@ export default function About() {
               className='grid gap-10 md:grid-cols-3-9 lg:gap-16'
             >
               <div className='max-w-xs md:max-w-full'>
-                <img className='w-full rounded-lg' src={MemberImage} alt='Member'></img>
+                <img className='w-full rounded-lg' src={Member4Image} alt='Member'></img>
               </div>
 
               <div className='flex flex-col gap-3 self-center'>
@@ -122,6 +123,25 @@ export default function About() {
                 <p>{t('member4Bio')}</p>
               </div>
             </motion.div>
+
+            <motion.div
+              viewport={{ once: true }}
+              transition={{ duration: 0.5, delay: 0.2 }}
+              initial={{ y: '80px', opacity: 0 }}
+              whileInView={{ y: '0', opacity: 1 }}
+              className='grid gap-10 md:grid-cols-3-9 lg:gap-16'
+            >
+              <div className='max-w-xs md:max-w-full'>
+                <img className='w-full rounded-lg' src={Member5Image} alt='Member'></img>
+              </div>
+
+              <div className='flex flex-col gap-3 self-center'>
+                <h3 className='text-3xl'>{t('member5Name')}</h3>
+                <p className='mb-3 text-primary'>{t('member5Role')}</p>
+                <p>{t('member5Bio')}</p>
+              </div>
+            </motion.div>
+
           </div>
         </div>
       </div>
