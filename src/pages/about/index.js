@@ -6,7 +6,7 @@ import { Trans, useTranslation } from 'gatsby-plugin-react-i18next';
 import Layout from '@components/layout';
 
 import MetalsImage from '@media/about/metals.png';
-import Member1Image from '@media/about/member-1.png';
+import Member1Image from '@media/about/member-1.webp';
 import Member2Image from '@media/about/member-2.webp';
 import Member3Image from '@media/about/member-3.webp';
 import Member4Image from '@media/about/member-4.webp';
