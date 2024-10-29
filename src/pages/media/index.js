@@ -15,9 +15,11 @@ import Photo3Image from '@media/media/photo-3.webp';
 import Photo4Image from '@media/media/photo-4.webp';
 import Photo5Image from '@media/media/photo-5.webp';
 import Photo6Image from '@media/media/photo-6.webp';
-import QuebelReviewImage from '@media/media/quebec-review.webp';
+import QuebecReviewImage from '@media/media/quebec-review.webp';
+import BNNImage from '@media/media/bnn.webp';
 
 import QMRarticlePDF from '@media/media/QMRarticle.pdf';
+import BNNarticlePDF from '@media/media/BNNarticle.pdf';
 
 export default function Media({ location }) {
   const { t } = useTranslation();
@@ -272,12 +274,22 @@ export default function Media({ location }) {
               >
                 <motion.div variants={items}>
                   <CardArticle
-                    image={QuebelReviewImage}
+                    image={QuebecReviewImage}
                     date={t('article1Date')}
                     subtitle={t('article1Subtitle')}
                     title={t('article1Title')}
                     button={t('article1Button')}
                     href={QMRarticlePDF}
+                  ></CardArticle>
+                </motion.div>
+                <motion.div variants={items}>
+                  <CardArticle
+                    image={BNNImage}
+                    date={t('article2Date')}
+                    subtitle={t('article2Subtitle')}
+                    title={t('article2Title')}
+                    button={t('article2Button')}
+                    href={BNNarticlePDF}
                   ></CardArticle>
                 </motion.div>
               </motion.div>
