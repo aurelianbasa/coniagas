@@ -115,6 +115,14 @@ export default function Media({ location }) {
               <motion.div initial='hidden' animate='visible' variants={container} className='grid gap-6 md:grid-cols-2'>
               <motion.div variants={items}>
                   <CardVideo
+                    date={t('video19Date')}
+                    subtitle={t('video19Subtitle')}
+                    title={t('video19Title')}
+                    src='https://cdn.jwplayer.com/previews/y1yNFg4c'
+                  ></CardVideo>
+                </motion.div>
+              <motion.div variants={items}>
+                  <CardVideo
                     date={t('video18Date')}
                     subtitle={t('video18Subtitle')}
                     title={t('video18Title')}
