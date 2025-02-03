@@ -262,7 +262,7 @@ export default function Home({ data }) {
           ))}
         </div>
 
-        <Button className='mx-auto w-full md:w-fit' type='secondary' href='/news/2024'>
+        <Button className='mx-auto w-full md:w-fit' type='secondary' href='/news/2025'>
           {t('newsButton')}
         </Button>
       </div>
