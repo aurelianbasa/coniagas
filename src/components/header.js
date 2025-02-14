@@ -46,7 +46,9 @@ export default function Header() {
               <img className='w-40 md:w-48' src={logo} alt='Coniagas logo' />
             </Link>
             <div className='ml-4 text-[10px] text-gray-500'>
-              TSX-V: COS
+              TSX-V:
+              <br />
+              COS
             </div>
           </div>
 

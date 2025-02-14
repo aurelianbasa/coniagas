@@ -26,7 +26,7 @@ export default function Home({ data }) {
     <Layout>
       <div
         style={{ '--bg-image-url': `url(${HeroImage})` }}
-        className={`flex items-left bg-[image:var(--bg-image-url)] bg-cover bg-center pt-20`}
+        className={`flex items-left bg-[image:var(--bg-image-url)] bg-cover bg-center pt-28`}
       >
         <div className='container mx-auto grid gap-10 px-5 py-5 md:gap-10 md:px-10 lg:grid-cols-2' style={{ minHeight: '75vh' }}>
           <motion.div
@@ -287,7 +287,7 @@ export default function Home({ data }) {
                 <iframe
                   width='100%'
                   height='100%'
-                  src='https://www.youtube.com/embed/qzno-53pT54?si=EQR-2aPl2NXUOY-Z'
+                  src='https://www.youtube.com/embed/uREYrLnWZ8E?si=Ysnge27lC_d8CWtG'
                   title='YouTube video player'
                   frameborder='0'
                   allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'
