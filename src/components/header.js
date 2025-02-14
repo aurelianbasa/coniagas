@@ -43,12 +43,10 @@ export default function Header() {
         <div className='container mx-auto flex justify-between px-5 md:px-10'>
           <div className='flex items-center'>
             <Link className='flex' to='/'>
-              <img className='min-w-40 md:min-w-48' src={logo} alt='Coniagas logo' />
+              <img className='w-40 md:w-48' src={logo} alt='Coniagas logo' />
             </Link>
-            <div className='ml-4 text-xs text-gray-500'>
-              TSX-V:
-              <br />
-              COS
+            <div className='ml-4 text-[10px] text-gray-500'>
+              TSX-V: COS
             </div>
           </div>
 

@@ -26,7 +26,7 @@ export default function Home({ data }) {
     <Layout>
       <div
         style={{ '--bg-image-url': `url(${HeroImage})` }}
-        className={`flex items-left bg-[image:var(--bg-image-url)] bg-cover bg-center pt-12`}
+        className={`flex items-left bg-[image:var(--bg-image-url)] bg-cover bg-center pt-20`}
       >
         <div className='container mx-auto grid gap-10 px-5 py-5 md:gap-10 md:px-10 lg:grid-cols-2' style={{ minHeight: '75vh' }}>
           <motion.div
