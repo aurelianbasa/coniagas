@@ -192,40 +192,6 @@ export default function Investors() {
         </div>
 
         <div
-          id='analystCoverage'
-          className='container mx-auto grid items-center justify-items-center gap-16 px-5 py-20 md:px-10 lg:grid-cols-2'
-        >
-          <motion.div
-            viewport={{ once: true }}
-            transition={{ duration: 0.5, delay: 0.2 }}
-            initial={{ x: '-80px', opacity: 0 }}
-            whileInView={{ x: '0', opacity: 1 }}
-          >
-            <p className='text-tertiary'>{t('analystSubtitle')}</p>
-            <h3 className='my-4 text-4xl-mobile text-secondary md:text-4xl'>{t('analystTitle')}</h3>
-            <p className='text-primary'>{t('analystDescription')}</p>
-
-            <div className='mt-10 flex items-center justify-between rounded-2xl bg-secondary p-5 md:p-10'>
-              <p className='text-2xl text-white'>{t('analystResearch')}</p>
-
-              <Button external type='tertiary' href={FundamentalPDF}>
-                {t('analystButton')}
-              </Button>
-            </div>
-          </motion.div>
-
-          <motion.div
-            viewport={{ once: true }}
-            transition={{ duration: 0.5, delay: 0.2 }}
-            initial={{ x: '80px', opacity: 0 }}
-            whileInView={{ x: '0', opacity: 1 }}
-            className='max-w-[500px] overflow-hidden rounded-lg bg-white px-4'
-          >
-            <img src={FundamentalImage} alt='Fundamental Reasearch Corp' />
-          </motion.div>
-        </div>
-
-        <div
           id='files'
           style={{ '--bg-image-url': `url(${BatteriesImage})` }}
           className={`bg-[image:var(--bg-image-url)] bg-cover bg-center py-20`}

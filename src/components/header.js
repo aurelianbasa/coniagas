@@ -129,9 +129,6 @@ export default function Header() {
                           <Link className='py-1 hover:text-primary' to='/investors#financials'>
                             {t('header.financials')}
                           </Link>
-                          <Link className='py-1 hover:text-primary' to='/investors#analystCoverage'>
-                            {t('header.analystCoverage')}
-                          </Link>
                           <Link className='py-1 hover:text-primary' to='/investors#files'>
                             {t('header.presentations')}
                           </Link>
@@ -294,9 +291,6 @@ export default function Header() {
                 </Link>
                 <Link className='py-2 pl-6 hover:text-primary' to='/investors#financials'>
                   {t('header.financials')}
-                </Link>
-                <Link className='py-2 pl-6 hover:text-primary' to='/investors#analystCoverage'>
-                  {t('header.analystCoverage')}
                 </Link>
                 <Link className='py-2 pl-6 hover:text-primary' to='/investors#files'>
                   {t('header.presentations')}
