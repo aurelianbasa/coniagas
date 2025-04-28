@@ -275,16 +275,7 @@ export default function Media({ location }) {
                 variants={container}
                 className='grid gap-6 md:grid-cols-2 lg:grid-cols-3'
               >
-                <motion.div variants={items}>
-                  <CardArticle
-                    image={QuebecReviewImage}
-                    date={t('article1Date')}
-                    subtitle={t('article1Subtitle')}
-                    title={t('article1Title')}
-                    button={t('article1Button')}
-                    href={QMRarticlePDF}
-                  ></CardArticle>
-                </motion.div>
+             
                 <motion.div variants={items}>
                   <CardArticle
                     image={BNNImage}
