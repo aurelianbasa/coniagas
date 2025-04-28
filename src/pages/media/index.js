@@ -121,14 +121,7 @@ export default function Media({ location }) {
                     src='https://www.youtube.com/embed/yipWcydZIqA?si=Td5cg1bKiG3wP_jC'
                   ></CardVideo>
                 </motion.div>
-              <motion.div variants={items}>
-                  <CardVideo
-                    date={t('video20Date')}
-                    subtitle={t('video20Subtitle')}
-                    title={t('video20Title')}
-                    src='https://www.youtube.com/embed/uREYrLnWZ8E?si=Ysnge27lC_d8CWtG'
-                  ></CardVideo>
-                </motion.div>
+             
               <motion.div variants={items}>
                   <CardVideo
                     date={t('video19Date')}
@@ -153,14 +146,7 @@ export default function Media({ location }) {
                     src='https://www.youtube.com/embed/nofB_Vf32hY?si=SMr3Fg_lYkhBbIaS'
                   ></CardVideo>
                 </motion.div>
-              <motion.div variants={items}>
-                  <CardVideo
-                    date={t('video16Date')}
-                    subtitle={t('video16Subtitle')}
-                    title={t('video16Title')}
-                    src='https://www.youtube.com/embed/Dx0rPDKa6GE?si=DeoorPjxZsGxryyT'
-                  ></CardVideo>
-                </motion.div>
+              
               <motion.div variants={items}>
                   <CardVideo
                     date={t('video15Date')}
@@ -185,14 +171,7 @@ export default function Media({ location }) {
                     src='https://www.youtube.com/embed/bCYtux4rIrE?si=_TCJZe_jWuuJyhQ6'
                   ></CardVideo>
                 </motion.div>
-              <motion.div variants={items}>
-                  <CardVideo
-                    date={t('video12Date')}
-                    subtitle={t('video12Subtitle')}
-                    title={t('video12Title')}
-                    src='https://www.youtube.com/embed/uJGcrEVigKY?si=ygl8OWKPST2Wy5Z5'
-                  ></CardVideo>
-                </motion.div>
+             
                 <motion.div variants={items}>
                   <CardVideo
                     date={t('video11Date')}
