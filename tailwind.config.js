@@ -17,10 +17,6 @@ module.exports = {
       lg: ['20px', { lineHeight: '32px', fontWeight: 400 }],
       base: ['16px', { lineHeight: '24px', fontWeight: 400 }],
       sm: ['12px', { lineHeight: '16px', fontWeight: 400 }],
-
-      '6xl-mobile': ['60px', { lineHeight: '72px', fontWeight: 600 }],
-      '5xl-mobile': ['48px', { lineHeight: '56px', fontWeight: 600 }],
-      '4xl-mobile': ['40px', { lineHeight: '48px', fontWeight: 600 }],
     },
     colors: {
       primary: '#458e98', // green dark

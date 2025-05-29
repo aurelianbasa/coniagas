@@ -9,14 +9,14 @@ import Layout from '@components/layout';
 import Button from '@components/button';
 import DataWrapper from '@components/data-wrapper';
 
-import CMImage from '@media/critical-materials/cmi.png';
+import CMImage from '@media/critical-materials/cmi.webp';
 import USAImage from '@media/critical-materials/usa.webp';
-import CopperImage from '@media/critical-materials/copper.png';
-import NickelImage from '@media/critical-materials/nickel.png';
-import CobaltImage from '@media/critical-materials/cobalt.png';
+import CopperImage from '@media/critical-materials/copper.webp';
+import NickelImage from '@media/critical-materials/nickel.webp';
+import CobaltImage from '@media/critical-materials/cobalt.webp';
 import QuebecImage from '@media/critical-materials/quebec.webp';
 import CanadaImage from '@media/critical-materials/canada.webp';
-import OverviewImage from '@media/critical-materials/overview.png';
+import OverviewImage from '@media/critical-materials/overview.webp';
 
 import DoePDF from '@media/critical-materials/doe-critical-material-assessment.pdf';
 import PLResumePDF from '@media/critical-materials/PL_resume_critical_strategic_minerals.pdf';
@@ -38,7 +38,7 @@ export default function CriticalMaterials() {
           className='container mx-auto px-5 py-28 md:gap-10 md:px-10'
         >
           <p className='text-tertiary'>{t('heroSubtitle')}</p>
-          <Trans parent='h1' i18nKey='heroTitle' className='mb-10 mt-4 text-6xl-mobile text-white md:text-6xl'></Trans>
+          <Trans parent='h1' i18nKey='heroTitle' className='mb-10 mt-4 text-6xl text-white'></Trans>
         </motion.div>
       </div>
 
@@ -46,7 +46,7 @@ export default function CriticalMaterials() {
         <Trans
           parent='h2'
           i18nKey='chartsTitle'
-          className='text-center text-4xl-mobile text-secondary md:text-4xl'
+          className='text-center text-4xl text-secondary'
         ></Trans>
         <p className='mt-6 text-center text-tertiary'>{t('chartsDescription')}</p>
 
@@ -123,7 +123,7 @@ export default function CriticalMaterials() {
             <div className='relative h-[480px] md:h-80'>
               <div className='absolute left-[61%] top-[74%] md:left-[65%] md:top-[65%]'>
                 <CountUp
-                  className='text-4xl-mobile text-blue md:text-4xl'
+                  className='text-4xl text-blue'
                   end='90'
                   suffix='%'
                   duration={3}
@@ -135,7 +135,7 @@ export default function CriticalMaterials() {
 
               <div className='absolute left-[64%] top-[8%] md:left-[8%] md:top-[51%]'>
                 <CountUp
-                  className='text-4xl-mobile text-primary md:text-4xl'
+                  className='text-4xl text-primary'
                   end='96'
                   suffix='%'
                   duration={3}
@@ -147,7 +147,7 @@ export default function CriticalMaterials() {
 
               <div className='absolute left-[8%] top-[41%] md:left-[80%] md:top-[7%]'>
                 <CountUp
-                  className='text-4xl-mobile text-green md:text-4xl'
+                  className='text-4xl text-green'
                   end='88'
                   suffix='%'
                   duration={3}
@@ -189,7 +189,7 @@ export default function CriticalMaterials() {
 
       <div className='mb-20 bg-tertiary py-20'>
         <div className='container mx-auto grid gap-6 px-5 md:px-10'>
-          <Trans parent='h2' i18nKey='metalsTitle' className='text-4xl-mobile text-secondary md:text-4xl'></Trans>
+          <Trans parent='h2' i18nKey='metalsTitle' className='text-4xl text-secondary'></Trans>
           <p>{t('metalsSubtitle')}</p>
 
           <div className='grid gap-6 md:grid-cols-2 lg:grid-cols-3'>
@@ -275,7 +275,7 @@ export default function CriticalMaterials() {
             <p className='text-tertiary'>{t('usaDate')}</p>
           </div>
 
-          <Trans parent='h2' i18nKey='usaTitle' className='text-4xl-mobile text-secondary md:text-4xl'></Trans>
+          <Trans parent='h2' i18nKey='usaTitle' className='text-4xl text-secondary'></Trans>
 
           <div className='mt-6 grid gap-16 xl:grid-cols-2'>
             <div className='flex items-center justify-center overflow-hidden rounded-lg'>
@@ -308,7 +308,7 @@ export default function CriticalMaterials() {
             <p className='text-tertiary'>{t('canadaDate')}</p>
           </div>
 
-          <Trans parent='h2' i18nKey='canadaTitle' className='text-4xl-mobile text-secondary md:text-4xl'></Trans>
+          <Trans parent='h2' i18nKey='canadaTitle' className='text-4xl text-secondary'></Trans>
 
           <div className='mt-6 grid gap-16 xl:grid-cols-2'>
             <div className='flex items-center justify-center overflow-hidden rounded-lg'>
@@ -346,7 +346,7 @@ export default function CriticalMaterials() {
             <p className='text-tertiary'>{t('quebecDate')}</p>
           </div>
 
-          <Trans parent='h2' i18nKey='quebecTitle' className='text-4xl-mobile text-secondary md:text-4xl'></Trans>
+          <Trans parent='h2' i18nKey='quebecTitle' className='text-4xl text-secondary'></Trans>
 
           <div className='mt-6 grid gap-16 xl:grid-cols-2'>
             <div className='flex items-center justify-center overflow-hidden rounded-lg'>
@@ -408,7 +408,7 @@ export default function CriticalMaterials() {
             <p className='text-tertiary'>{t('cmiDate')}</p>
           </div>
 
-          <Trans parent='h2' i18nKey='cmiTitle' className='text-4xl-mobile text-secondary md:text-4xl'></Trans>
+          <Trans parent='h2' i18nKey='cmiTitle' className='text-4xl text-secondary'></Trans>
 
           <div className='mt-6 grid gap-16 xl:grid-cols-2'>
             <div className='flex justify-center overflow-hidden rounded-lg'>

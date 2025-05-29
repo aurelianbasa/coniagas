@@ -21,7 +21,7 @@ export default function Data() {
     <Layout>
       <div className='container mx-auto grid gap-20 px-5 pt-44 md:px-10'>
         <div className='grid gap-10'>
-          <h2 className='text-center text-4xl-mobile text-secondary md:text-4xl'>{t('tab1Title')}</h2>
+          <h2 className='text-center text-4xl text-secondary'>{t('tab1Title')}</h2>
 
           <TabGroup className='grid gap-10 pb-20'>
             <TabList className='mx-auto flex w-fit rounded-lg bg-white'>
@@ -72,7 +72,7 @@ export default function Data() {
         </div>
 
         <div className='grid gap-10'>
-          <h2 className='text-center text-4xl-mobile text-secondary md:text-4xl'>{t('tab2Title')}</h2>
+          <h2 className='text-center text-4xl text-secondary'>{t('tab2Title')}</h2>
 
           <TabGroup className='grid gap-10 pb-20'>
             <TabList className='mx-auto flex w-fit rounded-lg bg-white'>
@@ -123,7 +123,7 @@ export default function Data() {
         </div>
 
         <div className='grid gap-10'>
-          <h2 className='text-center text-4xl-mobile text-secondary md:text-4xl'>{t('tab3Title')}</h2>
+          <h2 className='text-center text-4xl text-secondary'>{t('tab3Title')}</h2>
 
           <TabGroup className='grid gap-10 pb-20'>
             <TabList className='mx-auto flex w-fit rounded-lg bg-white'>

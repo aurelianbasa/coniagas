@@ -137,7 +137,7 @@ export default function Footer() {
                   onClick={() => setIsOpenDisclaimer(false)}
                 />
 
-                <DialogTitle className='mb-8 text-4xl-mobile md:text-4xl'>{t('footer.disclaimerHeader')}</DialogTitle>
+                <DialogTitle className='mb-8 text-4xl'>{t('footer.disclaimerHeader')}</DialogTitle>
 
                 <div className='h-[70vh] overflow-hidden overflow-y-auto pr-4 md:pr-8'>
                   <Description>
@@ -172,7 +172,7 @@ export default function Footer() {
                   onClick={() => setIsOpenDisclosure(false)}
                 />
 
-                <DialogTitle className='mb-8 text-4xl-mobile md:text-4xl'>{t('footer.disclosureHeader')}</DialogTitle>
+                <DialogTitle className='mb-8 text-4xl'>{t('footer.disclosureHeader')}</DialogTitle>
 
                 <div className='h-[70vh] overflow-hidden overflow-y-auto pr-4 md:pr-8'>
                   <Description>

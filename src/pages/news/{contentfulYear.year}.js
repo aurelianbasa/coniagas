@@ -15,7 +15,7 @@ export default function News({ data }) {
   return (
     <Layout>
       <div className='container mx-auto px-5 pb-20 pt-44 md:px-10'>
-        <h1 className='mb-4 text-center text-4xl-mobile text-secondary md:text-4xl'>{t('title')}</h1>
+        <h1 className='mb-4 text-center text-4xl text-secondary'>{t('title')}</h1>
 
         <p className='mb-16 text-center text-tertiary'>
           {t('subtitle')} <span className='text-primary'>{year.year}</span>

@@ -38,7 +38,7 @@ export default function Graal() {
           className='flex flex-col gap-4'
         >
           <p className='text-tertiary'>{t('graalSubtitle')}</p>
-          <Trans parent='h1' i18nKey='graalTitle' className='text-4xl-mobile text-secondary md:text-4xl'></Trans>
+          <Trans parent='h1' i18nKey='graalTitle' className='text-4xl text-secondary'></Trans>
           <Trans i18nKey='graalDescription' className='my-6'></Trans>
 
           <div className='mt-auto flex items-center justify-between rounded-2xl bg-primary p-5 md:p-10'>
@@ -66,7 +66,7 @@ export default function Graal() {
 
       <div className='bg-secondary py-20'>
         <div className='container mx-auto px-5 md:px-10'>
-          <Trans parent='h2' i18nKey='milestoneTitle' className='text-center text-4xl-mobile md:text-4xl'></Trans>
+          <Trans parent='h2' i18nKey='milestoneTitle' className='text-center text-4xl'></Trans>
 
           <div className='grid gap-x-12 gap-y-10 py-16 md:grid-cols-2 lg:grid-cols-3'>
             <motion.div
@@ -179,7 +179,7 @@ export default function Graal() {
             className='flex flex-col gap-4'
           >
             <p className='text-tertiary'>{t('drillSubtitle')}</p>
-            <Trans parent='h2' i18nKey='drillTitle' className='text-4xl-mobile text-secondary md:text-4xl'></Trans>
+            <Trans parent='h2' i18nKey='drillTitle' className='text-4xl text-secondary'></Trans>
             <p className='mt-6'>{t('drillDescription')}</p>
           </motion.div>
         </div>
@@ -195,12 +195,12 @@ export default function Graal() {
         >
           <div className='flex flex-col gap-6'>
             <p className='text-tertiary'>{t('info1Subtitle')}</p>
-            <Trans parent='h2' i18nKey='info1Title' className='text-4xl-mobile text-secondary md:text-4xl'></Trans>
+            <Trans parent='h2' i18nKey='info1Title' className='text-4xl text-secondary'></Trans>
             <p className='mt-4'>{t('info1Description')}</p>
           </div>
 
           <div className='flex flex-col gap-10'>
-            <Trans parent='h2' i18nKey='info2Title' className='text-4xl-mobile text-secondary md:text-4xl'></Trans>
+            <Trans parent='h2' i18nKey='info2Title' className='text-4xl text-secondary'></Trans>
             <p>{t('info2Description')}</p>
 
             <Button className='mt-6' type='primary-outlined' href='/data'>
@@ -236,7 +236,7 @@ export default function Graal() {
 
           <div className='flex min-w-52 flex-col items-center justify-center gap-10 text-center md:flex-row lg:flex-col'>
             <div>
-              <p className='mb-2 text-6xl-mobile md:text-6xl'>
+              <p className='mb-2 text-6xl'>
                 <mark>
                   <CountUp end={110} duration={3} enableScrollSpy scrollSpyOnce />
                 </mark>
@@ -246,7 +246,7 @@ export default function Graal() {
             </div>
 
             <div>
-              <p className='mb-2 text-6xl-mobile md:text-6xl'>
+              <p className='mb-2 text-6xl'>
                 <mark>
                   <CountUp end={6113} duration={3} enableScrollSpy scrollSpyOnce />
                 </mark>
@@ -256,7 +256,7 @@ export default function Graal() {
             </div>
 
             <div>
-              <p className='mb-2 text-6xl-mobile md:text-6xl'>
+              <p className='mb-2 text-6xl'>
                 <mark>
                   <CountUp end={16788} duration={3} enableScrollSpy scrollSpyOnce />
                 </mark>

@@ -58,80 +58,76 @@ export default function NewsPost({ data, location }) {
           initial={{ y: '80px', opacity: 0 }}
           whileInView={{ y: '0', opacity: 1 }}
         >
-          <h1 className='mb-4 text-4xl-mobile text-secondary md:text-4xl'>{post?.title}</h1>
+          <h1 className='mb-4 text-4xl text-secondary'>{post?.title}</h1>
 
           <p className='text-tertiary'>
             {t('postPublished')} <span className='text-primary'>{post?.year?.year}</span>
           </p>
         </motion.div>
-
-        <motion.div
-          viewport={{ once: true }}
-          transition={{ duration: 0.5, delay: 0.4 }}
-          initial={{ y: '80px', opacity: 0 }}
-          whileInView={{ y: '0', opacity: 1 }}
-        >
-          <img
-            className='mb-16 mt-10 max-h-[500px] w-full rounded-2xl object-cover'
-            src={post?.heroImage?.file?.url}
-            alt={post?.title}
-          />
-        </motion.div>
       </div>
 
-      <div className='container mx-auto grid gap-16 px-5 pb-20 md:px-10 lg:grid-cols-8-4'>
-        <motion.div
-          viewport={{ once: true }}
-          transition={{ duration: 0.5, delay: 0.4 }}
-          initial={{ y: '80px', opacity: 0 }}
-          whileInView={{ y: '0', opacity: 1 }}
-        >
-          <div className='border-b-2 border-tertiary pb-16'>
+      <motion.div
+        viewport={{ once: true }}
+        transition={{ duration: 0.5, delay: 0.4 }}
+        initial={{ y: '80px', opacity: 0 }}
+        whileInView={{ y: '0', opacity: 1 }}
+        className='container mx-auto grid gap-10 px-5 pb-20 pt-16 md:px-10 lg:grid-cols-8-4'
+      >
+        <div>
+          <div className='rounded-lg bg-white p-5 md:p-16'>
+            <img
+              className='mb-10 max-h-[400px] w-full rounded-lg object-cover'
+              src={post?.heroImage?.file?.url}
+              alt={post?.title}
+            />
+
             <RichText content={post?.content}></RichText>
           </div>
 
-          <div className='mb-16 mt-10 flex justify-between'>
-            <p className='text-tertiary'>{t('postShare')}</p>
+          <div>
+            <div className='my-16 flex justify-between border-t-2 border-secondary/20 pt-10'>
+              <p className='text-tertiary'>{t('postShare')}</p>
 
-            <div className='flex gap-10'>
-              <TwitterShareButton url={url} title={post?.title}>
-                <RiTwitterXFill className='size-5' />
-              </TwitterShareButton>
+              <div className='flex gap-10'>
+                <TwitterShareButton url={url} title={post?.title}>
+                  <RiTwitterXFill className='size-5' />
+                </TwitterShareButton>
 
-              <LinkedinShareButton url={url} quote={post?.title}>
-                <RiLinkedinFill className='size-5' />
-              </LinkedinShareButton>
+                <LinkedinShareButton url={url} quote={post?.title}>
+                  <RiLinkedinFill className='size-5' />
+                </LinkedinShareButton>
 
-              <FacebookShareButton url={url} quote={post?.title}>
-                <RiFacebookFill className='size-5' />
-              </FacebookShareButton>
+                <FacebookShareButton url={url} quote={post?.title}>
+                  <RiFacebookFill className='size-5' />
+                </FacebookShareButton>
+              </div>
+            </div>
+
+            <div className='grid grid-cols-2 gap-6'>
+              <Link
+                to={`/news/${previousPost?.year?.year}/${previousPost?.slug}`}
+                className={`cursor-pointer rounded-lg bg-white p-5 hover:shadow-md md:p-10 ${
+                  previousPost ? 'opacity-100' : 'pointer-events-none opacity-0'
+                }`}
+              >
+                <p className='mb-4 text-tertiary'>{t('postPrevious')}</p>
+                <p className='font-medium'>{getShortTitle(previousPost?.title, 50)}</p>
+              </Link>
+              <Link
+                to={`/news/${nextPost?.year?.year}/${nextPost?.slug}`}
+                className={`cursor-pointer rounded-lg bg-white p-5 hover:shadow-md md:p-10 ${
+                  nextPost ? 'opacity-100' : 'pointer-events-none opacity-0'
+                }`}
+              >
+                <p className='mb-4 text-right text-tertiary'>{t('postNext')}</p>
+                <p className='text-right font-medium'>{getShortTitle(nextPost?.title, 50)}</p>
+              </Link>
             </div>
           </div>
-
-          <div className='grid grid-cols-2 gap-6'>
-            <Link
-              to={`/news/${previousPost?.year?.year}/${previousPost?.slug}`}
-              className={`cursor-pointer rounded-lg bg-white p-5 hover:shadow-md md:p-10 ${
-                previousPost ? 'opacity-100' : 'pointer-events-none opacity-0'
-              }`}
-            >
-              <p className='mb-4 text-tertiary'>{t('postPrevious')}</p>
-              <p className='font-medium'>{getShortTitle(previousPost?.title, 50)}</p>
-            </Link>
-            <Link
-              to={`/news/${nextPost?.year?.year}/${nextPost?.slug}`}
-              className={`cursor-pointer rounded-lg bg-white p-5 hover:shadow-md md:p-10 ${
-                nextPost ? 'opacity-100' : 'pointer-events-none opacity-0'
-              }`}
-            >
-              <p className='mb-4 text-right text-tertiary'>{t('postNext')}</p>
-              <p className='text-right font-medium'>{getShortTitle(nextPost?.title, 50)}</p>
-            </Link>
-          </div>
-        </motion.div>
+        </div>
 
         <div>
-          <h2 className='mb-10 text-2xl text-primary'>{t('relatedPosts')}</h2>
+          <h2 className='mb-10 text-3xl text-primary'>{t('relatedPosts')}</h2>
 
           {relatedPosts &&
             relatedPosts?.map((post, index) => (
@@ -164,7 +160,7 @@ export default function NewsPost({ data, location }) {
               </motion.div>
             ))}
         </div>
-      </div>
+      </motion.div>
     </Layout>
   );
 }

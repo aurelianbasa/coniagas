@@ -6,8 +6,8 @@ import { Trans, useTranslation } from 'gatsby-plugin-react-i18next';
 import Layout from '@components/layout';
 import Button from '@components/button';
 
-import BatteriesImage from '@media/investors/batteries.png';
-import FundamentalImage from '@media/investors/fundamental.png';
+import BatteriesImage from '@media/investors/batteries.webp';
+import FundamentalImage from '@media/investors/fundamental.webp';
 
 import agmProxyPDF from '@media/investors/proxy.pdf';
 import agmNoticePDF from '@media/investors/notice.pdf';
@@ -30,7 +30,7 @@ export default function Investors() {
       <div className='pt-44'>
         <div id='stockInformation' className='container mx-auto px-5 pb-20 text-center md:px-10'>
           <p className='text-tertiary'>{t('stockSubtitle')}</p>
-          <h1 className='my-4 text-4xl-mobile text-secondary md:text-4xl'>{t('stockTitle')}</h1>
+          <h1 className='my-4 text-4xl text-secondary'>{t('stockTitle')}</h1>
           <p>{t('stockDescription')}</p>
 
           <motion.div
@@ -50,7 +50,7 @@ export default function Investors() {
         <div className='bg-tertiary/10 py-20'>
           <div id='capitalStructure' className='container mx-auto px-5 text-center md:px-10'>
             <p className='text-primary'>{t('capitalSubtitle')}</p>
-            <h2 className='mb-16 mt-4 text-4xl-mobile text-secondary md:text-4xl'>{t('capitalTitle')}</h2>
+            <h2 className='mb-16 mt-4 text-4xl text-secondary'>{t('capitalTitle')}</h2>
 
             <div className='grid gap-6 md:grid-cols-2 lg:grid-cols-4'>
               <motion.div
@@ -109,16 +109,16 @@ export default function Investors() {
             <Trans
               parent='h2'
               i18nKey='financialTitle'
-              className='mb-6 mt-4 text-4xl-mobile text-secondary md:text-4xl'
+              className='mb-6 mt-4 text-4xl text-secondary'
             ></Trans>
 
             <div>
-              <div className='flex items-center justify-between border-b-2 border-tertiary py-10 md:px-6'>
+              <div className='flex items-center justify-between border-b-2 border-tertiary py-5 md:px-6 md:py-10'>
                 <p className='text-3xl text-secondary'>{t('financial2024')}</p>
 
                 <div className='flex gap-2'>
                   <a
-                    className='rounded-lg bg-primary px-6 py-4 text-white hover:shadow-button'
+                    className='rounded-lg bg-primary px-3 py-2 text-white hover:shadow-button md:px-6 md:py-4'
                     target='_blank'
                     rel='noreferrer'
                     href={Financial2024Q1PDF}
@@ -126,7 +126,7 @@ export default function Investors() {
                     {t('financial2024Q1')}
                   </a>
                   <a
-                    className='rounded-lg bg-primary px-6 py-4 text-white hover:shadow-button'
+                    className='rounded-lg bg-primary px-3 py-2 text-white hover:shadow-button md:px-6 md:py-4'
                     target='_blank'
                     rel='noreferrer'
                     href={Financial2024Q2PDF}
@@ -134,7 +134,7 @@ export default function Investors() {
                     {t('financial2024Q2')}
                   </a>
                   <a
-                    className='rounded-lg bg-primary px-6 py-4 text-white hover:shadow-button'
+                    className='rounded-lg bg-primary px-3 py-2 text-white hover:shadow-button md:px-6 md:py-4'
                     target='_blank'
                     rel='noreferrer'
                     href={Financial2024Q3PDF}
@@ -154,15 +154,15 @@ export default function Investors() {
             className='rounded-2xl bg-white p-5 pb-16 md:p-10'
           >
             <p className='text-tertiary'>{t('managementSubtitle')}</p>
-            <h2 className='mb-6 mt-4 text-4xl-mobile text-secondary md:text-4xl'>{t('managementTitle')}</h2>
+            <h2 className='mb-6 mt-4 text-4xl text-secondary'>{t('managementTitle')}</h2>
 
             <div>
-              <div className='flex items-center justify-between border-b-2 border-tertiary py-10 md:px-6'>
+              <div className='flex items-center justify-between border-b-2 border-tertiary py-5 md:px-6 md:py-10'>
                 <p className='text-3xl text-secondary'>{t('management2024')}</p>
 
                 <div className='flex gap-2'>
                   <a
-                    className='rounded-lg bg-primary px-6 py-4 text-white hover:shadow-button'
+                    className='rounded-lg bg-primary px-3 py-2 text-white hover:shadow-button md:px-6 md:py-4'
                     target='_blank'
                     rel='noreferrer'
                     href={Management2024Q1PDF}
@@ -170,7 +170,7 @@ export default function Investors() {
                     {t('management2024Q1')}
                   </a>
                   <a
-                    className='rounded-lg bg-primary px-6 py-4 text-white hover:shadow-button'
+                    className='rounded-lg bg-primary px-3 py-2 text-white hover:shadow-button md:px-6 md:py-4'
                     target='_blank'
                     rel='noreferrer'
                     href={Management2024Q2PDF} 
@@ -178,7 +178,7 @@ export default function Investors() {
                   {t('management2024Q2')} 
                  </a>
                  <a
-                    className='rounded-lg bg-primary px-6 py-4 text-white hover:shadow-button'
+                    className='rounded-lg bg-primary px-3 py-2 text-white hover:shadow-button md:px-6 md:py-4'
                     target='_blank'
                     rel='noreferrer'
                     href={Management2024Q3PDF} 
@@ -228,7 +228,7 @@ export default function Investors() {
         </div>
 
         <div id='AGM' className='container mx-auto px-5 py-20 md:px-10'>
-          <h2 className='mb-16 text-center text-4xl-mobile text-secondary md:text-4xl'>{t('agmTitle')}</h2>
+          <h2 className='mb-16 text-center text-4xl text-secondary'>{t('agmTitle')}</h2>
 
           <div className='grid gap-6 lg:grid-cols-2 xl:grid-cols-3'>
             <motion.div

@@ -76,7 +76,7 @@ export default function Media({ location }) {
             <TabPanel className='flex flex-col gap-16'>
               <div className='grid max-w-[960px] gap-4 self-center'>
                 <p className='text-center text-tertiary'>{t('tab1Subitle')}</p>
-                <h2 className='text-center text-4xl-mobile text-secondary md:text-4xl'>{t('tab1Title')}</h2>
+                <h2 className='text-center text-4xl text-secondary'>{t('tab1Title')}</h2>
               </div>
 
               <motion.div
@@ -109,7 +109,7 @@ export default function Media({ location }) {
             <TabPanel className='flex flex-col gap-16'>
               <div className='grid max-w-[960px] gap-4 self-center'>
                 <p className='text-center text-tertiary'>{t('tab2Subitle')}</p>
-                <h2 className='text-center text-4xl-mobile text-secondary md:text-4xl'>{t('tab2Title')}</h2>
+                <h2 className='text-center text-4xl text-secondary'>{t('tab2Title')}</h2>
               </div>
 
               <motion.div initial='hidden' animate='visible' variants={container} className='grid gap-6 md:grid-cols-2'>
@@ -266,7 +266,7 @@ export default function Media({ location }) {
             <TabPanel className='flex flex-col gap-16'>
               <div className='grid max-w-[960px] gap-4 self-center'>
                 <p className='text-center text-tertiary'>{t('tab3Subitle')}</p>
-                <h2 className='text-center text-4xl-mobile text-secondary md:text-4xl'>{t('tab3Title')}</h2>
+                <h2 className='text-center text-4xl text-secondary'>{t('tab3Title')}</h2>
               </div>
 
               <motion.div
