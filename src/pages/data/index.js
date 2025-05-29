@@ -19,7 +19,7 @@ export default function Data() {
 
   return (
     <Layout>
-      <div className='container mx-auto grid gap-20 px-5 pt-44 md:px-10'>
+      <div className='container mx-auto grid gap-20 px-5 pb-10 pt-36 md:px-10 md:pb-20 md:pt-44'>
         <div className='grid gap-10'>
           <h2 className='text-center text-4xl text-secondary'>{t('tab1Title')}</h2>
 

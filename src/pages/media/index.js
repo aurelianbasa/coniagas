@@ -58,7 +58,7 @@ export default function Media({ location }) {
 
   return (
     <Layout>
-      <div className='container mx-auto px-5 pb-20 pt-44 md:px-10'>
+      <div className='container mx-auto px-5 pb-10 pt-36 md:px-10 md:pb-20 md:pt-44'>
         <TabGroup className='grid gap-10' selectedIndex={selectedIndex} onChange={setSelectedIndex}>
           <TabList className='mx-auto flex w-fit rounded-lg bg-white'>
             <Tab className='px-6 py-4 text-sm outline-none data-[selected]:rounded-lg data-[selected]:bg-secondary data-[selected]:text-white md:text-base'>

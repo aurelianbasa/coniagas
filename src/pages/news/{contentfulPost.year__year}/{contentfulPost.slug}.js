@@ -34,7 +34,7 @@ export default function NewsPost({ data, location }) {
 
   return (
     <Layout>
-      <div className='container mx-auto px-5 pt-44 md:px-10'>
+      <div className='container mx-auto px-5 pt-36 md:px-10 md:pt-44'>
         <motion.div
           viewport={{ once: true }}
           transition={{ duration: 0.5, delay: 0.2 }}
@@ -71,7 +71,7 @@ export default function NewsPost({ data, location }) {
         transition={{ duration: 0.5, delay: 0.4 }}
         initial={{ y: '80px', opacity: 0 }}
         whileInView={{ y: '0', opacity: 1 }}
-        className='container mx-auto grid gap-10 px-5 pb-20 pt-16 md:px-10 lg:grid-cols-8-4'
+        className='container mx-auto grid gap-10 px-5 pb-20 pt-10 md:px-10 md:pt-16 lg:grid-cols-8-4'
       >
         <div>
           <div className='rounded-lg bg-white p-5 md:p-16'>

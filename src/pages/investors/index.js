@@ -27,8 +27,8 @@ export default function Investors() {
 
   return (
     <Layout>
-      <div className='pt-44'>
-        <div id='stockInformation' className='container mx-auto px-5 pb-20 text-center md:px-10'>
+      <div>
+        <div id='stockInformation' className='container mx-auto px-5 pb-10 pt-36 text-center md:px-10 md:pb-20 md:pt-44'>
           <p className='text-tertiary'>{t('stockSubtitle')}</p>
           <h1 className='my-4 text-4xl text-secondary'>{t('stockTitle')}</h1>
           <p>{t('stockDescription')}</p>
@@ -40,7 +40,7 @@ export default function Investors() {
             whileInView={{ y: '0', opacity: 1 }}
           >
             <iframe
-              className='mt-16 h-[450px] w-full'
+              className='mt-10 h-[450px] w-full md:mt-16'
               title='CONIAGAS BATTERY METALS INC'
               src='https://www.tradingview-widget.com/embed-widget/mini-symbol-overview/?locale=en#%7B%22symbol%22%3A%22TSXV%3ACOS%22%2C%22width%22%3A%22100%25%22%2C%22height%22%3A400%2C%22dateRange%22%3A%2212M%22%2C%22colorTheme%22%3A%22light%22%2C%22trendLineColor%22%3A%22rgba(41%2C%2098%2C%20255%2C%201)%22%2C%22underLineColor%22%3A%22rgba(41%2C%2098%2C%20255%2C%200.3)%22%2C%22underLineBottomColor%22%3A%22rgba(41%2C%2098%2C%20255%2C%200)%22%2C%22isTransparent%22%3Afalse%2C%22autosize%22%3Afalse%2C%22largeChartUrl%22%3A%22%22%2C%22utm_source%22%3A%22coniagas.com%22%2C%22utm_medium%22%3A%22widget%22%2C%22utm_campaign%22%3A%22mini-symbol-overview%22%2C%22page-uri%22%3A%22coniagas.com%2Finvestors%22%7D'
             ></iframe>
@@ -194,9 +194,9 @@ export default function Investors() {
         <div
           id='files'
           style={{ '--bg-image-url': `url(${BatteriesImage})` }}
-          className={`bg-[image:var(--bg-image-url)] bg-cover bg-center py-20`}
+          className={`bg-[image:var(--bg-image-url)] bg-cover bg-center py-10 md:py-20`}
         >
-          <div className='container mx-auto grid gap-16 px-5 md:grid-cols-2 md:px-10'>
+          <div className='container mx-auto grid gap-5 px-5 md:grid-cols-2 md:gap-16 md:px-10'>
             <motion.div
               viewport={{ once: true }}
               transition={{ duration: 0.5, delay: 0.2 }}

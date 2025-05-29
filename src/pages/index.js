@@ -28,7 +28,7 @@ export default function Home({ data }) {
         style={{ '--bg-image-url': `url(${HeroImage})` }}
         className='flex bg-[image:var(--bg-image-url)] bg-cover bg-center'
       >
-        <div className='container mx-auto grid items-start gap-10 px-5 pb-10 pt-20 md:gap-10 md:px-10 md:pt-40 lg:grid-cols-2 lg:pt-52'>
+        <div className='container mx-auto grid items-start gap-5 px-5 pb-10 pt-28 md:gap-10 md:px-10 md:pt-40 lg:grid-cols-2 lg:pt-52'>
           <motion.div
             viewport={{ once: true }}
             transition={{ duration: 0.5, delay: 0.2 }}
@@ -41,7 +41,7 @@ export default function Home({ data }) {
             <p className='text-2xl text-tertiary'>{t('heroDescription')}</p>
 
             <button
-              className='mt-6 flex items-center gap-2 rounded-lg bg-white px-6 py-4 hover:shadow-button'
+              className='mt-6 flex items-center gap-2 rounded-lg bg-white px-6 py-4 text-left hover:shadow-button'
               onClick={() => setIsOpenHeroPopup(true)}
             >
               {t('heroButton')}

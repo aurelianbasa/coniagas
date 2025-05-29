@@ -21,7 +21,7 @@ export default function About() {
     <Layout>
       <div
         style={{ '--bg-image-url': `url(${OverviewImage})` }}
-        className={`flex min-h-screen items-center bg-[image:var(--bg-image-url)] bg-cover bg-center pb-20 pt-44`}
+        className={`flex min-h-screen items-center bg-[image:var(--bg-image-url)] bg-cover bg-center pb-10 pt-32 md:pb-20 md:pt-44`}
       >
         <div className='container mx-auto items-center px-5 md:px-10'>
           <motion.div

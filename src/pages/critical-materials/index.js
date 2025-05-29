@@ -28,7 +28,7 @@ export default function CriticalMaterials() {
     <Layout>
       <div
         style={{ '--bg-image-url': `url(${OverviewImage})` }}
-        className={`flex min-h-screen items-center bg-[image:var(--bg-image-url)] bg-cover bg-center pt-24`}
+        className={`flex items-center bg-[image:var(--bg-image-url)] bg-cover bg-center pb-10 pt-36 md:pb-20 md:pt-44`}
       >
         <motion.div
           viewport={{ once: true }}
