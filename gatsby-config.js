@@ -50,13 +50,6 @@ module.exports = {
       },
     },
     {
-      resolve: 'gatsby-plugin-mailchimp',
-      options: {
-        endpoint:
-          'https://gmail.us21.list-manage.com/subscribe/post?u=e9b6857e0010b1af9e9be9433&amp;id=a13478dbf4&amp;f_id=00f0e0e6f0',
-      },
-    },
-    {
       resolve: 'gatsby-plugin-alias-imports',
       options: {
         alias: {

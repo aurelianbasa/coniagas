@@ -1,5 +1,4 @@
 import * as React from 'react';
-import addToMailchimp from 'gatsby-plugin-mailchimp';
 import { RiRefreshLine, RiCheckFill } from 'react-icons/ri';
 import { useTranslation } from 'gatsby-plugin-react-i18next';
 
@@ -15,11 +14,18 @@ export default function SubscribeForm() {
     setIsSubmitting(true);
 
     const formData = new FormData(event.target);
+    formData.append('form-name', 'Subscribe');
 
     try {
-      const response = await addToMailchimp(formData.get('email'));
+      const response = await fetch('https://formspree.io/f/myzjgwzd', {
+        method: 'POST',
+        headers: {
+          Accept: 'application/json',
+        },
+        body: formData,
+      });
 
-      if (response.result === 'success') {
+      if (response.status === 200) {
         setIsSuccess(true);
       } else {
         setIsSuccess(false);

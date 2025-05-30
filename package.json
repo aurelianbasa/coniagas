@@ -25,7 +25,6 @@
     "gatsby-omni-font-loader": "^2.0.2",
     "gatsby-plugin-alias-imports": "^1.0.5",
     "gatsby-plugin-image": "^3.13.1",
-    "gatsby-plugin-mailchimp": "^5.2.2",
     "gatsby-plugin-manifest": "^5.13.1",
     "gatsby-plugin-postcss": "^6.13.1",
     "gatsby-plugin-react-i18next": "^3.0.1",
