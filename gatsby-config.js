@@ -10,6 +10,15 @@ module.exports = {
     `gatsby-plugin-image`,
     'gatsby-plugin-postcss',
     {
+      resolve: 'gatsby-plugin-algolia',
+      options: {
+        appId: process.env.GATSBY_ALGOLIA_APP_ID,
+        apiKey: process.env.ALGOLIA_ADMIN_KEY,
+        chunkSize: 10000,
+        queries: require('./src/services/algolia.js'),
+      },
+    },
+    {
       resolve: 'gatsby-plugin-robots-txt',
       options: {
         host: 'https://coniagas.com',

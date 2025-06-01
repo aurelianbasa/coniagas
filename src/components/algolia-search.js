@@ -109,13 +109,13 @@ export default function AlgoliaSearch() {
                     hits?.map((hit, index) => (
                       <Link
                         key={index}
-                        to={`/news/${hit.category.name}${hit.slug}`}
+                        to={`/news/${hit.year}/${hit.slug}`}
                         className='block cursor-pointer px-6 py-8 hover:bg-tertiary/10'
                       >
                         <p className='mb-2'>{hit.title}</p>
                         <p
                           className='text-sm'
-                          dangerouslySetInnerHTML={{ __html: hit._snippetResult.excerpt.value }}
+                          dangerouslySetInnerHTML={{ __html: hit._snippetResult.content.value }}
                         ></p>
                       </Link>
                     ))}
