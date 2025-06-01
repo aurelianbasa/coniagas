@@ -36,7 +36,7 @@ function parseRichText(raw) {
 
 const settings = {
   attributesToSnippet: ['content:20'],
-  attributeForDistinct: 'year.name',
+  attributeForDistinct: 'year',
 };
 
 const queries = [
