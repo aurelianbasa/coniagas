@@ -16,6 +16,7 @@
     "lint:fix": "eslint ./src --fix"
   },
   "dependencies": {
+    "@contentful/rich-text-plain-text-renderer": "^17.0.0",
     "@headlessui/react": "2.0.0",
     "algoliasearch": "^4.10.3",
     "autoprefixer": "^10.4.19",
@@ -23,9 +24,9 @@
     "framer-motion": "^11.2.6",
     "gatsby": "^5.13.5",
     "gatsby-omni-font-loader": "^2.0.2",
+    "gatsby-plugin-algolia": "^1.0.3",
     "gatsby-plugin-alias-imports": "^1.0.5",
     "gatsby-plugin-image": "^3.13.1",
-    "gatsby-plugin-mailchimp": "^5.2.2",
     "gatsby-plugin-manifest": "^5.13.1",
     "gatsby-plugin-postcss": "^6.13.1",
     "gatsby-plugin-react-i18next": "^3.0.1",

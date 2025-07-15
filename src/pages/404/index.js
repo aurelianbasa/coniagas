@@ -18,7 +18,7 @@ export default function NotFoundPage() {
         whileInView={{ y: '0', opacity: 1 }}
         className='container mx-auto flex min-h-screen flex-col items-center justify-center gap-8 px-5 text-center md:px-10'
       >
-        <p className='text-5xl-mobile text-secondary md:text-5xl'>{t('title')}</p>
+        <p className='text-5xl text-secondary'>{t('title')}</p>
         <p>{t('description')}</p>
 
         <Button type='primary' href='/'>

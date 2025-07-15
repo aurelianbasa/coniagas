@@ -2,8 +2,10 @@ import * as React from 'react';
 import { graphql } from 'gatsby';
 import {
   RiPhoneLine,
+  RiHotelLine,
   RiMailSendLine,
   RiErrorWarningLine,
+  RiFileTransferLine,
   RiGitRepositoryLine,
   RiCheckboxCircleLine,
 } from 'react-icons/ri';
@@ -13,7 +15,7 @@ import { Trans, useTranslation } from 'gatsby-plugin-react-i18next';
 import Layout from '@components/layout';
 import Button from '@components/button';
 
-import OverviewImage from '@media/contact/overview.png';
+import OverviewImage from '@media/contact/overview.webp';
 
 export default function Contact() {
   const { t } = useTranslation();
@@ -31,7 +33,6 @@ export default function Contact() {
       const response = await fetch('https://formspree.io/f/xbjvdkyj', {
         method: 'POST',
         headers: {
-          'Content-Type': 'application/x-www-form-urlencoded',
           Accept: 'application/json',
         },
         body: formData,
@@ -52,7 +53,7 @@ export default function Contact() {
 
   return (
     <Layout>
-      <div className='container mx-auto grid gap-16 px-5 pb-20 pt-44 md:px-10 lg:grid-cols-2'>
+      <div className='container mx-auto grid gap-10 px-5 pb-10 pt-36 md:gap-16 md:px-10 md:pb-20 md:pt-44 lg:grid-cols-2'>
         <motion.div
           viewport={{ once: true }}
           transition={{ duration: 0.5, delay: 0.2 }}
@@ -62,7 +63,7 @@ export default function Contact() {
         >
           <div className='grid gap-4'>
             <p className='text-tertiary'>{t('contactSubtitle')}</p>
-            <h2 className='mb-4 text-4xl-mobile text-secondary md:text-4xl'>{t('contactTitle')}</h2>
+            <h2 className='mb-4 text-4xl text-secondary'>{t('contactTitle')}</h2>
             <p>{t('contactDescription')}</p>
           </div>
           <div className='grid gap-4 text-secondary'>
@@ -112,7 +113,7 @@ export default function Contact() {
         >
           <div className='grid gap-4'>
             <p className='text-tertiary'>{t('formSubtitle')}</p>
-            <Trans parent='h2' i18nKey='formTitle' className='mb-4 text-4xl-mobile text-secondary md:text-4xl'></Trans>
+            <Trans parent='h2' i18nKey='formTitle' className='mb-4 text-4xl text-secondary'></Trans>
             <p>{t('formDescription')}</p>
           </div>
 
@@ -120,14 +121,14 @@ export default function Contact() {
             {isFormVisible && (
               <form className='grid gap-4' onSubmit={handleSubmit}>
                 <input
-                  className='w-full rounded-lg border border-black bg-transparent px-6 py-4 outline-0 placeholder:text-tertiary'
+                  className='w-full rounded-lg border border-black bg-transparent px-6 py-4 outline-0 placeholder:text-tertiary focus:border-primary'
                   name='name'
                   placeholder={t('formName')}
                   required
                 />
 
                 <input
-                  className='w-full rounded-lg border border-black bg-transparent px-6 py-4 outline-0 placeholder:text-tertiary'
+                  className='w-full rounded-lg border border-black bg-transparent px-6 py-4 outline-0 placeholder:text-tertiary focus:border-primary'
                   name='_replyto'
                   placeholder={t('formEmail')}
                   type='email'
@@ -135,21 +136,21 @@ export default function Contact() {
                 />
 
                 <input
-                  className='w-full rounded-lg border border-black bg-transparent px-6 py-4 outline-0 placeholder:text-tertiary'
+                  className='w-full rounded-lg border border-black bg-transparent px-6 py-4 outline-0 placeholder:text-tertiary focus:border-primary'
                   name='location'
                   placeholder={t('formLocation')}
                   required
                 />
 
                 <input
-                  className='w-full rounded-lg border border-black bg-transparent px-6 py-4 outline-0 placeholder:text-tertiary'
+                  className='w-full rounded-lg border border-black bg-transparent px-6 py-4 outline-0 placeholder:text-tertiary focus:border-primary'
                   name='subject'
                   placeholder={t('formSubject')}
                   required
                 />
 
                 <textarea
-                  className='min-h-36 rounded-lg border border-black px-6 py-4 outline-0 placeholder:text-tertiary'
+                  className='min-h-36 rounded-lg border border-black px-6 py-4 outline-0 placeholder:text-tertiary focus:border-primary'
                   name='message'
                   placeholder={t('formMessage')}
                   required
@@ -204,15 +205,21 @@ export default function Contact() {
 
             <p>
               <span className='text-tertiary'>{t('auditorsPhoneTitle')}</span>
-              <a href='tel:416-496-1234'>{t('auditorsPhone')}</a>
+              <a className='hover:text-primary' href='tel:416-496-1234'>
+                {t('auditorsPhone')}
+              </a>
             </p>
             <p>
               <span className='text-tertiary'>{t('auditorsFaxTitle')}</span>
-              <a href='tel:416-496-0125'>{t('auditorsFax')}</a>
+              <a className='hover:text-primary' href='tel:416-496-0125'>
+                {t('auditorsFax')}
+              </a>
             </p>
             <p>
               <span className='text-tertiary'>{t('auditorsEmailTitle')}</span>
-              <a href='mailto:info@uhymh.com'>{t('auditorsEmail')}</a>
+              <a className='hover:text-primary' href='mailto:info@uhymh.com'>
+                {t('auditorsEmail')}
+              </a>
             </p>
           </motion.div>
 
@@ -226,7 +233,7 @@ export default function Contact() {
             <div className='mb-4 flex items-center justify-between gap-6'>
               <p className='text-2xl'>{t('office')}</p>
               <div className='flex size-20 items-center justify-center rounded-full bg-tertiary/10 text-tertiary'>
-                <RiGitRepositoryLine className='size-10' />
+                <RiHotelLine className='size-10' />
               </div>
             </div>
 
@@ -234,11 +241,15 @@ export default function Contact() {
 
             <p>
               <span className='text-tertiary'>{t('officePhoneTitle')}</span>
-              <a href='tel:604-828-1475'>{t('officePhone')}</a>
+              <a className='hover:text-primary' href='tel:604-828-1475'>
+                {t('officePhone')}
+              </a>
             </p>
             <p>
               <span className='text-tertiary'>{t('officeFaxTitle')}</span>
-              <a href='tel:604-608-3512'>{t('officeFax')}</a>
+              <a className='hover:text-primary' href='tel:604-608-3512'>
+                {t('officeFax')}
+              </a>
             </p>
           </motion.div>
 
@@ -252,7 +263,7 @@ export default function Contact() {
             <div className='mb-4 flex items-center justify-between gap-6 text-secondary'>
               <p className='text-2xl'>{t('transfer')}</p>
               <div className='flex size-20 items-center justify-center rounded-full bg-tertiary/10'>
-                <RiGitRepositoryLine className='size-10' />
+                <RiFileTransferLine className='size-10' />
               </div>
             </div>
 
@@ -260,11 +271,15 @@ export default function Contact() {
 
             <p>
               <span className='text-tertiary'>{t('transferPhoneTitle')}</span>
-              <a href='tel:604-661-9400'>{t('transferPhone')}</a>
+              <a className='hover:text-primary' href='tel:604-661-9400'>
+                {t('transferPhone')}
+              </a>
             </p>
             <p>
               <span className='text-tertiary'>{t('transferFaxTitle')}</span>
-              <a href='tel:604-661-9401'>{t('transferFax')}</a>
+              <a className='hover:text-primary' href='tel:604-661-9401'>
+                {t('transferFax')}
+              </a>
             </p>
           </motion.div>
         </div>

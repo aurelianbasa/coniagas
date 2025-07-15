@@ -80,3 +80,41 @@ mark {
     background-color: rgba(177, 195, 205, 0.1);
   }
 }
+
+@media (max-width: 1024px) {
+  .text-6xl {
+    font-size: 60px;
+    line-height: 70px;
+  }
+  .text-5xl {
+    font-size: 48px;
+    line-height: 56px;
+  }
+  .text-4xl {
+    font-size: 40px;
+    line-height: 48px;
+  }
+  .text-3xl {
+    font-size: 28px;
+    line-height: 36px;
+  }
+}
+
+@media (max-width: 768px) {
+  .text-6xl {
+    font-size: 42px;
+    line-height: 50px;
+  }
+  .text-5xl {
+    font-size: 38px;
+    line-height: 46px;
+  }
+  .text-4xl {
+    font-size: 30px;
+    line-height: 38px;
+  }
+  .text-3xl {
+    font-size: 22px;
+    line-height: 30px;
+  }
+}

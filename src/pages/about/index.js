@@ -5,13 +5,13 @@ import { Trans, useTranslation } from 'gatsby-plugin-react-i18next';
 
 import Layout from '@components/layout';
 
-import MetalsImage from '@media/about/metals.png';
+import MetalsImage from '@media/about/metals.webp';
 import Member1Image from '@media/about/member-1.webp';
 import Member2Image from '@media/about/member-2.webp';
 import Member3Image from '@media/about/member-3.webp';
 import Member4Image from '@media/about/member-4.webp';
 import Member5Image from '@media/about/member-5.webp';
-import OverviewImage from '@media/about/overview.png';
+import OverviewImage from '@media/about/overview.webp';
 import ConiagasImage from '@media/about/coniagas.webp';
 
 export default function About() {
@@ -21,7 +21,7 @@ export default function About() {
     <Layout>
       <div
         style={{ '--bg-image-url': `url(${OverviewImage})` }}
-        className={`flex min-h-screen items-center bg-[image:var(--bg-image-url)] bg-cover bg-center pb-20 pt-44`}
+        className={`flex min-h-screen items-center bg-[image:var(--bg-image-url)] bg-cover bg-center pb-10 pt-32 md:pb-20 md:pt-44`}
       >
         <div className='container mx-auto items-center px-5 md:px-10'>
           <motion.div
@@ -32,7 +32,7 @@ export default function About() {
             className='grid gap-16 rounded-2xl bg-white p-5 md:p-10 lg:grid-cols-2'
           >
             <div className='flex flex-col gap-4'>
-              <Trans parent='h1' i18nKey='overviewTitle' className='text-4xl-mobile text-secondary md:text-4xl'></Trans>
+              <Trans parent='h1' i18nKey='overviewTitle' className='text-4xl text-secondary'></Trans>
               <Trans i18nKey='overview'></Trans>
 
               <div>
@@ -49,7 +49,7 @@ export default function About() {
 
       <div className='bg-tertiary/10 py-20'>
         <div className='container mx-auto grid gap-10 px-5 md:px-10'>
-          <Trans parent='h2' i18nKey='membersTitle' className='text-4xl-mobile text-secondary md:text-4xl'></Trans>
+          <Trans parent='h2' i18nKey='membersTitle' className='text-4xl text-secondary'></Trans>
 
           <div className='grid gap-20'>
             <motion.div

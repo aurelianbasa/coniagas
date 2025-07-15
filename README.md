@@ -41,6 +41,7 @@ Create `.env` file in the root of the project with the following content:
 ```
 GATSBY_ALGOLIA_APP_ID='your_key'
 GATSBY_ALGOLIA_SEARCH_KEY='your_key'
+ALGOLIA_ADMIN_KEY=''
 
 CONTENTFUL_SPACE_ID='your_key'
 CONTENTFUL_ACCESS_TOKEN='your_key'

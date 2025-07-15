@@ -10,10 +10,10 @@ import Button from '@components/button';
 import CardNews from '@components/card-news';
 import DataWrapper from '@components/data-wrapper';
 
-import HeroImage from '@media/home/hero.png';
-import MetalsImage from '@media/home/metals.png';
-import LocationImage from '@media/home/location.png';
-import MetalsProjectImage from '@media/home/metals-project.png';
+import HeroImage from '@media/home/hero.webp';
+import MetalsImage from '@media/home/metals.webp';
+import LocationImage from '@media/home/location.webp';
+import MetalsProjectImage from '@media/home/metals-project.webp';
 import PresentationPDF from '@media/investors/presentation.pdf';
 
 export default function Home({ data }) {
@@ -26,22 +26,22 @@ export default function Home({ data }) {
     <Layout>
       <div
         style={{ '--bg-image-url': `url(${HeroImage})` }}
-        className={`flex items-left bg-[image:var(--bg-image-url)] bg-cover bg-center pt-28`}
+        className='flex bg-[image:var(--bg-image-url)] bg-cover bg-center'
       >
-        <div className='container mx-auto grid gap-10 px-5 py-5 md:gap-10 md:px-10 lg:grid-cols-2' style={{ minHeight: '75vh' }}>
+        <div className='container mx-auto grid items-start gap-5 px-5 pb-10 pt-28 md:gap-10 md:px-10 md:pt-40 lg:grid-cols-2 lg:pt-52'>
           <motion.div
             viewport={{ once: true }}
             transition={{ duration: 0.5, delay: 0.2 }}
             initial={{ x: '-80px', opacity: 0 }}
             whileInView={{ x: '0', opacity: 1 }}
-            className='order-2 flex flex-col  items-center justify-center gap-4 text-left lg:order-1 lg:items-start lg:text-left'
+            className='order-2 flex flex-col items-start justify-center gap-4 text-left lg:order-1 lg:text-left'
           >
-            <Trans parent='h1' i18nKey='heroTitle' className='text-6xl-mobile text-white md:text-6xl'></Trans>
+            <Trans parent='h1' i18nKey='heroTitle' className='text-6xl text-white'></Trans>
 
             <p className='text-2xl text-tertiary'>{t('heroDescription')}</p>
 
             <button
-              className='mt-6 flex items-center gap-2 rounded-lg bg-white px-6 py-4 hover:shadow-button'
+              className='mt-6 flex items-center gap-2 rounded-lg bg-white px-6 py-4 text-left hover:shadow-button'
               onClick={() => setIsOpenHeroPopup(true)}
             >
               {t('heroButton')}
@@ -73,7 +73,7 @@ export default function Home({ data }) {
 
           <div className='flex flex-col gap-4'>
             <p className='text-tertiary'>{t('metalsSubTitle')}</p>
-            <Trans parent='h2' i18nKey='metalsTitle' className='text-4xl-mobile text-secondary md:text-4xl'></Trans>
+            <Trans parent='h2' i18nKey='metalsTitle' className='text-4xl text-secondary'></Trans>
             <p className='mt-2'>{t('metalsDescription')}</p>
 
             <Button className='mt-auto w-full self-end md:w-fit' type='primary-outlined' href='/projects/graal'>
@@ -91,7 +91,7 @@ export default function Home({ data }) {
         className='container mx-auto grid gap-4 px-5 pb-20 md:px-10'
       >
         <p className='text-tertiary'>{t('locationSubTitle')}</p>
-        <Trans parent='h2' i18nKey='locationTitle' className='text-4xl-mobile text-secondary md:text-4xl'></Trans>
+        <Trans parent='h2' i18nKey='locationTitle' className='text-4xl text-secondary'></Trans>
 
         <img className='my-6' src={LocationImage} alt='Location' />
 
@@ -188,9 +188,9 @@ export default function Home({ data }) {
 
       <div className='bg-secondary'>
         <div className='container mx-auto grid gap-5 px-5 py-20 md:px-10'>
-          <h2 className='text-center text-5xl-mobile text-white md:text-5xl'>{t('worldTitle')}</h2>
+          <h2 className='text-center text-5xl text-white'>{t('worldTitle')}</h2>
 
-          <div className='relative flex h-24 justify-center overflow-hidden text-6xl-mobile text-white md:text-6xl'>
+          <div className='relative flex h-24 justify-center overflow-hidden text-6xl text-white'>
             <motion.p
               className='absolute bg-blue'
               animate={{ y: [100, 0, 0, -100] }}
@@ -240,7 +240,7 @@ export default function Home({ data }) {
       </div>
 
       <div className='container mx-auto grid gap-10 px-5 py-20 md:px-10'>
-        <Trans parent='h2' i18nKey='newsTitle' className='text-4xl-mobile text-secondary md:text-4xl'></Trans>
+        <Trans parent='h2' i18nKey='newsTitle' className='text-4xl text-secondary'></Trans>
 
         <div className='grid gap-6 md:grid-cols-2 lg:grid-cols-3'>
           {posts?.map((post, index) => (
