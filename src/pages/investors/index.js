@@ -21,6 +21,8 @@ import Financial2024Q2PDF from '@media/investors/financial-2024-q2.pdf';
 import Management2024Q2PDF from '@media/investors/management-2024-q2.pdf';
 import Financial2024Q3PDF from '@media/investors/financial-2024-q3.pdf';
 import Management2024Q3PDF from '@media/investors/management-2024-q3.pdf';
+import Financial2024Q4PDF from '@media/investors/financial-2024-q4.pdf';
+import Management2024Q4PDF from '@media/investors/management-2024-q4.pdf';
 
 export default function Investors() {
   const { t } = useTranslation();
@@ -141,6 +143,14 @@ export default function Investors() {
                   >
                     {t('financial2024Q3')}
                   </a>
+                    <a
+                    className='rounded-lg bg-primary px-3 py-2 text-white hover:shadow-button md:px-6 md:py-4'
+                    target='_blank'
+                    rel='noreferrer'
+                    href={Financial2024Q4PDF}
+                  >
+                    {t('financial2024Q4')}
+                  </a>
                 </div>
               </div>
             </div>
@@ -184,6 +194,14 @@ export default function Investors() {
                     href={Management2024Q3PDF} 
                   >
                   {t('management2024Q3')} 
+                 </a>
+                   <a
+                    className='rounded-lg bg-primary px-3 py-2 text-white hover:shadow-button md:px-6 md:py-4'
+                    target='_blank'
+                    rel='noreferrer'
+                    href={Management2024Q4PDF} 
+                  >
+                  {t('management2024Q4')} 
                  </a>
                 </div>
               </div>
