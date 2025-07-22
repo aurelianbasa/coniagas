@@ -23,6 +23,8 @@ import Financial2024Q3PDF from '@media/investors/financial-2024-q3.pdf';
 import Management2024Q3PDF from '@media/investors/management-2024-q3.pdf';
 import Financial2024Q4PDF from '@media/investors/financial-2024-q4.pdf';
 import Management2024Q4PDF from '@media/investors/management-2024-q4.pdf';
+import Financial2025Q1PDF from '@media/investors/financial-2025-q1.pdf';
+import Management2025Q1PDF from '@media/investors/management-2025-q1.pdf';
 
 export default function Investors() {
   const { t } = useTranslation();
@@ -116,6 +118,21 @@ export default function Investors() {
 
             <div>
               <div className='flex items-center justify-between border-b-2 border-tertiary py-5 md:px-6 md:py-10'>
+                <p className='text-3xl text-secondary'>{t('financial2025')}</p>
+
+                <div className='flex gap-2'>
+                  <a
+                    className='rounded-lg bg-primary px-3 py-2 text-white hover:shadow-button md:px-6 md:py-4'
+                    target='_blank'
+                    rel='noreferrer'
+                    href={Financial2025Q1PDF}
+                  >
+                    {t('financial2025Q1')}
+                  </a>
+                </div>
+              </div>
+              
+              <div className='flex items-center justify-between border-b-2 border-tertiary py-5 md:px-6 md:py-10'>
                 <p className='text-3xl text-secondary'>{t('financial2024')}</p>
 
                 <div className='flex gap-2'>
@@ -167,6 +184,21 @@ export default function Investors() {
             <h2 className='mb-6 mt-4 text-4xl text-secondary'>{t('managementTitle')}</h2>
 
             <div>
+              <div className='flex items-center justify-between border-b-2 border-tertiary py-5 md:px-6 md:py-10'>
+                <p className='text-3xl text-secondary'>{t('management2025')}</p>
+
+                <div className='flex gap-2'>
+                  <a
+                    className='rounded-lg bg-primary px-3 py-2 text-white hover:shadow-button md:px-6 md:py-4'
+                    target='_blank'
+                    rel='noreferrer'
+                    href={Management2025Q1PDF}
+                  >
+                    {t('management2025Q1')}
+                  </a>
+                </div>
+              </div>
+              
               <div className='flex items-center justify-between border-b-2 border-tertiary py-5 md:px-6 md:py-10'>
                 <p className='text-3xl text-secondary'>{t('management2024')}</p>
 
