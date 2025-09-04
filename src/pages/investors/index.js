@@ -131,6 +131,14 @@ export default function Investors() {
                   >
                     {t('financial2025Q1')}
                   </a>
+                  <a
+                    className='rounded-lg bg-primary px-3 py-2 text-white hover:shadow-button md:px-6 md:py-4'
+                    target='_blank'
+                    rel='noreferrer'
+                    href={Financial2025Q2PDF}
+                  >
+                    {t('financial2025Q2')}
+                  </a>
                 </div>
               </div>
               
@@ -197,6 +205,14 @@ export default function Investors() {
                     href={Management2025Q1PDF}
                   >
                     {t('management2025Q1')}
+                  </a>
+                  <a
+                    className='rounded-lg bg-primary px-3 py-2 text-white hover:shadow-button md:px-6 md:py-4'
+                    target='_blank'
+                    rel='noreferrer'
+                    href={Management2025Q2PDF}
+                  >
+                    {t('management2025Q2')}
                   </a>
                 </div>
               </div>
