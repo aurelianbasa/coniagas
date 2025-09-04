@@ -25,6 +25,8 @@ import Financial2024Q4PDF from '@media/investors/financial-2024-q4.pdf';
 import Management2024Q4PDF from '@media/investors/management-2024-q4.pdf';
 import Financial2025Q1PDF from '@media/investors/financial-2025-q1.pdf';
 import Management2025Q1PDF from '@media/investors/management-2025-q1.pdf';
+import Financial2025Q2PDF from '@media/investors/financial-2025-q2.pdf';
+import Management2025Q2PDF from '@media/investors/management-2025-q2.pdf';
 
 export default function Investors() {
   const { t } = useTranslation();
