@@ -12,6 +12,11 @@ import FundamentalImage from '@media/investors/fundamental.webp';
 import agmProxyPDF from '@media/investors/proxy.pdf';
 import agmNoticePDF from '@media/investors/notice.pdf';
 import agmCircularPDF from '@media/investors/circular.pdf';
+
+import agmProxyPDF2025 from '@media/investors/proxy-2025.pdf';
+import agmNoticePDF2025 from '@media/investors/notice-2025.pdf';
+import agmCircularPDF2025 from '@media/investors/circular-2025.pdf';
+
 import FundamentalPDF from '@media/investors/fundamental.pdf';
 import PresentationPDF from '@media/investors/presentation.pdf';
 import TechnicalReportPDF from '@media/investors/technical-report.pdf';
@@ -347,8 +352,60 @@ export default function Investors() {
                 {t('agmManagementButton')}
               </Button>
             </motion.div>
+
+<motion.div
+              viewport={{ once: true }}
+              transition={{ duration: 0.5, delay: 0.5 }}
+              initial={{ x: '80px', opacity: 0 }}
+              whileInView={{ x: '0', opacity: 1 }}
+              className='flex items-center justify-between rounded-2xl bg-primary p-5 md:p-10'
+            >
+              <div>
+                <p className='mb-2 uppercase text-tertiary'>{t('agmNoticeDate2025')}</p>
+                <p className='text-2xl text-white'>{t('agmNotice2025')}</p>
+              </div>
+
+              <Button external type='tertiary' href={agmNoticePDF2025}>
+                {t('agmNoticeButton2025')}
+              </Button>
+            </motion.div>
+            <motion.div
+              viewport={{ once: true }}
+              transition={{ duration: 0.5, delay: 0.6 }}
+              initial={{ x: '80px', opacity: 0 }}
+              whileInView={{ x: '0', opacity: 1 }}
+              className='flex items-center justify-between rounded-2xl bg-primary p-5 md:p-10'
+            >
+              <div>
+                <p className='mb-2 uppercase text-tertiary'>{t('agmProxyFormDate2025')}</p>
+                <p className='text-2xl text-white'>{t('agmProxyForm2025')}</p>
+              </div>
+
+              <Button external type='tertiary' href={agmProxyPDF2025}>
+                {t('agmProxyFormButton2025')}
+              </Button>
+            </motion.div>
+            <motion.div
+              viewport={{ once: true }}
+              transition={{ duration: 0.5, delay: 0.7 }}
+              initial={{ x: '80px', opacity: 0 }}
+              whileInView={{ x: '0', opacity: 1 }}
+              className='flex items-center justify-between rounded-2xl bg-primary p-5 md:p-10'
+            >
+              <div>
+                <p className='mb-2 uppercase text-tertiary'>{t('agmManagementDate2025')}</p>
+                <p className='text-2xl text-white'>{t('agmManagement2025')}</p>
+              </div>
+
+              <Button external type='tertiary' href={agmCircularPDF2025}>
+                {t('agmManagementButton2025')}
+              </Button>
+            </motion.div>
+            
           </div>
         </div>
+
+        
 
         <div id='coniagasFMV' className='container mx-auto px-5 py-10 md:px-10'>
           <motion.div
