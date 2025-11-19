@@ -143,6 +143,24 @@ export default function About() {
               </div>
             </motion.div>
 
+            <motion.div
+              viewport={{ once: true }}
+              transition={{ duration: 0.5, delay: 0.2 }}
+              initial={{ y: '80px', opacity: 0 }}
+              whileInView={{ y: '0', opacity: 1 }}
+              className='grid gap-10 md:grid-cols-3-9 lg:gap-16'
+            >
+              <div className='max-w-xs md:max-w-full'>
+                <img className='w-full rounded-lg' src={Member6Image} alt='Member'></img>
+              </div>
+
+              <div className='flex flex-col gap-3 self-center'>
+                <h3 className='text-3xl'>{t('member6Name')}</h3>
+                <p className='mb-3 text-primary'>{t('member6Role')}</p>
+                <p>{t('member6Bio')}</p>
+              </div>
+            </motion.div>
+
           </div>
         </div>
       </div>
