@@ -11,6 +11,7 @@ import Member2Image from '@media/about/member-2.webp';
 import Member3Image from '@media/about/member-3.webp';
 import Member4Image from '@media/about/member-4.webp';
 import Member5Image from '@media/about/member-5.webp';
+import Member6Image from '@media/about/member-6.webp';
 import OverviewImage from '@media/about/overview.webp';
 import ConiagasImage from '@media/about/coniagas.webp';
 
