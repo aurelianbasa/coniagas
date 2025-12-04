@@ -11,8 +11,8 @@ import FundamentalImage from '@media/investors/fundamental.webp';
 
 import agmProxyPDF from '@media/investors/proxy.pdf';
 import agmNoticePDF from '@media/investors/notice.pdf';
-import agmCircularPDF from '@media/investors/circular.pdf';
-
+import agmCircularPDF2025 from '@media/investors/circular-2025.pdf';
+import LifeDocumentPDF from '@media/investors/life-document-2025.pdf';
 import agmProxyPDF2025 from '@media/investors/proxy-2025.pdf';
 import agmNoticePDF2025 from '@media/investors/notice-2025.pdf';
 import agmCircularPDF2025 from '@media/investors/circular-2025.pdf';
@@ -420,6 +420,25 @@ export default function Investors() {
             <p>{t('fmvDescription')}</p>
           </motion.div>
         </div>
+
+<div id='lifeFinancing' className='container mx-auto px-5 py-10 md:px-10'>
+          <motion.div
+            viewport={{ once: true }}
+            transition={{ duration: 0.5, delay: 0.2 }}
+            initial={{ y: '80px', opacity: 0 }}
+            whileInView={{ y: '0', opacity: 1 }}
+            className='rounded-2xl bg-primary p-5 text-white md:p-10'
+          >
+            <p className='uppercase text-tertiary'>{t('lifeSubtitle')}</p>
+            <h3 className='mb-4 mt-4 text-3xl'>{t('lifeTitle')}</h3>
+            <p className='mb-6'>{t('lifeDescription')}</p>
+            <Button external type='tertiary' href={LifeDocumentPDF}>
+              {t('lifeButton')}
+            </Button>
+          </motion.div>
+        </div>
+
+
       </div>
     </Layout>
   );
