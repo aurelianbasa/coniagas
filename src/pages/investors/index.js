@@ -11,11 +11,13 @@ import FundamentalImage from '@media/investors/fundamental.webp';
 
 import agmProxyPDF from '@media/investors/proxy.pdf';
 import agmNoticePDF from '@media/investors/notice.pdf';
-import agmCircularPDF2025 from '@media/investors/circular-2025.pdf';
-import LifeDocumentPDF from '@media/investors/life-document-2025.pdf';
+import agmCircularPDF from '@media/investors/circular.pdf';
+
 import agmProxyPDF2025 from '@media/investors/proxy-2025.pdf';
 import agmNoticePDF2025 from '@media/investors/notice-2025.pdf';
 import agmCircularPDF2025 from '@media/investors/circular-2025.pdf';
+
+import LifeDocumentPDF from '@media/investors/life-document-2025.pdf';
 
 import FundamentalPDF from '@media/investors/fundamental.pdf';
 import PresentationPDF from '@media/investors/presentation.pdf';
