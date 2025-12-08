@@ -18,6 +18,7 @@ import agmNoticePDF2025 from '@media/investors/notice-2025.pdf';
 import agmCircularPDF2025 from '@media/investors/circular-2025.pdf';
 
 import LifeDocumentPDF from '@media/investors/life-document-2025.pdf';
+import LifeDocumentAmendedPDF from '@media/investors/life-document-2025-amended.pdf';
 
 import FundamentalPDF from '@media/investors/fundamental.pdf';
 import PresentationPDF from '@media/investors/presentation.pdf';
@@ -437,6 +438,9 @@ export default function Investors() {
             <Button external type='tertiary' href={LifeDocumentPDF}>
               {t('lifeButton')}
             </Button>
+             <Button external type='tertiary' href={LifeDocumentAmendedPDF}>
+    {t('lifeButtonAmended')}
+  </Button>
           </motion.div>
         </div>
 
