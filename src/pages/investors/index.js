@@ -425,25 +425,26 @@ export default function Investors() {
         </div>
 
 <div id='lifeFinancing' className='container mx-auto px-5 py-10 md:px-10'>
-          <motion.div
-            viewport={{ once: true }}
-            transition={{ duration: 0.5, delay: 0.2 }}
-            initial={{ y: '80px', opacity: 0 }}
-            whileInView={{ y: '0', opacity: 1 }}
-            className='rounded-2xl bg-primary p-5 text-white md:p-10'
-          >
-            <p className='uppercase text-tertiary'>{t('lifeSubtitle')}</p>
-            <h3 className='mb-4 mt-4 text-3xl'>{t('lifeTitle')}</h3>
-            <p className='mb-6'>{t('lifeDescription')}</p>
-            <Button external type='tertiary' href={LifeDocumentPDF}>
-              {t('lifeButton')}
-            </Button>
-             <Button external type='tertiary' href={LifeDocumentAmendedPDF}>
-    {t('lifeButtonAmended')}
-  </Button>
-          </motion.div>
-        </div>
-
+  <motion.div
+    viewport={{ once: true }}
+    transition={{ duration: 0.5, delay: 0.2 }}
+    initial={{ y: '80px', opacity: 0 }}
+    whileInView={{ y: '0', opacity: 1 }}
+    className='rounded-2xl bg-primary p-5 md:p-10'
+  >
+    <p className='uppercase text-tertiary'>{t('lifeSubtitle')}</p>
+    <h3 className='mb-4 mt-4 text-3xl text-white'>{t('lifeTitle')}</h3>
+    <p className='mb-6 text-white'>{t('lifeDescription')}</p>
+    <div className='flex gap-4'>
+      <Button external type='tertiary' href={LifeDocumentPDF}>
+        {t('lifeButton')}
+      </Button>
+      <Button external type='tertiary' href={LifeDocumentAmendedPDF}>
+        {t('lifeButtonAmended')}
+      </Button>
+    </div>
+  </motion.div>
+</div>
 
       </div>
     </Layout>
