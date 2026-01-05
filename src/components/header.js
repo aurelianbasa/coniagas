@@ -179,6 +179,9 @@ export default function Header() {
                           <Link className='py-1 hover:text-primary' to='/news/2025'>
                             {t('header.news2025')}
                           </Link>
+                          <Link className='py-1 hover:text-primary' to='/news/2026'>
+                            {t('header.news2026')}
+                          </Link>
                         </PopoverPanel>
                       </AnimatePresence>
                     )}
@@ -321,6 +324,9 @@ export default function Header() {
                 </Link>
                 <Link className='py-2 pl-6 hover:text-primary' to='/news/2025'>
                   {t('header.news2025')}
+                </Link>
+                <Link className='py-2 pl-6 hover:text-primary' to='/news/2026'>
+                  {t('header.news2026')}
                 </Link>
 
                 <Button className='mt-8 w-full' type='primary' href='/contact'>
