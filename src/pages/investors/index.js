@@ -20,6 +20,10 @@ import agmCircularPDF2025 from '@media/investors/circular-2025.pdf';
 import LifeDocumentPDF from '@media/investors/life-document-2025.pdf';
 import LifeDocumentAmendedPDF from '@media/investors/life-document-2025-amended.pdf';
 
+import WarrantCircularPDF from '@media/investors/warrant-circular.pdf';
+import WarrantProxyPDF from '@media/investors/warrant-proxy.pdf';
+import WarrantVIFPDF from '@media/investors/warrant-vif.pdf';
+
 import FundamentalPDF from '@media/investors/fundamental.pdf';
 import PresentationPDF from '@media/investors/presentation.pdf';
 import TechnicalReportPDF from '@media/investors/technical-report.pdf';
@@ -408,7 +412,68 @@ export default function Investors() {
           </div>
         </div>
 
-        
+        <div id='warrantMeeting' className='bg-tertiary/10 py-20'>
+          <div className='container mx-auto px-5 md:px-10'>
+            <div className='mb-12 text-center'>
+              <p className='text-primary'>{t('warrantSubtitle')}</p>
+              <h2 className='mb-4 mt-4 text-4xl text-secondary'>{t('warrantTitle')}</h2>
+              <p className='mx-auto max-w-3xl'>{t('warrantDescription')}</p>
+            </div>
+
+            <div className='grid gap-6 lg:grid-cols-3'>
+              <motion.div
+                viewport={{ once: true }}
+                transition={{ duration: 0.5, delay: 0.2 }}
+                initial={{ y: '80px', opacity: 0 }}
+                whileInView={{ y: '0', opacity: 1 }}
+                className='flex items-center justify-between rounded-2xl bg-primary p-5 md:p-10'
+              >
+                <div>
+                  <p className='mb-2 uppercase text-tertiary'>{t('warrantCircularDate')}</p>
+                  <p className='text-2xl text-white'>{t('warrantCircular')}</p>
+                </div>
+
+                <Button external type='tertiary' href={WarrantCircularPDF}>
+                  {t('warrantCircularButton')}
+                </Button>
+              </motion.div>
+
+              <motion.div
+                viewport={{ once: true }}
+                transition={{ duration: 0.5, delay: 0.3 }}
+                initial={{ y: '80px', opacity: 0 }}
+                whileInView={{ y: '0', opacity: 1 }}
+                className='flex items-center justify-between rounded-2xl bg-primary p-5 md:p-10'
+              >
+                <div>
+                  <p className='mb-2 uppercase text-tertiary'>{t('warrantProxyDate')}</p>
+                  <p className='text-2xl text-white'>{t('warrantProxy')}</p>
+                </div>
+
+                <Button external type='tertiary' href={WarrantProxyPDF}>
+                  {t('warrantProxyButton')}
+                </Button>
+              </motion.div>
+
+              <motion.div
+                viewport={{ once: true }}
+                transition={{ duration: 0.5, delay: 0.4 }}
+                initial={{ y: '80px', opacity: 0 }}
+                whileInView={{ y: '0', opacity: 1 }}
+                className='flex items-center justify-between rounded-2xl bg-primary p-5 md:p-10'
+              >
+                <div>
+                  <p className='mb-2 uppercase text-tertiary'>{t('warrantVIFDate')}</p>
+                  <p className='text-2xl text-white'>{t('warrantVIF')}</p>
+                </div>
+
+                <Button external type='tertiary' href={WarrantVIFPDF}>
+                  {t('warrantVIFButton')}
+                </Button>
+              </motion.div>
+            </div>
+          </div>
+        </div>
 
         <div id='coniagasFMV' className='container mx-auto px-5 py-10 md:px-10'>
           <motion.div
