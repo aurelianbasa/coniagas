@@ -238,19 +238,6 @@ export default function Contact() {
             </div>
 
             <Trans i18nKey='officeAddress' className='mb-6'></Trans>
-
-            <p>
-              <span className='text-tertiary'>{t('officePhoneTitle')}</span>
-              <a className='hover:text-primary' href='tel:604-828-1475'>
-                {t('officePhone')}
-              </a>
-            </p>
-            <p>
-              <span className='text-tertiary'>{t('officeFaxTitle')}</span>
-              <a className='hover:text-primary' href='tel:604-608-3512'>
-                {t('officeFax')}
-              </a>
-            </p>
           </motion.div>
 
           <motion.div
