@@ -39,6 +39,10 @@ import Financial2025Q1PDF from '@media/investors/financial-2025-q1.pdf';
 import Management2025Q1PDF from '@media/investors/management-2025-q1.pdf';
 import Financial2025Q2PDF from '@media/investors/financial-2025-q2.pdf';
 import Management2025Q2PDF from '@media/investors/management-2025-q2.pdf';
+import Financial2025Q3PDF from '@media/investors/financial-2025-q3.pdf';
+import Management2025Q3PDF from '@media/investors/management-2025-q3.pdf';
+import Financial2025Q4PDF from '@media/investors/financial-2025-q4.pdf';
+import Management2025Q4PDF from '@media/investors/management-2025-q4.pdf';
 
 export default function Investors() {
   const { t } = useTranslation();
@@ -151,6 +155,22 @@ export default function Investors() {
                   >
                     {t('financial2025Q2')}
                   </a>
+                  <a
+                    className='rounded-lg bg-primary px-3 py-2 text-white hover:shadow-button md:px-6 md:py-4'
+                    target='_blank'
+                    rel='noreferrer'
+                    href={Financial2025Q3PDF}
+                  >
+                    {t('financial2025Q3')}
+                  </a>
+                  <a
+                    className='rounded-lg bg-primary px-3 py-2 text-white hover:shadow-button md:px-6 md:py-4'
+                    target='_blank'
+                    rel='noreferrer'
+                    href={Financial2025Q4PDF}
+                  >
+                    {t('financial2025Q4')}
+                  </a>
                 </div>
               </div>
               
@@ -225,6 +245,22 @@ export default function Investors() {
                     href={Management2025Q2PDF}
                   >
                     {t('management2025Q2')}
+                  </a>
+                  <a
+                    className='rounded-lg bg-primary px-3 py-2 text-white hover:shadow-button md:px-6 md:py-4'
+                    target='_blank'
+                    rel='noreferrer'
+                    href={Management2025Q3PDF}
+                  >
+                    {t('management2025Q3')}
+                  </a>
+                  <a
+                    className='rounded-lg bg-primary px-3 py-2 text-white hover:shadow-button md:px-6 md:py-4'
+                    target='_blank'
+                    rel='noreferrer'
+                    href={Management2025Q4PDF}
+                  >
+                    {t('management2025Q4')}
                   </a>
                 </div>
               </div>
