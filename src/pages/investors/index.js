@@ -9,13 +9,9 @@ import Button from '@components/button';
 import BatteriesImage from '@media/investors/batteries.webp';
 import FundamentalImage from '@media/investors/fundamental.webp';
 
-import agmProxyPDF from '@media/investors/proxy.pdf';
-import agmNoticePDF from '@media/investors/notice.pdf';
-import agmCircularPDF from '@media/investors/circular.pdf';
-
-import agmProxyPDF2025 from '@media/investors/proxy-2025.pdf';
-import agmNoticePDF2025 from '@media/investors/notice-2025.pdf';
-import agmCircularPDF2025 from '@media/investors/circular-2025.pdf';
+import agmProxyPDF from '@media/investors/proxy-2026.pdf';
+import agmNoticePDF from '@media/investors/notice-2026.pdf';
+import agmCircularPDF from '@media/investors/circular-2026.pdf';
 
 import LifeDocumentPDF from '@media/investors/life-document-2025.pdf';
 import LifeDocumentAmendedPDF from '@media/investors/life-document-2025-amended.pdf';
@@ -395,56 +391,6 @@ export default function Investors() {
                 {t('agmManagementButton')}
               </Button>
             </motion.div>
-
-<motion.div
-              viewport={{ once: true }}
-              transition={{ duration: 0.5, delay: 0.5 }}
-              initial={{ x: '80px', opacity: 0 }}
-              whileInView={{ x: '0', opacity: 1 }}
-              className='flex items-center justify-between rounded-2xl bg-primary p-5 md:p-10'
-            >
-              <div>
-                <p className='mb-2 uppercase text-tertiary'>{t('agmNoticeDate2025')}</p>
-                <p className='text-2xl text-white'>{t('agmNotice2025')}</p>
-              </div>
-
-              <Button external type='tertiary' href={agmNoticePDF2025}>
-                {t('agmNoticeButton2025')}
-              </Button>
-            </motion.div>
-            <motion.div
-              viewport={{ once: true }}
-              transition={{ duration: 0.5, delay: 0.6 }}
-              initial={{ x: '80px', opacity: 0 }}
-              whileInView={{ x: '0', opacity: 1 }}
-              className='flex items-center justify-between rounded-2xl bg-primary p-5 md:p-10'
-            >
-              <div>
-                <p className='mb-2 uppercase text-tertiary'>{t('agmProxyFormDate2025')}</p>
-                <p className='text-2xl text-white'>{t('agmProxyForm2025')}</p>
-              </div>
-
-              <Button external type='tertiary' href={agmProxyPDF2025}>
-                {t('agmProxyFormButton2025')}
-              </Button>
-            </motion.div>
-            <motion.div
-              viewport={{ once: true }}
-              transition={{ duration: 0.5, delay: 0.7 }}
-              initial={{ x: '80px', opacity: 0 }}
-              whileInView={{ x: '0', opacity: 1 }}
-              className='flex items-center justify-between rounded-2xl bg-primary p-5 md:p-10'
-            >
-              <div>
-                <p className='mb-2 uppercase text-tertiary'>{t('agmManagementDate2025')}</p>
-                <p className='text-2xl text-white'>{t('agmManagement2025')}</p>
-              </div>
-
-              <Button external type='tertiary' href={agmCircularPDF2025}>
-                {t('agmManagementButton2025')}
-              </Button>
-            </motion.div>
-            
           </div>
         </div>
 
