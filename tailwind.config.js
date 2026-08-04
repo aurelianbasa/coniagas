@@ -27,6 +27,12 @@ module.exports = {
       silver: '#d8d8d8',
       green: '#84b795',
 
+      copper: '#b87333',
+      nickel: '#727472',
+      cobalt: '#0047ab',
+      platinum: '#a8adb4',
+      palladium: '#87868a',
+
       white: '#fff',
       whiteLight: '#F4F7F8',
       black: '#231f20',

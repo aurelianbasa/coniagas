@@ -192,35 +192,43 @@ export default function Home({ data }) {
 
           <div className='relative flex h-24 justify-center overflow-hidden text-6xl text-white'>
             <motion.p
-              className='absolute bg-blue'
+              className='absolute bg-copper'
               animate={{ y: [100, 0, 0, -100] }}
-              transition={{ duration: 4, repeatDelay: 12, repeat: Infinity, repeatType: 'loop' }}
+              transition={{ duration: 4, repeatDelay: 16, repeat: Infinity, repeatType: 'loop' }}
             >
               {t('metal1')}
             </motion.p>
 
             <motion.p
-              className='absolute bg-primary'
+              className='absolute bg-nickel'
               animate={{ y: [100, 0, 0, -100] }}
-              transition={{ duration: 4, delay: 4, repeatDelay: 12, repeat: Infinity, repeatType: 'loop' }}
+              transition={{ duration: 4, delay: 4, repeatDelay: 16, repeat: Infinity, repeatType: 'loop' }}
             >
               {t('metal2')}
             </motion.p>
 
             <motion.p
-              className='absolute bg-silver'
+              className='absolute bg-cobalt'
               animate={{ y: [100, 0, 0, -100] }}
-              transition={{ duration: 4, delay: 8, repeatDelay: 12, repeat: Infinity, repeatType: 'loop' }}
+              transition={{ duration: 4, delay: 8, repeatDelay: 16, repeat: Infinity, repeatType: 'loop' }}
             >
               {t('metal3')}
             </motion.p>
 
             <motion.p
-              className='absolute bg-green'
+              className='absolute bg-platinum'
               animate={{ y: [100, 0, 0, -100] }}
-              transition={{ duration: 4, delay: 12, repeatDelay: 12, repeat: Infinity, repeatType: 'loop' }}
+              transition={{ duration: 4, delay: 12, repeatDelay: 16, repeat: Infinity, repeatType: 'loop' }}
             >
               {t('metal4')}
+            </motion.p>
+
+            <motion.p
+              className='absolute bg-palladium'
+              animate={{ y: [100, 0, 0, -100] }}
+              transition={{ duration: 4, delay: 16, repeatDelay: 16, repeat: Infinity, repeatType: 'loop' }}
+            >
+              {t('metal5')}
             </motion.p>
           </div>
         </div>
