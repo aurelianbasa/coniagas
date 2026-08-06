@@ -213,7 +213,7 @@ export default function Home({ data }) {
             </motion.p>
 
             <motion.p
-              className='absolute bg-silver'
+              className='absolute bg-platinum'
               animate={{ y: [100, 0, 0, -100] }}
               transition={{ duration: 4, delay: 12, repeatDelay: 16, repeat: Infinity, repeatType: 'loop' }}
             >
@@ -221,15 +221,13 @@ export default function Home({ data }) {
             </motion.p>
 
             <motion.p
-              className='absolute bg-green'
+              className='absolute bg-palladium'
               animate={{ y: [100, 0, 0, -100] }}
               transition={{ duration: 4, delay: 16, repeatDelay: 16, repeat: Infinity, repeatType: 'loop' }}
             >
               {t('metal5')}
             </motion.p>
           </div>
-
-          <p className='mx-auto max-w-3xl text-center text-sm text-tertiary'>{t('worldNote')}</p>
         </div>
       </div>
 
