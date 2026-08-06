@@ -9,10 +9,10 @@ import Layout from '@components/layout';
 import Button from '@components/button';
 import CardNews from '@components/card-news';
 import DataWrapper from '@components/data-wrapper';
+import DataCenterMap from '@components/data-center-map';
 
 import HeroImage from '@media/home/hero.webp';
 import MetalsImage from '@media/home/metals.webp';
-import LocationImage from '@media/home/location.png';
 import MetalsProjectImage from '@media/home/metals-project.webp';
 import PresentationPDF from '@media/investors/presentation.pdf';
 
@@ -93,7 +93,9 @@ export default function Home({ data }) {
         <p className='text-tertiary'>{t('locationSubTitle')}</p>
         <Trans parent='h2' i18nKey='locationTitle' className='text-4xl text-secondary'></Trans>
 
-        <img className='my-6' src={LocationImage} alt='Data center locations across the U.S.' />
+        <div className='my-6'>
+          <DataCenterMap />
+        </div>
 
         <Trans i18nKey='locationDescription'></Trans>
       </motion.div>
