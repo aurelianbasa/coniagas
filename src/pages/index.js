@@ -296,10 +296,10 @@ export default function Home({ data }) {
                   height='100%'
                   src='https://www.youtube.com/embed/uREYrLnWZ8E?si=Ysnge27lC_d8CWtG'
                   title='YouTube video player'
-                  frameborder='0'
+                  frameBorder='0'
                   allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'
-                  referrerpolicy='strict-origin-when-cross-origin'
-                  allowfullscreen
+                  referrerPolicy='strict-origin-when-cross-origin'
+                  allowFullScreen
                 ></iframe>
               </DialogPanel>
             </div>

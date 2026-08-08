@@ -3,7 +3,13 @@ import * as React from 'react';
 export default function CardVideo({ date = '', title = '', subtitle = '', src = '' }) {
   return (
     <div className='flex flex-col overflow-hidden rounded-lg'>
-      <iframe className='h-60 w-full md:h-96' title={title} src={src}></iframe>
+      <iframe
+        className='h-60 w-full md:h-96'
+        title={title}
+        src={src}
+        referrerPolicy='strict-origin-when-cross-origin'
+        allowFullScreen
+      ></iframe>
 
       <div className='flex grow flex-col gap-4 bg-white px-8 py-10'>
         <p className='text-tertiary'>{date}</p>
