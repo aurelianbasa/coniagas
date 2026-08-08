@@ -3,7 +3,7 @@ import { RiSearch2Line } from 'react-icons/ri';
 import { Dialog, DialogPanel } from '@headlessui/react';
 import { AnimatePresence, motion } from 'framer-motion';
 
-export default function CardPhoto({ image = '' }) {
+export default function CardPhoto({ image = '', alt = 'Metal', caption = '' }) {
   let [isOpenPopup, setIsOpenPopup] = React.useState(false);
 
   return (
@@ -18,8 +18,10 @@ export default function CardPhoto({ image = '' }) {
           <RiSearch2Line className='size-10 text-white' />
         </div>
 
-        <img className='h-80 w-full object-cover' src={image} alt='Metal' />
+        <img className='h-80 w-full object-cover' src={image} alt={alt} loading='lazy' />
       </div>
+
+      {caption && <p className='mt-3 text-center text-sm text-secondary'>{caption}</p>}
 
       <AnimatePresence>
         {isOpenPopup && (
@@ -36,9 +38,10 @@ export default function CardPhoto({ image = '' }) {
                 initial={{ opacity: 0, scale: 0.95 }}
                 animate={{ opacity: 1, scale: 1 }}
                 exit={{ opacity: 0, scale: 0.95 }}
-                className='flex w-full max-w-screen-lg items-center'
+                className='flex w-full max-w-screen-lg flex-col items-center gap-3'
               >
-                <img className='w-full rounded-lg' src={image} alt='Metal' />
+                <img className='max-h-[85vh] w-full rounded-lg object-contain' src={image} alt={alt} />
+                {caption && <p className='text-center text-sm text-white'>{caption}</p>}
               </DialogPanel>
             </div>
           </Dialog>
