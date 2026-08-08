@@ -238,7 +238,7 @@ export default function Graal() {
             <div>
               <p className='mb-2 text-6xl'>
                 <mark>
-                  <CountUp end={110} duration={3} enableScrollSpy scrollSpyOnce />
+                  <CountUp end={267} duration={3} enableScrollSpy scrollSpyOnce />
                 </mark>
               </p>
 
@@ -248,7 +248,7 @@ export default function Graal() {
             <div>
               <p className='mb-2 text-6xl'>
                 <mark>
-                  <CountUp end={6113} duration={3} enableScrollSpy scrollSpyOnce />
+                  <CountUp end={148} duration={3} enableScrollSpy scrollSpyOnce />
                 </mark>
               </p>
 

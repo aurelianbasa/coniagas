@@ -14,6 +14,7 @@ export default function Footer() {
 
   let [isOpenDisclaimer, setIsOpenDisclaimer] = React.useState(false);
   let [isOpenDisclosure, setIsOpenDisclosure] = React.useState(false);
+  let [isOpenLandAck, setIsOpenLandAck] = React.useState(false);
 
   return (
     <footer className='grid gap-10 bg-white py-10 lg:gap-20'>
@@ -56,6 +57,9 @@ export default function Footer() {
             </button>
             <button onClick={() => setIsOpenDisclosure(true)} className='cursor-pointer hover:text-primary'>
               {t('footer.disclosure')}
+            </button>
+            <button onClick={() => setIsOpenLandAck(true)} className='cursor-pointer hover:text-primary'>
+              {t('footer.landAck')}
             </button>
           </div>
 
@@ -177,6 +181,41 @@ export default function Footer() {
                 <div className='h-[70vh] overflow-hidden overflow-y-auto pr-4 md:pr-8'>
                   <Description>
                     <Trans i18nKey='footer.disclosureText'></Trans>
+                  </Description>
+                </div>
+              </DialogPanel>
+            </div>
+          </Dialog>
+        )}
+      </AnimatePresence>
+
+      <AnimatePresence>
+        {isOpenLandAck && (
+          <Dialog static open={isOpenLandAck} onClose={() => setIsOpenLandAck(false)} className='relative z-50'>
+            <motion.div
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              exit={{ opacity: 0 }}
+              className='fixed inset-0 bg-black/60'
+            />
+            <div className='fixed inset-0 flex w-screen items-center justify-center p-4'>
+              <DialogPanel
+                as={motion.div}
+                initial={{ opacity: 0, scale: 0.95 }}
+                animate={{ opacity: 1, scale: 1 }}
+                exit={{ opacity: 0, scale: 0.95 }}
+                className='relative max-w-2xl rounded-2xl bg-white p-8 md:p-16'
+              >
+                <RiCloseFill
+                  className='absolute right-4 top-4 size-8 cursor-pointer md:right-8 md:top-8'
+                  onClick={() => setIsOpenLandAck(false)}
+                />
+
+                <DialogTitle className='mb-8 text-4xl'>{t('footer.landAckHeader')}</DialogTitle>
+
+                <div className='max-h-[70vh] overflow-hidden overflow-y-auto pr-4 md:pr-8'>
+                  <Description>
+                    <Trans i18nKey='footer.landAckText'></Trans>
                   </Description>
                 </div>
               </DialogPanel>
