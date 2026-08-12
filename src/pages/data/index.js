@@ -10,11 +10,9 @@ import CardPhoto from '@components/card-photo';
 import DataWrapper from '@components/data-wrapper';
 
 // Swap any figure by pointing its import at the replacement file.
-import MHYMapImage from '@media/data/mhy-map.webp';
-import GraviMapImage from '@media/data/gravi-map.webp';
+import PlanViewImage from '@media/data/plan-view.webp';
 import MHYSectionImage from '@media/data/mhy-section.webp';
 import GraviSectionImage from '@media/data/gravi-section.webp';
-import DiscoveryMapImage from '@media/data/discovery-map.webp';
 import DiscoverySectionImage from '@media/data/discovery-section.webp';
 
 import CoreMHY60Image from '@media/data/core-mhy-grl-22-60.jpg';
@@ -29,29 +27,26 @@ const zones = [
   {
     key: 'mhy',
     titleKey: 'tab1Title',
-    itemKeys: ['tab1Item1', 'tab1Item2', 'tab1Item3'],
+    itemKeys: ['tab1Item1', 'tab1Item2'],
     embedTitle: 'MHY Zone',
     embedSrc: 'https://datawrapper.dwcdn.net/4Vg5N/2/?transparent=true',
-    map: { image: MHYMapImage, alt: 'MHY Map' },
-    section: { image: MHYSectionImage, alt: 'MHY Section' },
+    section: { image: MHYSectionImage, alt: 'MHY Zone cross section B-B′' },
   },
   {
     key: 'gravi',
     titleKey: 'tab2Title',
-    itemKeys: ['tab2Item1', 'tab2Item2', 'tab2Item3'],
+    itemKeys: ['tab2Item1', 'tab2Item2'],
     embedTitle: 'Gravi Zone',
     embedSrc: 'https://datawrapper.dwcdn.net/YI50E/3/?transparent=true',
-    map: { image: GraviMapImage, alt: 'Gravi Map' },
-    section: { image: GraviSectionImage, alt: 'Gravi Section' },
+    section: { image: GraviSectionImage, alt: 'Gravi Zone cross section C-C′' },
   },
   {
     key: 'discovery',
     titleKey: 'tab3Title',
-    itemKeys: ['tab3Item1', 'tab3Item2', 'tab3Item3'],
+    itemKeys: ['tab3Item1', 'tab3Item2'],
     embedTitle: 'Discovery Zone',
     embedSrc: 'https://datawrapper.dwcdn.net/DieoU/2/?transparent=true',
-    map: { image: DiscoveryMapImage, alt: 'Discovery Map' },
-    section: { image: DiscoverySectionImage, alt: 'Discovery Section' },
+    section: { image: DiscoverySectionImage, alt: 'Discovery Zone cross section A-A′' },
   },
 ];
 
@@ -96,6 +91,25 @@ export default function Data() {
   return (
     <Layout>
       <div className='container mx-auto grid gap-20 px-5 pb-10 pt-36 md:px-10 md:pb-20 md:pt-44'>
+        <div className='grid gap-10'>
+          <h2 className='text-center text-4xl text-secondary'>{t('planTitle')}</h2>
+
+          <motion.div
+            viewport={{ once: true }}
+            transition={{ duration: 0.5, delay: 0.2 }}
+            initial={{ y: '80px', opacity: 0 }}
+            whileInView={{ y: '0', opacity: 1 }}
+            className='mx-auto grid w-full max-w-[960px] gap-10'
+          >
+            <p>{t('planText')}</p>
+
+            <img
+              src={PlanViewImage}
+              alt='Plan view of the Graal property showing the late-time EM response, zone locations, open areas, regional drill results and section traces.'
+            />
+          </motion.div>
+        </div>
+
         {zones.map((zone) => (
           <div key={zone.key} className='grid gap-10'>
             <h2 className='text-center text-4xl text-secondary'>{t(zone.titleKey)}</h2>
@@ -121,16 +135,6 @@ export default function Data() {
                     whileInView={{ y: '0', opacity: 1 }}
                   >
                     <DataWrapper title={zone.embedTitle} src={zone.embedSrc} />
-                  </motion.div>
-                </TabPanel>
-                <TabPanel className='mx-auto max-w-[960px]'>
-                  <motion.div
-                    viewport={{ once: true }}
-                    transition={{ duration: 0.5, delay: 0.2 }}
-                    initial={{ y: '80px', opacity: 0 }}
-                    whileInView={{ y: '0', opacity: 1 }}
-                  >
-                    <img src={zone.map.image} alt={zone.map.alt} loading='lazy' />
                   </motion.div>
                 </TabPanel>
                 <TabPanel className='mx-auto max-w-[960px]'>
