@@ -254,7 +254,31 @@ export default function Footer() {
 
                 <div className='max-h-[70vh] overflow-hidden overflow-y-auto pr-4 md:pr-8'>
                   <Description as='div'>
-                    <Trans i18nKey='footer.governanceText'></Trans>
+                    <Trans
+                      i18nKey='footer.governanceText'
+                      components={{
+                        teamLink: <Link className='text-primary hover:underline' to='/about' />,
+                        contactLink: <Link className='text-primary hover:underline' to='/contact' />,
+                        landAckLink: (
+                          <button
+                            type='button'
+                            className='cursor-pointer text-primary hover:underline'
+                            onClick={() => {
+                              setIsOpenGovernance(false);
+                              setIsOpenLandAck(true);
+                            }}
+                          />
+                        ),
+                        sedarLink: (
+                          <a
+                            className='text-primary hover:underline'
+                            href='https://www.sedarplus.ca/'
+                            target='_blank'
+                            rel='noreferrer'
+                          />
+                        ),
+                      }}
+                    ></Trans>
                   </Description>
                 </div>
               </DialogPanel>
