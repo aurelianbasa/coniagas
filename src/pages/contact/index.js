@@ -205,19 +205,19 @@ export default function Contact() {
 
             <p>
               <span className='text-tertiary'>{t('auditorsPhoneTitle')}</span>
-              <a className='hover:text-primary' href='tel:416-496-1234'>
+              <a className='hover:text-primary' href='tel:+16045593511'>
                 {t('auditorsPhone')}
               </a>
             </p>
             <p>
               <span className='text-tertiary'>{t('auditorsFaxTitle')}</span>
-              <a className='hover:text-primary' href='tel:416-496-0125'>
+              <a className='hover:text-primary' href='tel:+16045593501'>
                 {t('auditorsFax')}
               </a>
             </p>
             <p>
               <span className='text-tertiary'>{t('auditorsEmailTitle')}</span>
-              <a className='hover:text-primary' href='mailto:info@uhymh.com'>
+              <a className='hover:text-primary' href='mailto:office@shimaccounting.com'>
                 {t('auditorsEmail')}
               </a>
             </p>
