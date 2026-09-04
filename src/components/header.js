@@ -138,14 +138,8 @@ export default function Header() {
                           <Link className='py-1 hover:text-primary' to='/investors#AGM'>
                             {t('header.AGM')}
                           </Link>
-                          <Link className='py-1 hover:text-primary' to='/investors#warrantMeeting'>
-                            {t('header.warrantMeeting')}
-                          </Link>
                           <Link className='py-1 hover:text-primary' to='/investors#coniagasFMV'>
                             {t('header.coniagasFMV')}
-                          </Link>
-                          <Link className='py-1 hover:text-primary' to='/investors#lifeFinancing'>
-                            {t('header.lifeFinancing')}
                           </Link>
                         </PopoverPanel>
                       </AnimatePresence>
@@ -310,14 +304,8 @@ export default function Header() {
                 <Link className='py-2 pl-6 hover:text-primary' to='/investors#AGM'>
                   {t('header.AGM')}
                 </Link>
-                <Link className='py-2 pl-6 hover:text-primary' to='/investors#warrantMeeting'>
-                  {t('header.warrantMeeting')}
-                </Link>
                 <Link className='py-2 pl-6 hover:text-primary' to='/investors#coniagasFMV'>
                   {t('header.coniagasFMV')}
-                </Link>
-                <Link className='py-2 pl-6 hover:text-primary' to='/investors#lifeFinancing'>
-                  {t('header.lifeFinancing')}
                 </Link>
 
                 <div className='cursor-pointer py-2 hover:text-primary'>{t('header.news')}</div>

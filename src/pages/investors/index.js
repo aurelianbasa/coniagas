@@ -13,13 +13,6 @@ import agmProxyPDF from '@media/investors/proxy-2026.pdf';
 import agmNoticePDF from '@media/investors/notice-2026.pdf';
 import agmCircularPDF from '@media/investors/circular-2026.pdf';
 
-import LifeDocumentPDF from '@media/investors/life-document-2025.pdf';
-import LifeDocumentAmendedPDF from '@media/investors/life-document-2025-amended.pdf';
-
-import WarrantCircularPDF from '@media/investors/warrant-circular.pdf';
-import WarrantProxyPDF from '@media/investors/warrant-proxy.pdf';
-import WarrantVIFPDF from '@media/investors/warrant-vif.pdf';
-
 import FundamentalPDF from '@media/investors/fundamental.pdf';
 import PresentationPDF from '@media/investors/presentation.pdf';
 import TechnicalReportPDF from '@media/investors/technical-report.pdf';
@@ -31,6 +24,8 @@ import Financial2024Q3PDF from '@media/investors/financial-2024-q3.pdf';
 import Management2024Q3PDF from '@media/investors/management-2024-q3.pdf';
 import Financial2024Q4PDF from '@media/investors/financial-2024-q4.pdf';
 import Management2024Q4PDF from '@media/investors/management-2024-q4.pdf';
+import Financial20261HPDF from '@media/investors/financial-2026-1h.pdf';
+import Management20261HPDF from '@media/investors/management-2026-1h.pdf';
 import Financial2025Q1PDF from '@media/investors/financial-2025-q1.pdf';
 import Management2025Q1PDF from '@media/investors/management-2025-q1.pdf';
 import Financial2025Q2PDF from '@media/investors/financial-2025-q2.pdf';
@@ -132,6 +127,21 @@ export default function Investors() {
 
             <div>
               <div className='flex items-center justify-between border-b-2 border-tertiary py-5 md:px-6 md:py-10'>
+                <p className='text-3xl text-secondary'>{t('financial2026')}</p>
+
+                <div className='flex gap-2'>
+                  <a
+                    className='rounded-lg bg-primary px-3 py-2 text-white hover:shadow-button md:px-6 md:py-4'
+                    target='_blank'
+                    rel='noreferrer'
+                    href={Financial20261HPDF}
+                  >
+                    {t('financial20261H')}
+                  </a>
+                </div>
+              </div>
+
+              <div className='flex items-center justify-between border-b-2 border-tertiary py-5 md:px-6 md:py-10'>
                 <p className='text-3xl text-secondary'>{t('financial2025')}</p>
 
                 <div className='flex gap-2'>
@@ -222,6 +232,21 @@ export default function Investors() {
             <h2 className='mb-6 mt-4 text-4xl text-secondary'>{t('managementTitle')}</h2>
 
             <div>
+              <div className='flex items-center justify-between border-b-2 border-tertiary py-5 md:px-6 md:py-10'>
+                <p className='text-3xl text-secondary'>{t('management2026')}</p>
+
+                <div className='flex gap-2'>
+                  <a
+                    className='rounded-lg bg-primary px-3 py-2 text-white hover:shadow-button md:px-6 md:py-4'
+                    target='_blank'
+                    rel='noreferrer'
+                    href={Management20261HPDF}
+                  >
+                    {t('management20261H')}
+                  </a>
+                </div>
+              </div>
+
               <div className='flex items-center justify-between border-b-2 border-tertiary py-5 md:px-6 md:py-10'>
                 <p className='text-3xl text-secondary'>{t('management2025')}</p>
 
@@ -394,69 +419,6 @@ export default function Investors() {
           </div>
         </div>
 
-        <div id='warrantMeeting' className='bg-tertiary/10 py-20'>
-          <div className='container mx-auto px-5 md:px-10'>
-            <div className='mb-12 text-center'>
-              <p className='text-primary'>{t('warrantSubtitle')}</p>
-              <h2 className='mb-4 mt-4 text-4xl text-secondary'>{t('warrantTitle')}</h2>
-              <p className='mx-auto max-w-3xl'>{t('warrantDescription')}</p>
-            </div>
-
-            <div className='grid gap-6 lg:grid-cols-3'>
-              <motion.div
-                viewport={{ once: true }}
-                transition={{ duration: 0.5, delay: 0.2 }}
-                initial={{ y: '80px', opacity: 0 }}
-                whileInView={{ y: '0', opacity: 1 }}
-                className='flex items-center justify-between rounded-2xl bg-primary p-5 md:p-10'
-              >
-                <div>
-                  <p className='mb-2 uppercase text-tertiary'>{t('warrantCircularDate')}</p>
-                  <p className='text-2xl text-white'>{t('warrantCircular')}</p>
-                </div>
-
-                <Button external type='tertiary' href={WarrantCircularPDF}>
-                  {t('warrantCircularButton')}
-                </Button>
-              </motion.div>
-
-              <motion.div
-                viewport={{ once: true }}
-                transition={{ duration: 0.5, delay: 0.3 }}
-                initial={{ y: '80px', opacity: 0 }}
-                whileInView={{ y: '0', opacity: 1 }}
-                className='flex items-center justify-between rounded-2xl bg-primary p-5 md:p-10'
-              >
-                <div>
-                  <p className='mb-2 uppercase text-tertiary'>{t('warrantProxyDate')}</p>
-                  <p className='text-2xl text-white'>{t('warrantProxy')}</p>
-                </div>
-
-                <Button external type='tertiary' href={WarrantProxyPDF}>
-                  {t('warrantProxyButton')}
-                </Button>
-              </motion.div>
-
-              <motion.div
-                viewport={{ once: true }}
-                transition={{ duration: 0.5, delay: 0.4 }}
-                initial={{ y: '80px', opacity: 0 }}
-                whileInView={{ y: '0', opacity: 1 }}
-                className='flex items-center justify-between rounded-2xl bg-primary p-5 md:p-10'
-              >
-                <div>
-                  <p className='mb-2 uppercase text-tertiary'>{t('warrantVIFDate')}</p>
-                  <p className='text-2xl text-white'>{t('warrantVIF')}</p>
-                </div>
-
-                <Button external type='tertiary' href={WarrantVIFPDF}>
-                  {t('warrantVIFButton')}
-                </Button>
-              </motion.div>
-            </div>
-          </div>
-        </div>
-
         <div id='coniagasFMV' className='container mx-auto px-5 py-10 md:px-10'>
           <motion.div
             viewport={{ once: true }}
@@ -470,28 +432,6 @@ export default function Investors() {
             <p>{t('fmvDescription')}</p>
           </motion.div>
         </div>
-
-<div id='lifeFinancing' className='container mx-auto px-5 py-10 md:px-10'>
-  <motion.div
-    viewport={{ once: true }}
-    transition={{ duration: 0.5, delay: 0.2 }}
-    initial={{ y: '80px', opacity: 0 }}
-    whileInView={{ y: '0', opacity: 1 }}
-    className='rounded-2xl bg-primary p-5 md:p-10'
-  >
-    <p className='uppercase text-tertiary'>{t('lifeSubtitle')}</p>
-    <h3 className='mb-4 mt-4 text-3xl text-white'>{t('lifeTitle')}</h3>
-    <p className='mb-6 text-white'>{t('lifeDescription')}</p>
-    <div className='flex gap-4'>
-      <Button external type='tertiary' href={LifeDocumentPDF}>
-        {t('lifeButton')}
-      </Button>
-      <Button external type='tertiary' href={LifeDocumentAmendedPDF}>
-        {t('lifeButtonAmended')}
-      </Button>
-    </div>
-  </motion.div>
-</div>
 
       </div>
     </Layout>
